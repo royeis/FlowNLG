@@ -1,5 +1,6 @@
 ## FlowNLG 
 ![flow](git-resources/flow-symbol.png)
+
 Enriched variant of [DeepNLG](https://github.com/ThiagoCF05/DeepNLG), introducing information flow hints. 
 
 ### Prerequistes
