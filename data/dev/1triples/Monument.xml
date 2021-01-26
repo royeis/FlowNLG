@@ -382,7 +382,7 @@
 				<template>AGENT-1 is located in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
+						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

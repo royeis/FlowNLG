@@ -534,7 +534,7 @@
 				<template>The city of AGENT-1 is governed by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Aarhus | governmentType | Magistrate</ftriple>
+						<ftriple flipped="True">Magistrate | governmentType | Aarhus</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -841,7 +841,7 @@
 				<template>PATIENT-1 is the location of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | location | Ticino</ftriple>
+						<ftriple flipped="True">Ticino | location | Accademia_di_Architettura_di_Mendrisio</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1637,7 +1637,7 @@
 				<template>The number of undergraduates attending AGENT-1 is roughly PATIENT-1 students .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | numberOfUndergraduateStudents | 10000</ftriple>
+						<ftriple flipped="True">10000 | numberOfUndergraduateStudents | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1654,7 +1654,7 @@
 				<template>AGENT-1 number of Undergraduate students total to ~ PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | numberOfUndergraduateStudents | 10000</ftriple>
+						<ftriple flipped="True">10000 | numberOfUndergraduateStudents | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1672,7 +1672,7 @@
 				<template>There are around PATIENT-1 undergraduate students at AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | numberOfUndergraduateStudents | 10000</ftriple>
+						<ftriple flipped="True">10000 | numberOfUndergraduateStudents | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1894,7 +1894,7 @@
 				<template>AGENT-1 's outlook ranking is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | outlookRanking | 63</ftriple>
+						<ftriple flipped="True">63 | outlookRanking | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1996,7 +1996,7 @@
 				<template>AGENT-1 offers sports including PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Tennis | sportsOffered | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | sportsOffered | Tennis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2476,7 +2476,7 @@
 				<template>PATIENT-1 is the religion of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Denmark | religion | Church_of_Denmark</ftriple>
+						<ftriple flipped="True">Church_of_Denmark | religion | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2868,7 +2868,7 @@
 				<template>PATIENT-1 is the AGENT-1 anthem .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Deșteaptă-te,_române! | anthem | Romania</ftriple>
+						<ftriple flipped="False">Romania | anthem | Deșteaptă-te,_române!</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

@@ -548,8 +548,8 @@
 				<template>AGENT-1 is in BRIDGE-1 which is part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</ftriple>
-						<ftriple flipped="False">Alcobendas | isPartOf | Community_of_Madrid</ftriple>
+						<ftriple flipped="True">Alcobendas | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="True">Community_of_Madrid | isPartOf | Alcobendas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -720,7 +720,7 @@
 				<template>The location of AGENT-1 is BRIDGE-1 , PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alpena_County_Regional_Airport | location | Wilson_Township,_Alpena_County,_Michigan</ftriple>
+						<ftriple flipped="True">Wilson_Township,_Alpena_County,_Michigan | location | Alpena_County_Regional_Airport</ftriple>
 						<ftriple flipped="False">Wilson_Township,_Alpena_County,_Michigan | isPartOf | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -819,7 +819,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Schiphol_Group | operatingOrganisation | Amsterdam_Airport_Schiphol</ftriple>
-						<ftriple flipped="True">-3.3528 | elevationAboveTheSeaLevel_(in_metres) | Amsterdam_Airport_Schiphol</ftriple>
+						<ftriple flipped="False">Amsterdam_Airport_Schiphol | elevationAboveTheSeaLevel_(in_metres) | -3.3528</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1034,7 +1034,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">159 | elevationAboveTheSeaLevel_(in_metres) | Angola_International_Airport</ftriple>
-						<ftriple flipped="False">Angola_International_Airport | cityServed | Luanda</ftriple>
+						<ftriple flipped="True">Luanda | cityServed | Angola_International_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1105,7 +1105,7 @@
 				<template>AGENT-1 , operated by PATIENT-1 , is PATIENT-2 above sea level .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Antwerp_International_Airport | operatingOrganisation | &quot;Flemish department of Mobility and Public Works&quot;</ftriple>
+						<ftriple flipped="True">&quot;Flemish department of Mobility and Public Works&quot; | operatingOrganisation | Antwerp_International_Airport</ftriple>
 						<ftriple flipped="False">Antwerp_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 12.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>

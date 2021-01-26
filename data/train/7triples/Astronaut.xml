@@ -159,7 +159,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
@@ -170,7 +170,7 @@
 						<ftriple flipped="False">Alan_Bean | timeInSpace | &quot;100305.0&quot;(minutes)</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="False">Alan_Bean | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">&quot;Retired&quot; | status | Alan_Bean</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -240,11 +240,11 @@
 				<template>AGENT-1 is a PATIENT-1 national , who was born in PATIENT-5 . AGENT-1 received PATIENT-3 . AGENT-1 performed as PATIENT-2 , AGENT-1 was selected by NASA in PATIENT-7 and became a crew member of PATIENT-4 . AGENT-1 retired in PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
 						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;UT Austin, B.S. 1955&quot; | almaMater | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
@@ -252,7 +252,7 @@
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">&quot;June 1981&quot; | dateOfRetirement | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | dateOfRetirement | &quot;June 1981&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -364,8 +364,8 @@
 						<ftriple flipped="False">Alan_Bean | status | &quot;Retired&quot;</ftriple>
 						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
-						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
+						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
 						<ftriple flipped="False">Alan_Bean | timeInSpace | &quot;100305.0&quot;(minutes)</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -408,7 +408,7 @@
 				<template>AGENT-1 is PATIENT-1 who was born in PATIENT-5 . AGENT-1 graduated from PATIENT-3 and became PATIENT-2 . AGENT-1 spent a total of PATIENT-6 in space whilst serving as a crew member on PATIENT-4 . AGENT-1 Has now PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
 						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -490,8 +490,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
-						<ftriple flipped="True">&quot;100305.0&quot;(minutes) | timeInSpace | Alan_Bean</ftriple>
-						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | timeInSpace | &quot;100305.0&quot;(minutes)</ftriple>
+						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -581,7 +581,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
 						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
-						<ftriple flipped="True">&quot;UT Austin, B.S. 1955&quot; | almaMater | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
@@ -665,7 +665,7 @@
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;June 1981&quot; | dateOfRetirement | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | dateOfRetirement | &quot;June 1981&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -749,17 +749,17 @@
 				<template>PATIENT-1 @ AGENT-1 was born on PATIENT-3 in PATIENT-6 . AGENT-1 received PATIENT-4 , and worked as PATIENT-2 . AGENT-1 was a crew member on PATIENT-5 before AGENT-1 retirement in PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
+						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
-						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="False">Alan_Bean | dateOfRetirement | &quot;June 1981&quot;</ftriple>
+						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
+						<ftriple flipped="True">&quot;June 1981&quot; | dateOfRetirement | Alan_Bean</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -909,13 +909,13 @@
 				<template>AGENT-1 , a PATIENT-1 national was born on PATIENT-3 in PATIENT-6 . AGENT-1 graduated in PATIENT-4 , before becoming PATIENT-2 . AGENT-1 was selected by NASA in PATIENT-7 and served on the crew of PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
+						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
-						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
@@ -1080,14 +1080,14 @@
 				<template>PATIENT-1 @ AGENT-1 was born on PATIENT-3 in PATIENT-4 . AGENT-1 was hired by NASA in PATIENT-6 as PATIENT-2 and spent in space PATIENT-5 . Now AGENT-1 is PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
+						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
-						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Bean | timeInSpace | &quot;100305.0&quot;(minutes)</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
+						<ftriple flipped="True">&quot;100305.0&quot;(minutes) | timeInSpace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | status | &quot;Retired&quot;</ftriple>
@@ -1153,7 +1153,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
 						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
@@ -1263,7 +1263,7 @@
 				<template>AGENT-1 is a PATIENT-1 national who was born in PATIENT-5 on PATIENT-3 . AGENT-1 was PATIENT-2 and crew member of PATIENT-4 . AGENT-1 spent PATIENT-6 in space.</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
 						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
 						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
 					</sentence>
@@ -1311,7 +1311,7 @@
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
 						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -1585,7 +1585,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | Alan_Bean</ftriple>
-						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
@@ -1593,7 +1593,7 @@
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="4">
 						<ftriple flipped="False">Alan_Bean | status | &quot;Retired&quot;</ftriple>
@@ -1663,7 +1663,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
 						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
@@ -1746,7 +1746,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Bean | nationality | United_States</ftriple>
 						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
@@ -1821,7 +1821,7 @@
 				<template>AGENT-1 was born on PATIENT-5 in PATIENT-3 . AGENT-1 graduated from PATIENT-6 . AGENT-1 worked as PATIENT-2 and was part of BRIDGE-1 , which was run by PATIENT-1 . AGENT-1 is PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
 						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1990,12 +1990,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
-						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -2036,7 +2036,7 @@
 				<template>AGENT-1 was born in PATIENT-3 in PATIENT-5 . AGENT-1 graduated from PATIENT-6 and performed as PATIENT-2 on BRIDGE-1 . PATIENT-1 operated BRIDGE-1 where AGENT-1 was hired in PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
 						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2085,18 +2085,18 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;UT Austin, B.S. 1955&quot; | almaMater | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
+						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2169,10 +2169,10 @@
 						<ftriple flipped="True">&quot;UT Austin, B.S. 1955&quot; | almaMater | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
+						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
 						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
-						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
+						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2212,7 +2212,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;1932-03-15&quot; | birthDate | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | birthPlace | Wheeler,_Texas</ftriple>
+						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
@@ -2267,10 +2267,10 @@
 						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
+						<ftriple flipped="True">&quot;UT Austin, B.S. 1955&quot; | almaMater | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
 						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
 						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
 					</sentence>
@@ -2342,16 +2342,16 @@
 				<template>AGENT-1 was PATIENT-4 born in PATIENT-6 , went to school at PATIENT-1 . PATIENT-4 awarded BRIDGE-1 to AGENT-1 which is is higher than PATIENT-3 . AGENT-1 died on PATIENT-2 in PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
 						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
-						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
+						<ftriple flipped="True">Department_of_Commerce_Gold_Medal | higher | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Alan_Shepard | deathDate | &quot;1998-07-21&quot;</ftriple>
+						<ftriple flipped="True">&quot;1998-07-21&quot; | deathDate | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2395,11 +2395,11 @@
 						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
-						<ftriple flipped="True">Department_of_Commerce_Gold_Medal | higher | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="False">Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;1998-07-21&quot; | deathDate | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | deathDate | &quot;1998-07-21&quot;</ftriple>
 						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2466,7 +2466,7 @@
 				<template>AGENT-1 died on PATIENT-5 in PATIENT-2 . Born on PATIENT-6 in PATIENT-3 , AGENT-1 attended PATIENT-1 . Before retiring on PATIENT-4 @ AGENT-1 had been awarded PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | deathDate | &quot;1998-07-21&quot;</ftriple>
+						<ftriple flipped="True">&quot;1998-07-21&quot; | deathDate | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2521,7 +2521,7 @@
 						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;1974-08-01&quot; | dateOfRetirement | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | dateOfRetirement | &quot;1974-08-01&quot;</ftriple>
 						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2698,7 +2698,7 @@
 				<template>AGENT-1 is PATIENT-6 , who was born in PATIENT-4 on PATIENT-7 . AGENT-1 graduated from PATIENT-1. AGENT-1 was PATIENT-3 , who was selected by NASA in PATIENT-5 . AGENT-1 died in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
 						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
 						<ftriple flipped="False">Alan_Shepard | birthDate | &quot;1923-11-18&quot;</ftriple>
 					</sentence>
@@ -2749,16 +2749,16 @@
 				<template>PATIENT-6 @ AGENT-1 , was born on PATIENT-7 in PATIENT-4 . AGENT-1 graduated from PATIENT-1 . AGENT-1 was PATIENT-3 , who was selected by NASA in PATIENT-5 . AGENT-1 died in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Alan_Shepard | birthDate | &quot;1923-11-18&quot;</ftriple>
-						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
+						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Alan_Shepard | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Shepard | was selected by NASA | 1959</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Shepard</ftriple>
+						<ftriple flipped="True">1959 | was selected by NASA | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="4">
 						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
@@ -3002,13 +3002,13 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
 						<ftriple flipped="False">Alan_Shepard | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
+						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
 						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
 						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
-						<ftriple flipped="True">Department_of_Commerce_Gold_Medal | higher | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3165,15 +3165,15 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Shepard | occupation | Test_pilot</ftriple>
-						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
-						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
+						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
+						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
+						<ftriple flipped="True">California | deathPlace | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3202,7 +3202,7 @@
 				<template>AGENT-1 has died in PATIENT-5 . AGENT-1 was born in PATIENT-6 and served as PATIENT-3 , being the recipient of BRIDGE-1 , an award higher than PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">California | deathPlace | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
@@ -3678,12 +3678,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Shepard | deathDate | &quot;1998-07-21&quot;</ftriple>
-						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
+						<ftriple flipped="True">California | deathPlace | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Shepard | birthDate | &quot;1923-11-18&quot;</ftriple>
-						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
-						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
+						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">1959 | was selected by NASA | Alan_Shepard</ftriple>
@@ -3794,16 +3794,16 @@
 				<template>AGENT-1 has died in PATIENT-3 . AGENT-1 was PATIENT-7 in PATIENT-5 and graduated from PATIENT-1 . AGENT-1 served as PATIENT-4 and in PATIENT-6 was hired by NASA as a crew member on PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
+						<ftriple flipped="True">California | deathPlace | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
-						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
+						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Shepard | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Shepard | was selected by NASA | 1959</ftriple>
+						<ftriple flipped="True">1959 | was selected by NASA | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Alan_Shepard | was a crew member of | Apollo_14</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3871,11 +3871,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
-						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
+						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Shepard | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Shepard | was a crew member of | Apollo_14</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Shepard</ftriple>
+						<ftriple flipped="True">Apollo_14 | was a crew member of | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Apollo_14 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -4542,16 +4542,16 @@
 				<template>AGENT-1 was born in PATIENT-6 , PATIENT-7 . AGENT-1 graduated from PATIENT-2 and went onto be PATIENT-5 on PATIENT-3 . AGENT-1 later died in PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
-						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
+						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Shepard | almaMater | &quot;NWC, M.A. 1957&quot;</ftriple>
-						<ftriple flipped="True">Test_pilot | occupation | Alan_Shepard</ftriple>
-						<ftriple flipped="False">Alan_Shepard | was a crew member of | Apollo_14</ftriple>
+						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Apollo_14 | was a crew member of | Alan_Shepard</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
+						<ftriple flipped="True">California | deathPlace | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4820,8 +4820,8 @@
 						<ftriple flipped="False">Alan_Shepard | was a crew member of | Apollo_14</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;1974-08-01&quot; | dateOfRetirement | Alan_Shepard</ftriple>
-						<ftriple flipped="False">Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="False">Alan_Shepard | dateOfRetirement | &quot;1974-08-01&quot;</ftriple>
+						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4901,7 +4901,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
 						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
 					</sentence>
 					<sentence ID="4">
@@ -4991,7 +4991,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Wheeler,_Texas | birthPlace | Alan_Bean</ftriple>
-						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | Alan_Bean</ftriple>
 						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4999,8 +4999,8 @@
 						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
-						<ftriple flipped="False">Apollo_12 | backup pilot | Alfred_Worden</ftriple>
+						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
+						<ftriple flipped="True">Alfred_Worden | backup pilot | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5066,10 +5066,10 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Bean | birthDate | &quot;1932-03-15&quot;</ftriple>
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
 						<ftriple flipped="False">Apollo_12 | backup pilot | Alfred_Worden</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -5162,7 +5162,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
-						<ftriple flipped="False">Alan_Bean | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">&quot;Retired&quot; | status | Alan_Bean</ftriple>
 					</sentence>
 					<sentence ID="4">
 						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
@@ -5234,13 +5234,13 @@
 						<ftriple flipped="False">Alan_Bean | almaMater | &quot;UT Austin, B.S. 1955&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
-						<ftriple flipped="True">Test_pilot | occupation | Alan_Bean</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | occupation | Test_pilot</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
-						<ftriple flipped="False">Apollo_12 | backup pilot | Alfred_Worden</ftriple>
+						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
+						<ftriple flipped="True">Alfred_Worden | backup pilot | Apollo_12</ftriple>
 						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5527,7 +5527,7 @@
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
 						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
-						<ftriple flipped="True">Alfred_Worden | backup pilot | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | backup pilot | Alfred_Worden</ftriple>
 						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5618,12 +5618,12 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Bean | was selected by NASA | 1963</ftriple>
-						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
+						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
 						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
-						<ftriple flipped="True">Alfred_Worden | backup pilot | Apollo_12</ftriple>
+						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
+						<ftriple flipped="False">Apollo_12 | backup pilot | Alfred_Worden</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5695,8 +5695,8 @@
 				<template>AGENT-1 ( PATIENT-1 ) was born on PATIENT-6 . AGENT-1 graduated PATIENT-5 . AGENT-1 was selected by NASA in PATIENT-2 . AGENT-1 was PATIENT-4 of the PATIENT-3 crew . AGENT-1 has PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Edwin E. Aldrin, Jr.&quot; | alternativeNames | Buzz_Aldrin</ftriple>
-						<ftriple flipped="True">&quot;1930-01-20&quot; | birthDate | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
@@ -5709,7 +5709,7 @@
 						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="5">
-						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5761,7 +5761,7 @@
 						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 					</sentence>
 					<sentence ID="5">
@@ -5922,7 +5922,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
 						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
-						<ftriple flipped="True">&quot;1930-01-20&quot; | birthDate | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
@@ -6040,7 +6040,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Edwin E. Aldrin, Jr.&quot; | alternativeNames | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
@@ -6120,14 +6120,14 @@
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
+						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
 						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6164,7 +6164,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
-						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
@@ -6243,7 +6243,7 @@
 				<template>AGENT-1 was born on PATIENT-6 in PATIENT-1 . AGENT-1 real name is PATIENT-3 and AGENT-1 is PATIENT-2 . AGENT-1 graduated PATIENT-5 . AGENT-1 worked as PATIENT-4 and has since PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
+						<ftriple flipped="True">&quot;1930-01-20&quot; | birthDate | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6580,13 +6580,13 @@
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
-						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6620,14 +6620,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
-						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;1930-01-20&quot; | birthDate | Buzz_Aldrin</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
+						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6739,14 +6739,14 @@
 				<template>PATIENT-2 @ AGENT-1 was born in PATIENT-1 . AGENT-1 graduated PATIENT-7. AGENT-1 was selected by NASA in PATIENT-3 , was PATIENT-6 and a crew member of PATIENT-5 , spending PATIENT-4 in space .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
 						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | Buzz_Aldrin</ftriple>
 						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | timeInSpace | &quot;52.0&quot;(minutes)</ftriple>
@@ -6784,8 +6784,8 @@
 				<template>AGENT-1 was PATIENT-2 who was born in PATIENT-1 graduated PATIENT-7 , which was the same year that AGENT-1 was hired by NASA . AGENT-1 served as PATIENT-6 , and was also a crew member of PATIENT-5 . AGENT-1 was in space for PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
+						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6831,7 +6831,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
+						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
@@ -6949,8 +6949,8 @@
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
+						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
@@ -7069,10 +7069,10 @@
 						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
+						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
 						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | awards | 20</ftriple>
@@ -7159,7 +7159,7 @@
 						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
+						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
 						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
 						<ftriple flipped="True">NASA | operator | Apollo_11</ftriple>
 					</sentence>
@@ -7236,8 +7236,8 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_11</ftriple>
+						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7518,8 +7518,8 @@
 						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
-						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
+						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">NASA | operator | Apollo_11</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7556,13 +7556,13 @@
 				<template>PATIENT-2 @ AGENT-1 was born in PATIENT-1 . AGENT-1 graduated from PATIENT-5, after that AGENT-1 was hired by PATIENT-6 in PATIENT-3 as PATIENT-4 . AGENT-1 was member of the BRIDGE-1 crew that was a program organized by PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
-						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
@@ -7604,16 +7604,16 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
-						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_11</ftriple>
-						<ftriple flipped="True">1963 | was selected by NASA | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
+						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7677,8 +7677,8 @@
 				<template>AGENT-1 was born in PATIENT-1 in PATIENT-3 . AGENT-1 was PATIENT-4 and a crew member of BRIDGE-1 , where the backup pilot was PATIENT-5 . AGENT-1 has since PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
+						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">&quot;1930-01-20&quot; | birthDate | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
@@ -7722,14 +7722,14 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
+						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">William_Anders | backup pilot | Apollo_11</ftriple>
+						<ftriple flipped="False">Apollo_11 | backup pilot | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7877,14 +7877,14 @@
 				<template>PATIENT-3 @ AGENT-1 was PATIENT-5 and part of PATIENT-6 @ BRIDGE-1 where AGENT-1 spent PATIENT-4 in space . AGENT-1 was born in PATIENT-1 and is now PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
-						<ftriple flipped="True">&quot;52.0&quot;(minutes) | timeInSpace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | timeInSpace | &quot;52.0&quot;(minutes)</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -7991,9 +7991,9 @@
 				<template>PATIENT-3 @ AGENT-1 was PATIENT-5 who was picked by PATIENT-6 in PATIENT-4 to be part of BRIDGE-1 . AGENT-1 was born in PATIENT-1 and is now PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
+						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">Fighter_pilot | occupation | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
 						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
 					</sentence>
@@ -8035,11 +8035,11 @@
 				<template>AGENT-1 is now PATIENT-2 . A PATIENT-3 national AGENT-1 was born in PATIENT-1 and became PATIENT-5 . In PATIENT-4 @ AGENT-1 was selected by PATIENT-6 to serve as a crew member on BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
-						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -8170,8 +8170,8 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | was selected by NASA | 1963</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
-						<ftriple flipped="True">NASA | operator | Apollo_11</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
+						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
@@ -8215,7 +8215,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">&quot;Retired&quot; | status | Buzz_Aldrin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8340,7 +8340,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_Shepard | was a crew member of | Apollo_14</ftriple>
 						<ftriple flipped="False">Apollo_14 | operator | NASA</ftriple>
-						<ftriple flipped="False">Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
 						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8617,7 +8617,7 @@
 				<template>PATIENT-6 @ AGENT-1 was born on PATIENT-3 in PATIENT-4 , PATIENT-7 . AGENT-1 was a student at PATIENT-1 . AGENT-1 passed away in PATIENT-2 , on PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Elliot_See | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Elliot_See</ftriple>
 						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
 						<ftriple flipped="True">Dallas | birthPlace | Elliot_See</ftriple>
 						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
@@ -8626,7 +8626,7 @@
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
+						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
 						<ftriple flipped="False">Elliot_See | deathDate | &quot;1966-02-28&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9041,7 +9041,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
-						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
@@ -9112,8 +9112,8 @@
 				<template>AGENT-1 is PATIENT-6 and was born on PATIENT-3 . AGENT-1 graduated from PATIENT-1 and was selected by NASA in PATIENT-7 to fly as PATIENT-5 . AGENT-1 has since PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
-						<ftriple flipped="True">&quot;1927-07-23&quot; | birthDate | Elliot_See</ftriple>
+						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
@@ -9261,10 +9261,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
-						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
-						<ftriple flipped="False">Elliot_See | deathDate | &quot;1966-02-28&quot;</ftriple>
-						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
-						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
+						<ftriple flipped="True">Dallas | birthPlace | Elliot_See</ftriple>
+						<ftriple flipped="True">&quot;1966-02-28&quot; | deathDate | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
+						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9307,7 +9307,7 @@
 						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
 						<ftriple flipped="False">Elliot_See | deathDate | &quot;1966-02-28&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9372,8 +9372,8 @@
 				<template>AGENT-1 died in PATIENT-3 on PATIENT-6 . AGENT-1 was born in PATIENT-5 on PATIENT-4 and attended PATIENT-1 . AGENT-1 was selected by NASA in PATIENT-7 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
-						<ftriple flipped="False">Elliot_See | deathDate | &quot;1966-02-28&quot;</ftriple>
+						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
+						<ftriple flipped="True">&quot;1966-02-28&quot; | deathDate | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
@@ -9573,7 +9573,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
-						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
+						<ftriple flipped="True">&quot;1927-07-23&quot; | birthDate | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
@@ -9651,7 +9651,7 @@
 					<sentence ID="2">
 						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
 						<ftriple flipped="True">1962 | was selected by NASA | Elliot_See</ftriple>
-						<ftriple flipped="False">Elliot_See | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
@@ -9696,7 +9696,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
-						<ftriple flipped="True">Test_pilot | occupation | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | occupation | Test_pilot</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Elliot_See | was selected by NASA | 1962</ftriple>
@@ -9858,7 +9858,7 @@
 				<template>AGENT-1 was a PATIENT-6 national , who was born in PATIENT-4 . AGENT-1 attended PATIENT-1 and performed as PATIENT-5 . AGENT-1 was selected by NASA in PATIENT-7 and AGENT-1 died in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -10260,15 +10260,15 @@
 				<template>AGENT-1 was born in PATIENT-3 and is PATIENT-2 . AGENT-1 attended BRIDGE-1 which will compete in PATIENT-4 . AGENT-1 died in PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
+						<ftriple flipped="True">Dallas | birthPlace | Elliot_See</ftriple>
 						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
 						<ftriple flipped="False">University_of_Texas_at_Austin | compete in | Big_12_Conference</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10309,7 +10309,7 @@
 						<ftriple flipped="True">Dallas | birthPlace | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
 						<ftriple flipped="False">University_of_Texas_at_Austin | affiliations | University_of_Texas_System</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -10601,13 +10601,13 @@
 				<template>AGENT-1 was born on PATIENT-3 in PATIENT-4 . AGENT-1 attended BRIDGE-1 which is affiliated with PATIENT-1 and is part of PATIENT-5 . AGENT-1 worked as PATIENT-2 and passed away in PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;1927-07-23&quot; | birthDate | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
-						<ftriple flipped="False">University_of_Texas_at_Austin | affiliations | University_of_Texas_System</ftriple>
-						<ftriple flipped="True">Big_12_Conference | compete in | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="True">University_of_Texas_System | affiliations | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="False">University_of_Texas_at_Austin | compete in | Big_12_Conference</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Elliot_See | occupation | Test_pilot</ftriple>
@@ -10718,7 +10718,7 @@
 				<template>PATIENT-2 @ AGENT-1 was born in PATIENT-3 and died PATIENT-6 in PATIENT-4 . AGENT-1 attended BRIDGE-1 which is an affiliate of PATIENT-1 . .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Elliot_See | occupation | Test_pilot</ftriple>
+						<ftriple flipped="True">Test_pilot | occupation | Elliot_See</ftriple>
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
 						<ftriple flipped="False">Elliot_See | deathDate | &quot;1966-02-28&quot;</ftriple>
 						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
@@ -11029,8 +11029,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
-						<ftriple flipped="False">University_of_Texas_at_Austin | affiliations | University_of_Texas_System</ftriple>
-						<ftriple flipped="False">University_of_Texas_at_Austin | compete in | Big_12_Conference</ftriple>
+						<ftriple flipped="True">University_of_Texas_System | affiliations | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="True">Big_12_Conference | compete in | University_of_Texas_at_Austin</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">University_of_Texas_at_Austin | mascot | Hook_em_(mascot)</ftriple>
@@ -11067,7 +11067,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
-						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">University_of_Texas_at_Austin | affiliations | University_of_Texas_System</ftriple>
@@ -11411,7 +11411,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Elliot_See | was selected by NASA | 1962</ftriple>
 						<ftriple flipped="True">&quot;1966-02-28&quot; | deathDate | Elliot_See</ftriple>
-						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
+						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11515,7 +11515,7 @@
 						<ftriple flipped="False">Apollo_8 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Apollo_8 | backup pilot | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">Buzz_Aldrin | backup pilot | Apollo_8</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">William_Anders | dateOfRetirement | &quot;1969-09-01&quot;</ftriple>
@@ -11666,7 +11666,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
-						<ftriple flipped="False">Apollo_8 | operator | NASA</ftriple>
+						<ftriple flipped="True">NASA | operator | Apollo_8</ftriple>
 						<ftriple flipped="False">Apollo_8 | commander | Frank_Borman</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -11709,7 +11709,7 @@
 						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
 						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
 						<ftriple flipped="False">Apollo_8 | commander | Frank_Borman</ftriple>
-						<ftriple flipped="False">Apollo_8 | backup pilot | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">Buzz_Aldrin | backup pilot | Apollo_8</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11751,14 +11751,14 @@
 				<template>AGENT-1 , PATIENT-5 , and PATIENT-3 all worked for PATIENT-6 , and they were all members of the BRIDGE-1 team , which is operated by PATIENT-6 . AGENT-1 , who was born in PATIENT-4 , was PATIENT-2 . AGENT-1 retired on PATIENT-1 . PATIENT-5 was the backup pilot . PATIENT-3 was the BRIDGE-1 commander .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
-						<ftriple flipped="True">Buzz_Aldrin | backup pilot | Apollo_8</ftriple>
+						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
+						<ftriple flipped="False">Apollo_8 | backup pilot | Buzz_Aldrin</ftriple>
 						<ftriple flipped="True">Frank_Borman | commander | Apollo_8</ftriple>
 						<ftriple flipped="False">Apollo_8 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
-						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">&quot;1969-09-01&quot; | dateOfRetirement | William_Anders</ftriple>
@@ -11827,16 +11827,16 @@
 				<template>AGENT-1 received PATIENT-3 after being PATIENT-2 on BRIDGE-1 . PATIENT-4 was a backup pilot on BRIDGE-1 with PATIENT-5 as a crewman . AGENT-1 retired on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
 						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
 						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Buzz_Aldrin | backup pilot | Apollo_8</ftriple>
-						<ftriple flipped="False">Apollo_8 | crewMembers | Frank_Borman</ftriple>
+						<ftriple flipped="True">Frank_Borman | crewMembers | Apollo_8</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">William_Anders | dateOfRetirement | &quot;1969-09-01&quot;</ftriple>
+						<ftriple flipped="True">&quot;1969-09-01&quot; | dateOfRetirement | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12007,15 +12007,15 @@
 				<template>AGENT-1 was born in PATIENT-5 on PATIENT-3 and after joing NASA in PATIENT-2 as part of the PATIENT-6 crew , AGENT-1 retired on PATIENT-1 . AGENT-1 was PATIENT-4 who in 1962 graduated with PATIENT-7.</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
-						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
-						<ftriple flipped="False">William_Anders | was selected by NASA | 1963</ftriple>
+						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
+						<ftriple flipped="True">&quot;1933-10-17&quot; | birthDate | William_Anders</ftriple>
+						<ftriple flipped="True">1963 | was selected by NASA | William_Anders</ftriple>
 						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
 						<ftriple flipped="False">William_Anders | dateOfRetirement | &quot;1969-09-01&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12084,8 +12084,8 @@
 				<template>AGENT-1 was born on PATIENT-4 in PATIENT-6 but is from PATIENT-3 . AGENT-1 graduated from PATIENT-7. AGENT-1 was PATIENT-5 and began working with NASA in PATIENT-2 . AGENT-1 retired on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;1933-10-17&quot; | birthDate | William_Anders</ftriple>
-						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
+						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -12178,17 +12178,17 @@
 				<template>AGENT-1 was PATIENT-3 who was born in PATIENT-6 on PATIENT-4 . AGENT-1 graduated from PATIENT-7 and became PATIENT-5 before joining NASA in PATIENT-2 . AGENT-1 retired on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
-						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
-						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
+						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
+						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
+						<ftriple flipped="True">&quot;1933-10-17&quot; | birthDate | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
 						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
 						<ftriple flipped="False">William_Anders | was selected by NASA | 1963</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">William_Anders | dateOfRetirement | &quot;1969-09-01&quot;</ftriple>
+						<ftriple flipped="True">&quot;1969-09-01&quot; | dateOfRetirement | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12773,8 +12773,8 @@
 						<ftriple flipped="False">William_Anders | dateOfRetirement | &quot;1969-09-01&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
-						<ftriple flipped="True">&quot;1933-10-17&quot; | birthDate | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -12844,7 +12844,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">William_Anders | was selected by NASA | 1963</ftriple>
@@ -12852,7 +12852,7 @@
 						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">William_Anders | dateOfRetirement | &quot;1969-09-01&quot;</ftriple>
+						<ftriple flipped="True">&quot;1969-09-01&quot; | dateOfRetirement | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12890,7 +12890,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">William_Anders | status | &quot;Retired&quot;</ftriple>
 						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
@@ -13011,17 +13011,17 @@
 				<template>AGENT-1 is an PATIENT-1 born in PATIENT-5 on PATIENT-3 . AGENT-1 was PATIENT-4 and was part of of PATIENT-6 . AGENT-1 graduated PATIENT-7 and is now PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
-						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
+						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
-						<ftriple flipped="False">William_Anders | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="True">&quot;Retired&quot; | status | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13107,12 +13107,12 @@
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
 						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
-						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
+						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
-						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
-						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13254,9 +13254,9 @@
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;Retired&quot; | status | William_Anders</ftriple>
-						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
-						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
+						<ftriple flipped="False">William_Anders | status | &quot;Retired&quot;</ftriple>
+						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
+						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
 						<ftriple flipped="False">Apollo_8 | operator | NASA</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -13374,7 +13374,7 @@
 						<ftriple flipped="True">1963 | was selected by NASA | William_Anders</ftriple>
 						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
 						<ftriple flipped="False">Apollo_8 | operator | NASA</ftriple>
-						<ftriple flipped="False">Apollo_8 | crewMembers | Frank_Borman</ftriple>
+						<ftriple flipped="True">Frank_Borman | crewMembers | Apollo_8</ftriple>
 						<ftriple flipped="True">Buzz_Aldrin | backup pilot | Apollo_8</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -13418,7 +13418,7 @@
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
 						<ftriple flipped="False">William_Anders | was selected by NASA | 1963</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -13497,8 +13497,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;1933-10-17&quot; | birthDate | William_Anders</ftriple>
-						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
-						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
+						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
@@ -13596,12 +13596,12 @@
 						<ftriple flipped="True">&quot;Retired&quot; | status | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
 						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="4">

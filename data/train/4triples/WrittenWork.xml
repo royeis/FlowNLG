@@ -106,7 +106,7 @@
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | numberOfPages | &quot;448&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;Virginia DeMarce and Eric Flint&quot; | author | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | &quot;Virginia DeMarce and Eric Flint&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -153,7 +153,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Virginia_DeMarce | author | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="True">&quot;448&quot; | numberOfPages | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | numberOfPages | &quot;448&quot;</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | mediaType | Hardcover</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | ISBN_number | &quot;978-1-4165-4253-7&quot;</ftriple>
 					</sentence>
@@ -183,7 +183,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Hardcover | mediaType | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Virginia_DeMarce</ftriple>
+						<ftriple flipped="True">Virginia_DeMarce | author | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | numberOfPages | &quot;448&quot;</ftriple>
@@ -437,10 +437,10 @@
 				<template>AGENT-1 , a PATIENT-4 page PATIENT-3 written by PATIENT-1 can be located by AGENT-1 ISBN number PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;448&quot; | numberOfPages | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | numberOfPages | &quot;448&quot;</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | mediaType | Hardcover</ftriple>
 						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | ISBN_number | &quot;978-1-4165-4253-7&quot;</ftriple>
+						<ftriple flipped="True">&quot;978-1-4165-4253-7&quot; | ISBN_number | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -981,8 +981,8 @@
 				<template>BRIDGE-1 was born in PATIENT-1 and is the author of AGENT-1 , PATIENT-3 and PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
+						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
 						<ftriple flipped="True">The_Grantville_Gazettes | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 						<ftriple flipped="True">Grantville_Gazette_II | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
@@ -1097,7 +1097,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1180,7 +1180,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
 						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="True">1634:_The_Baltic_War | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | 1634:_The_Baltic_War</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
@@ -1241,7 +1241,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">1634:_The_Baltic_War | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1290,7 +1290,7 @@
 				<template>BRIDGE-1 is the author of AGENT-1 , which was preceded by PATIENT-2 . BRIDGE-1 was influenced by PATIENT-1 and was born in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1349,9 +1349,9 @@
 				<template>BRIDGE-1 (born in PATIENT-3) is the author of AGENT-1 , which was preceded by PATIENT-2 . BRIDGE-1 was influenced by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="True">1634:_The_Ram_Rebellion | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
@@ -1779,10 +1779,10 @@
 				<template>Written in PATIENT-2 BRIDGE-1 is the sequel to AGENT-1 (by PATIENT-3) which was preceded by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | Ring_of_Fire_II</ftriple>
-						<ftriple flipped="True">Ring_of_Fire_II | followedBy | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | &quot;Virginia DeMarce and Eric Flint&quot;</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">Ring_of_Fire_II | language | English_language</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | followedBy | Ring_of_Fire_II</ftriple>
+						<ftriple flipped="True">&quot;Virginia DeMarce and Eric Flint&quot; | author | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="True">1634:_The_Ram_Rebellion | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2003,9 +2003,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
-						<ftriple flipped="True">&quot;512&quot; | numberOfPages | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | numberOfPages | &quot;512&quot;</ftriple>
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | mediaType | E-book</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | ISBN_number | &quot;1-4165-2060-0&quot;</ftriple>
+						<ftriple flipped="True">&quot;1-4165-2060-0&quot; | ISBN_number | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2081,7 +2081,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | mediaType | Hardcover</ftriple>
+						<ftriple flipped="True">Hardcover | mediaType | 1634:_The_Ram_Rebellion</ftriple>
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | numberOfPages | &quot;512&quot;</ftriple>
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | ISBN_number | &quot;1-4165-2060-0&quot;</ftriple>
 					</sentence>
@@ -2160,10 +2160,10 @@
 				<template>AGENT-1 by PATIENT-1 is PATIENT-2 pages , published in PATIENT-3 and has the ISBN number PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">&quot;512&quot; | numberOfPages | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">&quot;Print&quot; | mediaType | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | ISBN_number | &quot;1-4165-2060-0&quot;</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | numberOfPages | &quot;512&quot;</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | mediaType | &quot;Print&quot;</ftriple>
+						<ftriple flipped="True">&quot;1-4165-2060-0&quot; | ISBN_number | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2290,8 +2290,8 @@
 				<template>Influenced by PATIENT-1 , BRIDGE-1 (born PATIENT-2) is the author of PATIENT-3 and PATIENT-3 sequel AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Robert_A._Heinlein | influencedBy | Eric_Flint</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Ram_Rebellion</ftriple>
 						<ftriple flipped="True">1634:_The_Galileo_Affair | precededBy | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
@@ -2324,8 +2324,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
-						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Robert_A._Heinlein | influencedBy | Eric_Flint</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2463,7 +2463,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Virginia_DeMarce</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | ISBN_number | &quot;1-4165-2060-0&quot;</ftriple>
+						<ftriple flipped="True">&quot;1-4165-2060-0&quot; | ISBN_number | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2724,7 +2724,7 @@
 						<ftriple flipped="True">&quot;ACM Trans. Inf. Syst.&quot; | abbreviation | ACM_Transactions_on_Information_Systems</ftriple>
 						<ftriple flipped="True">&quot;1558-2868&quot; | ISSN_number | ACM_Transactions_on_Information_Systems</ftriple>
 						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | LCCN_number | 89646863</ftriple>
-						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | CODEN_code | &quot;ATISET&quot;</ftriple>
+						<ftriple flipped="True">&quot;ATISET&quot; | CODEN_code | ACM_Transactions_on_Information_Systems</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2749,8 +2749,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;ACM Trans. Inf. Syst.&quot; | abbreviation | ACM_Transactions_on_Information_Systems</ftriple>
-						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | ISSN_number | &quot;1558-2868&quot;</ftriple>
-						<ftriple flipped="True">89646863 | LCCN_number | ACM_Transactions_on_Information_Systems</ftriple>
+						<ftriple flipped="True">&quot;1558-2868&quot; | ISSN_number | ACM_Transactions_on_Information_Systems</ftriple>
+						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | LCCN_number | 89646863</ftriple>
 						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | CODEN_code | &quot;ATISET&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3066,11 +3066,11 @@
 				<template>AGENT-1 discipline is PATIENT-3 and comes under academic PATIENT-1 . AGENT-1 LCCN number is PATIENT-2 and AGENT-1 ISSN number is PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">HIV/AIDS | academicDiscipline | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV/AIDS</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;90640840&quot; | LCCN_number | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | LCCN_number | &quot;90640840&quot;</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | ISSN_number | &quot;1473-5571&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3094,9 +3094,9 @@
 				<template>AGENT-1 academic discipline is PATIENT-3 , and AGENT-1 has ISSN number PATIENT-4 and LCCN number PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV/AIDS</ftriple>
+						<ftriple flipped="True">HIV/AIDS | academicDiscipline | AIDS_(journal)</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | ISSN_number | &quot;1473-5571&quot;</ftriple>
-						<ftriple flipped="False">AIDS_(journal) | LCCN_number | &quot;90640840&quot;</ftriple>
+						<ftriple flipped="True">&quot;90640840&quot; | LCCN_number | AIDS_(journal)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3203,7 +3203,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV</ftriple>
-						<ftriple flipped="True">HIV/AIDS | academicDiscipline | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV/AIDS</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AIDS_(journal) | firstPublicationYear | 1987</ftriple>
@@ -3251,9 +3251,9 @@
 				<template>AGENT-1 was first published in PATIENT-3 with the ISSN number PATIENT-4 , AGENT-1 's also comes under the academic discipline of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AIDS_(journal) | firstPublicationYear | 1987</ftriple>
-						<ftriple flipped="False">AIDS_(journal) | ISSN_number | &quot;1473-5571&quot;</ftriple>
-						<ftriple flipped="True">HIV/AIDS | academicDiscipline | AIDS_(journal)</ftriple>
+						<ftriple flipped="True">1987 | firstPublicationYear | AIDS_(journal)</ftriple>
+						<ftriple flipped="True">&quot;1473-5571&quot; | ISSN_number | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV/AIDS</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3279,10 +3279,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">1987 | firstPublicationYear | AIDS_(journal)</ftriple>
-						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV</ftriple>
+						<ftriple flipped="True">HIV | academicDiscipline | AIDS_(journal)</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">AIDS_(journal) | ISSN_number | &quot;1473-5571&quot;</ftriple>
+						<ftriple flipped="True">&quot;1473-5571&quot; | ISSN_number | AIDS_(journal)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3384,11 +3384,11 @@
 				<template>AGENT-1 , published by BRIDGE-2 , was published in BRIDGE-1 . PATIENT-2 is the parent company of BRIDGE-2 . PATIENT-1 is the capital of BRIDGE-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</ftriple>
-						<ftriple flipped="True">United_Kingdom | country | AIDS_(journal)</ftriple>
+						<ftriple flipped="True">Lippincott_Williams_&amp;_Wilkins | publisher | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | country | United_Kingdom</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Lippincott_Williams_&amp;_Wilkins | parentCompany | Wolters_Kluwer</ftriple>
+						<ftriple flipped="True">Wolters_Kluwer | parentCompany | Lippincott_Williams_&amp;_Wilkins</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
@@ -3500,7 +3500,7 @@
 						<ftriple flipped="False">A.T._Charlie_Johnson | nationality | United_States</ftriple>
 						<ftriple flipped="True">Harvard_University | almaMater | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
-						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3534,7 +3534,7 @@
 						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Michael_Tinkham | doctoralAdvisor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
@@ -3591,7 +3591,7 @@
 						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
+						<ftriple flipped="True">Harvard_University | almaMater | A.T._Charlie_Johnson</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3624,7 +3624,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
-						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
+						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3728,7 +3728,7 @@
 						<ftriple flipped="False">AIP_Advances | publisher | American_Institute_of_Physics</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
+						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
 					</sentence>
@@ -3828,8 +3828,8 @@
 					<sentence ID="1">
 						<ftriple flipped="False">AIP_Advances | publisher | American_Institute_of_Physics</ftriple>
 						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
-						<ftriple flipped="True">United_States | nationality | A.T._Charlie_Johnson</ftriple>
-						<ftriple flipped="True">Harvard_University | almaMater | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | nationality | United_States</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3861,7 +3861,7 @@
 						<ftriple flipped="True">United_States | nationality | A.T._Charlie_Johnson</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Harvard_University | almaMater | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 						<ftriple flipped="False">AIP_Advances | publisher | American_Institute_of_Physics</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3907,7 +3907,7 @@
 				<template>AGENT-1 , published by PATIENT-3 is edited by BRIDGE-1 , who went to PATIENT-1 and lives in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">American_Institute_of_Physics | publisher | AIP_Advances</ftriple>
+						<ftriple flipped="False">AIP_Advances | publisher | American_Institute_of_Physics</ftriple>
 						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | residence | United_States</ftriple>
@@ -4053,7 +4053,7 @@
 						<ftriple flipped="False">AIP_Advances | ISSN_number | &quot;2158-3226&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
+						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | residence | United_States</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 					</sentence>
@@ -4105,7 +4105,7 @@
 				<template>PATIENT-1 is BRIDGE-1 almaMater , and AGENT-1 are the editor of PATIENT-3 (abbr . PATIENT-2) . BRIDGE-1 reside in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Harvard_University | almaMater | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Harvard_University</ftriple>
 						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
 						<ftriple flipped="True">United_States | residence | A.T._Charlie_Johnson</ftriple>
 					</sentence>
@@ -4302,7 +4302,7 @@
 				<template>BRIDGE-1 is PATIENT-2 national who is the editor of AGENT-1 . BRIDGE-1 alma mater is PATIENT-3 and BRIDGE-1 doctoral advisor was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | nationality | United_States</ftriple>
 						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4335,11 +4335,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
-						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
+						<ftriple flipped="True">Michael_Tinkham | doctoralAdvisor | A.T._Charlie_Johnson</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | nationality | A.T._Charlie_Johnson</ftriple>
-						<ftriple flipped="True">Stanford_University | almaMater | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Stanford_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4367,7 +4367,7 @@
 				<template>The editor of AGENT-1 is BRIDGE-1 , who is from PATIENT-2 . BRIDGE-1 is doctoral advisor to PATIENT-1 and BRIDGE-1 almaMater is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | nationality | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4422,11 +4422,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.T._Charlie_Johnson | residence | United_States</ftriple>
-						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Stanford_University</ftriple>
+						<ftriple flipped="True">Stanford_University | almaMater | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
+						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4538,7 +4538,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | A.T._Charlie_Johnson</ftriple>
-						<ftriple flipped="True">Stanford_University | almaMater | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Stanford_University</ftriple>
 						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
 						<ftriple flipped="False">AIP_Advances | publisher | American_Institute_of_Physics</ftriple>
 					</sentence>
@@ -4600,7 +4600,7 @@
 				<template>BRIDGE-1 is from PATIENT-1 and was the editor of AGENT-1 which is published by PATIENT-3 . BRIDGE-1 Alma mater is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.T._Charlie_Johnson | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
 						<ftriple flipped="False">AIP_Advances | publisher | American_Institute_of_Physics</ftriple>
 					</sentence>
@@ -4711,8 +4711,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">American_Institute_of_Physics | publisher | AIP_Advances</ftriple>
-						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
-						<ftriple flipped="True">United_States | residence | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | residence | United_States</ftriple>
 						<ftriple flipped="True">Stanford_University | almaMater | A.T._Charlie_Johnson</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4830,7 +4830,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | residence | A.T._Charlie_Johnson</ftriple>
-						<ftriple flipped="True">Stanford_University | almaMater | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | almaMater | Stanford_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4876,7 +4876,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
-						<ftriple flipped="True">&quot;AIP Adv.&quot; | abbreviation | AIP_Advances</ftriple>
+						<ftriple flipped="False">AIP_Advances | abbreviation | &quot;AIP Adv.&quot;</ftriple>
 						<ftriple flipped="False">A.T._Charlie_Johnson | residence | United_States</ftriple>
 						<ftriple flipped="True">Stanford_University | almaMater | A.T._Charlie_Johnson</ftriple>
 					</sentence>
@@ -4907,7 +4907,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">AIP_Advances | abbreviation | &quot;AIP Adv.&quot;</ftriple>
-						<ftriple flipped="False">AIP_Advances | editor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="True">A.T._Charlie_Johnson | editor | AIP_Advances</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.T._Charlie_Johnson | residence | United_States</ftriple>
@@ -5145,12 +5145,12 @@
 				<template>AGENT-1 is written in BRIDGE-1 which is the language spoken in PATIENT-1 . AGENT-1 originates from BRIDGE-2 where the capital is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5177,11 +5177,11 @@
 				<template>AGENT-1 was originally published in BRIDGE-1 which is the language spoken in PATIENT-1 . AGENT-1 is from BRIDGE-2 where the capital city is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5371,7 +5371,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Glastonbury_Romance | numberOfPages | &quot;1174&quot;</ftriple>
 						<ftriple flipped="False">A_Glastonbury_Romance | mediaType | &quot;Print&quot;</ftriple>
-						<ftriple flipped="True">76798317 | OCLC_number | A_Glastonbury_Romance</ftriple>
+						<ftriple flipped="False">A_Glastonbury_Romance | OCLC_number | 76798317</ftriple>
 						<ftriple flipped="False">A_Glastonbury_Romance | ISBN_number | &quot;0-7156-3648-0&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5452,7 +5452,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
-						<ftriple flipped="True">Penguin_Random_House | parentCompany | Viking_Press</ftriple>
+						<ftriple flipped="False">Viking_Press | parentCompany | Penguin_Random_House</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5479,7 +5479,7 @@
 				<template>AGENT-1 was written in PATIENT-1 and published by BRIDGE-1 which has the parent company of PATIENT-2 . AGENT-1 was followed by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
 						<ftriple flipped="True">Penguin_Random_House | parentCompany | Viking_Press</ftriple>
 					</sentence>
@@ -5600,7 +5600,7 @@
 						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 						<ftriple flipped="False">Ireland | ethnicGroup | White_people</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5717,7 +5717,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Penguin_Random_House | parentCompany | Viking_Press</ftriple>
 						<ftriple flipped="True">Viking_Press | publisher | A_Long_Long_Way</ftriple>
-						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 						<ftriple flipped="False">Ireland | ethnicGroup | White_people</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5750,7 +5750,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
-						<ftriple flipped="True">Penguin_Random_House | parentCompany | Viking_Press</ftriple>
+						<ftriple flipped="False">Viking_Press | parentCompany | Penguin_Random_House</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6021,7 +6021,7 @@
 				<template>AGENT-1 , with PATIENT-1 pages , was published in PATIENT-3 . AGENT-1 ISBN number is PATIENT-4 , and OCLC number is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Long_Long_Way | numberOfPages | &quot;292&quot;</ftriple>
+						<ftriple flipped="True">&quot;292&quot; | numberOfPages | A_Long_Long_Way</ftriple>
 						<ftriple flipped="True">&quot;Print  &amp; Paperback&quot; | mediaType | A_Long_Long_Way</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6053,7 +6053,7 @@
 				<template>AGENT-1 is PATIENT-1 pages long and was published in PATIENT-3 . AGENT-1 has an ISBN number of PATIENT-4 an OCLC number of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Long_Long_Way | numberOfPages | &quot;292&quot;</ftriple>
+						<ftriple flipped="True">&quot;292&quot; | numberOfPages | A_Long_Long_Way</ftriple>
 						<ftriple flipped="True">&quot;Print  &amp; Paperback&quot; | mediaType | A_Long_Long_Way</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6298,7 +6298,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
-						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6533,7 +6533,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6753,11 +6753,11 @@
 				<template>BRIDGE-1 is spoken in PATIENT-1 and is also what AGENT-1 is written in . AGENT-1 was published in PATIENT-3 by PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -6838,12 +6838,12 @@
 				<template>BRIDGE-2 is based in PATIENT-2 and published AGENT-1 . AGENT-1 is written in BRIDGE-1 which is the language spoken in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
+						<ftriple flipped="False">Soho_Press | country | United_States</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6871,7 +6871,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
@@ -6985,11 +6985,11 @@
 				<template>AGENT-1 is published in BRIDGE-1 by PATIENT-1 . The national language of BRIDGE-1 is PATIENT-3 . One of the ethnic groups in BRIDGE-1 are PATIENT-2 and many people from this background reside there .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
@@ -7103,10 +7103,10 @@
 				<template>AGENT-1 was published by PATIENT-1 in BRIDGE-1 , where PATIENT-3 is the language used and PATIENT-2 are an ethnic group .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
+						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7157,7 +7157,7 @@
 				<template>PATIENT-2 is the language of BRIDGE-2 . BRIDGE-2 where one of the ethnic groups is PATIENT-1 . BRIDGE-2 is also where BRIDGE-1 , which published AGENT-1 , is based .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
@@ -7486,9 +7486,9 @@
 				<template>AGENT-1 is from BRIDGE-2 , and is in BRIDGE-1 , also spoken in PATIENT-1 . PATIENT-2 are one of the ethnic groups in BRIDGE-2</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | A_Severed_Wasp</ftriple>
+						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
 						<ftriple flipped="False">A_Severed_Wasp | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
@@ -7519,7 +7519,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
-						<ftriple flipped="False">A_Severed_Wasp | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Severed_Wasp</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -7661,7 +7661,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Severed_Wasp | numberOfPages | &quot;388&quot;</ftriple>
 						<ftriple flipped="False">A_Severed_Wasp | mediaType | &quot;Print&quot;</ftriple>
-						<ftriple flipped="False">A_Severed_Wasp | OCLC_number | 8805735</ftriple>
+						<ftriple flipped="True">8805735 | OCLC_number | A_Severed_Wasp</ftriple>
 						<ftriple flipped="False">A_Severed_Wasp | ISBN_number | &quot;0-374-26131-8&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -7930,7 +7930,7 @@
 						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -7964,7 +7964,7 @@
 						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -8016,8 +8016,8 @@
 				<template>PATIENT-2 are one of the ethnic groups in BRIDGE-2 where AGENT-1 was published . AGENT-1 was written in BRIDGE-1 which is spoken in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
-						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
@@ -8349,10 +8349,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Above_the_Veil | author | Garth_Nix</ftriple>
-						<ftriple flipped="True">Hardcover | mediaType | Above_the_Veil</ftriple>
+						<ftriple flipped="False">Above_the_Veil | mediaType | Hardcover</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;0-439-17685-9&quot; | ISBN_number | Above_the_Veil</ftriple>
+						<ftriple flipped="False">Above_the_Veil | ISBN_number | &quot;0-439-17685-9&quot;</ftriple>
 						<ftriple flipped="False">Above_the_Veil | OCLC_number | 46451790</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8780,8 +8780,8 @@
 						<ftriple flipped="False">Acta_Mathematica_Hungarica | ISSN_number | &quot;1588-2632&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acta_Mathematica_Hungarica | abbreviation | &quot;Acta Math. Hungar.&quot;</ftriple>
-						<ftriple flipped="True">Mathematics | academicDiscipline | Acta_Mathematica_Hungarica</ftriple>
+						<ftriple flipped="True">&quot;Acta Math. Hungar.&quot; | abbreviation | Acta_Mathematica_Hungarica</ftriple>
+						<ftriple flipped="False">Acta_Mathematica_Hungarica | academicDiscipline | Mathematics</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8843,7 +8843,7 @@
 						<ftriple flipped="True">Mathematics | academicDiscipline | Acta_Mathematica_Hungarica</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Acta_Mathematica_Hungarica | LCCN_number | 83646315</ftriple>
+						<ftriple flipped="True">83646315 | LCCN_number | Acta_Mathematica_Hungarica</ftriple>
 						<ftriple flipped="False">Acta_Mathematica_Hungarica | ISSN_number | &quot;1588-2632&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8927,8 +8927,8 @@
 						<ftriple flipped="True">&quot;Institute of Paleobiology, Polish Academy of Sciences&quot; | publisher | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;0567-7920&quot;</ftriple>
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
+						<ftriple flipped="True">&quot;0567-7920&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8964,8 +8964,8 @@
 						<ftriple flipped="True">&quot;Institute of Paleobiology, Polish Academy of Sciences&quot; | publisher | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;0567-7920&quot;</ftriple>
-						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="True">&quot;0567-7920&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9020,7 +9020,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">&quot;1732-2421&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
-						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9047,7 +9047,7 @@
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | publisher | &quot;Institute of Paleobiology, Polish Academy of Sciences&quot;</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | abbreviation | &quot;Acta Palaeontol. Pol.&quot;</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
-						<ftriple flipped="True">&quot;1732-2421&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;1732-2421&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9073,10 +9073,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1"/>
 					<sentence ID="2">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | abbreviation | &quot;Acta Palaeontol. Pol.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Acta Palaeontol. Pol.&quot; | abbreviation | Acta_Palaeontologica_Polonica</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;1732-2421&quot;</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | publisher | &quot;Institute of Paleobiology, Polish Academy of Sciences&quot;</ftriple>
+						<ftriple flipped="True">&quot;Institute of Paleobiology, Polish Academy of Sciences&quot; | publisher | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9276,7 +9276,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | academicDiscipline | Paleontology</ftriple>
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | abbreviation | &quot;Acta Palaeontol. Pol.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Acta Palaeontol. Pol.&quot; | abbreviation | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
@@ -9308,7 +9308,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | academicDiscipline | Paleontology</ftriple>
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | abbreviation | &quot;Acta Palaeontol. Pol.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Acta Palaeontol. Pol.&quot; | abbreviation | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
@@ -9395,9 +9395,9 @@
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | academicDiscipline | Paleontology</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | abbreviation | &quot;Acta Palaeontol. Pol.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Acta Palaeontol. Pol.&quot; | abbreviation | Acta_Palaeontologica_Polonica</ftriple>
 						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
-						<ftriple flipped="True">&quot;1732-2421&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;1732-2421&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9581,7 +9581,7 @@
 						<ftriple flipped="True">&quot;Acta Palaeontol. Pol.&quot; | abbreviation | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;APGPAC&quot; | CODEN_code | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | CODEN_code | &quot;APGPAC&quot;</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9838,10 +9838,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Wiley-Blackwell on behalf of the Society for the Study of Addiction&quot; | publisher | Addiction_(journal)</ftriple>
-						<ftriple flipped="True">&quot;Addiction&quot; | abbreviation | Addiction_(journal)</ftriple>
+						<ftriple flipped="False">Addiction_(journal) | abbreviation | &quot;Addiction&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Addiction_(journal) | ISSN_number | &quot;1360-0443&quot;</ftriple>
+						<ftriple flipped="True">&quot;1360-0443&quot; | ISSN_number | Addiction_(journal)</ftriple>
 						<ftriple flipped="False">Addiction_(journal) | LCCN_number | 93645978</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9919,7 +9919,7 @@
 						<ftriple flipped="False">Addiction_(journal) | academicDiscipline | Addiction</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;0965-2140&quot; | ISSN_number | Addiction_(journal)</ftriple>
+						<ftriple flipped="False">Addiction_(journal) | ISSN_number | &quot;0965-2140&quot;</ftriple>
 						<ftriple flipped="False">Addiction_(journal) | LCCN_number | 93645978</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9944,8 +9944,8 @@
 				<template>AGENT-1 , abbreviated PATIENT-2 , about PATIENT-1 , has an ISSN number PATIENT-3 and LCCn number PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Addiction_(journal) | abbreviation | &quot;Addiction&quot;</ftriple>
-						<ftriple flipped="True">Addiction | academicDiscipline | Addiction_(journal)</ftriple>
+						<ftriple flipped="True">&quot;Addiction&quot; | abbreviation | Addiction_(journal)</ftriple>
+						<ftriple flipped="False">Addiction_(journal) | academicDiscipline | Addiction</ftriple>
 						<ftriple flipped="False">Addiction_(journal) | ISSN_number | &quot;0965-2140&quot;</ftriple>
 						<ftriple flipped="False">Addiction_(journal) | LCCN_number | 93645978</ftriple>
 					</sentence>
@@ -9970,7 +9970,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Addiction&quot; | abbreviation | Addiction_(journal)</ftriple>
-						<ftriple flipped="True">&quot;0965-2140&quot; | ISSN_number | Addiction_(journal)</ftriple>
+						<ftriple flipped="False">Addiction_(journal) | ISSN_number | &quot;0965-2140&quot;</ftriple>
 						<ftriple flipped="True">93645978 | LCCN_number | Addiction_(journal)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10135,7 +10135,7 @@
 						<ftriple flipped="True">Wiley-Blackwell | publisher | Addiction_(journal)</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Addiction_(journal) | ISSN_number | &quot;1360-0443&quot;</ftriple>
+						<ftriple flipped="True">&quot;1360-0443&quot; | ISSN_number | Addiction_(journal)</ftriple>
 						<ftriple flipped="False">Addiction_(journal) | LCCN_number | 93645978</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10192,8 +10192,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Addiction_(journal) | abbreviation | &quot;Addiction&quot;</ftriple>
-						<ftriple flipped="True">&quot;1360-0443&quot; | ISSN_number | Addiction_(journal)</ftriple>
-						<ftriple flipped="False">Addiction_(journal) | LCCN_number | 93645978</ftriple>
+						<ftriple flipped="False">Addiction_(journal) | ISSN_number | &quot;1360-0443&quot;</ftriple>
+						<ftriple flipped="True">93645978 | LCCN_number | Addiction_(journal)</ftriple>
 						<ftriple flipped="False">Addiction_(journal) | publisher | Wiley-Blackwell</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10426,8 +10426,8 @@
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Admin. Sci. Q.&quot; | abbreviation | Administrative_Science_Quarterly</ftriple>
 						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | &quot;SAGE Publications for the Samuel Curtis Johnson Graduate School of Management, Cornell University&quot;</ftriple>
-						<ftriple flipped="True">57059226 | LCCN_number | Administrative_Science_Quarterly</ftriple>
-						<ftriple flipped="True">&quot;0001-8392&quot; | ISSN_number | Administrative_Science_Quarterly</ftriple>
+						<ftriple flipped="False">Administrative_Science_Quarterly | LCCN_number | 57059226</ftriple>
+						<ftriple flipped="False">Administrative_Science_Quarterly | ISSN_number | &quot;0001-8392&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10476,10 +10476,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Admin. Sci. Q.&quot; | abbreviation | Administrative_Science_Quarterly</ftriple>
-						<ftriple flipped="True">SAGE_Publications | publisher | Administrative_Science_Quarterly</ftriple>
+						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | SAGE_Publications</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Administrative_Science_Quarterly | ISSN_number | &quot;0001-8392&quot;</ftriple>
+						<ftriple flipped="True">&quot;0001-8392&quot; | ISSN_number | Administrative_Science_Quarterly</ftriple>
 						<ftriple flipped="False">Administrative_Science_Quarterly | LCCN_number | 57059226</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10939,11 +10939,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Ithaca,_New_York | city | Cornell_University</ftriple>
-						<ftriple flipped="True">Elizabeth_Garrett | president | Cornell_University</ftriple>
+						<ftriple flipped="False">Cornell_University | president | Elizabeth_Garrett</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | Cornell_University</ftriple>
-						<ftriple flipped="False">Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</ftriple>
+						<ftriple flipped="True">Association_of_Public_and_Land-grant_Universities | affiliation | Cornell_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10975,8 +10975,8 @@
 						<ftriple flipped="True">Cornell_University | publisher | Administrative_Science_Quarterly</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Elizabeth_Garrett | president | Cornell_University</ftriple>
-						<ftriple flipped="True">Association_of_Public_and_Land-grant_Universities | affiliation | Cornell_University</ftriple>
+						<ftriple flipped="False">Cornell_University | president | Elizabeth_Garrett</ftriple>
+						<ftriple flipped="False">Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11057,7 +11057,7 @@
 				<template>BRIDGE-1 (nickname PATIENT-1) published AGENT-1 . BRIDGE-1 is affiliated with PATIENT-2 and is located in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Cornell_Big_Red | nickname | Cornell_University</ftriple>
+						<ftriple flipped="False">Cornell_University | nickname | Cornell_Big_Red</ftriple>
 						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | Cornell_University</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -11211,7 +11211,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Cornell_Big_Red | nickname | Cornell_University</ftriple>
-						<ftriple flipped="True">Association_of_Public_and_Land-grant_Universities | affiliation | Cornell_University</ftriple>
+						<ftriple flipped="False">Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11239,7 +11239,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | Cornell_University</ftriple>
-						<ftriple flipped="False">Cornell_University | city | Ithaca,_New_York</ftriple>
+						<ftriple flipped="True">Ithaca,_New_York | city | Cornell_University</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Cornell_Big_Red | nickname | Cornell_University</ftriple>
@@ -11288,8 +11288,8 @@
 				<template>AGENT-1 , PATIENT-4 written by PATIENT-2 , has an ISBN number PATIENT-3 and an OCLC number PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Aenir | mediaType | Paperback</ftriple>
-						<ftriple flipped="False">Aenir | author | Garth_Nix</ftriple>
+						<ftriple flipped="True">Paperback | mediaType | Aenir</ftriple>
+						<ftriple flipped="True">Garth_Nix | author | Aenir</ftriple>
 						<ftriple flipped="False">Aenir | ISBN_number | &quot;0-439-17684-0&quot;</ftriple>
 						<ftriple flipped="False">Aenir | OCLC_number | 45644811</ftriple>
 					</sentence>
@@ -11505,7 +11505,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
-						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
@@ -11626,7 +11626,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
-						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11856,7 +11856,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">English_language | language | Alcatraz_Versus_the_Evil_Librarians</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
@@ -12116,7 +12116,7 @@
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
-						<ftriple flipped="True">English_language | language | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12161,7 +12161,7 @@
 				<template>AGENT-1 , a PATIENT-2 page PATIENT-1 has the OCLC number PATIENT-3 and ISBN number PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;320&quot; | numberOfPages | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | numberOfPages | &quot;320&quot;</ftriple>
 						<ftriple flipped="True">Hardcover | mediaType | Alcatraz_Versus_the_Evil_Librarians</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | OCLC_number | 78771100</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | ISBN_number | &quot;0-439-92550-9&quot;</ftriple>
@@ -12219,8 +12219,8 @@
 				<template>Published in PATIENT-1 , AGENT-1 is PATIENT-2 pages long , has an OCLC number of PATIENT-3 and an ISBN of PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | mediaType | Hardcover</ftriple>
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | numberOfPages | &quot;320&quot;</ftriple>
+						<ftriple flipped="True">Hardcover | mediaType | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="True">&quot;320&quot; | numberOfPages | Alcatraz_Versus_the_Evil_Librarians</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | OCLC_number | 78771100</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | ISBN_number | &quot;0-439-92550-9&quot;</ftriple>
 					</sentence>
@@ -12270,11 +12270,11 @@
 				<template>AGENT-1 has PATIENT-1 pages and is produced in PATIENT-3 . AGENT-1 has an OCLC number of PATIENT-2 and the ISBN number of PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | numberOfPages | &quot;320&quot;</ftriple>
-						<ftriple flipped="True">&quot;Print&quot; | mediaType | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="True">&quot;320&quot; | numberOfPages | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | mediaType | &quot;Print&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | OCLC_number | 78771100</ftriple>
+						<ftriple flipped="True">78771100 | OCLC_number | Alcatraz_Versus_the_Evil_Librarians</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | ISBN_number | &quot;0-439-92550-9&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12380,10 +12380,10 @@
 					<sentence ID="1">
 						<ftriple flipped="False">American_Journal_of_Mathematics | abbreviation | &quot;Am. J. Math.&quot;</ftriple>
 						<ftriple flipped="False">American_Journal_of_Mathematics | frequency | &quot;Bimonthly&quot;</ftriple>
-						<ftriple flipped="True">Mathematics | academicDiscipline | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | academicDiscipline | Mathematics</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;0002-9327&quot; | ISSN_number | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | ISSN_number | &quot;0002-9327&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12531,8 +12531,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Am. J. Math.&quot; | abbreviation | American_Journal_of_Mathematics</ftriple>
-						<ftriple flipped="False">American_Journal_of_Mathematics | firstPublicationYear | 1878</ftriple>
-						<ftriple flipped="False">American_Journal_of_Mathematics | academicDiscipline | Mathematics</ftriple>
+						<ftriple flipped="True">1878 | firstPublicationYear | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="True">Mathematics | academicDiscipline | American_Journal_of_Mathematics</ftriple>
 						<ftriple flipped="False">American_Journal_of_Mathematics | ISSN_number | &quot;0002-9327&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12565,7 +12565,7 @@
 						<ftriple flipped="True">Mathematics | academicDiscipline | American_Journal_of_Mathematics</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">1878 | firstPublicationYear | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | firstPublicationYear | 1878</ftriple>
 						<ftriple flipped="False">American_Journal_of_Mathematics | ISSN_number | &quot;0002-9327&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12680,11 +12680,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Johns_Hopkins_University_Press | parentCompany | Johns_Hopkins_University</ftriple>
-						<ftriple flipped="True">United_States | country | Johns_Hopkins_University_Press</ftriple>
+						<ftriple flipped="False">Johns_Hopkins_University_Press | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Johns_Hopkins_University_Press | publisher | American_Journal_of_Mathematics</ftriple>
-						<ftriple flipped="True">&quot;0002-9327&quot; | ISSN_number | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | publisher | Johns_Hopkins_University_Press</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | ISSN_number | &quot;0002-9327&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12768,7 +12768,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Johns_Hopkins_University_Press | parentCompany | Johns_Hopkins_University</ftriple>
-						<ftriple flipped="False">American_Journal_of_Mathematics | publisher | Johns_Hopkins_University_Press</ftriple>
+						<ftriple flipped="True">Johns_Hopkins_University_Press | publisher | American_Journal_of_Mathematics</ftriple>
 						<ftriple flipped="True">United_States | country | Johns_Hopkins_University_Press</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12849,9 +12849,9 @@
 				<template>Based in PATIENT-1 , BRIDGE-1 is the publisher of AGENT-1 (OCLC number PATIENT-3) . BRIDGE-1 is the parent company of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Johns_Hopkins_University_Press</ftriple>
-						<ftriple flipped="False">American_Journal_of_Mathematics | publisher | Johns_Hopkins_University_Press</ftriple>
-						<ftriple flipped="False">American_Journal_of_Mathematics | OCLC_number | 1480153</ftriple>
+						<ftriple flipped="False">Johns_Hopkins_University_Press | country | United_States</ftriple>
+						<ftriple flipped="True">Johns_Hopkins_University_Press | publisher | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="True">1480153 | OCLC_number | American_Journal_of_Mathematics</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Johns_Hopkins_University_Press | parentCompany | Johns_Hopkins_University</ftriple>
@@ -12886,7 +12886,7 @@
 						<ftriple flipped="False">Johns_Hopkins_University_Press | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Johns_Hopkins_University | parentCompany | Johns_Hopkins_University_Press</ftriple>
+						<ftriple flipped="False">Johns_Hopkins_University_Press | parentCompany | Johns_Hopkins_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12912,8 +12912,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">American_Journal_of_Mathematics | OCLC_number | 1480153</ftriple>
-						<ftriple flipped="False">American_Journal_of_Mathematics | publisher | Johns_Hopkins_University_Press</ftriple>
-						<ftriple flipped="False">Johns_Hopkins_University_Press | country | United_States</ftriple>
+						<ftriple flipped="True">Johns_Hopkins_University_Press | publisher | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="True">United_States | country | Johns_Hopkins_University_Press</ftriple>
 						<ftriple flipped="True">Johns_Hopkins_University | parentCompany | Johns_Hopkins_University_Press</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12962,8 +12962,8 @@
 				<template>AGENT-1 (PATIENT-3) is published in PATIENT-1 by BRIDGE-1 . PATIENT-2 is the parent company of BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Am. J. Math.&quot; | abbreviation | American_Journal_of_Mathematics</ftriple>
-						<ftriple flipped="True">Johns_Hopkins_University_Press | publisher | American_Journal_of_Mathematics</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | abbreviation | &quot;Am. J. Math.&quot;</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | publisher | Johns_Hopkins_University_Press</ftriple>
 						<ftriple flipped="False">Johns_Hopkins_University_Press | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -12996,11 +12996,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1"/>
 					<sentence ID="2">
-						<ftriple flipped="False">American_Journal_of_Mathematics | abbreviation | &quot;Am. J. Math.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Am. J. Math.&quot; | abbreviation | American_Journal_of_Mathematics</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Johns_Hopkins_University_Press | publisher | American_Journal_of_Mathematics</ftriple>
-						<ftriple flipped="True">Johns_Hopkins_University | parentCompany | Johns_Hopkins_University_Press</ftriple>
+						<ftriple flipped="False">American_Journal_of_Mathematics | publisher | Johns_Hopkins_University_Press</ftriple>
+						<ftriple flipped="False">Johns_Hopkins_University_Press | parentCompany | Johns_Hopkins_University</ftriple>
 						<ftriple flipped="False">Johns_Hopkins_University_Press | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -13199,12 +13199,12 @@
 				<template>AGENT-1 is published in BRIDGE-1 . In BRIDGE-1 one of the ethnic groups is PATIENT-2 and BRIDGE-1 speak BRIDGE-2 , same as in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
+						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13438,7 +13438,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13583,7 +13583,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
@@ -13633,7 +13633,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
@@ -13660,10 +13660,10 @@
 				<template>The capital of BRIDGE-2 , where AGENT-1 was published , is PATIENT-2 BRIDGE-1 is the language of BRIDGE-2 , and is spoken in PATIENT-1 too .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13691,12 +13691,12 @@
 				<template>BRIDGE-1 is the language of BRIDGE-2 and PATIENT-1 . The capital city of BRIDGE-2 is PATIENT-2 and it is from BRIDGE-2 that AGENT-1 originates .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
-						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13776,12 +13776,12 @@
 				<template>AGENT-1 was published in BRIDGE-2 where many PATIENT-2 live . The language of BRIDGE-2 and PATIENT-1 is BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13952,7 +13952,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -13983,7 +13983,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14206,7 +14206,7 @@
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14280,7 +14280,7 @@
 				<template>AGENT-1 is from BRIDGE-2 where PATIENT-2 live and like PATIENT-1 , BRIDGE-1 is also spoken .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | White_Americans</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
@@ -14395,12 +14395,12 @@
 				<template>BRIDGE-1 is part of the PATIENT-2 family and belongs to the PATIENT-1 genus . The study of it comes under academic PATIENT-3 . AGENT-1 which is part of PATIENT-3 is AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">HIV | family | Orthoretrovirinae</ftriple>
+						<ftriple flipped="True">Orthoretrovirinae | family | HIV</ftriple>
 						<ftriple flipped="True">Lentivirus | genus | HIV</ftriple>
 					</sentence>
 					<sentence ID="2"/>
 					<sentence ID="3">
-						<ftriple flipped="True">HIV | academicDiscipline | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV/AIDS</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14437,7 +14437,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">Orthoretrovirinae | family | HIV</ftriple>
-						<ftriple flipped="True">Lentivirus | genus | HIV</ftriple>
+						<ftriple flipped="False">HIV | genus | Lentivirus</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14515,7 +14515,7 @@
 				<template>AGENT-1 belongs to the academic discipline , PATIENT-3 . BRIDGE-1 is from the genus PATIENT-1 , under the family of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AIDS_(journal) | academicDiscipline | HIV/AIDS</ftriple>
+						<ftriple flipped="True">HIV/AIDS | academicDiscipline | AIDS_(journal)</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">HIV | academicDiscipline | AIDS_(journal)</ftriple>
@@ -14708,11 +14708,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Glastonbury_Romance | author | John_Cowper_Powys</ftriple>
-						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
+						<ftriple flipped="True">Shirley,_Derbyshire | birthPlace | John_Cowper_Powys</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
-						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
+						<ftriple flipped="True">Weymouth_Sands | followedBy | A_Glastonbury_Romance</ftriple>
+						<ftriple flipped="True">Maiden_Castle_(novel) | followedBy | Weymouth_Sands</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14743,8 +14743,8 @@
 						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
-						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
+						<ftriple flipped="True">Weymouth_Sands | followedBy | A_Glastonbury_Romance</ftriple>
+						<ftriple flipped="True">Maiden_Castle_(novel) | followedBy | Weymouth_Sands</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14772,11 +14772,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Glastonbury_Romance | author | John_Cowper_Powys</ftriple>
-						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
+						<ftriple flipped="True">Shirley,_Derbyshire | birthPlace | John_Cowper_Powys</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
-						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
+						<ftriple flipped="True">Weymouth_Sands | followedBy | A_Glastonbury_Romance</ftriple>
+						<ftriple flipped="True">Maiden_Castle_(novel) | followedBy | Weymouth_Sands</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14821,9 +14821,9 @@
 				<template>BRIDGE-2 , author of AGENT-1 , BRIDGE-1 and PATIENT-2 (in that order) , was born in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">John_Cowper_Powys | author | Weymouth_Sands</ftriple>
+						<ftriple flipped="False">Weymouth_Sands | author | John_Cowper_Powys</ftriple>
 						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
-						<ftriple flipped="True">Maiden_Castle_(novel) | followedBy | Weymouth_Sands</ftriple>
+						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
 						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14856,7 +14856,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Weymouth_Sands | followedBy | A_Glastonbury_Romance</ftriple>
-						<ftriple flipped="True">Maiden_Castle_(novel) | followedBy | Weymouth_Sands</ftriple>
+						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15503,7 +15503,7 @@
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15690,7 +15690,7 @@
 						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15748,7 +15748,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
@@ -15831,7 +15831,7 @@
 						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
@@ -15867,7 +15867,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -16067,12 +16067,12 @@
 				<template>AGENT-1 is from BRIDGE-2 and is written in BRIDGE-1 (spoken in PATIENT-2) . PATIENT-1 live in BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -16276,7 +16276,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
@@ -16423,12 +16423,12 @@
 				<template>AGENT-1 is from BRIDGE-2 where PATIENT-1 is President . BRIDGE-1 is used both in BRIDGE-2 and in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -16542,7 +16542,7 @@
 				<template>AGENT-1 is written in BRIDGE-1 which is spoken in PATIENT-2 . AGENT-1 originates from BRIDGE-2 where PATIENT-1 is leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -16575,7 +16575,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -16631,7 +16631,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
-						<ftriple flipped="False">A_Severed_Wasp | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Severed_Wasp</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -16878,7 +16878,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="True">United_States | country | A_Severed_Wasp</ftriple>
+						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
 						<ftriple flipped="False">A_Severed_Wasp | language | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -17032,7 +17032,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -17190,8 +17190,8 @@
 				<template>In BRIDGE-1 the leader is PATIENT-1 , the capital city is PATIENT-2 , PATIENT-3 are an ethnic group and is where AGENT-1 was written .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
 					</sentence>
@@ -17255,10 +17255,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -17312,8 +17312,8 @@
 						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
-						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -17374,8 +17374,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
@@ -17426,7 +17426,7 @@
 				<template>AGENT-1 was written in BRIDGE-1 where PATIENT-3 are an ethnic group . The capital of BRIDGE-1 is PATIENT-2 and the President is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -17539,10 +17539,10 @@
 				<template>The title of the leader of BRIDGE-1 is PATIENT-1 where the capital is PATIENT-2 , PATIENT-3 are an ethnic group and AGENT-1 was written there .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -17567,7 +17567,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>

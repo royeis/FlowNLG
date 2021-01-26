@@ -62,7 +62,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | country | Switzerland</ftriple>
 						<ftriple flipped="True">600 | numberOfStudents | Accademia_di_Architettura_di_Mendrisio</ftriple>
-						<ftriple flipped="True">Mario_Botta | dean | Accademia_di_Architettura_di_Mendrisio</ftriple>
+						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -446,7 +446,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Prime_Minister_of_Romania | leaderTitle | Romania</ftriple>
-						<ftriple flipped="False">Romania | leaderName | Klaus_Iohannis</ftriple>
+						<ftriple flipped="True">Klaus_Iohannis | leaderName | Romania</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
@@ -544,7 +544,7 @@
 						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;Universitas Apulensis&quot; | latinName | 1_Decembrie_1918_University</ftriple>
+						<ftriple flipped="False">1_Decembrie_1918_University | latinName | &quot;Universitas Apulensis&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Romania | patronSaint | Andrew_the_Apostle</ftriple>
@@ -601,10 +601,10 @@
 				<template>AGENT-1 has the Latin name , PATIENT-2 . AGENT-1 is situated in BRIDGE-1 , which has PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">1_Decembrie_1918_University | latinName | &quot;Universitas Apulensis&quot;</ftriple>
+						<ftriple flipped="True">&quot;Universitas Apulensis&quot; | latinName | 1_Decembrie_1918_University</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
+						<ftriple flipped="True">Romania | country | 1_Decembrie_1918_University</ftriple>
 						<ftriple flipped="False">Romania | patronSaint | Andrew_the_Apostle</ftriple>
 					</sentence>
 				</flowinducedtripleset>

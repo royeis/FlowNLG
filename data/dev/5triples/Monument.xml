@@ -126,7 +126,7 @@
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -215,10 +215,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1"/>
 					<sentence ID="2">
-						<ftriple flipped="False">Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</ftriple>
-						<ftriple flipped="True">Baku | capital | Azerbaijan</ftriple>
+						<ftriple flipped="True">Prime_Minister_of_Azerbaijan | leaderTitle | Azerbaijan</ftriple>
+						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
 						<ftriple flipped="True">Artur_Rasizade | leaderName | Azerbaijan</ftriple>
-						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -313,10 +313,10 @@
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
 						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
+						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Artur_Rasizade | leaderName | Azerbaijan</ftriple>
+						<ftriple flipped="False">Azerbaijan | leaderName | Artur_Rasizade</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -447,8 +447,8 @@
 				<template>AGENT-1 is located in PATIENT-2 , where AGENT-1 is known as `` PATIENT-3 '' . AGENT-1 is dedicated to PATIENT-1 . AGENT-1 was designed by PATIENT-4 , and constructed out of PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
@@ -622,14 +622,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
+						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="True">Prime_Minister_of_Azerbaijan | leaderTitle | Azerbaijan</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
+						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

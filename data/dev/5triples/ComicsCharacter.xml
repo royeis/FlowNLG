@@ -41,7 +41,7 @@
 				<template>AGENT-1 was shown on PATIENT-2 , first airing on PATIENT-4 and the final broadcast being PATIENT-5 . AGENT-1 was created by PATIENT-3 and starred PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
+						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
 					</sentence>
@@ -117,12 +117,12 @@
 						<ftriple flipped="False">Bananaman | creator | John_Geering</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
+						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="True">Tim_Brooke-Taylor | starring | Bananaman</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

@@ -257,9 +257,9 @@
 				<template>PATIENT-2 AGENT-1 was written by PATIENT-1 and has PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Hardcover | mediaType | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">&quot;1-4165-2060-0&quot; | ISBN_number | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | mediaType | Hardcover</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | ISBN_number | &quot;1-4165-2060-0&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -306,7 +306,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | mediaType | Hardcover</ftriple>
+						<ftriple flipped="True">Hardcover | mediaType | 1634:_The_Ram_Rebellion</ftriple>
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | ISBN_number | &quot;1-4165-2060-0&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -501,8 +501,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;ACM Trans. Inf. Syst.&quot; | abbreviation | ACM_Transactions_on_Information_Systems</ftriple>
-						<ftriple flipped="True">Computer_science | academicDiscipline | ACM_Transactions_on_Information_Systems</ftriple>
-						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | ISSN_number | &quot;1046-8188&quot;</ftriple>
+						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | academicDiscipline | Computer_science</ftriple>
+						<ftriple flipped="True">&quot;1046-8188&quot; | ISSN_number | ACM_Transactions_on_Information_Systems</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -908,7 +908,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Glastonbury_Romance | mediaType | Hardcover</ftriple>
-						<ftriple flipped="True">&quot;0-7156-3648-0&quot; | ISBN_number | A_Glastonbury_Romance</ftriple>
+						<ftriple flipped="False">A_Glastonbury_Romance | ISBN_number | &quot;0-7156-3648-0&quot;</ftriple>
 						<ftriple flipped="True">76798317 | OCLC_number | A_Glastonbury_Romance</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1000,8 +1000,8 @@
 				<template>AGENT-1 ( followed by PATIENT-2 ) is written in BRIDGE-1 , which is spoken in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
-						<ftriple flipped="True">English_language | language | A_Long_Long_Way</ftriple>
+						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1025,7 +1025,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
-						<ftriple flipped="True">English_language | language | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2045,8 +2045,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Aenir | OCLC_number | 45644811</ftriple>
-						<ftriple flipped="False">Aenir | author | Garth_Nix</ftriple>
-						<ftriple flipped="False">Aenir | mediaType | &quot;Print&quot;</ftriple>
+						<ftriple flipped="True">Garth_Nix | author | Aenir</ftriple>
+						<ftriple flipped="True">&quot;Print&quot; | mediaType | Aenir</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2087,9 +2087,9 @@
 				<template>AGENT-1 has the ISBN number of `` PATIENT-3 '' , AGENT-1 was written by PATIENT-1 and was produced in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Aenir | ISBN_number | &quot;0-439-17684-0&quot;</ftriple>
-						<ftriple flipped="False">Aenir | author | Garth_Nix</ftriple>
-						<ftriple flipped="True">&quot;Print&quot; | mediaType | Aenir</ftriple>
+						<ftriple flipped="True">&quot;0-439-17684-0&quot; | ISBN_number | Aenir</ftriple>
+						<ftriple flipped="True">Garth_Nix | author | Aenir</ftriple>
+						<ftriple flipped="False">Aenir | mediaType | &quot;Print&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2326,7 +2326,7 @@
 				<template>Also known by the abbreviated title of PATIENT-1 , AGENT-1 was first published in PATIENT-2 and has the ISSN number PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">American_Journal_of_Mathematics | abbreviation | &quot;Am. J. Math.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Am. J. Math.&quot; | abbreviation | American_Journal_of_Mathematics</ftriple>
 						<ftriple flipped="False">American_Journal_of_Mathematics | firstPublicationYear | 1878</ftriple>
 						<ftriple flipped="False">American_Journal_of_Mathematics | ISSN_number | &quot;1080-6377&quot;</ftriple>
 					</sentence>
@@ -2491,7 +2491,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</ftriple>
-						<ftriple flipped="True">United_Kingdom | country | AIDS_(journal)</ftriple>
+						<ftriple flipped="False">AIDS_(journal) | country | United_Kingdom</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">David_Cameron | leaderName | United_Kingdom</ftriple>
@@ -2591,7 +2591,7 @@
 				<template>PATIENT-2 is both president of BRIDGE-1 and PATIENT-1 , which is an ethnic group of BRIDGE-1 . AGENT-1 originates from BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 					<sentence ID="2">

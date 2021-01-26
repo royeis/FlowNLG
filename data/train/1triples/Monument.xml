@@ -1132,7 +1132,7 @@
 				<template>AGENT-1 is located in the state of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Maryland&quot; | state | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | state | &quot;Maryland&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1168,7 +1168,7 @@
 				<template>AGENT-1 is located in the state of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Maryland&quot; | state | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | state | &quot;Maryland&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1555,7 +1555,7 @@
 				<template>AGENT-1 is located in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1609,7 +1609,7 @@
 				<template>AGENT-1 is located in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1663,7 +1663,7 @@
 				<template>AGENT-1 is located in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1897,7 +1897,7 @@
 				<template>AGENT-1 has been dedicated to PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
+						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2101,7 +2101,7 @@
 				<template>AGENT-1 is dedicated to PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Æthelwald,_Ealdorman_of_East_Anglia | dedicatedTo | Dead_Mans_Plack</ftriple>
+						<ftriple flipped="False">Dead_Mans_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2299,7 +2299,7 @@
 				<template>PATIENT-1 is the capital of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">London | capital | England</ftriple>
+						<ftriple flipped="False">England | capital | London</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

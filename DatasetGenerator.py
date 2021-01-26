@@ -1,11 +1,17 @@
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 import torch
 import os
+from shutil import copyfile
 import xml.etree.ElementTree as ET
 import re
 from xml.dom import minidom
 
 from Preprocess import get_best_plan
+
+seen_categories = {'Astronaut', 'University', 'Monument', 'Building', 'ComicsCharacter',
+                   'Food', 'Airport', 'SportsTeam', 'City', 'WrittenWork'}
+
+unseen_categories = {'Athlete', 'Artist', 'MeanOfTransportation', 'CelestialBody', 'Politician'}
 
 
 # a generator for flat flow hints permutations given a flat list of triplets
@@ -111,12 +117,43 @@ def refine_dataset(in_dir, out_dir, tokenizer, realizer, overwrite=False):
                     refine_xml(input_file, output_file, tokenizer, realizer)
 
 
+def split_test_to_categories(data_path):
+    test_path = data_path + '/test'
+    seen_path = data_path + '/test_seen'
+    unseen_path = data_path + '/test_unseen'
+    if not os.path.exists(seen_path):
+        os.mkdir(seen_path)
+    if not os.path.exists(unseen_path):
+        os.mkdir(unseen_path)
+
+    for num_triples in os.listdir(test_path):
+        cur_dir_ntriples = test_path + '/' + num_triples
+        seen_dir_ntriples = seen_path + '/' + num_triples
+        unseen_dir_ntriples = unseen_path + '/' + num_triples
+
+        if not os.path.exists(seen_dir_ntriples):
+            os.mkdir(seen_dir_ntriples)
+
+        if not os.path.exists(unseen_dir_ntriples):
+            os.mkdir(unseen_dir_ntriples)
+
+        for xml_file in os.listdir(cur_dir_ntriples):
+            category = xml_file.split('.')[0]
+            if category in seen_categories:
+                copyfile(cur_dir_ntriples + '/' + xml_file, seen_dir_ntriples + '/' + xml_file)
+            elif category in unseen_categories:
+                copyfile(cur_dir_ntriples + '/' + xml_file, unseen_dir_ntriples + '/' + xml_file)
+            else:
+                raise FileNotFoundError(f'{category} is not a valid WebNLG category.')
+
+
 if __name__ == '__main__':
     device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
     print(f'utilizing device: {device}')
     tokenizer = T5Tokenizer.from_pretrained('t5-base')
-    realizer = T5ForConditionalGeneration.from_pretrained('realizer')
+    realizer = T5ForConditionalGeneration.from_pretrained('royeis/T5-FlowNLG-Realizer')
     realizer.to(device)
     realizer.eval()
 
-    refine_dataset('DeepNLG_data/v1.4/en', 'FlowNLG_data', tokenizer, realizer)
+    refine_dataset('DeepNLG_data/v1.4/en', 'data', tokenizer, realizer)
+    split_test_to_categories('data')

@@ -335,7 +335,7 @@
 				<template>AGENT-1 in Balgalore , BRIDGE-1 is east of PATIENT-4 and southwest of PATIENT-2 . AGENT-1 is affiliated with PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | state | Karnataka</ftriple>
+						<ftriple flipped="True">Karnataka | state | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Karnataka | has to its west | Arabian_Sea</ftriple>
 						<ftriple flipped="False">Karnataka | has to its northeast | Telangana</ftriple>
 					</sentence>
@@ -376,7 +376,7 @@
 						<ftriple flipped="True">Karnataka | state | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | city | Bangalore</ftriple>
+						<ftriple flipped="True">Bangalore | city | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -468,8 +468,8 @@
 						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | numberOfPostgraduateStudents | 700</ftriple>
-						<ftriple flipped="False">Acharya_Institute_of_Technology | campus | &quot;In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.&quot;</ftriple>
+						<ftriple flipped="True">700 | numberOfPostgraduateStudents | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="True">&quot;In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.&quot; | campus | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -823,8 +823,8 @@
 				<template>AGENT-1 was established in PATIENT-4 in PATIENT-5 . AGENT-1 is affiliated with PATIENT-1 and has PATIENT-2 students and PATIENT-3 academic staff .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | country | Denmark</ftriple>
-						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | established | 1928</ftriple>
+						<ftriple flipped="True">Denmark | country | School of Business and Social Sciences at the Aarhus University</ftriple>
+						<ftriple flipped="True">1928 | established | School of Business and Social Sciences at the Aarhus University</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</ftriple>

@@ -180,7 +180,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Steve_Bright | creator | Bananaman</ftriple>
@@ -215,7 +215,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
-						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
@@ -250,7 +250,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
-						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
@@ -314,8 +314,8 @@
 						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Steve_Bright | creator | Bananaman</ftriple>
-						<ftriple flipped="False">Bananaman | starring | Graeme_Garden</ftriple>
+						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
+						<ftriple flipped="True">Graeme_Garden | starring | Bananaman</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -351,7 +351,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
-						<ftriple flipped="True">Graeme_Garden | starring | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | starring | Graeme_Garden</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -406,7 +406,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
-						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
@@ -441,12 +441,12 @@
 				<template>AGENT-1 began airing on PATIENT-1 on PATIENT-4 and AGENT-1 last broadcast was PATIENT-5 . The creator of AGENT-1 is PATIENT-3 and among AGENT-1 stars are PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
+						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Steve_Bright | creator | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
 						<ftriple flipped="False">Bananaman | starring | Jill_Shilling</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -478,7 +478,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
-						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
@@ -614,7 +614,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | broadcastedBy | &quot;STV&quot;</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
+						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">John_Geering | creator | Bananaman</ftriple>
@@ -671,7 +671,7 @@
 				<template>AGENT-1 was broadcast by PATIENT-5 between PATIENT-3 and PATIENT-4 . AGENT-1 was created by PATIENT-2 and starred PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | broadcastedBy | &quot;STV&quot;</ftriple>
+						<ftriple flipped="True">&quot;STV&quot; | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
@@ -742,7 +742,7 @@
 				<template>AGENT-1 was broadcast by PATIENT-5 from PATIENT-3 until PATIENT-4 . AGENT-1 was created by PATIENT-2 and starred PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | broadcastedBy | &quot;STV&quot;</ftriple>
+						<ftriple flipped="True">&quot;STV&quot; | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
 					</sentence>
@@ -803,7 +803,7 @@
 				<template>PATIENT-2 began broadcasting AGENT-1 on PATIENT-4 and AGENT-1 last episode went to air on PATIENT-5 . PATIENT-3 is one of the creators of AGENT-1 which has PATIENT-1 as one of AGENT-1 stars .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
 						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
 					</sentence>
@@ -840,13 +840,13 @@
 				<template>AGENT-1 first aired on PATIENT-2 on PATIENT-4 and AGENT-1 last episode on PATIENT-5 . AGENT-1 creator was PATIENT-3 and AGENT-1 starred PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
+						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="True">&quot;1986-04-15&quot; | lastAired | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | lastAired | &quot;1986-04-15&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Steve_Bright | creator | Bananaman</ftriple>
-						<ftriple flipped="True">Tim_Brooke-Taylor | starring | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | creator | Steve_Bright</ftriple>
+						<ftriple flipped="False">Bananaman | starring | Tim_Brooke-Taylor</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -901,11 +901,11 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
 						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
-						<ftriple flipped="False">Baymax | creator | Steven_T._Seagle</ftriple>
+						<ftriple flipped="True">Steven_T._Seagle | creator | Baymax</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
-						<ftriple flipped="False">Big_Hero_6_(film) | starring | Ryan_Potter</ftriple>
+						<ftriple flipped="True">Ryan_Potter | starring | Big_Hero_6_(film)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -994,10 +994,10 @@
 				<template>AGENT-1 , AGENT-1 in BRIDGE-2 , was created by PATIENT-1 BRIDGE-1 and by PATIENT-2 . PATIENT-3 starred in BRIDGE-2.</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
-						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Steven_T._Seagle | creator | Baymax</ftriple>
+						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Duncan_Rouleau | creator | Baymax</ftriple>
+						<ftriple flipped="False">Duncan_Rouleau | nationality | Americans</ftriple>
+						<ftriple flipped="False">Baymax | creator | Steven_T._Seagle</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Damon_Wayans,_Jr. | starring | Big_Hero_6_(film)</ftriple>
@@ -1029,10 +1029,10 @@
 				<template>AGENT-1 , a character in BRIDGE-2 , was created by PATIENT-1 @ BRIDGE-1 and by PATIENT-2 . PATIENT-3 starred in BRIDGE-2.</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
-						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Steven_T._Seagle | creator | Baymax</ftriple>
+						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Duncan_Rouleau | creator | Baymax</ftriple>
+						<ftriple flipped="False">Duncan_Rouleau | nationality | Americans</ftriple>
+						<ftriple flipped="False">Baymax | creator | Steven_T._Seagle</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Damon_Wayans,_Jr. | starring | Big_Hero_6_(film)</ftriple>
@@ -1123,8 +1123,8 @@
 						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
 						<ftriple flipped="False">Big_Hero_6_(film) | starring | Jamie_Chung</ftriple>
 						<ftriple flipped="False">Baymax | creator | Steven_T._Seagle</ftriple>
-						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
+						<ftriple flipped="True">Duncan_Rouleau | creator | Baymax</ftriple>
+						<ftriple flipped="False">Duncan_Rouleau | nationality | Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1280,11 +1280,11 @@
 				<template>AGENT-1 , is a character in BRIDGE-2 whose creators are PATIENT-2 and BRIDGE-1 , PATIENT-1 and AGENT-1 stars PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
-						<ftriple flipped="False">Baymax | creator | Steven_T._Seagle</ftriple>
-						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
+						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Steven_T._Seagle | creator | Baymax</ftriple>
+						<ftriple flipped="True">Duncan_Rouleau | creator | Baymax</ftriple>
 						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Maya_Rudolph | starring | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="False">Big_Hero_6_(film) | starring | Maya_Rudolph</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1318,8 +1318,8 @@
 						<ftriple flipped="False">Baymax | creator | Steven_T._Seagle</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
-						<ftriple flipped="True">Maya_Rudolph | starring | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
+						<ftriple flipped="False">Big_Hero_6_(film) | starring | Maya_Rudolph</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

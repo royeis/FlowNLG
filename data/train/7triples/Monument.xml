@@ -89,7 +89,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">2000 | established | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
-						<ftriple flipped="True">Seminary_Ridge | location | 11th_Mississippi_Infantry_Monument</ftriple>
+						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Seminary_Ridge</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | country | &quot;United States&quot;</ftriple>
@@ -125,8 +125,8 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Seminary_Ridge | location | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="True">Gettysburg,_Pennsylvania | municipality | 11th_Mississippi_Infantry_Monument</ftriple>
-						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
-						<ftriple flipped="True">&quot;Pennsylvania&quot; | state | 11th_Mississippi_Infantry_Monument</ftriple>
+						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | state | &quot;Pennsylvania&quot;</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | established | 2000</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 						<ftriple flipped="True">&quot;United States&quot; | country | 11th_Mississippi_Infantry_Monument</ftriple>
@@ -446,12 +446,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</ftriple>
-						<ftriple flipped="True">Cumberland_County,_Pennsylvania | has to its north | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</ftriple>
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
-						<ftriple flipped="True">Contributing_property | category | 11th_Mississippi_Infantry_Monument</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | country | &quot;United States&quot;</ftriple>
+						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
+						<ftriple flipped="True">&quot;United States&quot; | country | 11th_Mississippi_Infantry_Monument</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -522,7 +522,7 @@
 					<sentence ID="3">
 						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | established | 2000</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
+						<ftriple flipped="True">Contributing_property | category | 11th_Mississippi_Infantry_Monument</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -598,16 +598,16 @@
 				<template>BRIDGE-1 in PATIENT-5 is located south of PATIENT-3 . PATIENT-4 is to the southwest and PATIENT-1 , Maryland is to the southeast . BRIDGE-1 is the location of AGENT-1 which was established in PATIENT-2 and is categorised as PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Cumberland_County,_Pennsylvania | has to its north | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Frederick_County,_Maryland | has to its southwest | Adams_County,_Pennsylvania</ftriple>
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
+						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | state | &quot;Pennsylvania&quot;</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | established | 2000</ftriple>
+						<ftriple flipped="True">2000 | established | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -677,7 +677,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Gettysburg,_Pennsylvania | municipality | 11th_Mississippi_Infantry_Monument</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | established | 2000</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 					</sentence>
@@ -794,7 +794,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</ftriple>
+						<ftriple flipped="True">Frederick_County,_Maryland | has to its southwest | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
@@ -892,8 +892,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | established | 2000</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
-						<ftriple flipped="True">Contributing_property | category | 11th_Mississippi_Infantry_Monument</ftriple>
+						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
+						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</ftriple>
@@ -966,12 +966,12 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Contributing_property | category | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Franklin_County,_Pennsylvania | has to its west | Adams_County,_Pennsylvania</ftriple>
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</ftriple>
-						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Cumberland_County,_Pennsylvania | has to its north | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1007,7 +1007,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1015,8 +1015,8 @@
 						<ftriple flipped="True">Cumberland_County,_Pennsylvania | has to its north | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
+						<ftriple flipped="True">Frederick_County,_Maryland | has to its southwest | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1051,14 +1051,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</ftriple>
-						<ftriple flipped="True">Cumberland_County,_Pennsylvania | has to its north | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
 						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
+						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 					</sentence>
@@ -1138,12 +1138,12 @@
 						<ftriple flipped="True">Baku | capital | Azerbaijan</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
+						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="5">
 						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
@@ -1252,7 +1252,7 @@
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
+						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="5">
 						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
@@ -1327,11 +1327,11 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
+						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1598,7 +1598,7 @@
 						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
+						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1659,7 +1659,7 @@
 				<template>PATIENT-6 designed PATIENT-2 @ AGENT-1 which is located in BRIDGE-1 and dedicated to PATIENT-4 , PATIENT-1 . PATIENT-5 is the current leader of BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
@@ -1818,15 +1818,15 @@
 				<template>AGENT-1 is a monument created in PATIENT-2 by PATIENT-5 , and is dedicated to PATIENT-3 . AGENT-1 is found in PATIENT-1 , the capital of BRIDGE-1 , a country led by PATIENT-4 , and with PATIENT-6 as BRIDGE-1 source of legislature .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
-						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
+						<ftriple flipped="True">Baku | capital | Azerbaijan</ftriple>
 						<ftriple flipped="False">Azerbaijan | leaderName | Artur_Rasizade</ftriple>
-						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
+						<ftriple flipped="True">National_Assembly_(Azerbaijan) | legislature | Azerbaijan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1868,11 +1868,11 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
+						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
+						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1907,7 +1907,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
 						<ftriple flipped="False">Azerbaijan | leaderName | Artur_Rasizade</ftriple>
-						<ftriple flipped="True">National_Assembly_(Azerbaijan) | legislature | Azerbaijan</ftriple>
+						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
@@ -2071,7 +2071,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -2142,13 +2142,13 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
+						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
-						<ftriple flipped="True">Baku | capital | Azerbaijan</ftriple>
-						<ftriple flipped="True">Artur_Rasizade | leader | Azerbaijan</ftriple>
+						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
+						<ftriple flipped="False">Azerbaijan | leader | Artur_Rasizade</ftriple>
 						<ftriple flipped="True">Prime_Minister_of_Azerbaijan | leaderTitle | Azerbaijan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2315,7 +2315,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
+						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2350,11 +2350,11 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</ftriple>
 						<ftriple flipped="True">Artur_Rasizade | leader | Azerbaijan</ftriple>
-						<ftriple flipped="True">National_Assembly_(Azerbaijan) | legislature | Azerbaijan</ftriple>
+						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Baku | capital | Azerbaijan</ftriple>
-						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
 					</sentence>
@@ -2423,11 +2423,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
-						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
+						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -2512,18 +2512,18 @@
 				<template>PATIENT-1 is PATIENT-3 and the leader of BRIDGE-1 . Here we can find AGENT-1, that is dedicated to PATIENT-4 . The native name of AGENT-1 is PATIENT-5 . AGENT-1 designer was PATIENT-6 and AGENT-1 is made from PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Azerbaijan | leader | Artur_Rasizade</ftriple>
+						<ftriple flipped="True">Artur_Rasizade | leader | Azerbaijan</ftriple>
 						<ftriple flipped="True">Prime_Minister_of_Azerbaijan | leaderTitle | Azerbaijan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2588,14 +2588,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | nativeName | &quot;Türk Şehitleri Anıtı&quot;</ftriple>
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 						<ftriple flipped="False">Azerbaijan | leaderName | Artur_Rasizade</ftriple>
-						<ftriple flipped="True">National_Assembly_(Azerbaijan) | legislature | Azerbaijan</ftriple>
+						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2752,15 +2752,15 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Dead_Mans_Plack | location | England</ftriple>
-						<ftriple flipped="True">Rock_(geology) | material | Dead_Mans_Plack</ftriple>
-						<ftriple flipped="True">Æthelwald,_Ealdorman_of_East_Anglia | dedicatedTo | Dead_Mans_Plack</ftriple>
+						<ftriple flipped="False">Dead_Mans_Plack | material | Rock_(geology)</ftriple>
+						<ftriple flipped="False">Dead_Mans_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Church_of_England | religion | England</ftriple>
+						<ftriple flipped="False">England | religion | Church_of_England</ftriple>
 						<ftriple flipped="False">England | capital | London</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Cornish_language | languages | England</ftriple>
+						<ftriple flipped="False">England | languages | Cornish_language</ftriple>
 						<ftriple flipped="True">British_Arabs | ethnicGroups | England</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2801,15 +2801,15 @@
 				<template>The capital of BRIDGE-1 is PATIENT-2 where we can find AGENT-1 which is made of PATIENT-6 . AGENT-1 is dedicated to PATIENT-3 . PATIENT-4 is spoken in BRIDGE-1 and BRIDGE-1 has an established religion called PATIENT-5 . One of the ethnic groups found in BRIDGE-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">London | capital | England</ftriple>
+						<ftriple flipped="False">England | capital | London</ftriple>
 						<ftriple flipped="True">England | location | Dead_Mans_Plack</ftriple>
-						<ftriple flipped="True">Rock_(geology) | material | Dead_Mans_Plack</ftriple>
+						<ftriple flipped="False">Dead_Mans_Plack | material | Rock_(geology)</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Æthelwald,_Ealdorman_of_East_Anglia | dedicatedTo | Dead_Mans_Plack</ftriple>
+						<ftriple flipped="False">Dead_Mans_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">England | languages | Cornish_language</ftriple>
+						<ftriple flipped="True">Cornish_language | languages | England</ftriple>
 						<ftriple flipped="False">England | religion | Church_of_England</ftriple>
 					</sentence>
 					<sentence ID="4">
@@ -2958,11 +2958,11 @@
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;1907-07-11&quot; | established | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | established | &quot;1907-07-11&quot;</ftriple>
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</ftriple>
-						<ftriple flipped="True">&quot;United States&quot; | country | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | country | &quot;United States&quot;</ftriple>
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
-						<ftriple flipped="False">Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</ftriple>
+						<ftriple flipped="True">Frederick,_Maryland | nearestCity | Monocacy_National_Battlefield</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3064,9 +3064,9 @@
 				<template>PATIENT-2 designed PATIENT-4 @ AGENT-1 which was inaugurated in BRIDGE-1 on PATIENT-6 in Izmir . The leader of BRIDGE-1 is PATIENT-1 and the currency is PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Pietro_Canonica | designer | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
+						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="True">&quot;1932-07-27&quot; | inaugurationDate | Atatürk_Monument_(İzmir)</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -3179,8 +3179,8 @@
 						<ftriple flipped="False">Turkey | leader | Ahmet_Davutoğlu</ftriple>
 						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
-						<ftriple flipped="True">Pietro_Canonica | designer | Atatürk_Monument_(İzmir)</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
+						<ftriple flipped="True">&quot;1932-07-27&quot; | inaugurationDate | Atatürk_Monument_(İzmir)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3212,15 +3212,15 @@
 				<template>The BRIDGE-1 leader is PATIENT-1 and although the largest city is PATIENT-4 , the capital is PATIENT-3 . Izmir is the location of AGENT-1 designed by PATIENT-2 in PATIENT-5 and inaugurated on PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ahmet_Davutoğlu | leader | Turkey</ftriple>
+						<ftriple flipped="False">Turkey | leader | Ahmet_Davutoğlu</ftriple>
 						<ftriple flipped="False">Turkey | largestCity | Istanbul</ftriple>
 						<ftriple flipped="False">Turkey | capital | Ankara</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
+						<ftriple flipped="True">&quot;Bronze&quot; | material | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="True">&quot;1932-07-27&quot; | inaugurationDate | Atatürk_Monument_(İzmir)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3261,7 +3261,7 @@
 						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
-						<ftriple flipped="True">&quot;1932-07-27&quot; | inaugurationDate | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3392,11 +3392,11 @@
 						<ftriple flipped="False">Turkey | largestCity | Istanbul</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
+						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">Pietro_Canonica | designer | Atatürk_Monument_(İzmir)</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
+						<ftriple flipped="True">&quot;1932-07-27&quot; | inaugurationDate | Atatürk_Monument_(İzmir)</ftriple>
 					</sentence>
 					<sentence ID="5">
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
@@ -3434,7 +3434,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 , a country led by PATIENT-1. PATIENT-4 is the largest city , and PATIENT-3 is the capital . AGENT-1 was designed by PATIENT-2 , made of PATIENT-5 , and inaugurated on PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
+						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Turkey | leaderTitle | President_of_Turkey</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -3514,13 +3514,13 @@
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">President_of_Turkey | leaderTitle | Turkey</ftriple>
-						<ftriple flipped="False">Turkey | leaderName | Ahmet_Davutoğlu</ftriple>
-						<ftriple flipped="False">Turkey | capital | Ankara</ftriple>
+						<ftriple flipped="True">Ahmet_Davutoğlu | leaderName | Turkey</ftriple>
+						<ftriple flipped="True">Ankara | capital | Turkey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3555,13 +3555,13 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
+						<ftriple flipped="True">&quot;1932-07-27&quot; | inaugurationDate | Atatürk_Monument_(İzmir)</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
-						<ftriple flipped="False">Turkey | capital | Ankara</ftriple>
-						<ftriple flipped="False">Turkey | leaderTitle | President_of_Turkey</ftriple>
-						<ftriple flipped="False">Turkey | leaderName | Ahmet_Davutoğlu</ftriple>
+						<ftriple flipped="True">Ankara | capital | Turkey</ftriple>
+						<ftriple flipped="True">President_of_Turkey | leaderTitle | Turkey</ftriple>
+						<ftriple flipped="True">Ahmet_Davutoğlu | leaderName | Turkey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3641,11 +3641,11 @@
 						<ftriple flipped="False">Turkey | largestCity | Istanbul</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">Turkish_lira | currency | Turkey</ftriple>
+						<ftriple flipped="False">Turkey | currency | Turkish_lira</ftriple>
 					</sentence>
 					<sentence ID="5">
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
+						<ftriple flipped="True">Pietro_Canonica | designer | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3679,14 +3679,14 @@
 				<template>AGENT-1 is PATIENT-5 structure located in Izmir , and designed by PATIENT-2 . AGENT-1 is found in BRIDGE-1 , where the largest city is PATIENT-4 , the currency is PATIENT-6 , and the leader , PATIENT-1 , is named PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Bronze&quot; | material | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
-						<ftriple flipped="True">Istanbul | largestCity | Turkey</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
+						<ftriple flipped="False">Turkey | largestCity | Istanbul</ftriple>
 						<ftriple flipped="False">Turkey | currency | Turkish_lira</ftriple>
-						<ftriple flipped="True">President_of_Turkey | leaderTitle | Turkey</ftriple>
+						<ftriple flipped="False">Turkey | leaderTitle | President_of_Turkey</ftriple>
 						<ftriple flipped="False">Turkey | leaderName | Ahmet_Davutoğlu</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3757,7 +3757,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | location | Turkey</ftriple>
-						<ftriple flipped="True">Istanbul | largestCity | Turkey</ftriple>
+						<ftriple flipped="False">Turkey | largestCity | Istanbul</ftriple>
 						<ftriple flipped="False">Turkey | currency | Turkish_lira</ftriple>
 						<ftriple flipped="True">President_of_Turkey | leaderTitle | Turkey</ftriple>
 						<ftriple flipped="False">Turkey | leader | Ahmet_Davutoğlu</ftriple>
@@ -3842,8 +3842,8 @@
 				<template>The BRIDGE-1 leader (official PATIENT-1) is PATIENT-2 . PATIENT-3 designed AGENT-1 and AGENT-1 was inaugurated on PATIENT-6 . BRIDGE-1 largest City is PATIENT-4 and the currency is PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Turkey | leaderTitle | President_of_Turkey</ftriple>
-						<ftriple flipped="False">Turkey | leader | Ahmet_Davutoğlu</ftriple>
+						<ftriple flipped="True">President_of_Turkey | leaderTitle | Turkey</ftriple>
+						<ftriple flipped="True">Ahmet_Davutoğlu | leader | Turkey</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Turkey | location | Atatürk_Monument_(İzmir)</ftriple>
@@ -3921,7 +3921,7 @@
 				<template>BRIDGE-1 leader is PATIENT-2 , who is PATIENT-1 . BRIDGE-1 capital is PATIENT-3 and the largest city is PATIENT-4 . The currency used in BRIDGE-1 is PATIENT-6 . AGENT-1, that is located in BRIDGE-1 , is made of PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Turkey | leader | Ahmet_Davutoğlu</ftriple>
+						<ftriple flipped="True">Ahmet_Davutoğlu | leader | Turkey</ftriple>
 						<ftriple flipped="True">President_of_Turkey | leaderTitle | Turkey</ftriple>
 					</sentence>
 					<sentence ID="2">

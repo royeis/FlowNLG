@@ -188,7 +188,7 @@
 						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -269,12 +269,12 @@
 				<template>AGENT-1 has been dedicated to PATIENT-2 and is located in BRIDGE-1 capital PATIENT-1 . AGENT-1 was designed by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -415,10 +415,10 @@
 				<template>AGENT-1 is located in PATIENT-2 , the capital of BRIDGE-1 , where leader is PATIENT-1 and AGENT-1 is known as PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 						<ftriple flipped="False">Azerbaijan | capital | Baku</ftriple>
-						<ftriple flipped="True">Artur_Rasizade | leader | Azerbaijan</ftriple>
-						<ftriple flipped="False">Azerbaijan | legislature | National_Assembly_(Azerbaijan)</ftriple>
+						<ftriple flipped="False">Azerbaijan | leader | Artur_Rasizade</ftriple>
+						<ftriple flipped="True">National_Assembly_(Azerbaijan) | legislature | Azerbaijan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

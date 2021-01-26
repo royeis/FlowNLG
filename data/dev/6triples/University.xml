@@ -48,16 +48,16 @@
 				<template>AGENT-1 located in PATIENT-4 , BRIDGE-1 was established in PATIENT-2 . AGENT-1 has PATIENT-1 students . BRIDGE-1 leader is PATIENT-5 @ PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ticino | location | Accademia_di_Architettura_di_Mendrisio</ftriple>
-						<ftriple flipped="True">Switzerland | country | Accademia_di_Architettura_di_Mendrisio</ftriple>
-						<ftriple flipped="True">1996 | established | Accademia_di_Architettura_di_Mendrisio</ftriple>
+						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | location | Ticino</ftriple>
+						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | country | Switzerland</ftriple>
+						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | established | 1996</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland</ftriple>
-						<ftriple flipped="True">Johann_Schneider-Ammann | leaderName | Switzerland</ftriple>
+						<ftriple flipped="False">Switzerland | leaderName | Johann_Schneider-Ammann</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -194,12 +194,12 @@
 				<template>AGENT-1 is in PATIENT-1 , PATIENT-4 in the state of PATIENT-5 . AGENT-1 was established in PATIENT-3 and AGENT-1 director is PATIENT-2 . The full address of AGENT-1 is PATIENT-6 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | city | Bangalore</ftriple>
+						<ftriple flipped="True">Bangalore | city | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
 						<ftriple flipped="True">Karnataka | state | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | established | 2000</ftriple>
+						<ftriple flipped="True">2000 | established | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | director | &quot;Dr. G. P. Prabhukumar&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -235,9 +235,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">2000 | established | Acharya_Institute_of_Technology</ftriple>
-						<ftriple flipped="True">Bangalore | city | Acharya_Institute_of_Technology</ftriple>
-						<ftriple flipped="True">Karnataka | state | Acharya_Institute_of_Technology</ftriple>
-						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | city | Bangalore</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | state | Karnataka</ftriple>
+						<ftriple flipped="True">&quot;India&quot; | country | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;Dr. G. P. Prabhukumar&quot; | director | Acharya_Institute_of_Technology</ftriple>
@@ -338,16 +338,16 @@
 				<template>AGENT-1 in PATIENT-2 , PATIENT-5 was established in PATIENT-4 . AGENT-1 is affiliated with PATIENT-6 . AGENT-1 president is PATIENT-1 and AGENT-1 directore is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | city | Bangalore</ftriple>
-						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
+						<ftriple flipped="True">Bangalore | city | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="True">&quot;India&quot; | country | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | established | 2000</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
+						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Acharya_Institute_of_Technology | president | &quot;B.M. Reddy&quot;</ftriple>
-						<ftriple flipped="False">Acharya_Institute_of_Technology | director | &quot;Dr. G. P. Prabhukumar&quot;</ftriple>
+						<ftriple flipped="True">&quot;Dr. G. P. Prabhukumar&quot; | director | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -380,7 +380,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Bangalore | city | Acharya_Institute_of_Technology</ftriple>
-						<ftriple flipped="True">&quot;India&quot; | country | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
 						<ftriple flipped="True">2000 | established | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
@@ -539,9 +539,9 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</ftriple>
-						<ftriple flipped="False">All_India_Council_for_Technical_Education | location | Mumbai</ftriple>
+						<ftriple flipped="True">Mumbai | location | All_India_Council_for_Technical_Education</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | state | Karnataka</ftriple>
-						<ftriple flipped="True">Arabian_Sea | has to its west | Karnataka</ftriple>
+						<ftriple flipped="False">Karnataka | has to its west | Arabian_Sea</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -572,11 +572,11 @@
 				<template>Governed by PATIENT-3 , AGENT-1 in BRIDGE-2 offers BRIDGE-3 courses and was given the ` Technical Campus ' status by BRIDGE-1 in PATIENT-1 . BRIDGE-2 is east of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Karnataka | state | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | state | Karnataka</ftriple>
 						<ftriple flipped="False">Tennis | sportsGoverningBody | International_Tennis_Federation</ftriple>
 						<ftriple flipped="True">Tennis | sportsOffered | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</ftriple>
-						<ftriple flipped="False">All_India_Council_for_Technical_Education | location | Mumbai</ftriple>
+						<ftriple flipped="True">Mumbai | location | All_India_Council_for_Technical_Education</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Arabian_Sea | has to its west | Karnataka</ftriple>
@@ -645,7 +645,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">All_India_Council_for_Technical_Education | was given the 'Technical Campus' status by | Acharya_Institute_of_Technology</ftriple>
-						<ftriple flipped="False">All_India_Council_for_Technical_Education | location | Mumbai</ftriple>
+						<ftriple flipped="True">Mumbai | location | All_India_Council_for_Technical_Education</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Acharya_Institute_of_Technology | sportsOffered | Tennis</ftriple>
@@ -683,11 +683,11 @@
 						<ftriple flipped="False">Tennis | sportsGoverningBody | International_Tennis_Federation</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | sportsOffered | Tennis</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</ftriple>
-						<ftriple flipped="True">Mumbai | location | All_India_Council_for_Technical_Education</ftriple>
+						<ftriple flipped="False">All_India_Council_for_Technical_Education | location | Mumbai</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
-						<ftriple flipped="False">Visvesvaraya_Technological_University | city | Belgaum</ftriple>
+						<ftriple flipped="True">Belgaum | city | Visvesvaraya_Technological_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -751,7 +751,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Romania | capital | Bucharest</ftriple>
-						<ftriple flipped="True">Germans_of_Romania | ethnicGroup | Romania</ftriple>
+						<ftriple flipped="False">Romania | ethnicGroup | Germans_of_Romania</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Romania | leaderTitle | Prime_Minister_of_Romania</ftriple>
@@ -842,9 +842,9 @@
 						<ftriple flipped="True">Klaus_Iohannis | leaderName | Romania</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Bucharest | capital | Romania</ftriple>
+						<ftriple flipped="False">Romania | capital | Bucharest</ftriple>
 						<ftriple flipped="False">Romania | ethnicGroup | Germans_of_Romania</ftriple>
-						<ftriple flipped="True">Andrew_the_Apostle | patronSaint | Romania</ftriple>
+						<ftriple flipped="False">Romania | patronSaint | Andrew_the_Apostle</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
@@ -954,7 +954,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">737 | academicStaffSize | School of Business and Social Sciences at the Aarhus University</ftriple>
-						<ftriple flipped="True">1928 | established | School of Business and Social Sciences at the Aarhus University</ftriple>
+						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | established | 1928</ftriple>
 						<ftriple flipped="True">Denmark | country | School of Business and Social Sciences at the Aarhus University</ftriple>
 						<ftriple flipped="False">Denmark | leaderName | Lars_Løkke_Rasmussen</ftriple>
 					</sentence>
@@ -1101,7 +1101,7 @@
 						<ftriple flipped="True">Denmark | country | School of Business and Social Sciences at the Aarhus University</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | established | 1928</ftriple>
+						<ftriple flipped="True">1928 | established | School of Business and Social Sciences at the Aarhus University</ftriple>
 						<ftriple flipped="True">European_University_Association | affiliation | School of Business and Social Sciences at the Aarhus University</ftriple>
 					</sentence>
 					<sentence ID="3">

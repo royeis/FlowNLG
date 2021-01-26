@@ -146,9 +146,9 @@
 				<template>PATIENT-3 and the PATIENT-1 national , BRIDGE-1 created AGENT-1 who has the alternative name of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Puerto_Ricans | nationality | Ernie_Colón</ftriple>
-						<ftriple flipped="True">Dan_Mishkin | creator | Bolt_(comicsCharacter)</ftriple>
-						<ftriple flipped="True">Ernie_Colón | creator | Bolt_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Ernie_Colón | nationality | Puerto_Ricans</ftriple>
+						<ftriple flipped="False">Bolt_(comicsCharacter) | creator | Dan_Mishkin</ftriple>
+						<ftriple flipped="False">Bolt_(comicsCharacter) | creator | Ernie_Colón</ftriple>
 						<ftriple flipped="False">Bolt_(comicsCharacter) | alternativeName | &quot;Larry Bolatinsky&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -286,7 +286,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Damon_Wayans,_Jr. | starring | Big_Hero_6_(film)</ftriple>
-						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
 						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
 						<ftriple flipped="False">Duncan_Rouleau | nationality | Americans</ftriple>
 					</sentence>
@@ -426,8 +426,8 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
 						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
-						<ftriple flipped="False">Big_Hero_6_(film) | starring | Jamie_Chung</ftriple>
+						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Jamie_Chung | starring | Big_Hero_6_(film)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -472,9 +472,9 @@
 				<template>BRIDGE-2 starred PATIENT-2 and AGENT-1 who was created by PATIENT-1 , BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Maya_Rudolph | starring | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="False">Big_Hero_6_(film) | starring | Maya_Rudolph</ftriple>
 						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
-						<ftriple flipped="True">Duncan_Rouleau | creator | Baymax</ftriple>
+						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
 						<ftriple flipped="False">Duncan_Rouleau | nationality | Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -539,7 +539,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
-						<ftriple flipped="True">Americans | nationality | Duncan_Rouleau</ftriple>
+						<ftriple flipped="False">Duncan_Rouleau | nationality | Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

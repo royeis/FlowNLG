@@ -256,7 +256,7 @@
 				<template>PATIENT-1 is also known as AGENT-1 in the comics genre .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;John Aman&quot; | alternativeName | Amazing-Man_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Amazing-Man_(comicsCharacter) | alternativeName | &quot;John Aman&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -599,7 +599,7 @@
 				<template>The alternative name of AGENT-1 is `` PATIENT-1 '' .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Astérix&quot; | alternativeName | Asterix_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Asterix_(comicsCharacter) | alternativeName | &quot;Astérix&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -635,7 +635,7 @@
 				<template>AGENT-1 is sometimes called `` PATIENT-1 '' .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Astérix&quot; | alternativeName | Asterix_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Asterix_(comicsCharacter) | alternativeName | &quot;Astérix&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1258,7 +1258,7 @@
 				<template>PATIENT-1 is a key person with AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Tony_Hall,_Baron_Hall_of_Birkenhead | keyPerson | BBC</ftriple>
+						<ftriple flipped="False">BBC | keyPerson | Tony_Hall,_Baron_Hall_of_Birkenhead</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1617,7 +1617,7 @@
 				<template>AGENT-1 has the alternative name PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ballistic_(comicsCharacter) | alternativeName | &quot;Kelvin Mao&quot;</ftriple>
+						<ftriple flipped="True">&quot;Kelvin Mao&quot; | alternativeName | Ballistic_(comicsCharacter)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

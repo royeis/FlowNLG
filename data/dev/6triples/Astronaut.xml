@@ -90,7 +90,7 @@
 					<sentence ID="2">
 						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
 						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
-						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
+						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -758,14 +758,14 @@
 				<template>AGENT-1 was born in PATIENT-1 on PATIENT-6 . AGENT-1 real name was PATIENT-2 . AGENT-1 graduated from PATIENT-5 . AGENT-1 was PATIENT-4 and crew member of PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
+						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">&quot;1930-01-20&quot; | birthDate | Buzz_Aldrin</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
 					<sentence ID="4">
 						<ftriple flipped="False">Buzz_Aldrin | occupation | Fighter_pilot</ftriple>
@@ -800,8 +800,8 @@
 				<template>PATIENT-2 , more commonly known as AGENT-1 was born in PATIENT-1 in PATIENT-6 and graduated from PATIENT-5 . AGENT-1 was PATIENT-4 and a crew member of PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
+						<ftriple flipped="True">&quot;Edwin E. Aldrin, Jr.&quot; | alternativeNames | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
@@ -1049,9 +1049,9 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">1963 | was selected by NASA | Buzz_Aldrin</ftriple>
-						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | was a crew member of | Apollo_11</ftriple>
-						<ftriple flipped="False">Apollo_11 | operator | NASA</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
+						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
+						<ftriple flipped="True">NASA | operator | Apollo_11</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">William_Anders | backup pilot | Apollo_11</ftriple>
@@ -1145,13 +1145,13 @@
 				<template>PATIENT-6 national AGENT-1 was born in PATIENT-4 , and studied at PATIENT-1 . On PATIENT-5 @ AGENT-1 passed away in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
 						<ftriple flipped="False">Elliot_See | birthPlace | Dallas</ftriple>
-						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;1966-02-28&quot; | deathDate | Elliot_See</ftriple>
-						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
+						<ftriple flipped="False">Elliot_See | deathDate | &quot;1966-02-28&quot;</ftriple>
+						<ftriple flipped="False">Elliot_See | deathPlace | St._Louis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1244,7 +1244,7 @@
 						<ftriple flipped="True">&quot;1927-07-23&quot; | birthDate | Elliot_See</ftriple>
 						<ftriple flipped="True">Dallas | birthPlace | Elliot_See</ftriple>
 						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
-						<ftriple flipped="False">University_of_Texas_at_Austin | affiliations | University_of_Texas_System</ftriple>
+						<ftriple flipped="True">University_of_Texas_System | affiliations | University_of_Texas_at_Austin</ftriple>
 						<ftriple flipped="False">Elliot_See | status | &quot;Deceased&quot;</ftriple>
 						<ftriple flipped="True">St._Louis | deathPlace | Elliot_See</ftriple>
 					</sentence>
@@ -1351,8 +1351,8 @@
 						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
-						<ftriple flipped="True">Fighter_pilot | occupation | William_Anders</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | occupation | Fighter_pilot</ftriple>
 						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -1426,7 +1426,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;1933-10-17&quot; | birthDate | William_Anders</ftriple>
-						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
+						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
 						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">

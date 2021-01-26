@@ -84,7 +84,7 @@
 				<template>AGENT-1 is PATIENT-2 because AGENT-1 was born in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -124,7 +124,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey</ftriple>
-						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

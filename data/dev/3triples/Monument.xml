@@ -35,8 +35,8 @@
 						<ftriple flipped="True">Adams_County,_Pennsylvania | location | 11th_Mississippi_Infantry_Monument</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its west | Franklin_County,_Pennsylvania</ftriple>
-						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southwest | Frederick_County,_Maryland</ftriple>
+						<ftriple flipped="True">Franklin_County,_Pennsylvania | has to its west | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="True">Frederick_County,_Maryland | has to its southwest | Adams_County,_Pennsylvania</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -104,7 +104,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
+						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Artur_Rasizade | leader | Azerbaijan</ftriple>
@@ -197,7 +197,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
 						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

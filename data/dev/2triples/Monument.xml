@@ -125,8 +125,8 @@
 				<template>AGENT-1 , created in PATIENT-2 , is dedicated to PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | dedicatedTo | &quot;Ottoman Army soldiers killed in the Battle of Baku&quot;</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
+						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

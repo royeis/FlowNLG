@@ -207,7 +207,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Italy | ground | A.C._Lumezzane</ftriple>
-						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
+						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -562,8 +562,8 @@
 				<template>AGENT-1 has the home ground called PATIENT-1 and has PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Fylde | ground | The_Fylde</ftriple>
-						<ftriple flipped="False">A.F.C._Fylde | numberOfMembers | 3180</ftriple>
+						<ftriple flipped="True">The_Fylde | ground | A.F.C._Fylde</ftriple>
+						<ftriple flipped="True">3180 | numberOfMembers | A.F.C._Fylde</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -783,7 +783,7 @@
 				<template>Grounds being in PATIENT-1 , AGENT-1 to play in PATIENT-2</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Roma | ground | &quot;Rome, Italy&quot;</ftriple>
+						<ftriple flipped="True">&quot;Rome, Italy&quot; | ground | A.S._Roma</ftriple>
 						<ftriple flipped="True">Serie_A | league | A.S._Roma</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -805,7 +805,7 @@
 				<template>AGENT-1 play in the PATIENT-2 league and AGENT-1 ground is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Serie_A | league | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | league | Serie_A</ftriple>
 						<ftriple flipped="False">A.S._Roma | ground | &quot;Rome, Italy&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -998,7 +998,7 @@
 				<template>AGENT-1 has PATIENT-2 members and is the owner of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AFC_Ajax | numberOfMembers | 53502</ftriple>
+						<ftriple flipped="True">53502 | numberOfMembers | AFC_Ajax</ftriple>
 						<ftriple flipped="False">AFC_Ajax | owner | AFC_Ajax_N.V.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1096,7 +1096,7 @@
 				<template>The ground of AGENT-1 can be found in BRIDGE-1 where PATIENT-1 is a leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Amsterdam | ground | AFC_Ajax_(amateurs)</ftriple>
+						<ftriple flipped="False">AFC_Ajax_(amateurs) | ground | Amsterdam</ftriple>
 						<ftriple flipped="True">Eberhard_van_der_Laan | leader | Amsterdam</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1313,7 +1313,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Alkmaar Zaanstreek&quot; | fullname | AZ_Alkmaar</ftriple>
-						<ftriple flipped="True">17023 | numberOfMembers | AZ_Alkmaar</ftriple>
+						<ftriple flipped="False">AZ_Alkmaar | numberOfMembers | 17023</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1356,7 +1356,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Alkmaar Zaanstreek&quot; | fullname | AZ_Alkmaar</ftriple>
-						<ftriple flipped="True">17023 | numberOfMembers | AZ_Alkmaar</ftriple>
+						<ftriple flipped="False">AZ_Alkmaar | numberOfMembers | 17023</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

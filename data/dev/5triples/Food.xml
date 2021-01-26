@@ -69,9 +69,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Ajoblanco | alternativeName | &quot;Ajo blanco&quot;</ftriple>
-						<ftriple flipped="False">Ajoblanco | region | Andalusia</ftriple>
+						<ftriple flipped="True">Andalusia | region | Ajoblanco</ftriple>
 						<ftriple flipped="False">Ajoblanco | country | Spain</ftriple>
-						<ftriple flipped="False">Ajoblanco | mainIngredients | &quot;Bread, almonds, garlic, water, olive oil&quot;</ftriple>
+						<ftriple flipped="True">&quot;Bread, almonds, garlic, water, olive oil&quot; | mainIngredients | Ajoblanco</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -149,7 +149,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Tomatoes, guanciale, cheese, olive oil&quot; | mainIngredients | Amatriciana_sauce</ftriple>
-						<ftriple flipped="True">Lazio | region | Amatriciana_sauce</ftriple>
+						<ftriple flipped="False">Amatriciana_sauce | region | Lazio</ftriple>
 						<ftriple flipped="False">Amatriciana_sauce | course | Italian_meal_structure</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -320,11 +320,11 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Sergio_Mattarella | leaderName | Italy</ftriple>
 						<ftriple flipped="True">Rome | capital | Italy</ftriple>
-						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
+						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
 						<ftriple flipped="False">Italy | language | Italian_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Arrabbiata_sauce | country | Italy</ftriple>
+						<ftriple flipped="True">Italy | country | Arrabbiata_sauce</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -492,8 +492,8 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Asam_pedas | region | Malay_Peninsula</ftriple>
 						<ftriple flipped="True">Malaysia | country | Asam_pedas</ftriple>
-						<ftriple flipped="False">Malaysia | capital | Kuala_Lumpur</ftriple>
-						<ftriple flipped="True">Malaysian_Chinese | ethnicGroup | Malaysia</ftriple>
+						<ftriple flipped="True">Kuala_Lumpur | capital | Malaysia</ftriple>
+						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Chinese</ftriple>
 						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Indian</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -523,8 +523,8 @@
 						<ftriple flipped="False">Asam_pedas | region | Malay_Peninsula</ftriple>
 						<ftriple flipped="True">Malaysia | country | Asam_pedas</ftriple>
 						<ftriple flipped="False">Malaysia | capital | Kuala_Lumpur</ftriple>
-						<ftriple flipped="True">Malaysian_Indian | ethnicGroup | Malaysia</ftriple>
-						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Chinese</ftriple>
+						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Indian</ftriple>
+						<ftriple flipped="True">Malaysian_Chinese | ethnicGroup | Malaysia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -650,7 +650,7 @@
 						<ftriple flipped="False">Asam_pedas | region | Malay_Peninsula</ftriple>
 						<ftriple flipped="False">Asam_pedas | country | Malaysia</ftriple>
 						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Indian</ftriple>
-						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Chinese</ftriple>
+						<ftriple flipped="True">Malaysian_Chinese | ethnicGroup | Malaysia</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Malaysia | leaderName | Arifin_Zakaria</ftriple>
@@ -679,11 +679,11 @@
 				<template>BRIDGE-1 , led by PATIENT-2 , is home to PATIENT-3 and PATIENT-1 , as well as AGENT-1 of PATIENT-4 region .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Malaysia | leaderName | Arifin_Zakaria</ftriple>
-						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Indian</ftriple>
+						<ftriple flipped="True">Arifin_Zakaria | leaderName | Malaysia</ftriple>
+						<ftriple flipped="True">Malaysian_Indian | ethnicGroup | Malaysia</ftriple>
 						<ftriple flipped="False">Malaysia | ethnicGroup | Malaysian_Chinese</ftriple>
-						<ftriple flipped="False">Asam_pedas | country | Malaysia</ftriple>
-						<ftriple flipped="False">Asam_pedas | region | Malay_Peninsula</ftriple>
+						<ftriple flipped="True">Malaysia | country | Asam_pedas</ftriple>
+						<ftriple flipped="True">Malay_Peninsula | region | Asam_pedas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -874,7 +874,7 @@
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -904,7 +904,7 @@
 				<template>PATIENT-1 is leader of BRIDGE-1 , the home of the dish AGENT-1 . PATIENT-2 are one of the ethnic groups of BRIDGE-1 , where PATIENT-3 is the capital and PATIENT-4 is the language spoken .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="False">Bacon_Explosion | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1063,9 +1063,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Hong_Kong | region | Baked_Alaska</ftriple>
-						<ftriple flipped="True">Carrie_Lam_(politician) | leaderName | Hong_Kong</ftriple>
-						<ftriple flipped="False">Baked_Alaska | country | France</ftriple>
-						<ftriple flipped="True">French_language | language | France</ftriple>
+						<ftriple flipped="False">Hong_Kong | leaderName | Carrie_Lam_(politician)</ftriple>
+						<ftriple flipped="True">France | country | Baked_Alaska</ftriple>
+						<ftriple flipped="False">France | language | French_language</ftriple>
 						<ftriple flipped="False">France | leaderName | Gérard_Larcher</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1121,7 +1121,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bakewell_pudding | region | Derbyshire_Dales</ftriple>
 						<ftriple flipped="False">Derbyshire_Dales | isPartOf | Derbyshire</ftriple>
-						<ftriple flipped="False">Derbyshire_Dales | leaderName | Patrick_McLoughlin</ftriple>
+						<ftriple flipped="True">Patrick_McLoughlin | leaderName | Derbyshire_Dales</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bakewell_pudding | dishVariation | Bakewell_tart</ftriple>
@@ -1237,12 +1237,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bandeja_paisa | country | Colombian_cuisine</ftriple>
-						<ftriple flipped="True">Paisa_Region | region | Bandeja_paisa</ftriple>
+						<ftriple flipped="False">Bandeja_paisa | region | Paisa_Region</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Lemon | ingredient | Bandeja_paisa</ftriple>
 						<ftriple flipped="True">Rutaceae | family | Lemon</ftriple>
-						<ftriple flipped="True">Citrus | genus | Lemon</ftriple>
+						<ftriple flipped="False">Lemon | genus | Citrus</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1387,8 +1387,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Barny_Cakes | ingredient | Sponge_cake</ftriple>
-						<ftriple flipped="False">Barny_Cakes | country | France</ftriple>
-						<ftriple flipped="True">Gérard_Larcher | leaderName | France</ftriple>
+						<ftriple flipped="True">France | country | Barny_Cakes</ftriple>
+						<ftriple flipped="False">France | leaderName | Gérard_Larcher</ftriple>
 						<ftriple flipped="False">France | leaderName | Claude_Bartolone</ftriple>
 						<ftriple flipped="False">France | language | French_language</ftriple>
 					</sentence>
@@ -1472,8 +1472,8 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Chicago | foundationPlace | Mondelez_International</ftriple>
 						<ftriple flipped="True">Mondelez_International | creator | Barny_Cakes</ftriple>
-						<ftriple flipped="False">Barny_Cakes | country | France</ftriple>
-						<ftriple flipped="True">Gérard_Larcher | leaderName | France</ftriple>
+						<ftriple flipped="True">France | country | Barny_Cakes</ftriple>
+						<ftriple flipped="False">France | leaderName | Gérard_Larcher</ftriple>
 						<ftriple flipped="True">French_language | language | France</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1509,7 +1509,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Barny_Cakes | country | France</ftriple>
 						<ftriple flipped="False">France | leaderName | Gérard_Larcher</ftriple>
-						<ftriple flipped="False">France | language | French_language</ftriple>
+						<ftriple flipped="True">French_language | language | France</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1734,8 +1734,8 @@
 						<ftriple flipped="True">Sumitra_Mahajan | leaderName | India</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">India | country | Bhajji</ftriple>
-						<ftriple flipped="True">Vajubhai_Vala | leaderName | Karnataka</ftriple>
+						<ftriple flipped="False">Bhajji | country | India</ftriple>
+						<ftriple flipped="False">Karnataka | leaderName | Vajubhai_Vala</ftriple>
 						<ftriple flipped="False">Bhajji | region | Karnataka</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1767,8 +1767,8 @@
 						<ftriple flipped="False">Bhajji | country | India</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Vajubhai_Vala | leaderName | Karnataka</ftriple>
-						<ftriple flipped="True">Indian_people | demonym | India</ftriple>
+						<ftriple flipped="False">Karnataka | leaderName | Vajubhai_Vala</ftriple>
+						<ftriple flipped="False">India | demonym | Indian_people</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1886,7 +1886,7 @@
 				<template>AGENT-1 is a dessert found in BRIDGE-1 region of PATIENT-1 . The name of the leader in BRIDGE-1 is PATIENT-2 . Another dessert is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bionico | region | Jalisco</ftriple>
+						<ftriple flipped="True">Jalisco | region | Bionico</ftriple>
 						<ftriple flipped="False">Bionico | country | Mexico</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1948,10 +1948,10 @@
 				<template>A type of BRIDGE-2 is PATIENT-1 . However , AGENT-1 is not PATIENT-1 , and instead BRIDGE-2 from the PATIENT-3 region , in BRIDGE-1 . BRIDGE-1 is where PATIENT-2 is the leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Cake | dishVariation | Dessert</ftriple>
+						<ftriple flipped="False">Dessert | dishVariation | Cake</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Bionico | course | Dessert</ftriple>
+						<ftriple flipped="True">Dessert | course | Bionico</ftriple>
 						<ftriple flipped="False">Bionico | region | Guadalajara</ftriple>
 						<ftriple flipped="False">Bionico | country | Mexico</ftriple>
 					</sentence>
@@ -2110,7 +2110,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Patrick_McLoughlin | leaderName | Derbyshire_Dales</ftriple>
-						<ftriple flipped="False">Derbyshire_Dales | administrativeCounty | Derbyshire</ftriple>
+						<ftriple flipped="True">Derbyshire | administrativeCounty | Derbyshire_Dales</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bakewell_tart | region | Derbyshire_Dales</ftriple>
@@ -2172,9 +2172,9 @@
 						<ftriple flipped="False">Derbyshire_Dales | isPartOf | Derbyshire</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Derbyshire_Dales | region | Bakewell_tart</ftriple>
+						<ftriple flipped="False">Bakewell_tart | region | Derbyshire_Dales</ftriple>
 						<ftriple flipped="True">Bakewell_tart | dishVariation | Bakewell_pudding</ftriple>
-						<ftriple flipped="False">Bakewell_tart | ingredient | Frangipane</ftriple>
+						<ftriple flipped="True">Frangipane | ingredient | Bakewell_tart</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2281,10 +2281,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Indonesia | capital | Jakarta</ftriple>
-						<ftriple flipped="True">Jusuf_Kalla | leaderName | Indonesia</ftriple>
+						<ftriple flipped="False">Indonesia | leaderName | Jusuf_Kalla</ftriple>
 						<ftriple flipped="True">Indonesian_language | language | Indonesia</ftriple>
-						<ftriple flipped="False">Bakso | region | Indonesia</ftriple>
-						<ftriple flipped="True">Indonesia | country | Bakso</ftriple>
+						<ftriple flipped="True">Indonesia | region | Bakso</ftriple>
+						<ftriple flipped="False">Bakso | country | Indonesia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2308,8 +2308,8 @@
 				<template>AGENT-1 is a dish from BRIDGE-1 , which leader is PATIENT-3 , the capital is PATIENT-1 and the language is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bakso | region | Indonesia</ftriple>
-						<ftriple flipped="False">Indonesia | leaderName | Jusuf_Kalla</ftriple>
+						<ftriple flipped="True">Indonesia | region | Bakso</ftriple>
+						<ftriple flipped="True">Jusuf_Kalla | leaderName | Indonesia</ftriple>
 						<ftriple flipped="False">Indonesia | capital | Jakarta</ftriple>
 						<ftriple flipped="False">Indonesia | language | Indonesian_language</ftriple>
 					</sentence>
@@ -2393,9 +2393,9 @@
 						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Rome | capital | Italy</ftriple>
-						<ftriple flipped="True">Matteo_Renzi | leaderName | Italy</ftriple>
-						<ftriple flipped="True">Sergio_Mattarella | leaderName | Italy</ftriple>
+						<ftriple flipped="False">Italy | capital | Rome</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Matteo_Renzi</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Sergio_Mattarella</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2423,8 +2423,8 @@
 				<template>PATIENT-2 is the capital of BRIDGE-1 where the leaders are PATIENT-3 and PATIENT-4 . AGENT-1 can be found there and people are called PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Italy | capital | Rome</ftriple>
-						<ftriple flipped="True">Matteo_Renzi | leaderName | Italy</ftriple>
+						<ftriple flipped="True">Rome | capital | Italy</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Matteo_Renzi</ftriple>
 						<ftriple flipped="False">Italy | leaderName | Sergio_Mattarella</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2458,13 +2458,13 @@
 				<template>AGENT-1 is from BRIDGE-1 , where PATIENT-2 is the capital and where PATIENT-1 live . Leaders of BRIDGE-1 include PATIENT-4 and PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Italy | country | Amatriciana_sauce</ftriple>
+						<ftriple flipped="False">Amatriciana_sauce | country | Italy</ftriple>
 						<ftriple flipped="True">Rome | capital | Italy</ftriple>
 						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Sergio_Mattarella | leaderName | Italy</ftriple>
-						<ftriple flipped="True">Matteo_Renzi | leaderName | Italy</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Sergio_Mattarella</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Matteo_Renzi</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2520,10 +2520,10 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Singapore | leaderName | Halimah_Yacob</ftriple>
 						<ftriple flipped="False">Singapore | language | English_language</ftriple>
-						<ftriple flipped="True">Singapore | region | Ayam_penyet</ftriple>
+						<ftriple flipped="False">Ayam_penyet | region | Singapore</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Java | country | Ayam_penyet</ftriple>
+						<ftriple flipped="False">Ayam_penyet | country | Java</ftriple>
 						<ftriple flipped="False">Java | ethnicGroup | Baduy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2554,12 +2554,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Java | ethnicGroup | Baduy</ftriple>
-						<ftriple flipped="True">Java | country | Ayam_penyet</ftriple>
+						<ftriple flipped="False">Ayam_penyet | country | Java</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Ayam_penyet | region | Singapore</ftriple>
-						<ftriple flipped="True">English_language | language | Singapore</ftriple>
-						<ftriple flipped="False">Singapore | leaderName | Halimah_Yacob</ftriple>
+						<ftriple flipped="False">Singapore | language | English_language</ftriple>
+						<ftriple flipped="True">Halimah_Yacob | leaderName | Singapore</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2645,8 +2645,8 @@
 						<ftriple flipped="True">Philippines | country | Batchoy</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Ilocano_people | ethnicGroup | Philippines</ftriple>
-						<ftriple flipped="False">Philippines | ethnicGroup | Igorot_people</ftriple>
+						<ftriple flipped="False">Philippines | ethnicGroup | Ilocano_people</ftriple>
+						<ftriple flipped="True">Igorot_people | ethnicGroup | Philippines</ftriple>
 						<ftriple flipped="False">Philippines | language | Arabic</ftriple>
 						<ftriple flipped="True">Philippine_English | officialLanguage | Philippines</ftriple>
 					</sentence>
@@ -2677,7 +2677,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Batchoy | country | Philippines</ftriple>
-						<ftriple flipped="False">Philippines | officialLanguage | Philippine_English</ftriple>
+						<ftriple flipped="True">Philippine_English | officialLanguage | Philippines</ftriple>
 						<ftriple flipped="False">Philippines | language | Arabic</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2737,7 +2737,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Beef_kway_teow | region | &quot;Nationwide in Singapore and Indonesia&quot;</ftriple>
 						<ftriple flipped="True">Singapore | country | Beef_kway_teow</ftriple>
-						<ftriple flipped="True">English_language | language | Singapore</ftriple>
+						<ftriple flipped="False">Singapore | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Singapore | leaderName | Halimah_Yacob</ftriple>
@@ -2891,12 +2891,12 @@
 				<template>AGENT-1 is a food found in PATIENT-2 speaking and PATIENT-1 led BRIDGE-1 . BRIDGE-1 is also home to PATIENT-4 and can be purchased with PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ajoblanco | country | Spain</ftriple>
-						<ftriple flipped="True">Spanish_language | language | Spain</ftriple>
-						<ftriple flipped="False">Spain | leaderName | Felipe_VI_of_Spain</ftriple>
+						<ftriple flipped="True">Spain | country | Ajoblanco</ftriple>
+						<ftriple flipped="False">Spain | language | Spanish_language</ftriple>
+						<ftriple flipped="True">Felipe_VI_of_Spain | leaderName | Spain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Spain | demonym | Spaniards</ftriple>
+						<ftriple flipped="True">Spaniards | demonym | Spain</ftriple>
 						<ftriple flipped="False">Spain | currency | Euro</ftriple>
 					</sentence>
 				</flowinducedtripleset>

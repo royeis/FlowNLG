@@ -60,7 +60,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">South_Africa | capital | Cape_Town</ftriple>
-						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
+						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -82,7 +82,7 @@
 				<template>PATIENT-2 leads BRIDGE-1 , whose capital , PATIENT-1 , houses AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
+						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
 						<ftriple flipped="False">South_Africa | capital | Cape_Town</ftriple>
 						<ftriple flipped="True">South_Africa | location | 11_Diagonal_Street</ftriple>
 					</sentence>
@@ -126,7 +126,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">11_Diagonal_Street | location | South_Africa</ftriple>
-						<ftriple flipped="True">Coloured | ethnicGroup | South_Africa</ftriple>
+						<ftriple flipped="False">South_Africa | ethnicGroup | Coloured</ftriple>
 						<ftriple flipped="False">South_Africa | leaderName | Jacob_Zuma</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -775,9 +775,9 @@
 				<template>PATIENT-2 is the tenant of AGENT-1 , PATIENT-1 , which was designed by the architects of PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</ftriple>
+						<ftriple flipped="True">3XN | architect | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -801,7 +801,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</ftriple>
+						<ftriple flipped="True">3XN | architect | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -891,11 +891,11 @@
 				<template>PATIENT-2 designed AGENT-1 that was completed in PATIENT-1 . The owner is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">James_Pain | architect | Adare_Manor</ftriple>
-						<ftriple flipped="False">Adare_Manor | completionDate | 1862</ftriple>
+						<ftriple flipped="False">Adare_Manor | architect | James_Pain</ftriple>
+						<ftriple flipped="True">1862 | completionDate | Adare_Manor</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Adare_Manor | owner | J._P._McManus</ftriple>
+						<ftriple flipped="True">J._P._McManus | owner | Adare_Manor</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -935,9 +935,9 @@
 				<template>PATIENT-1 is the current tenant of AGENT-1 which is PATIENT-3 high and has a floor area of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Addis_Ababa_City_Hall | currentTenants | &quot;Government of Addis Ababa&quot;</ftriple>
-						<ftriple flipped="False">Addis_Ababa_City_Hall | height | &quot;42 m&quot;</ftriple>
-						<ftriple flipped="False">Addis_Ababa_City_Hall | floorArea | 140000.0 (square metres)</ftriple>
+						<ftriple flipped="True">&quot;Government of Addis Ababa&quot; | currentTenants | Addis_Ababa_City_Hall</ftriple>
+						<ftriple flipped="True">&quot;42 m&quot; | height | Addis_Ababa_City_Hall</ftriple>
+						<ftriple flipped="True">140000.0 (square metres) | floorArea | Addis_Ababa_City_Hall</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1029,9 +1029,9 @@
 				<template>AGENT-1 , which is located in PATIENT-1 , was completed in PATIENT-3 and architectural style is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Sri_Lanka | location | Adisham_Hall</ftriple>
+						<ftriple flipped="False">Adisham_Hall | location | Sri_Lanka</ftriple>
 						<ftriple flipped="False">Adisham_Hall | completionDate | 1931</ftriple>
-						<ftriple flipped="False">Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</ftriple>
+						<ftriple flipped="True">Tudor_Revival_architecture | architecturalStyle | Adisham_Hall</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1054,7 +1054,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Adisham_Hall | completionDate | 1931</ftriple>
-						<ftriple flipped="False">Adisham_Hall | location | Sri_Lanka</ftriple>
+						<ftriple flipped="True">Sri_Lanka | location | Adisham_Hall</ftriple>
 						<ftriple flipped="True">Tudor_Revival_architecture | architecturalStyle | Adisham_Hall</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1253,7 +1253,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</ftriple>
 						<ftriple flipped="False">Alan_B._Miller_Hall | location | Virginia</ftriple>
-						<ftriple flipped="False">Alan_B._Miller_Hall | buildingStartDate | &quot;30 March 2007&quot;</ftriple>
+						<ftriple flipped="True">&quot;30 March 2007&quot; | buildingStartDate | Alan_B._Miller_Hall</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1342,7 +1342,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Virginia | location | Alan_B._Miller_Hall</ftriple>
-						<ftriple flipped="False">Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</ftriple>
+						<ftriple flipped="True">College_of_William_&amp;_Mary | owner | Alan_B._Miller_Hall</ftriple>
 						<ftriple flipped="False">College_of_William_&amp;_Mary | chancellor | Robert_Gates</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1449,7 +1449,7 @@
 				<template>AGENT-1 , the building of which began PATIENT-3 , is located in PATIENT-2 and owned by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;30 March 2007&quot; | buildingStartDate | Alan_B._Miller_Hall</ftriple>
+						<ftriple flipped="False">Alan_B._Miller_Hall | buildingStartDate | &quot;30 March 2007&quot;</ftriple>
 						<ftriple flipped="False">Alan_B._Miller_Hall | location | Williamsburg,_Virginia</ftriple>
 						<ftriple flipped="False">Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</ftriple>
 					</sentence>
@@ -1947,8 +1947,8 @@
 				<template>AGENT-1 are located in PATIENT-2 , BRIDGE-1 , PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">New_York_City | location | Asser_Levy_Public_Baths</ftriple>
-						<ftriple flipped="False">New_York_City | isPartOf | Manhattan</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
+						<ftriple flipped="True">Manhattan | isPartOf | New_York_City</ftriple>
 						<ftriple flipped="False">New_York_City | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2039,7 +2039,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Amdavad_ni_Gufa | country | India</ftriple>
-						<ftriple flipped="True">T._S._Thakur | leaderName | India</ftriple>
+						<ftriple flipped="False">India | leaderName | T._S._Thakur</ftriple>
 						<ftriple flipped="False">India | leaderName | Sumitra_Mahajan</ftriple>
 					</sentence>
 				</flowinducedtripleset>

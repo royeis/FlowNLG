@@ -71,7 +71,7 @@
 				<template>AGENT-1 can be located by AGENT-1 ISBN number `` PATIENT-1 '' .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;978-1-4165-4253-7&quot; | ISBN_number | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | ISBN_number | &quot;978-1-4165-4253-7&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -89,7 +89,7 @@
 				<template>The ISBN number of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;978-1-4165-4253-7&quot; | ISBN_number | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | ISBN_number | &quot;978-1-4165-4253-7&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1371,7 +1371,7 @@
 				<template>AGENT-1 doctoral advisor was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Michael_Tinkham | doctoralAdvisor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1389,7 +1389,7 @@
 				<template>AGENT-1 doctoral advisor to PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Michael_Tinkham | doctoralAdvisor | A.T._Charlie_Johnson</ftriple>
+						<ftriple flipped="False">A.T._Charlie_Johnson | doctoralAdvisor | Michael_Tinkham</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2749,7 +2749,7 @@
 				<template>The ISBN number of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;0-7653-0633-6&quot; | ISBN_number | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | ISBN_number | &quot;0-7653-0633-6&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4435,7 +4435,7 @@
 				<template>AGENT-1 originates from PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | A_Severed_Wasp</ftriple>
+						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4625,7 +4625,7 @@
 				<template>There are PATIENT-1 pages in `` AGENT-1 '' .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Severed_Wasp | numberOfPages | &quot;388&quot;</ftriple>
+						<ftriple flipped="True">&quot;388&quot; | numberOfPages | A_Severed_Wasp</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6062,7 +6062,7 @@
 				<template>AGENT-1 has the ISSN number PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;1732-2421&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;1732-2421&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6596,7 +6596,7 @@
 				<template>AGENT-1 has the abbreviation of `` PATIENT-1 '' .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Addiction_(journal) | abbreviation | &quot;Addiction&quot;</ftriple>
+						<ftriple flipped="True">&quot;Addiction&quot; | abbreviation | Addiction_(journal)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7849,7 +7849,7 @@
 				<template>`` AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Print&quot; | mediaType | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | mediaType | &quot;Print&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7927,7 +7927,7 @@
 				<template>AGENT-1 is PATIENT-1 pages long .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | numberOfPages | &quot;320&quot;</ftriple>
+						<ftriple flipped="True">&quot;320&quot; | numberOfPages | Alcatraz_Versus_the_Evil_Librarians</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8899,7 +8899,7 @@
 				<template>AGENT-1 is in the state of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Cornell_University | state | New_York</ftriple>
+						<ftriple flipped="True">New_York | state | Cornell_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10177,7 +10177,7 @@
 				<template>PATIENT-1 was written prior to `` AGENT-1 '' .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1634:_The_Bavarian_Crisis | precededBy | Ring_of_Fire_II</ftriple>
+						<ftriple flipped="False">Ring_of_Fire_II | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10562,7 +10562,7 @@
 				<template>AGENT-1 is populated by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_Kingdom | demonym | British_people</ftriple>
+						<ftriple flipped="True">British_people | demonym | United_Kingdom</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11173,7 +11173,7 @@
 				<template>AGENT-1 ' author was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Weymouth_Sands | author | John_Cowper_Powys</ftriple>
+						<ftriple flipped="True">John_Cowper_Powys | author | Weymouth_Sands</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11191,7 +11191,7 @@
 				<template>PATIENT-1 is the author of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">John_Cowper_Powys | author | Weymouth_Sands</ftriple>
+						<ftriple flipped="False">Weymouth_Sands | author | John_Cowper_Powys</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11209,7 +11209,7 @@
 				<template>AGENT-1 was written by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Weymouth_Sands | author | John_Cowper_Powys</ftriple>
+						<ftriple flipped="True">John_Cowper_Powys | author | Weymouth_Sands</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

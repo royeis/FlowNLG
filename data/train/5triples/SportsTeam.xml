@@ -113,8 +113,8 @@
 						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
 						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
 						<ftriple flipped="True">Italian_language | language | Italy</ftriple>
-						<ftriple flipped="False">Italy | capital | Rome</ftriple>
-						<ftriple flipped="False">A.C._Lumezzane | ground | Italy</ftriple>
+						<ftriple flipped="True">Rome | capital | Italy</ftriple>
+						<ftriple flipped="True">Italy | ground | A.C._Lumezzane</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -169,11 +169,11 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A.C._Lumezzane | ground | Italy</ftriple>
 						<ftriple flipped="True">Rome | capital | Italy</ftriple>
-						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
+						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
-						<ftriple flipped="True">Italian_language | officialLanguage | Italy</ftriple>
+						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
+						<ftriple flipped="False">Italy | officialLanguage | Italian_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -307,8 +307,8 @@
 						<ftriple flipped="True">Italy | ground | A.C._Lumezzane</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Michele_Marcolini | club | Vicenza_Calcio</ftriple>
-						<ftriple flipped="False">Michele_Marcolini | club | A.C._Chievo_Verona</ftriple>
+						<ftriple flipped="True">Vicenza_Calcio | club | Michele_Marcolini</ftriple>
+						<ftriple flipped="True">A.C._Chievo_Verona | club | Michele_Marcolini</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
@@ -437,12 +437,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Greece | leader | Nikos_Voutsis</ftriple>
-						<ftriple flipped="False">Greece | leader | Prokopis_Pavlopoulos</ftriple>
+						<ftriple flipped="True">Prokopis_Pavlopoulos | leader | Greece</ftriple>
 						<ftriple flipped="False">Greece | capital | Athens</ftriple>
 						<ftriple flipped="False">Greece | language | Greek_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
+						<ftriple flipped="True">Greece | location | A.E_Dimitra_Efxeinoupolis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -667,7 +667,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Greece | leader | Alexis_Tsipras</ftriple>
-						<ftriple flipped="False">Greece | leader | Nikos_Voutsis</ftriple>
+						<ftriple flipped="True">Nikos_Voutsis | leader | Greece</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Athens | capital | Greece</ftriple>
@@ -970,12 +970,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
-						<ftriple flipped="True">Alexis_Tsipras | leader | Greece</ftriple>
+						<ftriple flipped="False">Greece | leader | Alexis_Tsipras</ftriple>
 						<ftriple flipped="False">Greece | leader | Nikos_Voutsis</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Euro | currency | Greece</ftriple>
-						<ftriple flipped="False">Greece | language | Greek_language</ftriple>
+						<ftriple flipped="False">Greece | currency | Euro</ftriple>
+						<ftriple flipped="True">Greek_language | language | Greece</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1106,7 +1106,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Alexis_Tsipras | leader | Greece</ftriple>
-						<ftriple flipped="True">Prokopis_Pavlopoulos | leader | Greece</ftriple>
+						<ftriple flipped="False">Greece | leader | Prokopis_Pavlopoulos</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Greece | currency | Euro</ftriple>
@@ -1142,7 +1142,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 , where PATIENT-4 is spoken and the currency is PATIENT-1 . BRIDGE-1 is also where two of the leaders are , PATIENT-3 and PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
+						<ftriple flipped="True">Greece | location | A.E_Dimitra_Efxeinoupolis</ftriple>
 						<ftriple flipped="True">Greek_language | language | Greece</ftriple>
 						<ftriple flipped="False">Greece | currency | Euro</ftriple>
 					</sentence>
@@ -1274,7 +1274,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 , where the language is PATIENT-4 , the currency is PATIENT-1 and BRIDGE-1 leaders are PATIENT-2 and PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
+						<ftriple flipped="True">Greece | location | A.E_Dimitra_Efxeinoupolis</ftriple>
 						<ftriple flipped="True">Greek_language | language | Greece</ftriple>
 						<ftriple flipped="False">Greece | currency | Euro</ftriple>
 						<ftriple flipped="False">Greece | leader | Nikos_Voutsis</ftriple>
@@ -1328,10 +1328,10 @@
 				<template>PATIENT-1 and PATIENT-3 are leaders in BRIDGE-1 , where PATIENT-2 is the capital , PATIENT-4 is spoken and where AGENT-1 is located .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Alexis_Tsipras | leader | Greece</ftriple>
+						<ftriple flipped="False">Greece | leader | Alexis_Tsipras</ftriple>
 						<ftriple flipped="False">Greece | leader | Nikos_Voutsis</ftriple>
 						<ftriple flipped="True">Athens | capital | Greece</ftriple>
-						<ftriple flipped="True">Greek_language | language | Greece</ftriple>
+						<ftriple flipped="False">Greece | language | Greek_language</ftriple>
 						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1455,8 +1455,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
-						<ftriple flipped="False">Greece | leader | Alexis_Tsipras</ftriple>
-						<ftriple flipped="False">Greece | leader | Prokopis_Pavlopoulos</ftriple>
+						<ftriple flipped="True">Alexis_Tsipras | leader | Greece</ftriple>
+						<ftriple flipped="True">Prokopis_Pavlopoulos | leader | Greece</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Greece | capital | Athens</ftriple>
@@ -1554,7 +1554,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
+						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1588,9 +1588,9 @@
 						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</ftriple>
-						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1624,7 +1624,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1681,15 +1681,15 @@
 				<template>BRIDGE-1 is the manager of AGENT-1 , which has AGENT-1 ground in BRIDGE-2 . The local leader is PATIENT-2 . BRIDGE-1 is also a member of PATIENT-1 and plays for PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Blackpool | leader | Gordon_Marsden</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Chesterfield_F.C.</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
+						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1720,7 +1720,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
 						<ftriple flipped="True">Chesterfield_F.C. | club | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
 						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
 						<ftriple flipped="False">Blackpool | leader | Gordon_Marsden</ftriple>
 					</sentence>
@@ -1782,7 +1782,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
 						<ftriple flipped="True">Chesterfield_F.C. | club | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="True">Blackburn_Rovers_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Blackburn_Rovers_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1813,12 +1813,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="False">Blackpool | leader | Gordon_Marsden</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Blackburn_Rovers_F.C. | club | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="True">Chesterfield_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Chesterfield_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1913,7 +1913,7 @@
 					<sentence ID="2">
 						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Blackburn_Rovers_F.C.</ftriple>
-						<ftriple flipped="True">KV_Mechelen | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | KV_Mechelen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1946,12 +1946,12 @@
 				<template>BRIDGE-1 plays for PATIENT-1 and PATIENT-3 . AGENT-1 (BRIDGE-2) had BRIDGE-1 as AGENT-1 manager . PATIENT-2 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">KV_Mechelen | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | KV_Mechelen</ftriple>
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Blackburn_Rovers_F.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">Conservative_Party_(UK) | leader | Blackpool</ftriple>
@@ -2007,7 +2007,7 @@
 				<template>PATIENT-2 are the leaders in BRIDGE-2 which is the location of AGENT-1 home ground . AGENT-1 manager is BRIDGE-1 who has represented PATIENT-1 and also PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Blackpool | leader | Conservative_Party_(UK)</ftriple>
+						<ftriple flipped="True">Conservative_Party_(UK) | leader | Blackpool</ftriple>
 						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2081,12 +2081,12 @@
 				<template>AGENT-1 (BRIDGE-2) have had BRIDGE-1 as AGENT-1 manager . BRIDGE-1 (with PATIENT-3) plays for PATIENT-1 . PATIENT-2 is the leader of BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
 						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Drogheda_United_F.C.</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | KV_Mechelen</ftriple>
+						<ftriple flipped="True">KV_Mechelen | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">Conservative_Party_(UK) | leader | Blackpool</ftriple>
@@ -2143,13 +2143,13 @@
 				<template>AGENT-1 have AGENT-1 ground in BRIDGE-2 where the leader of the council is PATIENT-3 . BRIDGE-1 , who has played at PATIENT-2 and PATIENT-1 , has been manager of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="True">Labour_Party_(UK) | leader | Blackpool</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="True">Drogheda_United_F.C. | club | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="True">KV_Mechelen | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | KV_Mechelen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2184,7 +2184,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Drogheda_United_F.C.</ftriple>
+						<ftriple flipped="True">Drogheda_United_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 						<ftriple flipped="True">KV_Mechelen | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2238,13 +2238,13 @@
 				<template>AGENT-1 are located in BRIDGE-1 and play in BRIDGE-2 whose champions are currently PATIENT-3 . The leader of BRIDGE-1 is PATIENT-2 and the capital city is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Italy | ground | A.S._Gubbio_1910</ftriple>
-						<ftriple flipped="False">A.S._Gubbio_1910 | league | Serie_D</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
+						<ftriple flipped="True">Serie_D | league | A.S._Gubbio_1910</ftriple>
 						<ftriple flipped="False">Serie_D | champions | S.S._Robur_Siena</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
-						<ftriple flipped="True">Rome | capital | Italy</ftriple>
+						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
+						<ftriple flipped="False">Italy | capital | Rome</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2313,7 +2313,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
-						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
+						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 						<ftriple flipped="True">Rome | capital | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2607,11 +2607,11 @@
 				<template>PATIENT-4 and PATIENT-2 are tenants of BRIDGE-1 . the home ground of AGENT-1 . The ground is operated by PATIENT-1 and owned by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Sportpark_De_Toekomst | tenant | Jong_Ajax</ftriple>
-						<ftriple flipped="False">Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</ftriple>
+						<ftriple flipped="True">Jong_Ajax | tenant | Sportpark_De_Toekomst</ftriple>
+						<ftriple flipped="True">Ajax_Youth_Academy | tenant | Sportpark_De_Toekomst</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Sportpark_De_Toekomst | ground | AFC_Ajax_(amateurs)</ftriple>
+						<ftriple flipped="False">AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Sportpark_De_Toekomst | operator | AFC_Ajax</ftriple>
@@ -2869,12 +2869,12 @@
 				<template>PATIENT-4 , which holds PATIENT-3 fans , is the ground of AGENT-1 who played in PATIENT-2 . PATIENT-1 have been champions of BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AZAL_PFK | ground | AZAL_Arena</ftriple>
+						<ftriple flipped="True">AZAL_Arena | ground | AZAL_PFK</ftriple>
 						<ftriple flipped="False">AZAL_PFK | numberOfMembers | 3500</ftriple>
 						<ftriple flipped="False">AZAL_PFK | season | 2014–15_Azerbaijan_Premier_League</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Azerbaijan_Premier_League | league | AZAL_PFK</ftriple>
+						<ftriple flipped="False">AZAL_PFK | league | Azerbaijan_Premier_League</ftriple>
 						<ftriple flipped="False">Azerbaijan_Premier_League | champions | Qarabağ_FK</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2970,7 +2970,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">17000 | numberOfMembers | Agremiação_Sportiva_Arapiraquense</ftriple>
-						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3090,8 +3090,8 @@
 				<template>PATIENT-4 were champions at the BRIDGE-1 league in PATIENT-1 . AGENT-1 , who have PATIENT-2 members , also played in BRIDGE-1 in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
+						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
@@ -3125,8 +3125,8 @@
 				<template>PATIENT-4 are the champions of BRIDGE-1 in PATIENT-1 . AGENT-1 , who have PATIENT-2 members also played in BRIDGE-1 in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
+						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
@@ -3161,11 +3161,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
+						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
-						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
+						<ftriple flipped="True">17000 | numberOfMembers | Agremiação_Sportiva_Arapiraquense</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | season | 2015</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3295,7 +3295,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Campeonato_Brasileiro_Série_C | league | Agremiação_Sportiva_Arapiraquense</ftriple>
-						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
+						<ftriple flipped="True">17000 | numberOfMembers | Agremiação_Sportiva_Arapiraquense</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3386,7 +3386,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
 						<ftriple flipped="False">Akron,_Ohio | country | United_States</ftriple>
-						<ftriple flipped="True">St._Vincent–St._Mary_High_School | ground | Akron_Summit_Assault</ftriple>
+						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Akron_Summit_Assault | league | Premier_Development_League</ftriple>
@@ -3478,13 +3478,13 @@
 				<template>BRIDGE-2 is located in PATIENT-2 , is part of PATIENT-3 and has PATIENT-1 as a leader . BRIDGE-2 is also home to BRIDGE-1 which is the ground of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | country | United_States</ftriple>
 						<ftriple flipped="False">Akron,_Ohio | isPartOf | Summit_County,_Ohio</ftriple>
-						<ftriple flipped="False">Akron,_Ohio | leader | Dan_Horrigan</ftriple>
+						<ftriple flipped="True">Dan_Horrigan | leader | Akron,_Ohio</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Akron,_Ohio | city | St._Vincent–St._Mary_High_School</ftriple>
-						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
+						<ftriple flipped="True">St._Vincent–St._Mary_High_School | ground | Akron_Summit_Assault</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3529,7 +3529,7 @@
 						<ftriple flipped="True">Summit_County,_Ohio | isPartOf | Akron,_Ohio</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">Dan_Horrigan | leader | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | leader | Dan_Horrigan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3558,9 +3558,9 @@
 				<template>PATIENT-1 is the leader in BRIDGE-2 , PATIENT-3 , PATIENT-2 , where BRIDGE-1 is located . BRIDGE-1 is the location for the home ground of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Dan_Horrigan | leader | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | leader | Dan_Horrigan</ftriple>
 						<ftriple flipped="False">Akron,_Ohio | isPartOf | Summit_County,_Ohio</ftriple>
-						<ftriple flipped="False">Akron,_Ohio | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Akron,_Ohio</ftriple>
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -3614,7 +3614,7 @@
 				<template>The ground of AGENT-1 is located at BRIDGE-1 in BRIDGE-2 , PATIENT-3 , PATIENT-2 , where the leader is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="True">St._Vincent–St._Mary_High_School | ground | Akron_Summit_Assault</ftriple>
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
 						<ftriple flipped="True">Summit_County,_Ohio | isPartOf | Akron,_Ohio</ftriple>
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
@@ -3685,7 +3685,7 @@
 						<ftriple flipped="True">Akron,_Ohio | city | St._Vincent–St._Mary_High_School</ftriple>
 						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
 						<ftriple flipped="False">Akron,_Ohio | isPartOf | Summit_County,_Ohio</ftriple>
-						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | St._Vincent–St._Mary_High_School</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3743,7 +3743,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
 						<ftriple flipped="False">Akron,_Ohio | location | Summit_County,_Ohio</ftriple>
-						<ftriple flipped="True">United_States | country | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
@@ -3897,11 +3897,11 @@
 				<template>PATIENT-2 is the leader of BRIDGE-2 , PATIENT-1 in PATIENT-3 . BRIDGE-2 is the location of the home ground of AGENT-1 at BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Dan_Horrigan | leader | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | leader | Dan_Horrigan</ftriple>
 						<ftriple flipped="False">Akron,_Ohio | location | Summit_County,_Ohio</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Akron,_Ohio | city | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
 						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
 					</sentence>
@@ -3998,7 +3998,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">St._Vincent–St._Mary_High_School | ground | Akron_Summit_Assault</ftriple>
-						<ftriple flipped="True">Akron,_Ohio | city | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4028,13 +4028,13 @@
 				<template>PATIENT-2 have been champions of BRIDGE-2 , which is the league AGENT-1 play in . AGENT-1 ground is BRIDGE-1 , in PATIENT-3 , in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">K-W_United_FC | champions | Premier_Development_League</ftriple>
-						<ftriple flipped="True">Premier_Development_League | league | Akron_Summit_Assault</ftriple>
+						<ftriple flipped="False">Premier_Development_League | champions | K-W_United_FC</ftriple>
+						<ftriple flipped="False">Akron_Summit_Assault | league | Premier_Development_League</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">St._Vincent–St._Mary_High_School | ground | Akron_Summit_Assault</ftriple>
+						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
-						<ftriple flipped="True">United_States | country | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4253,12 +4253,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1"/>
 					<sentence ID="2">
-						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
-						<ftriple flipped="True">United_States | country | Akron,_Ohio</ftriple>
+						<ftriple flipped="True">Akron,_Ohio | city | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | state | Ohio</ftriple>
-						<ftriple flipped="True">Dan_Horrigan | leader | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | leader | Dan_Horrigan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4420,7 +4420,7 @@
 				<template>BRIDGE-1 is located in PATIENT-3 in PATIENT-2 . AGENT-1 ground is at BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | St._Vincent–St._Mary_High_School</ftriple>
+						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">St._Vincent–St._Mary_High_School | ground | Akron_Summit_Assault</ftriple>
@@ -4478,8 +4478,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">St._Vincent–St._Mary_High_School | city | Akron,_Ohio</ftriple>
-						<ftriple flipped="True">Summit_County,_Ohio | isPartOf | Akron,_Ohio</ftriple>
-						<ftriple flipped="False">St._Vincent–St._Mary_High_School | country | United_States</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | isPartOf | Summit_County,_Ohio</ftriple>
+						<ftriple flipped="True">United_States | country | St._Vincent–St._Mary_High_School</ftriple>
 						<ftriple flipped="False">Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4534,11 +4534,11 @@
 				<template>AGENT-1 have AGENT-1 ground in BRIDGE-1 where the leader is PATIENT-3 . PATIENT-1 speak PATIENT-4 and BRIDGE-1 capital city is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
-						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
+						<ftriple flipped="True">Italy | ground | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
+						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
 						<ftriple flipped="False">Italy | language | Italian_language</ftriple>
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
 					</sentence>
@@ -4664,12 +4664,12 @@
 				<template>PATIENT-2 is the capital of BRIDGE-1 , where leaders include , PATIENT-1 and PATIENT-3 . PATIENT-4 is spoken there and PATIENT-2 is also where the ground of AGENT-1 is located .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Italy | capital | Rome</ftriple>
+						<ftriple flipped="True">Rome | capital | Italy</ftriple>
 						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
-						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
+						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Italian_language | language | Italy</ftriple>
+						<ftriple flipped="False">Italy | language | Italian_language</ftriple>
 						<ftriple flipped="True">Italy | ground | A.S._Gubbio_1910</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4762,13 +4762,13 @@
 				<template>The ground of AGENT-1 is located in BRIDGE-1 , where PATIENT-2 live . The capital is PATIENT-3 and two of the leaders are PATIENT-1 , and PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Italy | ground | A.S._Gubbio_1910</ftriple>
-						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
+						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
 						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
-						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
+						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4806,7 +4806,7 @@
 						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
+						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4836,8 +4836,8 @@
 				<template>PATIENT-1 and PATIENT-4 are PATIENT-2 leaders in BRIDGE-1 . The ground of AGENT-1 is located in BRIDGE-1 where PATIENT-3 is the capital .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
-						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
+						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
+						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
 						<ftriple flipped="True">Italians | demonym | Italy</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4967,7 +4967,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
-						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
+						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
 						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 						<ftriple flipped="False">Italy | demonym | Italians</ftriple>
 						<ftriple flipped="True">Italian_language | language | Italy</ftriple>
@@ -5053,7 +5053,7 @@
 				<template>PATIENT-1 and PATIENT-4 are both leaders of BRIDGE-1 where PATIENT-3 is the capital city and the language spoken is PATIENT-2 . In BRIDGE-1 the ground of AGENT-1 is also located .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
+						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
 						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 						<ftriple flipped="True">Rome | capital | Italy</ftriple>
 						<ftriple flipped="False">Italy | officialLanguage | Italian_language</ftriple>
@@ -5094,7 +5094,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
-						<ftriple flipped="False">Italy | officialLanguage | Italian_language</ftriple>
+						<ftriple flipped="True">Italian_language | officialLanguage | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

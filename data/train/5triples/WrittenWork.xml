@@ -83,12 +83,12 @@
 				<template>BRIDGE-1 , born in PATIENT-3 , is the author of AGENT-1 , which was preceded by PATIENT-2 . These books were preceded by PATIENT-4 . BRIDGE-1 was influenced by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | 1634:_The_Baltic_War</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | &quot;DeMarce short stories in the The Grantville Gazettes&quot;</ftriple>
+						<ftriple flipped="True">&quot;DeMarce short stories in the The Grantville Gazettes&quot; | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
@@ -144,9 +144,9 @@
 				<template>BRIDGE-1 , born in PATIENT-3 , and influenced by PATIENT-1 , is the author of AGENT-1 . PATIENT-4 and PATIENT-2 preceded AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
-						<ftriple flipped="True">Robert_A._Heinlein | influencedBy | Eric_Flint</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
+						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
+						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
+						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | &quot;DeMarce short stories in the The Grantville Gazettes&quot;</ftriple>
@@ -221,8 +221,8 @@
 						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
 						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</ftriple>
-						<ftriple flipped="True">&quot;DeMarce short stories in the The Grantville Gazettes&quot; | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="True">The_Grantville_Gazettes | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | &quot;DeMarce short stories in the The Grantville Gazettes&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -276,8 +276,8 @@
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | &quot;DeMarce short stories in the The Grantville Gazettes&quot;</ftriple>
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
 						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
-						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | Grantville_Gazette_III</ftriple>
+						<ftriple flipped="True">Robert_A._Heinlein | influencedBy | Eric_Flint</ftriple>
+						<ftriple flipped="True">Grantville_Gazette_III | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -398,12 +398,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Robert_A._Heinlein | influencedBy | Eric_Flint</ftriple>
-						<ftriple flipped="False">1634:_The_Bavarian_Crisis | author | Eric_Flint</ftriple>
+						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Bavarian_Crisis</ftriple>
 						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | Grantville_Gazette_III</ftriple>
-						<ftriple flipped="True">The_Grantville_Gazettes | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -489,7 +489,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</ftriple>
-						<ftriple flipped="True">Grantville_Gazette_II | precededBy | 1634:_The_Bavarian_Crisis</ftriple>
+						<ftriple flipped="False">1634:_The_Bavarian_Crisis | precededBy | Grantville_Gazette_II</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -555,7 +555,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -585,9 +585,9 @@
 				<template>AGENT-1 was written by BRIDGE-1 , who was born in PATIENT-2 and was influenced by PATIENT-1 . AGENT-1 was written in BRIDGE-2 , BRIDGE-2 also spoken in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">Burbank,_California | birthPlace | Eric_Flint</ftriple>
-						<ftriple flipped="False">Eric_Flint | influencedBy | Robert_A._Heinlein</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
+						<ftriple flipped="False">Eric_Flint | birthPlace | Burbank,_California</ftriple>
+						<ftriple flipped="True">Robert_A._Heinlein | influencedBy | Eric_Flint</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | language | English_language</ftriple>
@@ -688,7 +688,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">AIDS_(journal) | country | United_Kingdom</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</ftriple>
-						<ftriple flipped="False">Lippincott_Williams_&amp;_Wilkins | parentCompany | Wolters_Kluwer</ftriple>
+						<ftriple flipped="True">Wolters_Kluwer | parentCompany | Lippincott_Williams_&amp;_Wilkins</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -825,8 +825,8 @@
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -896,13 +896,13 @@
 				<template>AGENT-1 is a novel from BRIDGE-2 where BRIDGE-1 is spoken (as in PATIENT-1) . The capital of BRIDGE-2 is PATIENT-2 and PATIENT-3 are an ethnic group there .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -992,11 +992,11 @@
 						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">White_people | ethnicGroup | Ireland</ftriple>
+						<ftriple flipped="False">Ireland | ethnicGroup | White_people</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1090,12 +1090,12 @@
 				<template>PATIENT-2 in BRIDGE-1 is PATIENT-2 where PATIENT-1 are an ethnic group and AGENT-1 was written . AGENT-1 was published by PATIENT-3 and followed by PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Dublin | largestCity | Ireland</ftriple>
+						<ftriple flipped="False">Ireland | largestCity | Dublin</ftriple>
 						<ftriple flipped="True">White_people | ethnicGroup | Ireland</ftriple>
-						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
+						<ftriple flipped="True">Viking_Press | publisher | A_Long_Long_Way</ftriple>
 						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1128,11 +1128,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
-						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
-						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">White_people | ethnicGroup | Ireland</ftriple>
+						<ftriple flipped="False">Ireland | ethnicGroup | White_people</ftriple>
 						<ftriple flipped="False">Ireland | largestCity | Dublin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1225,7 +1225,7 @@
 						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Ireland | ethnicGroup | White_people</ftriple>
+						<ftriple flipped="True">White_people | ethnicGroup | Ireland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1313,8 +1313,8 @@
 				<template>AGENT-1 , written in BRIDGE-1 (language of PATIENT-1) was published in PATIENT-2 by PATIENT-3 . AGENT-1 was followed by PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Long_Long_Way | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 						<ftriple flipped="True">Viking_Press | publisher | A_Long_Long_Way</ftriple>
 					</sentence>
@@ -1413,7 +1413,7 @@
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
 						<ftriple flipped="False">The_Secret_Scripture | publisher | Faber_and_Faber</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1479,7 +1479,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Ireland | country | A_Long_Long_Way</ftriple>
-						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
+						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
 						<ftriple flipped="True">English_language | language | A_Long_Long_Way</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
@@ -1534,7 +1534,7 @@
 				<template>AGENT-1 is written in BRIDGE-1 which is spoken in PATIENT-1 . AGENT-1 was published by BRIDGE-2 , located in PATIENT-2 , and was followed by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1569,13 +1569,13 @@
 				<template>AGENT-1 is written in BRIDGE-1 (spoken in PATIENT-1) . AGENT-1 was published by BRIDGE-2 , which is based in PATIENT-2 , and was followed by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Long_Long_Way | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Long_Long_Way</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Viking_Press | publisher | A_Long_Long_Way</ftriple>
 						<ftriple flipped="False">Viking_Press | country | United_States</ftriple>
-						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | followedBy | The_Secret_Scripture</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1627,8 +1627,8 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Long_Long_Way | country | Ireland</ftriple>
 						<ftriple flipped="False">Ireland | ethnicGroup | White_people</ftriple>
-						<ftriple flipped="True">Viking_Press | publisher | A_Long_Long_Way</ftriple>
-						<ftriple flipped="True">Annie_Dunne | precededBy | A_Long_Long_Way</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | publisher | Viking_Press</ftriple>
+						<ftriple flipped="False">A_Long_Long_Way | precededBy | Annie_Dunne</ftriple>
 						<ftriple flipped="True">The_Secret_Scripture | followedBy | A_Long_Long_Way</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1684,11 +1684,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
-						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1721,7 +1721,7 @@
 				<template>AGENT-1 , written in BRIDGE-1 , published by PATIENT-2 in BRIDGE-2 . BRIDGE-1 is spoken in PATIENT-1 . One of the ethnic groups in BRIDGE-2 is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
 					</sentence>
@@ -1762,7 +1762,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
+						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
@@ -1820,12 +1820,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1865,7 +1865,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
@@ -1897,13 +1897,13 @@
 				<template>AGENT-1 is published by PATIENT-2 in BRIDGE-2 , written in BRIDGE-1 (language of PATIENT-1) . BRIDGE-2 has many ethnically PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
+						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1956,11 +1956,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
-						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2014,12 +2014,12 @@
 				<template>AGENT-1 is written in BRIDGE-1 , as spoken in PATIENT-1 . However , AGENT-1 is published by BRIDGE-2 in BRIDGE-3 where PATIENT-2 are an ethnic group .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
-						<ftriple flipped="False">Soho_Press | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2144,7 +2144,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
-						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
+						<ftriple flipped="False">Soho_Press | country | United_States</ftriple>
 						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2178,7 +2178,7 @@
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
@@ -2274,7 +2274,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="True">English_language | language | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
@@ -2313,7 +2313,7 @@
 				<template>BRIDGE-2 in BRIDGE-3 published AGENT-1 . AGENT-1 is written in BRIDGE-1 , as spoken in PATIENT-1 . BRIDGE-3 is home to the ethnic group of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Soho_Press | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2598,9 +2598,9 @@
 				<template>AGENT-1 was published in BRIDGE-1 (language of PATIENT-1) in BRIDGE-2 , where the capital is PATIENT-2 and PATIENT-3 are one ethnic group .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
@@ -2818,7 +2818,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Australians | country | Aenir</ftriple>
-						<ftriple flipped="True">Castle_(novel) | precededBy | Aenir</ftriple>
+						<ftriple flipped="False">Aenir | precededBy | Castle_(novel)</ftriple>
 						<ftriple flipped="True">Aenir | precededBy | Above_the_Veil</ftriple>
 						<ftriple flipped="False">Above_the_Veil | followedBy | Into_Battle_(novel)</ftriple>
 						<ftriple flipped="False">Into_Battle_(novel) | followedBy | The_Violet_Keystone</ftriple>
@@ -2849,8 +2849,8 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Into_Battle_(novel) | followedBy | The_Violet_Keystone</ftriple>
 						<ftriple flipped="True">Into_Battle_(novel) | followedBy | Above_the_Veil</ftriple>
-						<ftriple flipped="True">Aenir | precededBy | Above_the_Veil</ftriple>
-						<ftriple flipped="True">Australians | country | Aenir</ftriple>
+						<ftriple flipped="False">Above_the_Veil | precededBy | Aenir</ftriple>
+						<ftriple flipped="False">Aenir | country | Australians</ftriple>
 						<ftriple flipped="True">Castle_(novel) | precededBy | Aenir</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2946,7 +2946,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">&quot;0567-7920&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
-						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
 						<ftriple flipped="True">&quot;APGPAC&quot; | CODEN_code | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3004,7 +3004,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;0567-7920&quot;</ftriple>
-						<ftriple flipped="True">&quot;APGPAC&quot; | CODEN_code | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | CODEN_code | &quot;APGPAC&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3038,7 +3038,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
-						<ftriple flipped="True">&quot;0567-7920&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;0567-7920&quot;</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | CODEN_code | &quot;APGPAC&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3134,15 +3134,15 @@
 				<template>AGENT-1 was published by PATIENT-1 and is abbreviated to PATIENT-4 . AGENT-1 is identified by the ISSN number of PATIENT-2 and the LCCN number of PATIENT-3 . AGENT-1 also has the CODEN code of PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | publisher | Polish_Academy_of_Sciences</ftriple>
+						<ftriple flipped="True">Polish_Academy_of_Sciences | publisher | Acta_Palaeontologica_Polonica</ftriple>
 						<ftriple flipped="True">&quot;Acta Palaeontol. Pol.&quot; | abbreviation | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;1732-2421&quot;</ftriple>
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
+						<ftriple flipped="True">&quot;1732-2421&quot; | ISSN_number | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;APGPAC&quot; | CODEN_code | Acta_Palaeontologica_Polonica</ftriple>
+						<ftriple flipped="False">Acta_Palaeontologica_Polonica | CODEN_code | &quot;APGPAC&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3176,7 +3176,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | ISSN_number | &quot;1732-2421&quot;</ftriple>
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | LCCN_number | 60040714</ftriple>
+						<ftriple flipped="True">60040714 | LCCN_number | Acta_Palaeontologica_Polonica</ftriple>
 						<ftriple flipped="False">Acta_Palaeontologica_Polonica | CODEN_code | &quot;APGPAC&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3231,13 +3231,13 @@
 				<template>BRIDGE-1 is in PATIENT-4 , PATIENT-3 and BRIDGE-1 president is PATIENT-2 . BRIDGE-1 are the publisher of AGENT-1 and are affiliated with PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Cornell_University | city | Ithaca,_New_York</ftriple>
-						<ftriple flipped="False">Cornell_University | state | New_York</ftriple>
+						<ftriple flipped="True">Ithaca,_New_York | city | Cornell_University</ftriple>
+						<ftriple flipped="True">New_York | state | Cornell_University</ftriple>
 						<ftriple flipped="False">Cornell_University | president | Elizabeth_Garrett</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | Cornell_University</ftriple>
-						<ftriple flipped="False">Cornell_University | affiliation | Association_of_American_Universities</ftriple>
+						<ftriple flipped="True">Association_of_American_Universities | affiliation | Cornell_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3414,13 +3414,13 @@
 				<template>BRIDGE-1 is in PATIENT-4 , PATIENT-3 and PATIENT-2 is the president . BRIDGE-1 are the publisher of AGENT-1 and are affiliated with PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Cornell_University | city | Ithaca,_New_York</ftriple>
-						<ftriple flipped="False">Cornell_University | state | New_York</ftriple>
+						<ftriple flipped="True">Ithaca,_New_York | city | Cornell_University</ftriple>
+						<ftriple flipped="True">New_York | state | Cornell_University</ftriple>
 						<ftriple flipped="False">Cornell_University | president | Elizabeth_Garrett</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Administrative_Science_Quarterly | publisher | Cornell_University</ftriple>
-						<ftriple flipped="False">Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</ftriple>
+						<ftriple flipped="True">Association_of_Public_and_Land-grant_Universities | affiliation | Cornell_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3540,11 +3540,11 @@
 				<template>BRIDGE-1 , nicknamed PATIENT-1 , and located in PATIENT-4 , is the publisher of AGENT-1 and is also affiliated with both PATIENT-2 and PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Cornell_University | nickname | Cornell_Big_Red</ftriple>
+						<ftriple flipped="True">Cornell_Big_Red | nickname | Cornell_University</ftriple>
 						<ftriple flipped="True">Ithaca,_New_York | city | Cornell_University</ftriple>
 						<ftriple flipped="True">Cornell_University | publisher | Administrative_Science_Quarterly</ftriple>
-						<ftriple flipped="True">Association_of_Public_and_Land-grant_Universities | affiliation | Cornell_University</ftriple>
-						<ftriple flipped="False">Cornell_University | affiliation | Association_of_American_Universities</ftriple>
+						<ftriple flipped="False">Cornell_University | affiliation | Association_of_Public_and_Land-grant_Universities</ftriple>
+						<ftriple flipped="True">Association_of_American_Universities | affiliation | Cornell_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3702,7 +3702,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3762,8 +3762,8 @@
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3798,7 +3798,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">English_language | language | Alcatraz_Versus_the_Evil_Librarians</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
@@ -3958,7 +3958,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4029,14 +4029,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4092,14 +4092,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4131,11 +4131,11 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4322,12 +4322,12 @@
 				<template>AGENT-1 was written in BRIDGE-2 in BRIDGE-1 , which is also spoken in PATIENT-1 . BRIDGE-2 is home to PATIENT-3 and is led by PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">White_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | White_Americans</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4358,7 +4358,7 @@
 				<template>AGENT-1 was written in BRIDGE-1 which is spoken in PATIENT-1 . However , AGENT-1 originates from BRIDGE-2 where PATIENT-2 is the leader . Some of the inhabitants of BRIDGE-2 are white PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4460,12 +4460,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
+						<ftriple flipped="True">Joe_Biden | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
-						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
+						<ftriple flipped="True">English_language | language | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4552,11 +4552,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
+						<ftriple flipped="True">Joe_Biden | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | ethnicGroup | White_Americans</ftriple>
+						<ftriple flipped="True">White_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4627,7 +4627,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | White_Americans</ftriple>
@@ -4724,8 +4724,8 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 						<ftriple flipped="False">A_Loyal_Character_Dancer | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4907,13 +4907,13 @@
 				<template>PATIENT-2 are an ethnic group in BRIDGE-2 where BRIDGE-3 is BRIDGE-3 spoken , as in PATIENT-1 . `` AGENT-1 '' was published in BRIDGE-2 by BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
-						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4942,7 +4942,7 @@
 				<template>AGENT-1 is published by BRIDGE-1 and BRIDGE-1 is based in BRIDGE-2 , where one of PATIENT-2 of BRIDGE-2 and PATIENT-2 speak BRIDGE-3 , same as in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
+						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
 						<ftriple flipped="False">Soho_Press | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
@@ -4974,8 +4974,8 @@
 				<template>AGENT-1 is published by BRIDGE-1 , BRIDGE-1 is based in BRIDGE-2 , where PATIENT-2 speak BRIDGE-3 , same as in PATIENT-1 and there are an ethnic group called PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Loyal_Character_Dancer | publisher | Soho_Press</ftriple>
-						<ftriple flipped="True">United_States | country | Soho_Press</ftriple>
+						<ftriple flipped="True">Soho_Press | publisher | A_Loyal_Character_Dancer</ftriple>
+						<ftriple flipped="False">Soho_Press | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
@@ -5171,7 +5171,7 @@
 					<sentence ID="2">
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5206,12 +5206,12 @@
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5304,9 +5304,9 @@
 				<template>PATIENT-2 of BRIDGE-2 is PATIENT-2 and BRIDGE-1 spoken is BRIDGE-1 , which is also BRIDGE-1 of PATIENT-1 . AGENT-1 comes from BRIDGE-2 where one of the ethnic groups are PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
@@ -5346,8 +5346,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | White_Americans</ftriple>
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5681,8 +5681,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5964,10 +5964,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">John_Cowper_Powys | author | A_Glastonbury_Romance</ftriple>
-						<ftriple flipped="True">Shirley,_Derbyshire | birthPlace | John_Cowper_Powys</ftriple>
+						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Glastonbury_Romance | precededBy | Wolf_Solent</ftriple>
+						<ftriple flipped="True">Wolf_Solent | precededBy | A_Glastonbury_Romance</ftriple>
 						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
 						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
 					</sentence>
@@ -6217,8 +6217,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Maiden_Castle_(novel) | followedBy | Weymouth_Sands</ftriple>
-						<ftriple flipped="False">Weymouth_Sands | author | John_Cowper_Powys</ftriple>
-						<ftriple flipped="True">Shirley,_Derbyshire | birthPlace | John_Cowper_Powys</ftriple>
+						<ftriple flipped="True">John_Cowper_Powys | author | Weymouth_Sands</ftriple>
+						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
@@ -6254,7 +6254,7 @@
 						<ftriple flipped="False">John_Cowper_Powys | birthPlace | Shirley,_Derbyshire</ftriple>
 						<ftriple flipped="True">John_Cowper_Powys | author | Weymouth_Sands</ftriple>
 						<ftriple flipped="False">A_Glastonbury_Romance | followedBy | Weymouth_Sands</ftriple>
-						<ftriple flipped="False">A_Glastonbury_Romance | precededBy | Wolf_Solent</ftriple>
+						<ftriple flipped="True">Wolf_Solent | precededBy | A_Glastonbury_Romance</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Weymouth_Sands | followedBy | Maiden_Castle_(novel)</ftriple>
@@ -6481,7 +6481,7 @@
 						<ftriple flipped="False">AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | country | United_Kingdom</ftriple>
 						<ftriple flipped="False">United_Kingdom | capital | London</ftriple>
-						<ftriple flipped="False">United_Kingdom | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_Kingdom</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_Kingdom | leaderName | Elizabeth_II</ftriple>
@@ -7075,7 +7075,7 @@
 					<sentence ID="2">
 						<ftriple flipped="True">United_Kingdom | country | AIDS_(journal)</ftriple>
 						<ftriple flipped="False">AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</ftriple>
-						<ftriple flipped="False">Lippincott_Williams_&amp;_Wilkins | parentCompany | Wolters_Kluwer</ftriple>
+						<ftriple flipped="True">Wolters_Kluwer | parentCompany | Lippincott_Williams_&amp;_Wilkins</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7233,8 +7233,8 @@
 						<ftriple flipped="False">AIDS_(journal) | publisher | Lippincott_Williams_&amp;_Wilkins</ftriple>
 						<ftriple flipped="True">United_Kingdom | country | AIDS_(journal)</ftriple>
 						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
-						<ftriple flipped="False">United_Kingdom | leaderName | David_Cameron</ftriple>
-						<ftriple flipped="False">United_Kingdom | leaderName | Elizabeth_II</ftriple>
+						<ftriple flipped="True">David_Cameron | leaderName | United_Kingdom</ftriple>
+						<ftriple flipped="True">Elizabeth_II | leaderName | United_Kingdom</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7454,13 +7454,13 @@
 				<template>AGENT-1 was originally published in BRIDGE-1 (BRIDGE-1 of PATIENT-2) in BRIDGE-2 . PATIENT-3 is the capital of BRIDGE-2 and part of the population is ethnically PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7512,8 +7512,8 @@
 				<template>AGENT-1 is written in BRIDGE-1 , BRIDGE-1 spoken in PATIENT-2 , and was published in BRIDGE-2 , BRIDGE-2 where PATIENT-1 are an ethnic group and the capital city is PATIENT-3</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
 						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
@@ -7545,13 +7545,13 @@
 				<template>AGENT-1 is written in BRIDGE-1 , as spoken in PATIENT-2 . AGENT-1 originates from BRIDGE-2 where PATIENT-1 are one of the ethnic groups and the capital city is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7741,7 +7741,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
@@ -7817,7 +7817,7 @@
 						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
+						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7903,7 +7903,7 @@
 				<template>AGENT-1 is from BRIDGE-2 where one of the ethnic groups is PATIENT-1 and the leader is PATIENT-2 . Both BRIDGE-2 and PATIENT-3 have BRIDGE-1 as their main language .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
@@ -7963,13 +7963,13 @@
 				<template>AGENT-1 originates from BRIDGE-2 , and is written in BRIDGE-1 , also spoken in PATIENT-3 . BRIDGE-2 includes many PATIENT-1 , and BRIDGE-2 leader is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
-						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7997,12 +7997,12 @@
 				<template>AGENT-1 is written in BRIDGE-1 , as spoken in PATIENT-3 . Is originates from BRIDGE-2 where PATIENT-2 is the leader and PATIENT-1 an ethnic group .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8093,13 +8093,13 @@
 				<template>AGENT-1 is written in BRIDGE-1 which is also BRIDGE-1 spoken in PATIENT-3 . AGENT-1 originates from BRIDGE-2 where PATIENT-1 are one ethnic group and PATIENT-2 is the leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">United_States | country | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8282,7 +8282,7 @@
 				<template>PATIENT-1 are an ethnic group in BRIDGE-2 , BRIDGE-2 lead by PATIENT-2 . BRIDGE-2 is the origin of AGENT-1 which is published in BRIDGE-1 , as spoken in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -8470,11 +8470,11 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8550,7 +8550,7 @@
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8641,7 +8641,7 @@
 				<template>AGENT-1 is published in BRIDGE-1 , BRIDGE-1 spoken in PATIENT-3 . AGENT-1 originates from BRIDGE-2 where PATIENT-2 is the leader and PATIENT-1 are one of the ethnic groups .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
 						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -8706,7 +8706,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
@@ -8804,7 +8804,7 @@
 				<template>AGENT-1 is from BRIDGE-2 , where PATIENT-1 is leader , and BRIDGE-1 is spoken (as in PATIENT-2) . PATIENT-3 are one of the ethnic groups of BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">A_Fortress_of_Grey_Ice | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
@@ -8864,11 +8864,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | country | A_Fortress_of_Grey_Ice</ftriple>
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | language | English_language</ftriple>
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | A_Fortress_of_Grey_Ice</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8991,7 +8991,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">A_Severed_Wasp | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
-						<ftriple flipped="True">United_States | country | A_Severed_Wasp</ftriple>
+						<ftriple flipped="False">A_Severed_Wasp | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
@@ -9031,7 +9031,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Severed_Wasp | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9278,12 +9278,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
-						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
 						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9435,7 +9435,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
@@ -9565,8 +9565,8 @@
 						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9695,14 +9695,14 @@
 				<template>AGENT-1 comes from BRIDGE-1 and followed PATIENT-3 . AGENT-1 comes from BRIDGE-1 where PATIENT-4 are an ethnic group . PATIENT-2 is PATIENT-2 and PATIENT-1 is President .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">1634:_The_Galileo_Affair | precededBy | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | precededBy | 1634:_The_Galileo_Affair</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9740,7 +9740,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
@@ -9829,8 +9829,8 @@
 				<template>BRIDGE-1 is led by PATIENT-1 , has PATIENT-3 and the capital is PATIENT-2. PATIENT-4 preceded BRIDGE-1 written AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -10009,14 +10009,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Americans | demonym | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10112,8 +10112,8 @@
 				<template>English is spoken in PATIENT-2 and is BRIDGE-1 used in AGENT-1 . However , the book was published in BRIDGE-2 where PATIENT-1 is the President and is home to many PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Great_Britain | spokenIn | English_language</ftriple>
-						<ftriple flipped="True">English_language | language | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">English_language | spokenIn | Great_Britain</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A_Wizard_of_Mars | country | United_States</ftriple>
@@ -10154,7 +10154,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10305,7 +10305,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">United_States | language | English_language</ftriple>
@@ -10349,7 +10349,7 @@
 						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">United_States | country | Alcatraz_Versus_the_Evil_Librarians</ftriple>
+						<ftriple flipped="False">Alcatraz_Versus_the_Evil_Librarians | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10605,7 +10605,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -10821,13 +10821,13 @@
 				<template>The demonym for people living in BRIDGE-1 is PATIENT-3 , PATIENT-4 are an ethnic group there and is where AGENT-1 was written . The leader of BRIDGE-1 is known as PATIENT-1 and is currently PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Americans | demonym | United_States</ftriple>
-						<ftriple flipped="True">African_Americans | ethnicGroup | United_States</ftriple>
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
+						<ftriple flipped="False">United_States | demonym | Americans</ftriple>
+						<ftriple flipped="False">United_States | ethnicGroup | African_Americans</ftriple>
+						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10862,7 +10862,7 @@
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10916,12 +10916,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
 						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | demonym | Americans</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10950,11 +10950,11 @@
 				<template>PATIENT-1 @ PATIENT-2 is the leader of BRIDGE-1 . BRIDGE-1 is inhabited by PATIENT-3 including many PATIENT-4 , and is where AGENT-1 was written .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | demonym | Americans</ftriple>
+						<ftriple flipped="True">Americans | demonym | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
@@ -11047,7 +11047,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
-						<ftriple flipped="True">Americans | demonym | United_States</ftriple>
+						<ftriple flipped="False">United_States | demonym | Americans</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
@@ -11080,15 +11080,15 @@
 				<template>PATIENT-1 @ PATIENT-2 leads BRIDGE-1 which is inhabited by PATIENT-3 . These include the ethnic group of PATIENT-4 . BRIDGE-1 is the origin of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
-						<ftriple flipped="True">Barack_Obama | leaderName | United_States</ftriple>
-						<ftriple flipped="False">United_States | demonym | Americans</ftriple>
+						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
+						<ftriple flipped="True">Americans | demonym | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">1634:_The_Ram_Rebellion | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | 1634:_The_Ram_Rebellion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

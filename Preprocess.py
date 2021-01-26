@@ -1,13 +1,15 @@
 import sacrebleu
 
 
-def encode_triple_string(triple):
+def encode_triple_string(triple, flipped=False):
     comps = triple.split(' | ')
-    return '<S> ' + comps[0] + ' <P> ' + comps[1] + ' <O> ' + comps[2]
+    pred_delim = ' <P> ' if not flipped else ' <P> * '
+    return '<S> ' + comps[0] + pred_delim + comps[1] + ' <O> ' + comps[2]
 
 
 def encode_triple_object(triple):
-    return '<S> ' + triple.first + ' <P> ' + triple.predicate + ' <O> ' + triple.second
+    pred_delim = ' <P> ' if not triple.flipped else ' <P> * '
+    return '<S> ' + triple.first + pred_delim + triple.predicate + ' <O> ' + triple.second
 
 
 def string_encode_plan(plan):
@@ -15,16 +17,16 @@ def string_encode_plan(plan):
     for sent in plan:
         enc += '<sentence> '
         for triple in sent:
-            enc += encode_triple_string(triple[0]) + ' '  # take only string encoding without flip indicator
+            enc += encode_triple_string(triple[0], flipped=triple[1]) + ' '  
     return enc.rstrip()
 
 
 def realize_all_plans(plans, tokenizer, realizer):
     plans = [string_encode_plan(p) for p in plans]
-    encs = tokenizer(plans, return_tensors='pt')
+    encs = tokenizer(plans, return_tensors='pt', padding=True)
     encs.to(realizer.device)
     gen_tokens = realizer.generate(**encs, max_length=512)
-    return tokenizer.batch_decode(gen_tokens)
+    return tokenizer.batch_decode(gen_tokens, skip_special_tokens=True)
 
 
 def best_generation_index(generations, reference):

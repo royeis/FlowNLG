@@ -505,7 +505,7 @@
 				<template>AGENT-1 has PATIENT-1 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Livorno_Calcio | numberOfMembers | 19238</ftriple>
+						<ftriple flipped="True">19238 | numberOfMembers | A.S._Livorno_Calcio</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -541,7 +541,7 @@
 				<template>AGENT-1 has PATIENT-1 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Livorno_Calcio | numberOfMembers | 19238</ftriple>
+						<ftriple flipped="True">19238 | numberOfMembers | A.S._Livorno_Calcio</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1237,7 +1237,7 @@
 				<template>AGENT-1 is with the PATIENT-1 club .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Jorge_Humberto_Rodríguez | club | A.D._Isidro_Metapán</ftriple>
+						<ftriple flipped="True">A.D._Isidro_Metapán | club | Jorge_Humberto_Rodríguez</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

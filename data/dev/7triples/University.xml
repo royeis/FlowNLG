@@ -380,7 +380,7 @@
 				<template>AGENT-1 is in PATIENT-2 , PATIENT-5 was established in PATIENT-4 . The president is PATIENT-1 and the director is PATIENT-3 . AGENT-1 is affiliated with PATIENT-7 and AGENT-1 is located in PATIENT-6.</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | city | Bangalore</ftriple>
+						<ftriple flipped="True">Bangalore | city | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | established | 2000</ftriple>
 					</sentence>
@@ -389,7 +389,7 @@
 						<ftriple flipped="False">Acharya_Institute_of_Technology | director | &quot;Dr. G. P. Prabhukumar&quot;</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
 						<ftriple flipped="False">Acharya_Institute_of_Technology | campus | &quot;In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -538,7 +538,7 @@
 						<ftriple flipped="True">700 | numberOfPostgraduateStudents | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -895,7 +895,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Romania | capital | Bucharest</ftriple>
 						<ftriple flipped="False">Romania | leaderTitle | Prime_Minister_of_Romania</ftriple>
-						<ftriple flipped="True">Klaus_Iohannis | leaderName | Romania</ftriple>
+						<ftriple flipped="False">Romania | leaderName | Klaus_Iohannis</ftriple>
 						<ftriple flipped="True">Germans_of_Romania | ethnicGroup | Romania</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -968,7 +968,7 @@
 						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | campus | &quot;In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.&quot;</ftriple>
+						<ftriple flipped="True">&quot;In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.&quot; | campus | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">&quot;Dr. G. P. Prabhukumar&quot; | director | Acharya_Institute_of_Technology</ftriple>
@@ -1052,7 +1052,7 @@
 				<template>AGENT-1 is affiliated with BRIDGE-1 which is in PATIENT-1 . AGENT-1 is in PATIENT-5 PATIENT-4 state and AGENT-1 full address is PATIENT-6 . AGENT-1 was created in PATIENT-3 and AGENT-1 director is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
+						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="True">Belgaum | city | Visvesvaraya_Technological_University</ftriple>
 					</sentence>
 					<sentence ID="2">

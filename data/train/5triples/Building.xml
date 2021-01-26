@@ -120,7 +120,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
-						<ftriple flipped="True">Birmingham | birthPlace | John_Madin</ftriple>
+						<ftriple flipped="False">John_Madin | birthPlace | Birmingham</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -200,7 +200,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">John_Madin | birthPlace | Birmingham</ftriple>
 						<ftriple flipped="True">John_Madin | architect | 103_Colmore_Row</ftriple>
-						<ftriple flipped="True">1976 | completionDate | 103_Colmore_Row</ftriple>
+						<ftriple flipped="False">103_Colmore_Row | completionDate | 1976</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">103_Colmore_Row | location | Colmore_Row</ftriple>
@@ -287,7 +287,7 @@
 						<ftriple flipped="False">108_St_Georges_Terrace | location | Perth</ftriple>
 						<ftriple flipped="True">Australia | country | Perth</ftriple>
 						<ftriple flipped="True">50 | floorCount | 108_St_Georges_Terrace</ftriple>
-						<ftriple flipped="False">108_St_Georges_Terrace | completionDate | 1988</ftriple>
+						<ftriple flipped="True">1988 | completionDate | 108_St_Georges_Terrace</ftriple>
 						<ftriple flipped="False">108_St_Georges_Terrace | cost | &quot;120 million (Australian dollars)&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -415,11 +415,11 @@
 				<template>BRIDGE-1 ethnic groups include PATIENT-3 and PATIENT-4 . BRIDGE-1 leader is PATIENT-2 and BRIDGE-1 capital is PATIENT-1 . AGENT-1 is located in BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">White_South_African | ethnicGroup | South_Africa</ftriple>
+						<ftriple flipped="False">South_Africa | ethnicGroup | White_South_African</ftriple>
 						<ftriple flipped="False">South_Africa | ethnicGroup | Coloured</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
+						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
 						<ftriple flipped="False">South_Africa | capital | Cape_Town</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -454,12 +454,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">South_Africa | ethnicGroup | Coloured</ftriple>
-						<ftriple flipped="False">South_Africa | ethnicGroup | White_South_African</ftriple>
+						<ftriple flipped="True">White_South_African | ethnicGroup | South_Africa</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
 						<ftriple flipped="True">South_Africa | location | 11_Diagonal_Street</ftriple>
-						<ftriple flipped="False">South_Africa | capital | Cape_Town</ftriple>
+						<ftriple flipped="True">Cape_Town | capital | South_Africa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -610,7 +610,7 @@
 				<template>BRIDGE-1 ethnic groups include PATIENT-4 . AGENT-1 is located here and BRIDGE-1 capital is PATIENT-1 . BRIDGE-1 leaders include PATIENT-3 and PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">South_Africa | ethnicGroup | Coloured</ftriple>
+						<ftriple flipped="True">Coloured | ethnicGroup | South_Africa</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">11_Diagonal_Street | location | South_Africa</ftriple>
@@ -618,7 +618,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">South_Africa | leaderName | Jacob_Zuma</ftriple>
-						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
+						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -653,8 +653,8 @@
 						<ftriple flipped="True">Cape_Town | capital | South_Africa</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">South_Africa | ethnicGroup | Coloured</ftriple>
-						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
+						<ftriple flipped="True">Coloured | ethnicGroup | South_Africa</ftriple>
+						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
 						<ftriple flipped="False">South_Africa | leaderName | Jacob_Zuma</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -690,7 +690,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
-						<ftriple flipped="False">South_Africa | leaderName | Jacob_Zuma</ftriple>
+						<ftriple flipped="True">Jacob_Zuma | leaderName | South_Africa</ftriple>
 						<ftriple flipped="True">Coloured | ethnicGroup | South_Africa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1010,7 +1010,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Cape_Town | capital | South_Africa</ftriple>
-						<ftriple flipped="False">South_Africa | leaderName | Cyril_Ramaphosa</ftriple>
+						<ftriple flipped="True">Cyril_Ramaphosa | leaderName | South_Africa</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">South_Africa | ethnicGroup | Asian_South_Africans</ftriple>
@@ -1193,7 +1193,7 @@
 				<template>PATIENT-1 were the architects of AGENT-1 , which is located in BRIDGE-1 , PATIENT-2 , PATIENT-3 , PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">HOK_(firm) | architect | 200_Public_Square</ftriple>
+						<ftriple flipped="False">200_Public_Square | architect | HOK_(firm)</ftriple>
 						<ftriple flipped="False">200_Public_Square | location | Cleveland</ftriple>
 						<ftriple flipped="False">Cleveland | isPartOf | Cuyahoga_County,_Ohio</ftriple>
 						<ftriple flipped="False">Cleveland | isPartOf | Ohio</ftriple>
@@ -1250,7 +1250,7 @@
 						<ftriple flipped="True">Cleveland | location | 200_Public_Square</ftriple>
 						<ftriple flipped="False">Cleveland | isPartOf | Cuyahoga_County,_Ohio</ftriple>
 						<ftriple flipped="False">Cleveland | isPartOf | Ohio</ftriple>
-						<ftriple flipped="False">Cleveland | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Cleveland</ftriple>
 						<ftriple flipped="False">200_Public_Square | floorArea | 111484 (square metres)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1280,8 +1280,8 @@
 				<template>Measuring PATIENT-1 , AGENT-1 is located in BRIDGE-1 . BRIDGE-1 is part of PATIENT-2 in PATIENT-3 in PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">200_Public_Square | floorArea | 111484 (square metres)</ftriple>
-						<ftriple flipped="True">Cleveland | location | 200_Public_Square</ftriple>
+						<ftriple flipped="True">111484 (square metres) | floorArea | 200_Public_Square</ftriple>
+						<ftriple flipped="False">200_Public_Square | location | Cleveland</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Cleveland | isPartOf | Cuyahoga_County,_Ohio</ftriple>
@@ -1463,10 +1463,10 @@
 				<template>AGENT-1 is located in BRIDGE-1 , PATIENT-1 in PATIENT-2 , PATIENT-3 . PATIENT-4 is the governing body of BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">200_Public_Square | location | Cleveland</ftriple>
+						<ftriple flipped="True">Cleveland | location | 200_Public_Square</ftriple>
 						<ftriple flipped="False">Cleveland | isPartOf | Cuyahoga_County,_Ohio</ftriple>
 						<ftriple flipped="False">Cleveland | isPartOf | Ohio</ftriple>
-						<ftriple flipped="True">United_States | country | Cleveland</ftriple>
+						<ftriple flipped="False">Cleveland | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Cleveland_City_Council | governingBody | Cleveland</ftriple>
@@ -1661,8 +1661,8 @@
 						<ftriple flipped="False">Cleveland | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Cleveland_City_Council | governingBody | Cleveland</ftriple>
-						<ftriple flipped="False">Cleveland | leaderName | Frank_G._Jackson</ftriple>
+						<ftriple flipped="False">Cleveland | governingBody | Cleveland_City_Council</ftriple>
+						<ftriple flipped="True">Frank_G._Jackson | leaderName | Cleveland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1781,11 +1781,11 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Cleveland | location | 200_Public_Square</ftriple>
 						<ftriple flipped="True">Cuyahoga_County,_Ohio | isPartOf | Cleveland</ftriple>
-						<ftriple flipped="False">Cleveland | isPartOf | Ohio</ftriple>
+						<ftriple flipped="True">Ohio | isPartOf | Cleveland</ftriple>
 						<ftriple flipped="False">Cleveland | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Cleveland | leaderName | Frank_G._Jackson</ftriple>
+						<ftriple flipped="True">Frank_G._Jackson | leaderName | Cleveland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1844,8 +1844,8 @@
 						<ftriple flipped="False">Cleveland | isPartOf | Ohio</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Cleveland | leaderName | Frank_G._Jackson</ftriple>
-						<ftriple flipped="False">Cleveland | governingBody | Cleveland_City_Council</ftriple>
+						<ftriple flipped="True">Frank_G._Jackson | leaderName | Cleveland</ftriple>
+						<ftriple flipped="True">Cleveland_City_Council | governingBody | Cleveland</ftriple>
 					</sentence>
 					<sentence ID="3"/>
 				</flowinducedtripleset>
@@ -2061,7 +2061,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">20_Fenchurch_Street | location | United_Kingdom</ftriple>
-						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
+						<ftriple flipped="False">United_Kingdom | capital | London</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Elizabeth_II | leaderName | United_Kingdom</ftriple>
@@ -2133,7 +2133,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 where the capital city is BRIDGE-2 . PATIENT-2 is a leader in BRIDGE-2 which is lead by PATIENT-1 . PATIENT-3 is the leader of BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_Kingdom | location | 20_Fenchurch_Street</ftriple>
+						<ftriple flipped="False">20_Fenchurch_Street | location | United_Kingdom</ftriple>
 						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2141,7 +2141,7 @@
 						<ftriple flipped="True">European_Parliament | leaderTitle | London</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Elizabeth_II | leaderName | United_Kingdom</ftriple>
+						<ftriple flipped="False">United_Kingdom | leaderName | Elizabeth_II</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2233,7 +2233,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">20_Fenchurch_Street | location | United_Kingdom</ftriple>
-						<ftriple flipped="True">Elizabeth_II | leaderName | United_Kingdom</ftriple>
+						<ftriple flipped="False">United_Kingdom | leaderName | Elizabeth_II</ftriple>
 						<ftriple flipped="True">Pound_sterling | currency | United_Kingdom</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2284,11 +2284,11 @@
 				<template>PATIENT-2 led BRIDGE-2 is the capital of BRIDGE-1 (led by PATIENT-3) is home to PATIENT-1 and AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">London | leaderName | Boris_Johnson</ftriple>
+						<ftriple flipped="True">Boris_Johnson | leaderName | London</ftriple>
 						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
 						<ftriple flipped="False">United_Kingdom | leaderName | Elizabeth_II</ftriple>
 						<ftriple flipped="True">British_people | demonym | United_Kingdom</ftriple>
-						<ftriple flipped="True">United_Kingdom | location | 20_Fenchurch_Street</ftriple>
+						<ftriple flipped="False">20_Fenchurch_Street | location | United_Kingdom</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2391,7 +2391,7 @@
 						<ftriple flipped="False">London | leaderName | Boris_Johnson</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">British_people | demonym | United_Kingdom</ftriple>
+						<ftriple flipped="False">United_Kingdom | demonym | British_people</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2446,7 +2446,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
 						<ftriple flipped="True">Elizabeth_II | leaderName | United_Kingdom</ftriple>
-						<ftriple flipped="False">London | leaderTitle | European_Parliament</ftriple>
+						<ftriple flipped="True">European_Parliament | leaderTitle | London</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_Kingdom | demonym | British_people</ftriple>
@@ -2778,7 +2778,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Susana_Mendoza | leaderName | Chicago</ftriple>
-						<ftriple flipped="False">Chicago | isPartOf | Illinois</ftriple>
+						<ftriple flipped="True">Illinois | isPartOf | Chicago</ftriple>
 						<ftriple flipped="False">Chicago | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -3058,8 +3058,8 @@
 				<template>AGENT-1 is in BRIDGE-1 , BRIDGE-2 in PATIENT-1 @ PATIENT-3 leads BRIDGE-1 . PATIENT-2 is spoken in BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
-						<ftriple flipped="False">Chicago | isPartOf | Illinois</ftriple>
+						<ftriple flipped="True">Chicago | location | 300_North_LaSalle</ftriple>
+						<ftriple flipped="True">Illinois | isPartOf | Chicago</ftriple>
 						<ftriple flipped="False">Chicago | country | United_States</ftriple>
 						<ftriple flipped="False">Chicago | leaderName | Susana_Mendoza</ftriple>
 					</sentence>
@@ -3299,12 +3299,12 @@
 				<template>AGENT-1 is in BRIDGE-1 which is part of PATIENT-1 in PATIENT-3 . The leader is PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Chicago | location | 300_North_LaSalle</ftriple>
+						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
 						<ftriple flipped="False">Chicago | isPartOf | Cook_County,_Illinois</ftriple>
 						<ftriple flipped="False">Chicago | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Susana_Mendoza | leaderName | Chicago</ftriple>
+						<ftriple flipped="False">Chicago | leaderName | Susana_Mendoza</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3391,10 +3391,10 @@
 				<template>AGENT-1 is located in BRIDGE-1 , PATIENT-4 , PATIENT-3 , and has PATIENT-2 floors . BRIDGE-1 is lead by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Chicago | location | 300_North_LaSalle</ftriple>
+						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
 						<ftriple flipped="True">Illinois | isPartOf | Chicago</ftriple>
 						<ftriple flipped="True">United_States | country | Chicago</ftriple>
-						<ftriple flipped="False">300_North_LaSalle | floorCount | 60</ftriple>
+						<ftriple flipped="True">60 | floorCount | 300_North_LaSalle</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Chicago | leaderName | Rahm_Emanuel</ftriple>
@@ -3485,7 +3485,7 @@
 				<template>BRIDGE-1 is lead by PATIENT-1 and is part of BRIDGE-2 in PATIENT-3 . One of BRIDGE-1 monuments is AGENT-1 , a building which has PATIENT-2 floors .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Chicago | leaderName | Rahm_Emanuel</ftriple>
+						<ftriple flipped="True">Rahm_Emanuel | leaderName | Chicago</ftriple>
 						<ftriple flipped="False">Chicago | isPartOf | Illinois</ftriple>
 						<ftriple flipped="False">Illinois | country | United_States</ftriple>
 					</sentence>
@@ -3584,7 +3584,7 @@
 				<template>PATIENT-3 is spoken in BRIDGE-2 , PATIENT-2 , which is the location of BRIDGE-1 . AGENT-1 can be found in BRIDGE-1 where PATIENT-1 is a leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Illinois | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | Illinois</ftriple>
 						<ftriple flipped="True">Illinois | isPartOf | Chicago</ftriple>
 						<ftriple flipped="True">United_States | country | Chicago</ftriple>
 					</sentence>
@@ -3645,7 +3645,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
 						<ftriple flipped="False">Chicago | isPartOf | Illinois</ftriple>
-						<ftriple flipped="True">Springfield,_Illinois | capital | Illinois</ftriple>
+						<ftriple flipped="False">Illinois | capital | Springfield,_Illinois</ftriple>
 						<ftriple flipped="False">Illinois | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -3799,7 +3799,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
 						<ftriple flipped="True">Illinois | isPartOf | Chicago</ftriple>
-						<ftriple flipped="True">Susana_Mendoza | leaderName | Chicago</ftriple>
+						<ftriple flipped="False">Chicago | leaderName | Susana_Mendoza</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Illinois | country | United_States</ftriple>
@@ -3959,10 +3959,10 @@
 				<template>AGENT-1 is located in BRIDGE-1 , BRIDGE-2 in PATIENT-1 , where PATIENT-2 is the official language . PATIENT-3 is a leader in BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
+						<ftriple flipped="True">Chicago | location | 300_North_LaSalle</ftriple>
 						<ftriple flipped="False">Chicago | isPartOf | Illinois</ftriple>
-						<ftriple flipped="False">Illinois | country | United_States</ftriple>
-						<ftriple flipped="True">English_language | language | Illinois</ftriple>
+						<ftriple flipped="True">United_States | country | Illinois</ftriple>
+						<ftriple flipped="False">Illinois | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Susana_Mendoza | leaderName | Chicago</ftriple>
@@ -4086,10 +4086,10 @@
 				<template>PATIENT-1 is home to PATIENT-2 speaking BRIDGE-1 , BRIDGE-2 (capital : PATIENT-3) and BRIDGE-1 @ AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Illinois | country | United_States</ftriple>
-						<ftriple flipped="False">Illinois | language | English_language</ftriple>
-						<ftriple flipped="False">Chicago | isPartOf | Illinois</ftriple>
-						<ftriple flipped="True">Springfield,_Illinois | capital | Illinois</ftriple>
+						<ftriple flipped="True">United_States | country | Illinois</ftriple>
+						<ftriple flipped="True">English_language | language | Illinois</ftriple>
+						<ftriple flipped="True">Illinois | isPartOf | Chicago</ftriple>
+						<ftriple flipped="False">Illinois | capital | Springfield,_Illinois</ftriple>
 						<ftriple flipped="False">300_North_LaSalle | location | Chicago</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4180,7 +4180,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Populous_(company) | architect | 3Arena</ftriple>
-						<ftriple flipped="True">North_Wall,_Dublin | location | 3Arena</ftriple>
+						<ftriple flipped="False">3Arena | location | North_Wall,_Dublin</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">3Arena | height | 28.0 (metres)</ftriple>
@@ -4249,10 +4249,10 @@
 				<template>AGENT-1 in PATIENT-3 , whose height is PATIENT-1 , was designed by PATIENT-2 and completed in PATIENT-5 . AGENT-1 hosts PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">North_Wall,_Dublin | location | 3Arena</ftriple>
+						<ftriple flipped="False">3Arena | location | North_Wall,_Dublin</ftriple>
 						<ftriple flipped="False">3Arena | height | 28.0 (metres)</ftriple>
-						<ftriple flipped="False">3Arena | architect | Populous_(company)</ftriple>
-						<ftriple flipped="False">3Arena | completionDate | &quot;December 2008&quot;</ftriple>
+						<ftriple flipped="True">Populous_(company) | architect | 3Arena</ftriple>
+						<ftriple flipped="True">&quot;December 2008&quot; | completionDate | 3Arena</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">3Arena | buildingType | &quot;Concert and events venue&quot;</ftriple>
@@ -4397,7 +4397,7 @@
 				<template>PATIENT-3 were the architect of AGENT-1 at PATIENT-2 . AGENT-1 hosts PATIENT-4 and was completed in PATIENT-5 at a height of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">3Arena | architect | &quot;HOK SVE&quot;</ftriple>
+						<ftriple flipped="True">&quot;HOK SVE&quot; | architect | 3Arena</ftriple>
 						<ftriple flipped="True">&quot;North Wall Quay&quot; | location | 3Arena</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4435,7 +4435,7 @@
 				<template>AGENT-1 at PATIENT-2 was designed by PATIENT-3 . AGENT-1 was completed in PATIENT-5 and has a height of PATIENT-1 . AGENT-1 hosts PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;North Wall Quay&quot; | location | 3Arena</ftriple>
+						<ftriple flipped="False">3Arena | location | &quot;North Wall Quay&quot;</ftriple>
 						<ftriple flipped="False">3Arena | architect | &quot;HOK SVE&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4476,7 +4476,7 @@
 						<ftriple flipped="False">3Arena | completionDate | &quot;December 2008&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">28.0 (metres) | height | 3Arena</ftriple>
+						<ftriple flipped="False">3Arena | height | 28.0 (metres)</ftriple>
 						<ftriple flipped="True">&quot;Concert and events venue&quot; | buildingType | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4531,7 +4531,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">3Arena | location | North_Wall,_Dublin</ftriple>
-						<ftriple flipped="False">3Arena | buildingType | &quot;Concert and events venue&quot;</ftriple>
+						<ftriple flipped="True">&quot;Concert and events venue&quot; | buildingType | 3Arena</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">3Arena | height | 28.0 (metres)</ftriple>
@@ -4623,13 +4623,13 @@
 				<template>PATIENT-4 are hosted at AGENT-1 in PATIENT-1 which was designed by PATIENT-3 . AGENT-1 is PATIENT-2 high and was completed in PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Concert and events venue&quot; | buildingType | 3Arena</ftriple>
+						<ftriple flipped="False">3Arena | buildingType | &quot;Concert and events venue&quot;</ftriple>
 						<ftriple flipped="False">3Arena | location | Dublin</ftriple>
 						<ftriple flipped="False">3Arena | architect | &quot;HOK SVE&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">3Arena | height | 28.0 (metres)</ftriple>
-						<ftriple flipped="False">3Arena | completionDate | &quot;December 2008&quot;</ftriple>
+						<ftriple flipped="True">&quot;December 2008&quot; | completionDate | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4842,7 +4842,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
-						<ftriple flipped="False">3Arena | location | Dublin</ftriple>
+						<ftriple flipped="True">Dublin | location | 3Arena</ftriple>
 						<ftriple flipped="True">Leinster | isPartOf | Dublin</ftriple>
 						<ftriple flipped="True">Republic_of_Ireland | country | Dublin</ftriple>
 					</sentence>
@@ -4903,7 +4903,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
 						<ftriple flipped="True">Dublin | location | 3Arena</ftriple>
-						<ftriple flipped="True">Leinster | isPartOf | Dublin</ftriple>
+						<ftriple flipped="False">Dublin | isPartOf | Leinster</ftriple>
 						<ftriple flipped="False">Dublin | country | Republic_of_Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4961,7 +4961,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
-						<ftriple flipped="False">3Arena | location | Dublin</ftriple>
+						<ftriple flipped="True">Dublin | location | 3Arena</ftriple>
 						<ftriple flipped="False">Dublin | country | Republic_of_Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4996,7 +4996,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
-						<ftriple flipped="False">3Arena | location | Dublin</ftriple>
+						<ftriple flipped="True">Dublin | location | 3Arena</ftriple>
 						<ftriple flipped="False">Dublin | country | Republic_of_Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -5031,9 +5031,9 @@
 				<template>PATIENT-1 owns AGENT-1 in BRIDGE-1 , PATIENT-3 . The Lord Mayor of BRIDGE-1 is PATIENT-2 and the government in BRIDGE-1 is lead by PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Live_Nation_Entertainment | owner | 3Arena</ftriple>
-						<ftriple flipped="False">3Arena | location | Dublin</ftriple>
-						<ftriple flipped="True">Republic_of_Ireland | country | Dublin</ftriple>
+						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
+						<ftriple flipped="True">Dublin | location | 3Arena</ftriple>
+						<ftriple flipped="False">Dublin | country | Republic_of_Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Dublin | leaderName | Críona_Ní_Dhálaigh</ftriple>
@@ -5096,7 +5096,7 @@
 						<ftriple flipped="True">Críona_Ní_Dhálaigh | leaderName | Dublin</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
+						<ftriple flipped="True">Live_Nation_Entertainment | owner | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5190,7 +5190,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5263,7 +5263,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | floorCount | 23</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5317,7 +5317,7 @@
 				<template>AGENT-1 , BRIDGE-1 , where PATIENT-1 is spoken . BRIDGE-2 , founded in PATIENT-2 , is currently AGENT-1 tenant , and PATIENT-3 is a key leader in BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
+						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 						<ftriple flipped="False">Denmark | language | Faroese_language</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -5352,11 +5352,11 @@
 				<template>AGENT-1 , BRIDGE-1 , where PATIENT-1 is spoken . AGENT-1 tenant is BRIDGE-2 , founded in PATIENT-2 and led by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="True">Faroese_language | language | Denmark</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
+						<ftriple flipped="False">Denmark | language | Faroese_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
 						<ftriple flipped="False">Marriott_International | keyPerson | Bill_Marriott</ftriple>
 					</sentence>
@@ -5383,7 +5383,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Marriott_International | keyPerson | Bill_Marriott</ftriple>
 						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
-						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5437,7 +5437,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -5473,8 +5473,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1"/>
 					<sentence ID="2">
-						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
-						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -5533,13 +5533,13 @@
 				<template>The tenant of AGENT-1 , BRIDGE-1 is BRIDGE-2 , the company which was founded in PATIENT-3 . One of the languages in BRIDGE-1 is the PATIENT-1 and the leader of BRIDGE-1 is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Denmark | language | German_language</ftriple>
-						<ftriple flipped="False">Denmark | leaderName | Margrethe_II_of_Denmark</ftriple>
+						<ftriple flipped="True">German_language | language | Denmark</ftriple>
+						<ftriple flipped="True">Margrethe_II_of_Denmark | leaderName | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5575,7 +5575,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Margrethe_II_of_Denmark | leaderName | Denmark</ftriple>
-						<ftriple flipped="False">Denmark | language | German_language</ftriple>
+						<ftriple flipped="True">German_language | language | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5608,10 +5608,10 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
+						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Denmark | language | German_language</ftriple>
+						<ftriple flipped="True">German_language | language | Denmark</ftriple>
 						<ftriple flipped="False">Denmark | leaderName | Margrethe_II_of_Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5725,9 +5725,9 @@
 				<template>The tenant of AGENT-1 , BRIDGE-1 is BRIDGE-2 - a company that was founded in PATIENT-2 . The prime minister of BRIDGE-1 is PATIENT-3 and one of the languages used in BRIDGE-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
-						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Denmark | leaderName | Lars_Løkke_Rasmussen</ftriple>
@@ -5758,9 +5758,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
-						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="True">Lars_Løkke_Rasmussen | leaderName | Denmark</ftriple>
+						<ftriple flipped="False">Denmark | leaderName | Lars_Løkke_Rasmussen</ftriple>
 						<ftriple flipped="False">Denmark | language | German_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5792,8 +5792,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
-						<ftriple flipped="True">Lars_Løkke_Rasmussen | leaderName | Denmark</ftriple>
+						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">Denmark | leaderName | Lars_Løkke_Rasmussen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5847,7 +5847,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Margrethe_II_of_Denmark | leaderName | Denmark</ftriple>
-						<ftriple flipped="True">Greenlandic_language | language | Denmark</ftriple>
+						<ftriple flipped="False">Denmark | language | Greenlandic_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
@@ -5977,7 +5977,7 @@
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
 						<ftriple flipped="False">Marriott_International | keyPerson | Bill_Marriott</ftriple>
 					</sentence>
@@ -6011,9 +6011,9 @@
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
-						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
-						<ftriple flipped="False">Marriott_International | keyPerson | Bill_Marriott</ftriple>
+						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
+						<ftriple flipped="True">Bill_Marriott | keyPerson | Marriott_International</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6107,14 +6107,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="False">Denmark | capital | Copenhagen</ftriple>
+						<ftriple flipped="True">Copenhagen | capital | Denmark</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Denmark | leaderName | Margrethe_II_of_Denmark</ftriple>
+						<ftriple flipped="True">Margrethe_II_of_Denmark | leaderName | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6144,7 +6144,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Margrethe_II_of_Denmark | leaderName | Denmark</ftriple>
-						<ftriple flipped="True">Copenhagen | capital | Denmark</ftriple>
+						<ftriple flipped="False">Denmark | capital | Copenhagen</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6206,12 +6206,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Denmark | capital | Copenhagen</ftriple>
-						<ftriple flipped="False">Denmark | leaderName | Lars_Løkke_Rasmussen</ftriple>
+						<ftriple flipped="True">Lars_Løkke_Rasmussen | leaderName | Denmark</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
 						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="False">Marriott_International | foundationPlace | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | foundationPlace | Marriott_International</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6305,7 +6305,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
-						<ftriple flipped="True">Lars_Løkke_Rasmussen | leaderName | Denmark</ftriple>
+						<ftriple flipped="False">Denmark | leaderName | Lars_Løkke_Rasmussen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6363,7 +6363,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</ftriple>
 						<ftriple flipped="True">23 | floorCount | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="True">814 | numberOfRooms | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | numberOfRooms | 814</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">3XN | architect | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
@@ -6432,10 +6432,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">3XN | architect | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="True">Bella_Center | owner | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | floorCount | 23</ftriple>
-						<ftriple flipped="True">814 | numberOfRooms | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="True">Marriott_International | tenant | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | numberOfRooms | 814</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6488,8 +6488,8 @@
 				<template>AGENT-1 in PATIENT-3 has PATIENT-5 floors and was designed by PATIENT-4 . AGENT-1 is owned by PATIENT-2 and currently tenanted by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Copenhagen | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
-						<ftriple flipped="True">23 | floorCount | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | floorCount | 23</ftriple>
 						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | architect | 3XN</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6621,7 +6621,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Adare | location | Adare_Manor</ftriple>
-						<ftriple flipped="False">Adare | isPartOf | Munster</ftriple>
+						<ftriple flipped="True">Munster | isPartOf | Adare</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Adare_Manor | architect | Augustus_Pugin</ftriple>
@@ -6687,7 +6687,7 @@
 				<template>BRIDGE-1 was born in PATIENT-3 and designed the significant building of PATIENT-2 . BRIDGE-1 also designed AGENT-1 in BRIDGE-2 , PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Augustus_Pugin | birthPlace | Bloomsbury</ftriple>
+						<ftriple flipped="True">Bloomsbury | birthPlace | Augustus_Pugin</ftriple>
 						<ftriple flipped="True">Palace_of_Westminster | significantBuilding | Augustus_Pugin</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -6879,7 +6879,7 @@
 						<ftriple flipped="False">Adare_Manor | country | Republic_of_Ireland</ftriple>
 						<ftriple flipped="False">Republic_of_Ireland | language | English_language</ftriple>
 						<ftriple flipped="True">Irish_language | language | Republic_of_Ireland</ftriple>
-						<ftriple flipped="False">Republic_of_Ireland | demonym | Irish_people</ftriple>
+						<ftriple flipped="True">Irish_people | demonym | Republic_of_Ireland</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Republic_of_Ireland | currency | Euro</ftriple>
@@ -6915,7 +6915,7 @@
 				<template>The official language of BRIDGE-1 is PATIENT-3 , and in BRIDGE-1 is PATIENT-1 . The native people of BRIDGE-1 are PATIENT-2 and the currency is PATIENT-4 . BRIDGE-1 is the location of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Republic_of_Ireland | language | Irish_language</ftriple>
+						<ftriple flipped="True">Irish_language | language | Republic_of_Ireland</ftriple>
 						<ftriple flipped="False">Republic_of_Ireland | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -7012,12 +7012,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Republic_of_Ireland | leaderName | Enda_Kenny</ftriple>
-						<ftriple flipped="False">Republic_of_Ireland | demonym | Irish_people</ftriple>
-						<ftriple flipped="True">Irish_language | language | Republic_of_Ireland</ftriple>
-						<ftriple flipped="True">English_language | language | Republic_of_Ireland</ftriple>
+						<ftriple flipped="True">Irish_people | demonym | Republic_of_Ireland</ftriple>
+						<ftriple flipped="False">Republic_of_Ireland | language | Irish_language</ftriple>
+						<ftriple flipped="False">Republic_of_Ireland | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Republic_of_Ireland | country | Adare_Manor</ftriple>
+						<ftriple flipped="False">Adare_Manor | country | Republic_of_Ireland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7279,7 +7279,7 @@
 				<template>The architecture style of AGENT-1 is PATIENT-1 . AGENT-1 was constructed from PATIENT-4 to PATIENT-3 and is located on PATIENT-5 in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adisham_Hall | architecturalStyle | &quot;Tudor and Jacabian&quot;</ftriple>
+						<ftriple flipped="True">&quot;Tudor and Jacabian&quot; | architecturalStyle | Adisham_Hall</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Adisham_Hall | buildingStartDate | &quot;1927&quot;</ftriple>
@@ -7470,10 +7470,10 @@
 						<ftriple flipped="False">Adisham_Hall | location | &quot;Haputale, Sri Lanka&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Adisham_Hall | country | Sri_Lanka</ftriple>
+						<ftriple flipped="True">Sri_Lanka | country | Adisham_Hall</ftriple>
 						<ftriple flipped="False">Sri_Lanka | leaderName | Ranil_Wickremesinghe</ftriple>
-						<ftriple flipped="False">Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</ftriple>
-						<ftriple flipped="False">Sri_Lanka | language | Tamil_language</ftriple>
+						<ftriple flipped="True">Sri_Jayawardenepura_Kotte | capital | Sri_Lanka</ftriple>
+						<ftriple flipped="True">Tamil_language | language | Sri_Lanka</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7505,8 +7505,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Sri_Lanka | country | Adisham_Hall</ftriple>
-						<ftriple flipped="True">Ranil_Wickremesinghe | leaderName | Sri_Lanka</ftriple>
-						<ftriple flipped="False">Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</ftriple>
+						<ftriple flipped="False">Sri_Lanka | leaderName | Ranil_Wickremesinghe</ftriple>
+						<ftriple flipped="True">Sri_Jayawardenepura_Kotte | capital | Sri_Lanka</ftriple>
 						<ftriple flipped="True">Tamil_language | language | Sri_Lanka</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -7788,7 +7788,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</ftriple>
-						<ftriple flipped="False">Adisham_Hall | buildingStartDate | &quot;1927&quot;</ftriple>
+						<ftriple flipped="True">&quot;1927&quot; | buildingStartDate | Adisham_Hall</ftriple>
 						<ftriple flipped="False">Adisham_Hall | completionDate | 1931</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -7875,7 +7875,7 @@
 						<ftriple flipped="False">Adisham_Hall | architecturalStyle | Tudor_Revival_architecture</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Adisham_Hall | address | &quot;St. Benedicts Monastery, Adisham, Haputhale, Sri Lanka&quot;</ftriple>
+						<ftriple flipped="True">&quot;St. Benedicts Monastery, Adisham, Haputhale, Sri Lanka&quot; | address | Adisham_Hall</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8180,7 +8180,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
 						<ftriple flipped="True">Akita_Prefecture | isPartOf | Akita,_Akita</ftriple>
-						<ftriple flipped="True">Japan | country | Akita_Museum_of_Art</ftriple>
+						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Japan | leaderName | Shinzō_Abe</ftriple>
@@ -8275,13 +8275,13 @@
 				<template>AGENT-1 is an art museum in BRIDGE-1 which is part of PATIENT-1 , BRIDGE-2 . One of the ethnic groups in BRIDGE-2 is PATIENT-2 and the leader of BRIDGE-2 is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
+						<ftriple flipped="True">Akita,_Akita | location | Akita_Museum_of_Art</ftriple>
 						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
-						<ftriple flipped="True">Japan | country | Akita_Museum_of_Art</ftriple>
+						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Japan | ethnicGroup | Brazilians_in_Japan</ftriple>
-						<ftriple flipped="True">Tarō_Asō | leaderName | Japan</ftriple>
+						<ftriple flipped="True">Brazilians_in_Japan | ethnicGroup | Japan</ftriple>
+						<ftriple flipped="False">Japan | leaderName | Tarō_Asō</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8499,12 +8499,12 @@
 				<template>AGENT-1 is located in BRIDGE-1 , which is part of PATIENT-1 in BRIDGE-2 . One of the ethnic groups in BRIDGE-2 is PATIENT-2 and the leader of BRIDGE-2 is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
+						<ftriple flipped="True">Akita,_Akita | location | Akita_Museum_of_Art</ftriple>
 						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Filipinos_in_Japan | ethnicGroup | Japan</ftriple>
+						<ftriple flipped="False">Japan | ethnicGroup | Filipinos_in_Japan</ftriple>
 						<ftriple flipped="True">Shinzō_Abe | leaderName | Japan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8568,10 +8568,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
-						<ftriple flipped="True">Akita_Prefecture | isPartOf | Akita,_Akita</ftriple>
+						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
-						<ftriple flipped="True">Shinzō_Abe | leaderName | Japan</ftriple>
-						<ftriple flipped="True">Filipinos_in_Japan | ethnicGroup | Japan</ftriple>
+						<ftriple flipped="False">Japan | leaderName | Shinzō_Abe</ftriple>
+						<ftriple flipped="False">Japan | ethnicGroup | Filipinos_in_Japan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8625,13 +8625,13 @@
 				<template>AGENT-1 is located in BRIDGE-1 , which is part of PATIENT-1 in BRIDGE-2 . One of the ethnic groups in BRIDGE-2 is PATIENT-2 and the leader of BRIDGE-2 is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
+						<ftriple flipped="True">Akita,_Akita | location | Akita_Museum_of_Art</ftriple>
 						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Japan | ethnicGroup | Filipinos_in_Japan</ftriple>
-						<ftriple flipped="True">Tarō_Asō | leaderName | Japan</ftriple>
+						<ftriple flipped="True">Filipinos_in_Japan | ethnicGroup | Japan</ftriple>
+						<ftriple flipped="False">Japan | leaderName | Tarō_Asō</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8696,7 +8696,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
-						<ftriple flipped="True">Akita_Prefecture | isPartOf | Akita,_Akita</ftriple>
+						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -8790,7 +8790,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
-						<ftriple flipped="True">Akita_Prefecture | isPartOf | Akita,_Akita</ftriple>
+						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -8849,7 +8849,7 @@
 				<template>AGENT-1 is an art museum in the city of BRIDGE-1 , a part of PATIENT-1 in BRIDGE-2 . The leader of BRIDGE-2 is PATIENT-2 , and PATIENT-3 are an ethnic group from BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
+						<ftriple flipped="True">Akita,_Akita | location | Akita_Museum_of_Art</ftriple>
 						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
@@ -8946,7 +8946,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
 						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
-						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
+						<ftriple flipped="True">Japan | country | Akita_Museum_of_Art</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Akihito | leaderName | Japan</ftriple>
@@ -9004,7 +9004,7 @@
 				<template>AGENT-1 is located in BRIDGE-2 which is part of PATIENT-2 in BRIDGE-1 . The Emperor of BRIDGE-1 is PATIENT-1 and PATIENT-3 are an ethnic group found in BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
+						<ftriple flipped="True">Akita,_Akita | location | Akita_Museum_of_Art</ftriple>
 						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita_Museum_of_Art | country | Japan</ftriple>
 					</sentence>
@@ -9165,7 +9165,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</ftriple>
-						<ftriple flipped="True">Mason_School_of_Business | currentTenants | Alan_B._Miller_Hall</ftriple>
+						<ftriple flipped="False">Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9288,11 +9288,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</ftriple>
-						<ftriple flipped="False">Alan_B._Miller_Hall | address | &quot;101 Ukrop Way&quot;</ftriple>
-						<ftriple flipped="False">Alan_B._Miller_Hall | location | Virginia</ftriple>
+						<ftriple flipped="True">&quot;101 Ukrop Way&quot; | address | Alan_B._Miller_Hall</ftriple>
+						<ftriple flipped="True">Virginia | location | Alan_B._Miller_Hall</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Alan_B._Miller_Hall | architect | Robert_A._M._Stern</ftriple>
+						<ftriple flipped="True">Robert_A._M._Stern | architect | Alan_B._Miller_Hall</ftriple>
 						<ftriple flipped="False">Alan_B._Miller_Hall | completionDate | &quot;1 June 2009&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9347,7 +9347,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">College_of_William_&amp;_Mary | owner | Alan_B._Miller_Hall</ftriple>
-						<ftriple flipped="True">Robert_A._M._Stern | architect | Alan_B._Miller_Hall</ftriple>
+						<ftriple flipped="False">Alan_B._Miller_Hall | architect | Robert_A._M._Stern</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Alan_B._Miller_Hall | address | &quot;101 Ukrop Way&quot;</ftriple>
@@ -9633,12 +9633,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Amdavad_ni_Gufa | address | &quot;Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road&quot;</ftriple>
-						<ftriple flipped="False">Amdavad_ni_Gufa | location | Gujarat</ftriple>
-						<ftriple flipped="False">Amdavad_ni_Gufa | location | Ahmedabad</ftriple>
-						<ftriple flipped="False">Amdavad_ni_Gufa | country | India</ftriple>
+						<ftriple flipped="True">Gujarat | location | Amdavad_ni_Gufa</ftriple>
+						<ftriple flipped="True">Ahmedabad | location | Amdavad_ni_Gufa</ftriple>
+						<ftriple flipped="True">India | country | Amdavad_ni_Gufa</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Amdavad_ni_Gufa | completionDate | 1995</ftriple>
+						<ftriple flipped="True">1995 | completionDate | Amdavad_ni_Gufa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9691,7 +9691,7 @@
 						<ftriple flipped="False">Amdavad_ni_Gufa | architect | B._V._Doshi</ftriple>
 						<ftriple flipped="False">Amdavad_ni_Gufa | completionDate | 1995</ftriple>
 						<ftriple flipped="False">Amdavad_ni_Gufa | location | Ahmedabad</ftriple>
-						<ftriple flipped="False">Amdavad_ni_Gufa | location | Gujarat</ftriple>
+						<ftriple flipped="True">Gujarat | location | Amdavad_ni_Gufa</ftriple>
 						<ftriple flipped="False">Amdavad_ni_Gufa | country | India</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10085,8 +10085,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Ampara_Hospital | website | &lt;http://www.ghampara.gov.lk/&gt;</ftriple>
-						<ftriple flipped="True">Ampara_District | region | Ampara_Hospital</ftriple>
-						<ftriple flipped="True">Eastern_Province,_Sri_Lanka | state | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | region | Ampara_District</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
 						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -10147,9 +10147,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Ampara_District | region | Ampara_Hospital</ftriple>
-						<ftriple flipped="True">Eastern_Province,_Sri_Lanka | state | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
 						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
-						<ftriple flipped="False">Ampara_Hospital | bedCount | 476</ftriple>
+						<ftriple flipped="True">476 | bedCount | Ampara_Hospital</ftriple>
 						<ftriple flipped="False">Ampara_Hospital | website | &lt;http://www.ghampara.gov.lk/&gt;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10304,11 +10304,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Sri_Lanka | country | Ampara_Hospital</ftriple>
-						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
+						<ftriple flipped="True">Eastern_Province,_Sri_Lanka | state | Ampara_Hospital</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Austin_Fernando | leaderName | Eastern_Province,_Sri_Lanka</ftriple>
-						<ftriple flipped="True">Eastern_Provincial_Council | governingBody | Eastern_Province,_Sri_Lanka</ftriple>
+						<ftriple flipped="False">Eastern_Province,_Sri_Lanka | leaderName | Austin_Fernando</ftriple>
+						<ftriple flipped="False">Eastern_Province,_Sri_Lanka | governingBody | Eastern_Provincial_Council</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">Sri_Jayawardenepura_Kotte | capital | Sri_Lanka</ftriple>
@@ -10496,8 +10496,8 @@
 						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Ampara_Hospital | location | Ampara</ftriple>
-						<ftriple flipped="True">Eastern_Province,_Sri_Lanka | state | Ampara_Hospital</ftriple>
+						<ftriple flipped="True">Ampara | location | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
 						<ftriple flipped="False">Eastern_Province,_Sri_Lanka | leaderName | Austin_Fernando</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10569,7 +10569,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Ampara | location | Ampara_Hospital</ftriple>
 						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
-						<ftriple flipped="True">Sri_Lanka | country | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
 						<ftriple flipped="False">Eastern_Province,_Sri_Lanka | leaderName | Austin_Fernando</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -10631,7 +10631,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Sri_Lanka | country | Ampara_Hospital</ftriple>
-						<ftriple flipped="True">Ranil_Wickremesinghe | leaderName | Sri_Lanka</ftriple>
+						<ftriple flipped="False">Sri_Lanka | leaderName | Ranil_Wickremesinghe</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10719,12 +10719,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Sri_Lanka | leaderName | Ranil_Wickremesinghe</ftriple>
-						<ftriple flipped="False">Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</ftriple>
+						<ftriple flipped="True">Sri_Jayawardenepura_Kotte | capital | Sri_Lanka</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
-						<ftriple flipped="True">Eastern_Province,_Sri_Lanka | state | Ampara_Hospital</ftriple>
-						<ftriple flipped="True">Austin_Fernando | leaderName | Eastern_Province,_Sri_Lanka</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
+						<ftriple flipped="False">Eastern_Province,_Sri_Lanka | leaderName | Austin_Fernando</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11007,13 +11007,13 @@
 				<template>AGENT-1 is in PATIENT-3 . PATIENT-4 is the capital of BRIDGE-1 , the country which has PATIENT-2 as BRIDGE-1 currency and PATIENT-1 as BRIDGE-1 leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ampara_Hospital | state | Eastern_Province,_Sri_Lanka</ftriple>
+						<ftriple flipped="True">Eastern_Province,_Sri_Lanka | state | Ampara_Hospital</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
-						<ftriple flipped="False">Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</ftriple>
-						<ftriple flipped="False">Sri_Lanka | currency | Sri_Lankan_rupee</ftriple>
-						<ftriple flipped="False">Sri_Lanka | leaderName | Ranil_Wickremesinghe</ftriple>
+						<ftriple flipped="True">Sri_Jayawardenepura_Kotte | capital | Sri_Lanka</ftriple>
+						<ftriple flipped="True">Sri_Lankan_rupee | currency | Sri_Lanka</ftriple>
+						<ftriple flipped="True">Ranil_Wickremesinghe | leaderName | Sri_Lanka</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11068,7 +11068,7 @@
 						<ftriple flipped="True">San_Francisco | birthPlace | Julia_Morgan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Asilomar_Conference_Grounds | architect | Julia_Morgan</ftriple>
+						<ftriple flipped="True">Julia_Morgan | architect | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantBuilding | Los_Angeles_Herald-Examiner</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantBuilding | Riverside_Art_Museum</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantProject | Hearst_Castle</ftriple>
@@ -11186,8 +11186,8 @@
 				<template>BRIDGE-1 was born in PATIENT-1 and is an architect famous for numerous places including PATIENT-4 in PATIENT-1 , AGENT-1 , PATIENT-2 and PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">San_Francisco | birthPlace | Julia_Morgan</ftriple>
-						<ftriple flipped="False">Julia_Morgan | significantBuilding | Chinatown,_San_Francisco</ftriple>
+						<ftriple flipped="False">Julia_Morgan | birthPlace | San_Francisco</ftriple>
+						<ftriple flipped="True">Chinatown,_San_Francisco | significantBuilding | Julia_Morgan</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | architect | Julia_Morgan</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantBuilding | Riverside_Art_Museum</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantProject | Hearst_Castle</ftriple>
@@ -11363,9 +11363,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">California | birthPlace | Julia_Morgan</ftriple>
-						<ftriple flipped="False">Asilomar_Conference_Grounds | architect | Julia_Morgan</ftriple>
+						<ftriple flipped="True">Julia_Morgan | architect | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantBuilding | Los_Angeles_Herald-Examiner</ftriple>
-						<ftriple flipped="True">Hearst_Castle | significantProject | Julia_Morgan</ftriple>
+						<ftriple flipped="False">Julia_Morgan | significantProject | Hearst_Castle</ftriple>
 						<ftriple flipped="True">Asilomar_State_Beach | significantBuilding | Julia_Morgan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11421,12 +11421,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Asilomar_Conference_Grounds | architect | Julia_Morgan</ftriple>
-						<ftriple flipped="True">Asilomar_State_Beach | significantBuilding | Julia_Morgan</ftriple>
+						<ftriple flipped="False">Julia_Morgan | significantBuilding | Asilomar_State_Beach</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantBuilding | Riverside_Art_Museum</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Julia_Morgan | birthPlace | California</ftriple>
-						<ftriple flipped="True">Hearst_Castle | significantProject | Julia_Morgan</ftriple>
+						<ftriple flipped="False">Julia_Morgan | significantProject | Hearst_Castle</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11508,8 +11508,8 @@
 					<sentence ID="1">
 						<ftriple flipped="True">California | birthPlace | Julia_Morgan</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | architect | Julia_Morgan</ftriple>
-						<ftriple flipped="True">Hearst_Castle | significantProject | Julia_Morgan</ftriple>
-						<ftriple flipped="True">Asilomar_State_Beach | significantBuilding | Julia_Morgan</ftriple>
+						<ftriple flipped="False">Julia_Morgan | significantProject | Hearst_Castle</ftriple>
+						<ftriple flipped="False">Julia_Morgan | significantBuilding | Asilomar_State_Beach</ftriple>
 						<ftriple flipped="False">Julia_Morgan | significantBuilding | Chinatown,_San_Francisco</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11668,12 +11668,12 @@
 				<template>AGENT-1 which was constructed in PATIENT-5 in the architectural style of PATIENT-3 is located at PATIENT-1 . AGENT-1 was added to the National Register of Historic Places on PATIENT-2 with PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asilomar_Conference_Grounds | yearOfConstruction | 1913</ftriple>
+						<ftriple flipped="True">1913 | yearOfConstruction | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | architecturalStyle | American_Craftsman</ftriple>
-						<ftriple flipped="False">Asilomar_Conference_Grounds | location | &quot;Asilomar Blvd., Pacific Grove, California&quot;</ftriple>
+						<ftriple flipped="True">&quot;Asilomar Blvd., Pacific Grove, California&quot; | location | Asilomar_Conference_Grounds</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Asilomar_Conference_Grounds | added to the National Register of Historic Places | &quot;1987-02-27&quot;</ftriple>
+						<ftriple flipped="True">&quot;1987-02-27&quot; | added to the National Register of Historic Places | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | ReferenceNumber in the National Register of Historic Places | &quot;87000823&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11724,7 +11724,7 @@
 				<template>AGENT-1 , constructed in PATIENT-5 in PATIENT-3 architectural style and located at PATIENT-1 , was added to the National Register of Historic Places on PATIENT-2 , has the reference number PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1913 | yearOfConstruction | Asilomar_Conference_Grounds</ftriple>
+						<ftriple flipped="False">Asilomar_Conference_Grounds | yearOfConstruction | 1913</ftriple>
 						<ftriple flipped="True">Arts_and_Crafts_movement | architecturalStyle | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | location | &quot;Asilomar Blvd., Pacific Grove, California&quot;</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | added to the National Register of Historic Places | &quot;1987-02-27&quot;</ftriple>
@@ -11757,13 +11757,13 @@
 				<template>The location of AGENT-1 which were constructed in PATIENT-5 is PATIENT-1 . AGENT-1 were added to the National Register of Historic Places on PATIENT-2 with the reference number `` PATIENT-4 '' , and were built in the PATIENT-3 architectural style .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asilomar_Conference_Grounds | yearOfConstruction | 1913</ftriple>
+						<ftriple flipped="True">1913 | yearOfConstruction | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | location | &quot;Asilomar Blvd., Pacific Grove, California&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Asilomar_Conference_Grounds | added to the National Register of Historic Places | &quot;1987-02-27&quot;</ftriple>
+						<ftriple flipped="True">&quot;1987-02-27&quot; | added to the National Register of Historic Places | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="False">Asilomar_Conference_Grounds | ReferenceNumber in the National Register of Historic Places | &quot;87000823&quot;</ftriple>
-						<ftriple flipped="True">Arts_and_Crafts_movement | architecturalStyle | Asilomar_Conference_Grounds</ftriple>
+						<ftriple flipped="False">Asilomar_Conference_Grounds | architecturalStyle | Arts_and_Crafts_movement</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11954,8 +11954,8 @@
 						<ftriple flipped="True">&quot;Asser Levy Place and East 23rd Street&quot; | location | Asser_Levy_Public_Baths</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;1980-04-23&quot; | added to the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
-						<ftriple flipped="True">&quot;80002709&quot; | ReferenceNumber in the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11989,7 +11989,7 @@
 						<ftriple flipped="False">Asser_Levy_Public_Baths | architecturalStyle | Romanesque_Revival_architecture</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
+						<ftriple flipped="True">&quot;1980-04-23&quot; | added to the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
 						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12025,11 +12025,11 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | architecturalStyle | Romanesque_Revival_architecture</ftriple>
-						<ftriple flipped="True">1904 | yearOfConstruction | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | yearOfConstruction | 1904</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">&quot;80002709&quot; | ReferenceNumber in the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
-						<ftriple flipped="True">&quot;1980-04-23&quot; | added to the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12151,13 +12151,13 @@
 				<template>AGENT-1 , constructed in PATIENT-4 and designed in PATIENT-2 , is located in PATIENT-1 . AGENT-1 was added to the National Register of Historic Places on PATIENT-5 , with Reference Number PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1904 | yearOfConstruction | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | yearOfConstruction | 1904</ftriple>
 						<ftriple flipped="False">Asser_Levy_Public_Baths | architecturalStyle | Romanesque_Revival_architecture</ftriple>
 						<ftriple flipped="True">Avenue_A_(Manhattan) | location | Asser_Levy_Public_Baths</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
-						<ftriple flipped="True">&quot;80002709&quot; | ReferenceNumber in the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12210,13 +12210,13 @@
 				<template>AGENT-1 , built in PATIENT-4 with PATIENT-2 , is located in PATIENT-1 . AGENT-1 was registered in the National Register of Historic Places on PATIENT-5 with PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1904 | yearOfConstruction | Asser_Levy_Public_Baths</ftriple>
-						<ftriple flipped="True">Romanesque_Revival_architecture | architecturalStyle | Asser_Levy_Public_Baths</ftriple>
-						<ftriple flipped="False">Asser_Levy_Public_Baths | location | Manhattan</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | yearOfConstruction | 1904</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | architecturalStyle | Romanesque_Revival_architecture</ftriple>
+						<ftriple flipped="True">Manhattan | location | Asser_Levy_Public_Baths</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
-						<ftriple flipped="True">&quot;80002709&quot; | ReferenceNumber in the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12286,7 +12286,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
-						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
+						<ftriple flipped="True">&quot;80002709&quot; | ReferenceNumber in the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12418,12 +12418,12 @@
 				<template>AGENT-1 were constructed in PATIENT-4 in the PATIENT-2 style of architecture . AGENT-1 are located in PATIENT-1 and were added to the National Register of Historic Places on PATIENT-5 with the reference number of PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asser_Levy_Public_Baths | yearOfConstruction | 1904</ftriple>
+						<ftriple flipped="True">1904 | yearOfConstruction | Asser_Levy_Public_Baths</ftriple>
 						<ftriple flipped="True">Romanesque_Revival_architecture | architecturalStyle | Asser_Levy_Public_Baths</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
-						<ftriple flipped="False">Asser_Levy_Public_Baths | added to the National Register of Historic Places | &quot;1980-04-23&quot;</ftriple>
+						<ftriple flipped="True">&quot;1980-04-23&quot; | added to the National Register of Historic Places | Asser_Levy_Public_Baths</ftriple>
 						<ftriple flipped="False">Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | &quot;80002709&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12477,12 +12477,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
-						<ftriple flipped="False">New_York_City | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | New_York_City</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Manhattan | isPartOf | New_York_City</ftriple>
-						<ftriple flipped="True">New_York | isPartOf | Manhattan</ftriple>
-						<ftriple flipped="True">Cyrus_Vance,_Jr. | leaderName | Manhattan</ftriple>
+						<ftriple flipped="False">New_York_City | isPartOf | Manhattan</ftriple>
+						<ftriple flipped="False">Manhattan | isPartOf | New_York</ftriple>
+						<ftriple flipped="False">Manhattan | leaderName | Cyrus_Vance,_Jr.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12730,7 +12730,7 @@
 				<template>AGENT-1 are located in BRIDGE-1 , in PATIENT-3 , in PATIENT-1 . Part of BRIDGE-1 is BRIDGE-2 where one of the leaders is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
+						<ftriple flipped="True">New_York_City | location | Asser_Levy_Public_Baths</ftriple>
 						<ftriple flipped="False">New_York_City | isPartOf | New_York</ftriple>
 						<ftriple flipped="False">New_York_City | country | United_States</ftriple>
 					</sentence>
@@ -12765,7 +12765,7 @@
 				<template>AGENT-1 are located in BRIDGE-1 , PATIENT-3 in PATIENT-1 . The leader of BRIDGE-2 , part of BRIDGE-1 , is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
+						<ftriple flipped="True">New_York_City | location | Asser_Levy_Public_Baths</ftriple>
 						<ftriple flipped="False">New_York_City | isPartOf | New_York</ftriple>
 						<ftriple flipped="False">New_York_City | country | United_States</ftriple>
 					</sentence>
@@ -12861,11 +12861,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
-						<ftriple flipped="True">United_States | country | New_York_City</ftriple>
+						<ftriple flipped="False">New_York_City | country | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Manhattan | isPartOf | New_York_City</ftriple>
-						<ftriple flipped="True">New_York | isPartOf | Manhattan</ftriple>
+						<ftriple flipped="False">New_York_City | isPartOf | Manhattan</ftriple>
+						<ftriple flipped="False">Manhattan | isPartOf | New_York</ftriple>
 						<ftriple flipped="False">Manhattan | leaderName | Gale_Brewer</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12924,7 +12924,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">New_York_City | isPartOf | Manhattan</ftriple>
-						<ftriple flipped="True">Gale_Brewer | leaderName | Manhattan</ftriple>
+						<ftriple flipped="False">Manhattan | leaderName | Gale_Brewer</ftriple>
 						<ftriple flipped="True">Brooklyn | isPartOf | New_York_City</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -13046,10 +13046,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">New_Netherland | isPartOf | New_York_City</ftriple>
-						<ftriple flipped="True">Manhattan | isPartOf | New_York_City</ftriple>
-						<ftriple flipped="False">Manhattan | leaderName | Gale_Brewer</ftriple>
+						<ftriple flipped="False">New_York_City | isPartOf | Manhattan</ftriple>
+						<ftriple flipped="True">Gale_Brewer | leaderName | Manhattan</ftriple>
 						<ftriple flipped="False">New_York_City | country | United_States</ftriple>
-						<ftriple flipped="True">New_York_City | location | Asser_Levy_Public_Baths</ftriple>
+						<ftriple flipped="False">Asser_Levy_Public_Baths | location | New_York_City</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13106,8 +13106,8 @@
 						<ftriple flipped="True">Liberal_Democrats | leaderName | Birmingham</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
-						<ftriple flipped="False">John_Madin | hometown | Birmingham</ftriple>
+						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
+						<ftriple flipped="True">Birmingham | hometown | John_Madin</ftriple>
 						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -13189,7 +13189,7 @@
 				<template>BRIDGE-1 (born in BRIDGE-2) designed AGENT-1 ; BRIDGE-2 (PATIENT-1) is governed by PATIENT-3 @ PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Birmingham | birthPlace | John_Madin</ftriple>
+						<ftriple flipped="False">John_Madin | birthPlace | Birmingham</ftriple>
 						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
 						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
 						<ftriple flipped="False">Birmingham | leaderName | Labour_Party_(UK)</ftriple>
@@ -13222,8 +13222,8 @@
 				<template>PATIENT-1 is the postal code of BRIDGE-2 , which is led by PATIENT-3 and is governed by PATIENT-2 . BRIDGE-1 , the architect who designed AGENT-1 , was born in BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
-						<ftriple flipped="True">Labour_Party_(UK) | leaderName | Birmingham</ftriple>
+						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
+						<ftriple flipped="False">Birmingham | leaderName | Labour_Party_(UK)</ftriple>
 						<ftriple flipped="False">Birmingham | governingBody | Birmingham_City_Council</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -13318,7 +13318,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
-						<ftriple flipped="False">John_Madin | birthPlace | Birmingham</ftriple>
+						<ftriple flipped="True">Birmingham | birthPlace | John_Madin</ftriple>
 						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -13357,7 +13357,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">John_Madin | birthPlace | Birmingham</ftriple>
-						<ftriple flipped="True">John_Madin | architect | 103_Colmore_Row</ftriple>
+						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
 						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -13415,8 +13415,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
-						<ftriple flipped="False">John_Madin | hometown | Birmingham</ftriple>
-						<ftriple flipped="True">John_Madin | architect | 103_Colmore_Row</ftriple>
+						<ftriple flipped="True">Birmingham | hometown | John_Madin</ftriple>
+						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13444,7 +13444,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Birmingham | hometown | John_Madin</ftriple>
-						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
+						<ftriple flipped="True">John_Madin | architect | 103_Colmore_Row</ftriple>
 						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
 						<ftriple flipped="False">Birmingham | governingBody | Birmingham_City_Council</ftriple>
 						<ftriple flipped="True">Andrew_Mitchell | leaderName | Birmingham</ftriple>
@@ -13501,7 +13501,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Birmingham | governingBody | Birmingham_City_Council</ftriple>
-						<ftriple flipped="False">Birmingham | leaderName | Labour_Party_(UK)</ftriple>
+						<ftriple flipped="True">Labour_Party_(UK) | leaderName | Birmingham</ftriple>
 						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -13535,8 +13535,8 @@
 				<template>PATIENT-1 is the postal code of BRIDGE-2 , which is led by PATIENT-3 and governed by PATIENT-2 . BRIDGE-2 is also the hometown of BRIDGE-1 , the architect who designed AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
-						<ftriple flipped="False">Birmingham | leaderName | Labour_Party_(UK)</ftriple>
+						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
+						<ftriple flipped="True">Labour_Party_(UK) | leaderName | Birmingham</ftriple>
 						<ftriple flipped="False">Birmingham | governingBody | Birmingham_City_Council</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -13628,9 +13628,9 @@
 				<template>BRIDGE-2 , which has PATIENT-1 , is lead by PATIENT-2 and PATIENT-3 . BRIDGE-2 is the home town of BRIDGE-1 who designed AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
+						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
 						<ftriple flipped="False">Birmingham | leaderName | John_Clancy_(Labour_politician)</ftriple>
-						<ftriple flipped="False">Birmingham | governingBody | Birmingham_City_Council</ftriple>
+						<ftriple flipped="True">Birmingham_City_Council | governingBody | Birmingham</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">John_Madin | hometown | Birmingham</ftriple>
@@ -13891,7 +13891,7 @@
 					<sentence ID="2">
 						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
 						<ftriple flipped="True">Birmingham_City_Council | governingBody | Birmingham</ftriple>
-						<ftriple flipped="False">Birmingham | leaderName | Conservative_Party_(UK)</ftriple>
+						<ftriple flipped="True">Conservative_Party_(UK) | leaderName | Birmingham</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13921,10 +13921,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Birmingham_City_Council | governingBody | Birmingham</ftriple>
-						<ftriple flipped="False">Birmingham | postalCode | B_postcode_area</ftriple>
+						<ftriple flipped="True">B_postcode_area | postalCode | Birmingham</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Birmingham | leaderName | Conservative_Party_(UK)</ftriple>
+						<ftriple flipped="True">Conservative_Party_(UK) | leaderName | Birmingham</ftriple>
 						<ftriple flipped="True">Birmingham | hometown | John_Madin</ftriple>
 						<ftriple flipped="False">103_Colmore_Row | architect | John_Madin</ftriple>
 					</sentence>
@@ -14057,7 +14057,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Addis_Ababa | isPartOf | Addis_Ababa_Stadium</ftriple>
 						<ftriple flipped="False">Addis_Ababa_City_Hall | location | Addis_Ababa</ftriple>
-						<ftriple flipped="True">Ethiopia | country | Addis_Ababa_City_Hall</ftriple>
+						<ftriple flipped="False">Addis_Ababa_City_Hall | country | Ethiopia</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Ethiopia | language | Amharic</ftriple>
@@ -14151,11 +14151,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Ethiopia | leaderName | Hailemariam_Desalegn</ftriple>
-						<ftriple flipped="True">Amharic | language | Ethiopia</ftriple>
+						<ftriple flipped="False">Ethiopia | language | Amharic</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Ethiopia | country | Addis_Ababa</ftriple>
-						<ftriple flipped="False">Addis_Ababa | isPartOf | Addis_Ababa_Stadium</ftriple>
+						<ftriple flipped="False">Addis_Ababa | country | Ethiopia</ftriple>
+						<ftriple flipped="True">Addis_Ababa_Stadium | isPartOf | Addis_Ababa</ftriple>
 						<ftriple flipped="False">Addis_Ababa_City_Hall | location | Addis_Ababa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14209,8 +14209,8 @@
 						<ftriple flipped="False">Ethiopia | language | Amharic</ftriple>
 						<ftriple flipped="False">Ethiopia | leaderName | Mulatu_Teshome</ftriple>
 						<ftriple flipped="False">Ethiopia | leaderName | Hailemariam_Desalegn</ftriple>
-						<ftriple flipped="False">Addis_Ababa | country | Ethiopia</ftriple>
-						<ftriple flipped="True">Addis_Ababa | location | Addis_Ababa_City_Hall</ftriple>
+						<ftriple flipped="True">Ethiopia | country | Addis_Ababa</ftriple>
+						<ftriple flipped="False">Addis_Ababa_City_Hall | location | Addis_Ababa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14240,11 +14240,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Addis_Ababa_City_Hall | location | Addis_Ababa</ftriple>
-						<ftriple flipped="False">Addis_Ababa | country | Ethiopia</ftriple>
-						<ftriple flipped="False">Ethiopia | language | Amharic</ftriple>
+						<ftriple flipped="True">Ethiopia | country | Addis_Ababa</ftriple>
+						<ftriple flipped="True">Amharic | language | Ethiopia</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Hailemariam_Desalegn | leaderName | Ethiopia</ftriple>
+						<ftriple flipped="False">Ethiopia | leaderName | Hailemariam_Desalegn</ftriple>
 						<ftriple flipped="True">Mulatu_Teshome | leaderName | Ethiopia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14437,7 +14437,7 @@
 						<ftriple flipped="False">Ethiopia | leaderName | Mulatu_Teshome</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Ethiopia | country | Addis_Ababa</ftriple>
+						<ftriple flipped="False">Addis_Ababa | country | Ethiopia</ftriple>
 						<ftriple flipped="True">Addis_Ababa | location | Addis_Ababa_City_Hall</ftriple>
 						<ftriple flipped="False">Addis_Ababa | isPartOf | Addis_Ababa_Stadium</ftriple>
 					</sentence>
@@ -14469,7 +14469,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Ethiopia | country | Addis_Ababa</ftriple>
-						<ftriple flipped="False">Addis_Ababa_City_Hall | location | Addis_Ababa</ftriple>
+						<ftriple flipped="True">Addis_Ababa | location | Addis_Ababa_City_Hall</ftriple>
 						<ftriple flipped="False">Addis_Ababa | isPartOf | Addis_Ababa_Stadium</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -14827,7 +14827,7 @@
 						<ftriple flipped="True">Japan | country | Akita,_Akita</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Japan | leaderName | Akihito</ftriple>
+						<ftriple flipped="True">Akihito | leaderName | Japan</ftriple>
 						<ftriple flipped="False">Japan | ethnicGroup | Brazilians_in_Japan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14859,7 +14859,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Akita_Museum_of_Art | location | Akita,_Akita</ftriple>
-						<ftriple flipped="True">Akita_Prefecture | isPartOf | Akita,_Akita</ftriple>
+						<ftriple flipped="False">Akita,_Akita | isPartOf | Akita_Prefecture</ftriple>
 						<ftriple flipped="False">Akita,_Akita | country | Japan</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -14899,7 +14899,7 @@
 						<ftriple flipped="True">Japan | country | Akita,_Akita</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Japan | leaderName | Akihito</ftriple>
+						<ftriple flipped="True">Akihito | leaderName | Japan</ftriple>
 						<ftriple flipped="False">Japan | ethnicGroup | Brazilians_in_Japan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14989,9 +14989,9 @@
 				<template>AGENT-1 is located within BRIDGE-1 , the capital of which is BRIDGE-2 (leader PATIENT-2) . The currency of BRIDGE-1 is PATIENT-3 and PATIENT-1 is the leader of BRIDGE-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">20_Fenchurch_Street | location | United_Kingdom</ftriple>
-						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
-						<ftriple flipped="True">Boris_Johnson | leaderName | London</ftriple>
+						<ftriple flipped="True">United_Kingdom | location | 20_Fenchurch_Street</ftriple>
+						<ftriple flipped="False">United_Kingdom | capital | London</ftriple>
+						<ftriple flipped="False">London | leaderName | Boris_Johnson</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_Kingdom | currency | Pound_sterling</ftriple>
@@ -15193,10 +15193,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">20_Fenchurch_Street | location | United_Kingdom</ftriple>
-						<ftriple flipped="True">London | capital | United_Kingdom</ftriple>
+						<ftriple flipped="False">United_Kingdom | capital | London</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">London | leaderName | Boris_Johnson</ftriple>
+						<ftriple flipped="True">Boris_Johnson | leaderName | London</ftriple>
 						<ftriple flipped="False">London | leaderTitle | Parliament_of_the_United_Kingdom</ftriple>
 					</sentence>
 					<sentence ID="3">
@@ -15289,7 +15289,7 @@
 				<template>The native people of BRIDGE-1 are lead by PATIENT-3 and are known as PATIENT-2 . PATIENT-1 is the leader of BRIDGE-2 , the capital city , and BRIDGE-1 is the location of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_Kingdom | leaderName | Elizabeth_II</ftriple>
+						<ftriple flipped="True">Elizabeth_II | leaderName | United_Kingdom</ftriple>
 						<ftriple flipped="False">United_Kingdom | demonym | British_people</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -15351,14 +15351,14 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Adare_Manor | country | Republic_of_Ireland</ftriple>
-						<ftriple flipped="True">Enda_Kenny | leaderName | Republic_of_Ireland</ftriple>
+						<ftriple flipped="False">Republic_of_Ireland | leaderName | Enda_Kenny</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Irish_people | demonym | Republic_of_Ireland</ftriple>
+						<ftriple flipped="False">Republic_of_Ireland | demonym | Irish_people</ftriple>
 						<ftriple flipped="True">English_language | language | Republic_of_Ireland</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="False">Republic_of_Ireland | currency | Euro</ftriple>
+						<ftriple flipped="True">Euro | currency | Republic_of_Ireland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15441,7 +15441,7 @@
 				<template>PATIENT-1 is the capital of BRIDGE-1 , home to AGENT-1 , and led by PATIENT-4 and PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 						<ftriple flipped="True">United_States | location | 250_Delaware_Avenue</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
@@ -15496,7 +15496,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">United_States | leaderName | Paul_Ryan</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
+						<ftriple flipped="True">Joe_Biden | leaderName | United_States</ftriple>
 						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -15589,13 +15589,13 @@
 				<template>PATIENT-2 is the leader of BRIDGE-1 where PATIENT-3 and PATIENT-4 are both leaders . BRIDGE-1 is the location of AGENT-1 and has the capital of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 						<ftriple flipped="False">United_States | leaderName | John_Roberts</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">United_States | location | 250_Delaware_Avenue</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15694,7 +15694,7 @@
 						<ftriple flipped="False">United_States | leaderName | John_Roberts</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
+						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
 						<ftriple flipped="True">United_States | location | 250_Delaware_Avenue</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -15783,7 +15783,7 @@
 				<template>The current leader of BRIDGE-1 which has the capital city of PATIENT-1 is PATIENT-2 @ PATIENT-4 . Another leader is PATIENT-3 and BRIDGE-1 is the location of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 						<ftriple flipped="False">United_States | leaderName | Barack_Obama</ftriple>
 					</sentence>
@@ -16041,9 +16041,9 @@
 						<ftriple flipped="True">Paul_Ryan | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States | ethnicGroup | Native_Americans_in_the_United_States</ftriple>
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
+						<ftriple flipped="True">Native_Americans_in_the_United_States | ethnicGroup | United_States</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -16160,12 +16160,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">250_Delaware_Avenue | location | United_States</ftriple>
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
-						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
-						<ftriple flipped="True">Joe_Biden | leaderName | United_States</ftriple>
+						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -16196,11 +16196,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
-						<ftriple flipped="False">United_States | leaderTitle | President_of_the_United_States</ftriple>
+						<ftriple flipped="True">President_of_the_United_States | leaderTitle | United_States</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="True">United_States | location | 250_Delaware_Avenue</ftriple>
@@ -16238,7 +16238,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Joe_Biden | leaderName | United_States</ftriple>
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -16296,7 +16296,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">250_Delaware_Avenue | location | United_States</ftriple>
-						<ftriple flipped="True">English_language | language | United_States</ftriple>
+						<ftriple flipped="False">United_States | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States | leaderName | John_Roberts</ftriple>
@@ -16332,7 +16332,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">250_Delaware_Avenue | location | United_States</ftriple>
-						<ftriple flipped="False">United_States | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | United_States</ftriple>
 						<ftriple flipped="False">United_States | ethnicGroup | Asian_Americans</ftriple>
 					</sentence>
 					<sentence ID="2">

@@ -29,7 +29,7 @@
 				<template>AGENT-1 is in BRIDGE-1 . One BRIDGE-1 group is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">11_Diagonal_Street | location | South_Africa</ftriple>
+						<ftriple flipped="True">South_Africa | location | 11_Diagonal_Street</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">South_Africa | ethnicGroup | Coloured</ftriple>
@@ -337,8 +337,8 @@
 				<template>PATIENT-2 was the architect of AGENT-1 at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">3Arena | architect | &quot;HOK SVE&quot;</ftriple>
-						<ftriple flipped="False">3Arena | location | North_Wall,_Dublin</ftriple>
+						<ftriple flipped="True">&quot;HOK SVE&quot; | architect | 3Arena</ftriple>
+						<ftriple flipped="True">North_Wall,_Dublin | location | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -587,8 +587,8 @@
 				<template>AGENT-1 is PATIENT-2 high and houses PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;42 m&quot; | height | Addis_Ababa_City_Hall</ftriple>
-						<ftriple flipped="True">&quot;Government of Addis Ababa&quot; | currentTenants | Addis_Ababa_City_Hall</ftriple>
+						<ftriple flipped="False">Addis_Ababa_City_Hall | height | &quot;42 m&quot;</ftriple>
+						<ftriple flipped="False">Addis_Ababa_City_Hall | currentTenants | &quot;Government of Addis Ababa&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -628,8 +628,8 @@
 				<template>AGENT-1 is PATIENT-2 high and is occupied by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;42 m&quot; | height | Addis_Ababa_City_Hall</ftriple>
-						<ftriple flipped="True">&quot;Government of Addis Ababa&quot; | currentTenants | Addis_Ababa_City_Hall</ftriple>
+						<ftriple flipped="False">Addis_Ababa_City_Hall | height | &quot;42 m&quot;</ftriple>
+						<ftriple flipped="False">Addis_Ababa_City_Hall | currentTenants | &quot;Government of Addis Ababa&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -686,8 +686,8 @@
 				<template>AGENT-1 , PATIENT-2 , is PATIENT-1 in style .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adisham_Hall | location | &quot;Haputale, Sri Lanka&quot;</ftriple>
-						<ftriple flipped="True">&quot;Tudor and Jacabian&quot; | architecturalStyle | Adisham_Hall</ftriple>
+						<ftriple flipped="True">&quot;Haputale, Sri Lanka&quot; | location | Adisham_Hall</ftriple>
+						<ftriple flipped="False">Adisham_Hall | architecturalStyle | &quot;Tudor and Jacabian&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1092,7 +1092,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 whose capital is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Sri_Lanka | country | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
 						<ftriple flipped="False">Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1113,7 +1113,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 whose capital is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Sri_Lanka | country | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | country | Sri_Lanka</ftriple>
 						<ftriple flipped="False">Sri_Lanka | capital | Sri_Jayawardenepura_Kotte</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1170,8 +1170,8 @@
 				<template>The National Register of Historic Places has AGENT-1 , located at PATIENT-1 , referenced at PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asher_and_Mary_Isabelle_Richardson_House | location | U.S._Route_83</ftriple>
-						<ftriple flipped="False">Asher_and_Mary_Isabelle_Richardson_House | ReferenceNumber in the National Register of Historic Places | &quot;88002539&quot;</ftriple>
+						<ftriple flipped="True">U.S._Route_83 | location | Asher_and_Mary_Isabelle_Richardson_House</ftriple>
+						<ftriple flipped="True">&quot;88002539&quot; | ReferenceNumber in the National Register of Historic Places | Asher_and_Mary_Isabelle_Richardson_House</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1271,7 +1271,7 @@
 				<template>`` PATIENT-2 '' is AGENT-1 reference number in the National Register of Historic Places , and AGENT-1 is located on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Asilomar_Conference_Grounds | ReferenceNumber in the National Register of Historic Places | &quot;87000823&quot;</ftriple>
+						<ftriple flipped="True">&quot;87000823&quot; | ReferenceNumber in the National Register of Historic Places | Asilomar_Conference_Grounds</ftriple>
 						<ftriple flipped="True">&quot;Asilomar Blvd., Pacific Grove, California&quot; | location | Asilomar_Conference_Grounds</ftriple>
 					</sentence>
 				</flowinducedtripleset>

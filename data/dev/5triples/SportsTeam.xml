@@ -46,8 +46,8 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Chesterfield_F.C.</ftriple>
-						<ftriple flipped="True">KV_Mechelen | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="True">Chesterfield_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | KV_Mechelen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -138,12 +138,12 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Olympiacos_F.C. | champions | Superleague_Greece</ftriple>
-						<ftriple flipped="True">Superleague_Greece | league | AEK_Athens_F.C.</ftriple>
+						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AEK_Athens_F.C. | manager | Gus_Poyet</ftriple>
 						<ftriple flipped="False">Gus_Poyet | club | Real_Zaragoza</ftriple>
-						<ftriple flipped="True">Chelsea_F.C. | club | Gus_Poyet</ftriple>
+						<ftriple flipped="False">Gus_Poyet | club | Chelsea_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -174,7 +174,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Gus_Poyet | manager | AEK_Athens_F.C.</ftriple>
 						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
-						<ftriple flipped="False">Superleague_Greece | champions | Olympiacos_F.C.</ftriple>
+						<ftriple flipped="True">Olympiacos_F.C. | champions | Superleague_Greece</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Gus_Poyet | club | Chelsea_F.C.</ftriple>
@@ -208,11 +208,11 @@
 				<template>Previous champions of BRIDGE-1 are PATIENT-1 . AGENT-1 also compete in BRIDGE-1 and AGENT-1 are managed by BRIDGE-2 who previously played for PATIENT-3 and whose club is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Olympiacos_F.C. | champions | Superleague_Greece</ftriple>
+						<ftriple flipped="False">Superleague_Greece | champions | Olympiacos_F.C.</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
-						<ftriple flipped="False">AEK_Athens_F.C. | manager | Gus_Poyet</ftriple>
+						<ftriple flipped="True">Gus_Poyet | manager | AEK_Athens_F.C.</ftriple>
 						<ftriple flipped="True">Chelsea_F.C. | club | Gus_Poyet</ftriple>
 						<ftriple flipped="True">Real_Zaragoza | club | Gus_Poyet</ftriple>
 					</sentence>
@@ -279,11 +279,11 @@
 						<ftriple flipped="True">Alagoas | location | Estádio_Municipal_Coaracy_da_Mata_Fonseca</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">Campeonato_Brasileiro_Série_C | league | Agremiação_Sportiva_Arapiraquense</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
 						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -314,7 +314,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
+						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -352,7 +352,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Alagoas</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca</ftriple>
-						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="True">Campeonato_Brasileiro_Série_C | league | Agremiação_Sportiva_Arapiraquense</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
@@ -445,9 +445,9 @@
 				<template>AGENT-1 play in BRIDGE-1 league ( in PATIENT-1 ) , which has been won by PATIENT-3 . AGENT-1 ground is BRIDGE-2 , which is located in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Campeonato_Brasileiro_Série_C | league | Agremiação_Sportiva_Arapiraquense</ftriple>
-						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
+						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca</ftriple>
@@ -541,7 +541,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
-						<ftriple flipped="True">17000 | numberOfMembers | Agremiação_Sportiva_Arapiraquense</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | manager | Vica</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -572,9 +572,9 @@
 				<template>AGENT-1 play in BRIDGE-1 league in PATIENT-1 , which has been won by PATIENT-4 . AGENT-1 ground can hold PATIENT-3 fans and AGENT-1 is managed by PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Campeonato_Brasileiro_Série_C | league | Agremiação_Sportiva_Arapiraquense</ftriple>
-						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
+						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>

@@ -93,7 +93,7 @@
 						<ftriple flipped="True">All_India_Council_for_Technical_Education | was given the 'Technical Campus' status by | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | officialSchoolColour | &quot;Blue, White and Orange&quot;</ftriple>
+						<ftriple flipped="True">&quot;Blue, White and Orange&quot; | officialSchoolColour | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -354,7 +354,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Acharya_Institute_of_Technology | state | Karnataka</ftriple>
-						<ftriple flipped="True">Arabian_Sea | has to its west | Karnataka</ftriple>
+						<ftriple flipped="False">Karnataka | has to its west | Arabian_Sea</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

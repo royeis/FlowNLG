@@ -822,7 +822,7 @@
 				<template>PATIENT-1 is an ingredient of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Olive_oil | ingredient | Amatriciana_sauce</ftriple>
+						<ftriple flipped="False">Amatriciana_sauce | ingredient | Olive_oil</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -967,7 +967,7 @@
 				<template>AGENT-1 is a sauce from PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Amatriciana_sauce | region | Lazio</ftriple>
+						<ftriple flipped="True">Lazio | region | Amatriciana_sauce</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1063,7 +1063,7 @@
 				<template>AGENT-1 is found in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Antioquia_Department | country | Colombia</ftriple>
+						<ftriple flipped="True">Colombia | country | Antioquia_Department</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2960,7 +2960,7 @@
 				<template>AGENT-1 is a variation of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Club_sandwich | dishVariation | BLT</ftriple>
+						<ftriple flipped="False">BLT | dishVariation | Club_sandwich</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3217,7 +3217,7 @@
 				<template>PATIENT-1 in an ingredient in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bacon_Explosion | ingredient | Sausage</ftriple>
+						<ftriple flipped="True">Sausage | ingredient | Bacon_Explosion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4027,7 +4027,7 @@
 				<template>AGENT-1 is a dish in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Baked_Alaska | country | China</ftriple>
+						<ftriple flipped="True">China | country | Baked_Alaska</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4351,7 +4351,7 @@
 				<template>One of the ingredients of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Baked_Alaska | ingredient | Sponge_cake</ftriple>
+						<ftriple flipped="True">Sponge_cake | ingredient | Baked_Alaska</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4788,7 +4788,7 @@
 				<template>AGENT-1 is from the PATIENT-1 region .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bakewell_pudding | region | Derbyshire_Dales</ftriple>
+						<ftriple flipped="True">Derbyshire_Dales | region | Bakewell_pudding</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6330,7 +6330,7 @@
 				<template>PATIENT-1 can be added to barny AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Strawberry | dishVariation | Barny_Cakes</ftriple>
+						<ftriple flipped="False">Barny_Cakes | dishVariation | Strawberry</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6504,7 +6504,7 @@
 				<template>AGENT-1 comes from the country of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Indonesia | country | Batagor</ftriple>
+						<ftriple flipped="False">Batagor | country | Indonesia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8382,7 +8382,7 @@
 				<template>One of the main ingredients of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Sweet_potato | mainIngredients | Binignit</ftriple>
+						<ftriple flipped="False">Binignit | mainIngredients | Sweet_potato</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8947,7 +8947,7 @@
 				<template>AGENT-1 is from the PATIENT-1 region .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bionico | region | Guadalajara</ftriple>
+						<ftriple flipped="True">Guadalajara | region | Bionico</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8995,7 +8995,7 @@
 				<template>PATIENT-1 is a leader in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Carles_Puigdemont | leaderName | Catalonia</ftriple>
+						<ftriple flipped="False">Catalonia | leaderName | Carles_Puigdemont</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9139,7 +9139,7 @@
 				<template>AGENT-1 is a member of the genus PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Celery | genus | Apium</ftriple>
+						<ftriple flipped="True">Apium | genus | Celery</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9949,7 +9949,7 @@
 				<template>AGENT-1 is in the country of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Guadalajara | country | Mexico</ftriple>
+						<ftriple flipped="True">Mexico | country | Guadalajara</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10081,7 +10081,7 @@
 				<template>PATIENT-1 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Hong_Kong | leaderName | Carrie_Lam_(politician)</ftriple>
+						<ftriple flipped="True">Carrie_Lam_(politician) | leaderName | Hong_Kong</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10099,7 +10099,7 @@
 				<template>PATIENT-1 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Hong_Kong | leaderName | Carrie_Lam_(politician)</ftriple>
+						<ftriple flipped="True">Carrie_Lam_(politician) | leaderName | Hong_Kong</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11124,7 +11124,7 @@
 				<template>AGENT-1 are classified in the order PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Sapindales | order | Lemon</ftriple>
+						<ftriple flipped="False">Lemon | order | Sapindales</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11640,7 +11640,7 @@
 				<template>In AGENT-1 one of the languages spoken is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Mexico | language | Mexican_Spanish</ftriple>
+						<ftriple flipped="True">Mexican_Spanish | language | Mexico</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11658,7 +11658,7 @@
 				<template>PATIENT-1 is the language spoken in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Mexico | language | Mexican_Spanish</ftriple>
+						<ftriple flipped="True">Mexican_Spanish | language | Mexico</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12234,7 +12234,7 @@
 				<template>PATIENT-1 is the language spoken in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Philippines | language | Philippine_English</ftriple>
+						<ftriple flipped="True">Philippine_English | language | Philippines</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12252,7 +12252,7 @@
 				<template>PATIENT-1 is the language of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Philippines | language | Philippine_English</ftriple>
+						<ftriple flipped="True">Philippine_English | language | Philippines</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12786,7 +12786,7 @@
 				<template>PATIENT-1 and AGENT-1 are variation of the same dish .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Siomay | dishVariation | Batagor</ftriple>
+						<ftriple flipped="True">Batagor | dishVariation | Siomay</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13375,7 +13375,7 @@
 				<template>AGENT-1 is of the order PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Solanales | order | Sweet_potato</ftriple>
+						<ftriple flipped="False">Sweet_potato | order | Solanales</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13471,7 +13471,7 @@
 				<template>AGENT-1 belongs to the family of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Solanaceae | family | Tomato</ftriple>
+						<ftriple flipped="False">Tomato | family | Solanaceae</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14400,7 +14400,7 @@
 				<template>PATIENT-1 is a leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ximo_Puig | leaderName | Valencian_Community</ftriple>
+						<ftriple flipped="False">Valencian_Community | leaderName | Ximo_Puig</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

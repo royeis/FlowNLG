@@ -217,11 +217,11 @@
 				<template>BRIDGE-1 is located in BRIDGE-2 , where people speak PATIENT-1 . AGENT-1 serves BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Denmark | country | Tirstrup</ftriple>
-						<ftriple flipped="True">German_language | language | Denmark</ftriple>
+						<ftriple flipped="False">Tirstrup | country | Denmark</ftriple>
+						<ftriple flipped="False">Denmark | language | German_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Tirstrup | location | Aarhus_Airport</ftriple>
+						<ftriple flipped="False">Aarhus_Airport | location | Tirstrup</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -274,7 +274,7 @@
 						<ftriple flipped="False">Tirstrup | country | Denmark</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Denmark | language | German_language</ftriple>
+						<ftriple flipped="True">German_language | language | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1208,7 +1208,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Aarhus_Airport | operatingOrganisation | Aktieselskab</ftriple>
-						<ftriple flipped="False">Aarhus_Airport | runwayLength | 2777.0</ftriple>
+						<ftriple flipped="True">2777.0 | runwayLength | Aarhus_Airport</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Aarhus_Airport | runwayName | &quot;10L/28R&quot;</ftriple>
@@ -1526,7 +1526,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Abilene,_Texas | country | United_States</ftriple>
-						<ftriple flipped="True">Abilene,_Texas | cityServed | Abilene_Regional_Airport</ftriple>
+						<ftriple flipped="False">Abilene_Regional_Airport | cityServed | Abilene,_Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1566,8 +1566,8 @@
 				<template>Serving the city of PATIENT-1 , AGENT-1 is PATIENT-2 metres above sea level and has a runway length of PATIENT-3 metres .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Abilene,_Texas | cityServed | Abilene_Regional_Airport</ftriple>
-						<ftriple flipped="False">Abilene_Regional_Airport | elevationAboveTheSeaLevel_(in_metres) | 546</ftriple>
+						<ftriple flipped="False">Abilene_Regional_Airport | cityServed | Abilene,_Texas</ftriple>
+						<ftriple flipped="True">546 | elevationAboveTheSeaLevel_(in_metres) | Abilene_Regional_Airport</ftriple>
 						<ftriple flipped="False">Abilene_Regional_Airport | runwayLength | 1121.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1757,9 +1757,9 @@
 				<template>AGENT-1 , located PATIENT-3 metres above sea level , serves the city of PATIENT-1 with a runway length of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Abilene_Regional_Airport | elevationAboveTheSeaLevel_(in_metres) | 546</ftriple>
+						<ftriple flipped="True">546 | elevationAboveTheSeaLevel_(in_metres) | Abilene_Regional_Airport</ftriple>
 						<ftriple flipped="False">Abilene_Regional_Airport | cityServed | Abilene,_Texas</ftriple>
-						<ftriple flipped="False">Abilene_Regional_Airport | runwayLength | 2195.0</ftriple>
+						<ftriple flipped="True">2195.0 | runwayLength | Abilene_Regional_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1918,8 +1918,8 @@
 				<template>At an elevation of PATIENT-1 above seal level , AGENT-1 is located in BRIDGE-1 , in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">610.0 | elevationAboveTheSeaLevel_(in_metres) | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
-						<ftriple flipped="True">Madrid | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel_(in_metres) | 610.0</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | Madrid</ftriple>
 						<ftriple flipped="False">Madrid | country | Spain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2105,7 +2105,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">610.0 | elevationAboveTheSeaLevel_(in_metres) | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</ftriple>
+						<ftriple flipped="True">Alcobendas | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
 						<ftriple flipped="False">Alcobendas | country | Spain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2225,7 +2225,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0</ftriple>
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | &quot;14L/32R&quot;</ftriple>
+						<ftriple flipped="True">&quot;14L/32R&quot; | runwayName | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2466,8 +2466,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Paracuellos_de_Jarama | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4100.0</ftriple>
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | &quot;18L/36R&quot;</ftriple>
+						<ftriple flipped="True">4100.0 | runwayLength | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="True">&quot;18L/36R&quot; | runwayName | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2805,7 +2805,7 @@
 				<template>The PATIENT-3 runway in AGENT-1 , PATIENT-2 has a length of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;14L/32R&quot; | runwayName | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | &quot;14L/32R&quot;</ftriple>
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | Madrid</ftriple>
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4349.0</ftriple>
 					</sentence>
@@ -2831,7 +2831,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Madrid | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | &quot;14L/32R&quot;</ftriple>
-						<ftriple flipped="True">4349.0 | runwayLength | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4349.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2872,7 +2872,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | &quot;Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas&quot;</ftriple>
-						<ftriple flipped="True">4100.0 | runwayLength | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4100.0</ftriple>
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | &quot;18L/36R&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2966,9 +2966,9 @@
 				<template>The runway name of AGENT-1 at PATIENT-3 is PATIENT-1 and AGENT-1 is PATIENT-2 metres long .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes</ftriple>
+						<ftriple flipped="True">San_Sebastián_de_los_Reyes | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
 						<ftriple flipped="True">&quot;18L/36R&quot; | runwayName | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
-						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4349.0</ftriple>
+						<ftriple flipped="True">4349.0 | runwayLength | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3103,8 +3103,8 @@
 				<template>AGENT-1 serves BRIDGE-1 , which is part of PATIENT-1 and led by PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Curitiba | cityServed | Afonso_Pena_International_Airport</ftriple>
-						<ftriple flipped="False">Curitiba | isPartOf | Paraná_(state)</ftriple>
+						<ftriple flipped="False">Afonso_Pena_International_Airport | cityServed | Curitiba</ftriple>
+						<ftriple flipped="True">Paraná_(state) | isPartOf | Curitiba</ftriple>
 						<ftriple flipped="False">Curitiba | leaderName | Democratic_Labour_Party_(Brazil)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3127,8 +3127,8 @@
 				<template>AGENT-1 serves the city of BRIDGE-1 which is part of PATIENT-1 and led by PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Curitiba | cityServed | Afonso_Pena_International_Airport</ftriple>
-						<ftriple flipped="False">Curitiba | isPartOf | Paraná_(state)</ftriple>
+						<ftriple flipped="False">Afonso_Pena_International_Airport | cityServed | Curitiba</ftriple>
+						<ftriple flipped="True">Paraná_(state) | isPartOf | Curitiba</ftriple>
 						<ftriple flipped="False">Curitiba | leaderName | Democratic_Labour_Party_(Brazil)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3194,7 +3194,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">South_Region,_Brazil | isPartOf | Curitiba</ftriple>
-						<ftriple flipped="False">Curitiba | leaderName | Democratic_Labour_Party_(Brazil)</ftriple>
+						<ftriple flipped="True">Democratic_Labour_Party_(Brazil) | leaderName | Curitiba</ftriple>
 						<ftriple flipped="False">Afonso_Pena_International_Airport | cityServed | Curitiba</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3265,8 +3265,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Afonso_Pena_International_Airport | location | São_José_dos_Pinhais</ftriple>
-						<ftriple flipped="False">Afonso_Pena_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 911.0</ftriple>
-						<ftriple flipped="False">Afonso_Pena_International_Airport | operatingOrganisation | Infraero</ftriple>
+						<ftriple flipped="True">911.0 | elevationAboveTheSeaLevel_(in_metres) | Afonso_Pena_International_Airport</ftriple>
+						<ftriple flipped="True">Infraero | operatingOrganisation | Afonso_Pena_International_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3290,7 +3290,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Afonso_Pena_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 911.0</ftriple>
 						<ftriple flipped="False">Afonso_Pena_International_Airport | location | São_José_dos_Pinhais</ftriple>
-						<ftriple flipped="False">Afonso_Pena_International_Airport | operatingOrganisation | Infraero</ftriple>
+						<ftriple flipped="True">Infraero | operatingOrganisation | Afonso_Pena_International_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3332,7 +3332,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">São_José_dos_Pinhais | location | Afonso_Pena_International_Airport</ftriple>
 						<ftriple flipped="True">&quot;11/29&quot; | runwayName | Afonso_Pena_International_Airport</ftriple>
-						<ftriple flipped="True">1800.0 | runwayLength | Afonso_Pena_International_Airport</ftriple>
+						<ftriple flipped="False">Afonso_Pena_International_Airport | runwayLength | 1800.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3514,8 +3514,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Afonso_Pena_International_Airport | location | São_José_dos_Pinhais</ftriple>
-						<ftriple flipped="True">&quot;11/29&quot; | runwayName | Afonso_Pena_International_Airport</ftriple>
-						<ftriple flipped="True">2215.0 | runwayLength | Afonso_Pena_International_Airport</ftriple>
+						<ftriple flipped="False">Afonso_Pena_International_Airport | runwayName | &quot;11/29&quot;</ftriple>
+						<ftriple flipped="False">Afonso_Pena_International_Airport | runwayLength | 2215.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3713,7 +3713,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">167.94 | elevationAboveTheSeaLevel_(in_metres) | Agra_Airport</ftriple>
-						<ftriple flipped="False">Agra_Airport | location | Uttar_Pradesh</ftriple>
+						<ftriple flipped="True">Uttar_Pradesh | location | Agra_Airport</ftriple>
 						<ftriple flipped="False">Uttar_Pradesh | isPartOf | Bundelkhand</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3826,9 +3826,9 @@
 				<template>AGENT-1 , in PATIENT-1 has an identifier of PATIENT-2 and is operated by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Agra_Airport | location | India</ftriple>
-						<ftriple flipped="True">&quot;VIAG&quot; | ICAO_Location_Identifier | Agra_Airport</ftriple>
-						<ftriple flipped="False">Agra_Airport | operatingOrganisation | Airports_Authority_of_India</ftriple>
+						<ftriple flipped="True">India | location | Agra_Airport</ftriple>
+						<ftriple flipped="False">Agra_Airport | ICAO_Location_Identifier | &quot;VIAG&quot;</ftriple>
+						<ftriple flipped="True">Airports_Authority_of_India | operatingOrganisation | Agra_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4244,7 +4244,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Uttar_Pradesh | location | Agra_Airport</ftriple>
 						<ftriple flipped="True">Bundelkhand | isPartOf | Uttar_Pradesh</ftriple>
-						<ftriple flipped="True">Ram_Naik | leaderName | Uttar_Pradesh</ftriple>
+						<ftriple flipped="False">Uttar_Pradesh | leaderName | Ram_Naik</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4391,7 +4391,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Indian_Air_Force | operatingOrganisation | Agra_Airport</ftriple>
-						<ftriple flipped="False">Agra_Airport | ICAO_Location_Identifier | &quot;VIAG&quot;</ftriple>
+						<ftriple flipped="True">&quot;VIAG&quot; | ICAO_Location_Identifier | Agra_Airport</ftriple>
 						<ftriple flipped="False">Agra_Airport | location | Agra</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5032,10 +5032,10 @@
 						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
+						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">1986_United_States_bombing_of_Libya | battles | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | 1986_United_States_bombing_of_Libya</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5058,7 +5058,7 @@
 				<template>BRIDGE-1 is the operating organisation for AGENT-1 and using PATIENT-1 as an aircraft fighter.The PATIENT-2 was carried out by BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
+						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
 						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
 						<ftriple flipped="False">United_States_Air_Force | battles | 1986_United_States_bombing_of_Libya</ftriple>
 					</sentence>
@@ -5100,8 +5100,8 @@
 				<template>AGENT-1 is operated by BRIDGE-1 , which uses PATIENT-1 (an aircraft fighter) and was part of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
-						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
 						<ftriple flipped="True">Operation_Enduring_Freedom | battles | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5131,7 +5131,7 @@
 						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States_Air_Force | battles | Operation_Enduring_Freedom</ftriple>
+						<ftriple flipped="True">Operation_Enduring_Freedom | battles | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5201,7 +5201,7 @@
 						<ftriple flipped="False">United_States_Air_Force | battles | United_States_invasion_of_Panama</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
+						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5271,7 +5271,7 @@
 						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">McDonnell_Douglas_F-15_Eagle | aircraftFighter | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | McDonnell_Douglas_F-15_Eagle</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5294,8 +5294,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
-						<ftriple flipped="True">Korean_War | battles | United_States_Air_Force</ftriple>
-						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | McDonnell_Douglas_F-15_Eagle</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
+						<ftriple flipped="True">McDonnell_Douglas_F-15_Eagle | aircraftFighter | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5335,8 +5335,8 @@
 				<template>AGENT-1 is operated by BRIDGE-1 which uses an aircraft fighter called PATIENT-1 and which was involved in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
-						<ftriple flipped="True">McDonnell_Douglas_F-15_Eagle | aircraftFighter | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | McDonnell_Douglas_F-15_Eagle</ftriple>
 						<ftriple flipped="True">Operation_Enduring_Freedom | battles | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5401,9 +5401,9 @@
 				<template>AGENT-1 is operated by BRIDGE-1 , which was involved in PATIENT-2 , and who use an aircarft fighter called PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
-						<ftriple flipped="True">United_States_invasion_of_Panama | battles | United_States_Air_Force</ftriple>
-						<ftriple flipped="True">McDonnell_Douglas_F-15_Eagle | aircraftFighter | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | United_States_invasion_of_Panama</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | McDonnell_Douglas_F-15_Eagle</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5501,7 +5501,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">United_States_Air_Force | battles | Invasion_of_Grenada</ftriple>
-						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
+						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5609,7 +5609,7 @@
 				<template>BRIDGE-1 , involved in PATIENT-1 and PATIENT-2 , is the operation organisation for BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States_Air_Force | battles | Invasion_of_Grenada</ftriple>
+						<ftriple flipped="True">Invasion_of_Grenada | battles | United_States_Air_Force</ftriple>
 						<ftriple flipped="False">United_States_Air_Force | battles | 1986_United_States_bombing_of_Libya</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5651,7 +5651,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
-						<ftriple flipped="True">Invasion_of_Grenada | battles | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | Invasion_of_Grenada</ftriple>
 						<ftriple flipped="False">United_States_Air_Force | battles | United_States_invasion_of_Panama</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5725,11 +5725,11 @@
 				<template>BRIDGE-1 fought in PATIENT-1 , and now BRIDGE-1 operates AGENT-1 . One of BRIDGE-1 fighter aircraft is named PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Korean_War | battles | United_States_Air_Force</ftriple>
-						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
+						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5782,7 +5782,7 @@
 						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">General_Dynamics_F-16_Fighting_Falcon | aircraftFighter | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | aircraftFighter | General_Dynamics_F-16_Fighting_Falcon</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5823,7 +5823,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
-						<ftriple flipped="True">Korean_War | battles | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
 						<ftriple flipped="False">United_States_Air_Force | battles | 1986_United_States_bombing_of_Libya</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5847,8 +5847,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
-						<ftriple flipped="True">1986_United_States_bombing_of_Libya | battles | United_States_Air_Force</ftriple>
-						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | 1986_United_States_bombing_of_Libya</ftriple>
+						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5892,7 +5892,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Korean_War | battles | United_States_Air_Force</ftriple>
-						<ftriple flipped="True">United_States_invasion_of_Panama | battles | United_States_Air_Force</ftriple>
+						<ftriple flipped="False">United_States_Air_Force | battles | United_States_invasion_of_Panama</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
@@ -5917,8 +5917,8 @@
 				<template>BRIDGE-1 who are the operating organisation for AGENT-1 fought in PATIENT-1 and at PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States_Air_Force | operatingOrganisation | Al_Asad_Airbase</ftriple>
-						<ftriple flipped="False">United_States_Air_Force | battles | Korean_War</ftriple>
+						<ftriple flipped="False">Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</ftriple>
+						<ftriple flipped="True">Korean_War | battles | United_States_Air_Force</ftriple>
 						<ftriple flipped="False">United_States_Air_Force | battles | United_States_invasion_of_Panama</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -5983,9 +5983,9 @@
 				<template>AGENT-1 is in BRIDGE-1 which is part of PATIENT-1 and is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Alcobendas | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
-						<ftriple flipped="True">Community_of_Madrid | isPartOf | Alcobendas</ftriple>
-						<ftriple flipped="True">Spain | country | Alcobendas</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</ftriple>
+						<ftriple flipped="False">Alcobendas | isPartOf | Community_of_Madrid</ftriple>
+						<ftriple flipped="False">Alcobendas | country | Spain</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6106,11 +6106,11 @@
 				<template>BRIDGE-1 is part of PATIENT-1 whose leader party at BRIDGE-1 is PATIENT-2 . AGENT-1 is located there .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Community_of_Madrid | isPartOf | Alcobendas</ftriple>
+						<ftriple flipped="False">Alcobendas | isPartOf | Community_of_Madrid</ftriple>
 						<ftriple flipped="False">Alcobendas | leaderParty | Peoples_Party_(Spain)</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Alcobendas | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
+						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6338,7 +6338,7 @@
 				<template>The 1st runway at AGENT-1 is made from BRIDGE-1 which belongs to the order of PATIENT-1 and is in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Poaceae | 1st_runway_SurfaceType | Alderney_Airport</ftriple>
+						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="True">Commelinids | order | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | class | Monocotyledon</ftriple>
 					</sentence>
@@ -6362,7 +6362,7 @@
 				<template>At AGENT-1 , the 1st runway is made from BRIDGE-1 which is PATIENT-2 and belongs to the order of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Poaceae | 1st_runway_SurfaceType | Alderney_Airport</ftriple>
+						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="True">Monocotyledon | class | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | order | Commelinids</ftriple>
 					</sentence>
@@ -6428,7 +6428,7 @@
 				<template>The 1st runway at AGENT-1 is made from BRIDGE-1 , PATIENT-2 classed member of the order of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Poaceae | 1st_runway_SurfaceType | Alderney_Airport</ftriple>
+						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="True">Monocotyledon | class | Poaceae</ftriple>
 						<ftriple flipped="True">Poales | order | Poaceae</ftriple>
 					</sentence>
@@ -6496,7 +6496,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | order | Poales</ftriple>
-						<ftriple flipped="False">Poaceae | order | Commelinids</ftriple>
+						<ftriple flipped="True">Commelinids | order | Poaceae</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6520,7 +6520,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | order | Poales</ftriple>
-						<ftriple flipped="False">Poaceae | order | Commelinids</ftriple>
+						<ftriple flipped="True">Commelinids | order | Poaceae</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6542,9 +6542,9 @@
 				<template>BRIDGE-1 from the order of PATIENT-1 and the order of PATIENT-2 is used on the 1rst runway at AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Poaceae | order | Poales</ftriple>
+						<ftriple flipped="True">Poales | order | Poaceae</ftriple>
 						<ftriple flipped="True">Commelinids | order | Poaceae</ftriple>
-						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
+						<ftriple flipped="True">Poaceae | 1st_runway_SurfaceType | Alderney_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6739,8 +6739,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alderney_Airport | cityServed | Alderney</ftriple>
-						<ftriple flipped="True">Asphalt | 1st_runway_SurfaceType | Alderney_Airport</ftriple>
-						<ftriple flipped="False">Alderney_Airport | runwayLength | 733.0</ftriple>
+						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Asphalt</ftriple>
+						<ftriple flipped="True">733.0 | runwayLength | Alderney_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6890,8 +6890,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Pakistan | location | Allama_Iqbal_International_Airport</ftriple>
-						<ftriple flipped="False">Allama_Iqbal_International_Airport | runwayName | &quot;18L/36R&quot;</ftriple>
-						<ftriple flipped="True">2900.0 | runwayLength | Allama_Iqbal_International_Airport</ftriple>
+						<ftriple flipped="True">&quot;18L/36R&quot; | runwayName | Allama_Iqbal_International_Airport</ftriple>
+						<ftriple flipped="False">Allama_Iqbal_International_Airport | runwayLength | 2900.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6915,7 +6915,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Allama_Iqbal_International_Airport | location | Pakistan</ftriple>
 						<ftriple flipped="False">Allama_Iqbal_International_Airport | runwayName | &quot;18L/36R&quot;</ftriple>
-						<ftriple flipped="True">2900.0 | runwayLength | Allama_Iqbal_International_Airport</ftriple>
+						<ftriple flipped="False">Allama_Iqbal_International_Airport | runwayLength | 2900.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7079,11 +7079,11 @@
 				<template>AGENT-1 is located in PATIENT-1 . The runway length is PATIENT-2 and the runway name is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Pakistan | location | Allama_Iqbal_International_Airport</ftriple>
+						<ftriple flipped="False">Allama_Iqbal_International_Airport | location | Pakistan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">3360.12 | runwayLength | Allama_Iqbal_International_Airport</ftriple>
-						<ftriple flipped="True">&quot;18L/36R&quot; | runwayName | Allama_Iqbal_International_Airport</ftriple>
+						<ftriple flipped="False">Allama_Iqbal_International_Airport | runwayLength | 3360.12</ftriple>
+						<ftriple flipped="False">Allama_Iqbal_International_Airport | runwayName | &quot;18L/36R&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7640,10 +7640,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Alpena_County_Regional_Airport | location | Maple_Ridge_Township,_Alpena_County,_Michigan</ftriple>
-						<ftriple flipped="False">Maple_Ridge_Township,_Alpena_County,_Michigan | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Maple_Ridge_Township,_Alpena_County,_Michigan</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">2744.0 | runwayLength | Alpena_County_Regional_Airport</ftriple>
+						<ftriple flipped="False">Alpena_County_Regional_Airport | runwayLength | 2744.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8153,8 +8153,8 @@
 				<template>AGENT-1 is PATIENT-3 below sea level , has a runway that 's PATIENT-2 long and serves PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">-3.3528 | elevationAboveTheSeaLevel_(in_metres) | Amsterdam_Airport_Schiphol</ftriple>
-						<ftriple flipped="False">Amsterdam_Airport_Schiphol | runwayLength | 3300.0</ftriple>
+						<ftriple flipped="False">Amsterdam_Airport_Schiphol | elevationAboveTheSeaLevel_(in_metres) | -3.3528</ftriple>
+						<ftriple flipped="True">3300.0 | runwayLength | Amsterdam_Airport_Schiphol</ftriple>
 						<ftriple flipped="False">Amsterdam_Airport_Schiphol | cityServed | Amsterdam</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8289,7 +8289,7 @@
 				<template>AGENT-1 which serves PATIENT-1 has a runway length of PATIENT-2 and is PATIENT-3 from sea level .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Amsterdam | cityServed | Amsterdam_Airport_Schiphol</ftriple>
+						<ftriple flipped="False">Amsterdam_Airport_Schiphol | cityServed | Amsterdam</ftriple>
 						<ftriple flipped="False">Amsterdam_Airport_Schiphol | runwayLength | 3453.0</ftriple>
 						<ftriple flipped="False">Amsterdam_Airport_Schiphol | elevationAboveTheSeaLevel_(in_metres) | -3.3528</ftriple>
 					</sentence>
@@ -8315,7 +8315,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">-3.3528 | elevationAboveTheSeaLevel_(in_metres) | Amsterdam_Airport_Schiphol</ftriple>
 						<ftriple flipped="False">Amsterdam_Airport_Schiphol | runwayLength | 3453.0</ftriple>
-						<ftriple flipped="False">Amsterdam_Airport_Schiphol | cityServed | Amsterdam</ftriple>
+						<ftriple flipped="True">Amsterdam | cityServed | Amsterdam_Airport_Schiphol</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8492,8 +8492,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Texas | location | Andrews_County_Airport</ftriple>
-						<ftriple flipped="True">973.0 | elevationAboveTheSeaLevel_(in_metres) | Andrews_County_Airport</ftriple>
-						<ftriple flipped="False">Andrews_County_Airport | runwayLength | 929.0</ftriple>
+						<ftriple flipped="False">Andrews_County_Airport | elevationAboveTheSeaLevel_(in_metres) | 973.0</ftriple>
+						<ftriple flipped="True">929.0 | runwayLength | Andrews_County_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8658,7 +8658,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Andrews_County_Airport | location | Texas</ftriple>
-						<ftriple flipped="False">Texas | capital | Austin,_Texas</ftriple>
+						<ftriple flipped="True">Austin,_Texas | capital | Texas</ftriple>
 						<ftriple flipped="True">Tejano | demonym | Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8705,7 +8705,7 @@
 				<template>BRIDGE-1 , or PATIENT-2 , is the location of AGENT-1 , with the capital in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Tejano | demonym | Texas</ftriple>
+						<ftriple flipped="False">Texas | demonym | Tejano</ftriple>
 						<ftriple flipped="True">Texas | location | Andrews_County_Airport</ftriple>
 						<ftriple flipped="False">Texas | capital | Austin,_Texas</ftriple>
 					</sentence>
@@ -8939,7 +8939,7 @@
 						<ftriple flipped="False">Andrews_County_Airport | location | Texas</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Texas | language | English_language</ftriple>
+						<ftriple flipped="True">English_language | language | Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8986,7 +8986,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Texas | location | Andrews_County_Airport</ftriple>
-						<ftriple flipped="True">United_States | country | Texas</ftriple>
+						<ftriple flipped="False">Texas | country | United_States</ftriple>
 						<ftriple flipped="True">English_language | language | Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9275,8 +9275,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Angola_International_Airport | location | Ícolo_e_Bengo</ftriple>
-						<ftriple flipped="True">159 | elevationAboveTheSeaLevel_(in_metres) | Angola_International_Airport</ftriple>
-						<ftriple flipped="True">3800.0 | runwayLength | Angola_International_Airport</ftriple>
+						<ftriple flipped="False">Angola_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 159</ftriple>
+						<ftriple flipped="False">Angola_International_Airport | runwayLength | 3800.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9347,7 +9347,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Angola_International_Airport | location | Ícolo_e_Bengo</ftriple>
 						<ftriple flipped="True">159 | elevationAboveTheSeaLevel_(in_metres) | Angola_International_Airport</ftriple>
-						<ftriple flipped="True">4000.0 | runwayLength | Angola_International_Airport</ftriple>
+						<ftriple flipped="False">Angola_International_Airport | runwayLength | 4000.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9400,7 +9400,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Angola_International_Airport | location | Ícolo_e_Bengo</ftriple>
 						<ftriple flipped="False">Angola_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 159</ftriple>
-						<ftriple flipped="True">4000.0 | runwayLength | Angola_International_Airport</ftriple>
+						<ftriple flipped="False">Angola_International_Airport | runwayLength | 4000.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9440,9 +9440,9 @@
 				<template>At PATIENT-2 meters above sea level , AGENT-1 is located in BRIDGE-1 , in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">159 | elevationAboveTheSeaLevel_(in_metres) | Angola_International_Airport</ftriple>
-						<ftriple flipped="True">Ícolo_e_Bengo | location | Angola_International_Airport</ftriple>
-						<ftriple flipped="True">Angola | country | Ícolo_e_Bengo</ftriple>
+						<ftriple flipped="False">Angola_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 159</ftriple>
+						<ftriple flipped="False">Angola_International_Airport | location | Ícolo_e_Bengo</ftriple>
+						<ftriple flipped="False">Ícolo_e_Bengo | country | Angola</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9813,7 +9813,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Angola_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 159</ftriple>
-						<ftriple flipped="False">Angola_International_Airport | runwayLength | 4000.0</ftriple>
+						<ftriple flipped="True">4000.0 | runwayLength | Angola_International_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9905,7 +9905,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Antwerp_International_Airport | cityServed | Antwerp</ftriple>
-						<ftriple flipped="False">Antwerp | country | Belgium</ftriple>
+						<ftriple flipped="True">Belgium | country | Antwerp</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">City_of_Brussels | capital | Belgium</ftriple>
@@ -9948,9 +9948,9 @@
 				<template>PATIENT-1 is spoken in BRIDGE-1 , BRIDGE-2 in which AGENT-1 is located .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Belgium | language | Dutch_language</ftriple>
+						<ftriple flipped="True">Dutch_language | language | Belgium</ftriple>
 						<ftriple flipped="True">Belgium | country | Antwerp</ftriple>
-						<ftriple flipped="False">Antwerp_International_Airport | cityServed | Antwerp</ftriple>
+						<ftriple flipped="True">Antwerp | cityServed | Antwerp_International_Airport</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10148,7 +10148,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Antwerp_International_Airport | cityServed | Antwerp</ftriple>
-						<ftriple flipped="False">Antwerp | country | Belgium</ftriple>
+						<ftriple flipped="True">Belgium | country | Antwerp</ftriple>
 						<ftriple flipped="False">Belgium | officialLanguage | French_language</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10642,7 +10642,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Appleton_International_Airport | cityServed | Appleton,_Wisconsin</ftriple>
 						<ftriple flipped="True">Kimberly,_Wisconsin | isPartOf | Appleton,_Wisconsin</ftriple>
-						<ftriple flipped="True">Grand_Chute,_Wisconsin | isPartOf | Appleton,_Wisconsin</ftriple>
+						<ftriple flipped="False">Appleton,_Wisconsin | isPartOf | Grand_Chute,_Wisconsin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11031,9 +11031,9 @@
 				<template>AGENT-1 is located in BRIDGE-1 , which is part of PATIENT-1 , located in PATIENT-2</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Appleton_International_Airport | location | Greenville,_Wisconsin</ftriple>
-						<ftriple flipped="True">Dale,_Wisconsin | isPartOf | Greenville,_Wisconsin</ftriple>
-						<ftriple flipped="False">Greenville,_Wisconsin | country | United_States</ftriple>
+						<ftriple flipped="True">Greenville,_Wisconsin | location | Appleton_International_Airport</ftriple>
+						<ftriple flipped="False">Greenville,_Wisconsin | isPartOf | Dale,_Wisconsin</ftriple>
+						<ftriple flipped="True">United_States | country | Greenville,_Wisconsin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11207,7 +11207,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Appleton_International_Airport | location | Greenville,_Wisconsin</ftriple>
 						<ftriple flipped="True">Menasha_(town),_Wisconsin | isPartOf | Greenville,_Wisconsin</ftriple>
-						<ftriple flipped="True">United_States | country | Greenville,_Wisconsin</ftriple>
+						<ftriple flipped="False">Greenville,_Wisconsin | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11276,8 +11276,8 @@
 				<template>The operators of AGENT-1 , which has a runway length of PATIENT-1 and is PATIENT-2 metres above sea level , are in PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1982.0 | runwayLength | Appleton_International_Airport</ftriple>
-						<ftriple flipped="True">280 | elevationAboveTheSeaLevel_(in_metres) | Appleton_International_Airport</ftriple>
+						<ftriple flipped="False">Appleton_International_Airport | runwayLength | 1982.0</ftriple>
+						<ftriple flipped="False">Appleton_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 280</ftriple>
 						<ftriple flipped="False">Appleton_International_Airport | operatingOrganisation | Outagamie_County,_Wisconsin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11300,9 +11300,9 @@
 				<template>AGENT-1 , which is PATIENT-2 metres above sea level and has a runway that 's PATIENT-1 long , is operated by PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Appleton_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 280</ftriple>
+						<ftriple flipped="True">280 | elevationAboveTheSeaLevel_(in_metres) | Appleton_International_Airport</ftriple>
 						<ftriple flipped="True">1982.0 | runwayLength | Appleton_International_Airport</ftriple>
-						<ftriple flipped="True">Outagamie_County,_Wisconsin | operatingOrganisation | Appleton_International_Airport</ftriple>
+						<ftriple flipped="False">Appleton_International_Airport | operatingOrganisation | Outagamie_County,_Wisconsin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11414,7 +11414,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">34.0 | elevationAboveTheSeaLevel_(in_metres) | Ardmore_Airport_(New_Zealand)</ftriple>
-						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | 3rd_runway_SurfaceType | Poaceae</ftriple>
+						<ftriple flipped="True">Poaceae | 3rd_runway_SurfaceType | Ardmore_Airport_(New_Zealand)</ftriple>
 						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | runwayLength | 518.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11509,7 +11509,7 @@
 				<template>At AGENT-1 , the 3rd runway is made from BRIDGE-1 which belongs to the PATIENT-2 division and is in the class of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | 3rd_runway_SurfaceType | Poaceae</ftriple>
+						<ftriple flipped="True">Poaceae | 3rd_runway_SurfaceType | Ardmore_Airport_(New_Zealand)</ftriple>
 						<ftriple flipped="True">Flowering_plant | division | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | class | Monocotyledon</ftriple>
 					</sentence>
@@ -11756,7 +11756,7 @@
 				<template>AGENT-1 is made of BRIDGE-1 , PATIENT-1 belong to the order of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | 3rd_runway_SurfaceType | Poaceae</ftriple>
+						<ftriple flipped="True">Poaceae | 3rd_runway_SurfaceType | Ardmore_Airport_(New_Zealand)</ftriple>
 						<ftriple flipped="True">Flowering_plant | division | Poaceae</ftriple>
 						<ftriple flipped="True">Commelinids | order | Poaceae</ftriple>
 					</sentence>
@@ -11800,7 +11800,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">34.0 | elevationAboveTheSeaLevel_(in_metres) | Ardmore_Airport_(New_Zealand)</ftriple>
 						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | runwayLength | 1411.0</ftriple>
-						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | 3rd_runway_SurfaceType | Poaceae</ftriple>
+						<ftriple flipped="True">Poaceae | 3rd_runway_SurfaceType | Ardmore_Airport_(New_Zealand)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11924,7 +11924,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">34.0 | elevationAboveTheSeaLevel_(in_metres) | Ardmore_Airport_(New_Zealand)</ftriple>
 						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | runwayLength | 597.0</ftriple>
-						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | 3rd_runway_SurfaceType | Poaceae</ftriple>
+						<ftriple flipped="True">Poaceae | 3rd_runway_SurfaceType | Ardmore_Airport_(New_Zealand)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12103,7 +12103,7 @@
 				<template>PATIENT-1 is the location of AGENT-1 which has a runway length of PATIENT-2 and is located PATIENT-3 metres above sea level .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ashgabat | location | Ashgabat_International_Airport</ftriple>
+						<ftriple flipped="False">Ashgabat_International_Airport | location | Ashgabat</ftriple>
 						<ftriple flipped="False">Ashgabat_International_Airport | runwayLength | 2989.0</ftriple>
 						<ftriple flipped="False">Ashgabat_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 211</ftriple>
 					</sentence>
@@ -12215,7 +12215,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Ashgabat_International_Airport | operatingOrganisation | Turkmenistan_Airlines</ftriple>
-						<ftriple flipped="False">Turkmenistan_Airlines | headquarter | Turkmenistan</ftriple>
+						<ftriple flipped="True">Turkmenistan | headquarter | Turkmenistan_Airlines</ftriple>
 						<ftriple flipped="False">Turkmenistan_Airlines | headquarter | Ashgabat</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -12256,8 +12256,8 @@
 				<template>The operating organization for AGENT-1 is called BRIDGE-1 ( AGENT-1 is BRIDGE-1 hub) , the headquarters of which are located PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Turkmenistan_Airlines | operatingOrganisation | Ashgabat_International_Airport</ftriple>
-						<ftriple flipped="True">Turkmenistan | headquarter | Turkmenistan_Airlines</ftriple>
+						<ftriple flipped="False">Ashgabat_International_Airport | operatingOrganisation | Turkmenistan_Airlines</ftriple>
+						<ftriple flipped="False">Turkmenistan_Airlines | headquarter | Turkmenistan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12303,7 +12303,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Turkmenistan_Airlines | headquarter | Turkmenistan</ftriple>
 						<ftriple flipped="True">Turkmenistan_Airlines | operatingOrganisation | Ashgabat_International_Airport</ftriple>
-						<ftriple flipped="False">Turkmenistan_Airlines | hubAirport | Turkmenabat_Airport</ftriple>
+						<ftriple flipped="True">Turkmenabat_Airport | hubAirport | Turkmenistan_Airlines</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12545,7 +12545,7 @@
 				<template>AGENT-1 serves the city of BRIDGE-1 which is in BRIDGE-2 where PATIENT-1 is the leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Athens | cityServed | Athens_International_Airport</ftriple>
+						<ftriple flipped="False">Athens_International_Airport | cityServed | Athens</ftriple>
 						<ftriple flipped="True">Greece | country | Athens</ftriple>
 						<ftriple flipped="False">Greece | leaderName | Nikos_Voutsis</ftriple>
 					</sentence>
@@ -12791,7 +12791,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Athens_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 94</ftriple>
 						<ftriple flipped="True">Spata | location | Athens_International_Airport</ftriple>
-						<ftriple flipped="True">Athens | cityServed | Athens_International_Airport</ftriple>
+						<ftriple flipped="False">Athens_International_Airport | cityServed | Athens</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13354,7 +13354,7 @@
 				<template>PATIENT-2 is the operating organisation of AGENT-1 . , AGENT-1 has a runway length of PATIENT-1 metres and a runway named PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Port_Authority_of_New_York_and_New_Jersey | operatingOrganisation | Atlantic_City_International_Airport</ftriple>
+						<ftriple flipped="False">Atlantic_City_International_Airport | operatingOrganisation | Port_Authority_of_New_York_and_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">1873.0 | runwayLength | Atlantic_City_International_Airport</ftriple>
@@ -13533,7 +13533,7 @@
 						<ftriple flipped="False">Atlantic_City_International_Airport | operatingOrganisation | Port_Authority_of_New_York_and_New_Jersey</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Atlantic_City_International_Airport | runwayLength | 3048.0</ftriple>
+						<ftriple flipped="True">3048.0 | runwayLength | Atlantic_City_International_Airport</ftriple>
 						<ftriple flipped="False">Atlantic_City_International_Airport | runwayName | &quot;13/31&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14092,7 +14092,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Fallujah | cityServed | Al-Taqaddum_Air_Base</ftriple>
-						<ftriple flipped="True">Iraq | country | Fallujah</ftriple>
+						<ftriple flipped="False">Fallujah | country | Iraq</ftriple>
 						<ftriple flipped="False">Iraq | language | Kurdish_languages</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14593,7 +14593,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Pakistan | leaderName | Sardar_Ayaz_Sadiq</ftriple>
-						<ftriple flipped="False">Lahore | country | Pakistan</ftriple>
+						<ftriple flipped="True">Pakistan | country | Lahore</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Allama_Iqbal_International_Airport | cityServed | Lahore</ftriple>
@@ -14739,7 +14739,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Ardmore_Airport_(New_Zealand) | 2nd_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | order | Poales</ftriple>
-						<ftriple flipped="False">Poaceae | class | Monocotyledon</ftriple>
+						<ftriple flipped="True">Monocotyledon | class | Poaceae</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -14804,7 +14804,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Poaceae | 1st_runway_SurfaceType | Alderney_Airport</ftriple>
-						<ftriple flipped="False">Poaceae | class | Monocotyledon</ftriple>
+						<ftriple flipped="True">Monocotyledon | class | Poaceae</ftriple>
 						<ftriple flipped="False">Poaceae | division | Flowering_plant</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -14829,7 +14829,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alderney_Airport | 1st_runway_SurfaceType | Poaceae</ftriple>
 						<ftriple flipped="True">Monocotyledon | class | Poaceae</ftriple>
-						<ftriple flipped="True">Flowering_plant | division | Poaceae</ftriple>
+						<ftriple flipped="False">Poaceae | division | Flowering_plant</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15315,7 +15315,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">San_Sebastián_de_los_Reyes | leaderParty | Peoples_Party_(Spain)</ftriple>
-						<ftriple flipped="False">San_Sebastián_de_los_Reyes | isPartOf | Community_of_Madrid</ftriple>
+						<ftriple flipped="True">Community_of_Madrid | isPartOf | San_Sebastián_de_los_Reyes</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">San_Sebastián_de_los_Reyes | location | Adolfo_Suárez_Madrid–Barajas_Airport</ftriple>
@@ -15342,7 +15342,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes</ftriple>
 						<ftriple flipped="False">San_Sebastián_de_los_Reyes | isPartOf | Community_of_Madrid</ftriple>
-						<ftriple flipped="True">Peoples_Party_(Spain) | leaderParty | San_Sebastián_de_los_Reyes</ftriple>
+						<ftriple flipped="False">San_Sebastián_de_los_Reyes | leaderParty | Peoples_Party_(Spain)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15431,8 +15431,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Saranac_Lake,_New_York | cityServed | Adirondack_Regional_Airport</ftriple>
-						<ftriple flipped="True">Harrietstown,_New_York | isPartOf | Saranac_Lake,_New_York</ftriple>
-						<ftriple flipped="True">United_States | isPartOf | Harrietstown,_New_York</ftriple>
+						<ftriple flipped="False">Saranac_Lake,_New_York | isPartOf | Harrietstown,_New_York</ftriple>
+						<ftriple flipped="False">Harrietstown,_New_York | isPartOf | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -15538,7 +15538,7 @@
 				<template>AGENT-1 serves the city of BRIDGE-1 which like PATIENT-1 and PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Saranac_Lake,_New_York | cityServed | Adirondack_Regional_Airport</ftriple>
+						<ftriple flipped="False">Adirondack_Regional_Airport | cityServed | Saranac_Lake,_New_York</ftriple>
 						<ftriple flipped="False">Saranac_Lake,_New_York | isPartOf | Harrietstown,_New_York</ftriple>
 						<ftriple flipped="False">Saranac_Lake,_New_York | isPartOf | Essex_County,_New_York</ftriple>
 					</sentence>
@@ -15562,8 +15562,8 @@
 				<template>BRIDGE-1 , is part of PATIENT-1 , PATIENT-2 and is served by AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Saranac_Lake,_New_York | isPartOf | Harrietstown,_New_York</ftriple>
-						<ftriple flipped="False">Saranac_Lake,_New_York | isPartOf | Essex_County,_New_York</ftriple>
+						<ftriple flipped="True">Harrietstown,_New_York | isPartOf | Saranac_Lake,_New_York</ftriple>
+						<ftriple flipped="True">Essex_County,_New_York | isPartOf | Saranac_Lake,_New_York</ftriple>
 						<ftriple flipped="False">Adirondack_Regional_Airport | cityServed | Saranac_Lake,_New_York</ftriple>
 					</sentence>
 				</flowinducedtripleset>

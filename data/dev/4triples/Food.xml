@@ -238,7 +238,7 @@
 						<ftriple flipped="False">Arem-arem | mainIngredients | &quot;compressed rice cooked in banana leaf with vegetables or minced meat fillings&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Javanese_cuisine | region | Arem-arem</ftriple>
+						<ftriple flipped="False">Arem-arem | region | Javanese_cuisine</ftriple>
 						<ftriple flipped="True">Lemper | dishVariation | Arem-arem</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -583,7 +583,7 @@
 				<template>The main ingredients of AGENT-1 , which is from PATIENT-1 , are PATIENT-2 . AGENT-1 is from the PATIENT-3 region .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Arròs_negre | country | Spain</ftriple>
+						<ftriple flipped="True">Spain | country | Arròs_negre</ftriple>
 						<ftriple flipped="False">Arròs_negre | mainIngredients | &quot;White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -691,8 +691,8 @@
 				<template>AGENT-1 is a traditonal dish from PATIENT-1 , PATIENT-2 . AGENT-1 has the main ingredients of PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Valencian_Community | region | Arròs_negre</ftriple>
-						<ftriple flipped="False">Arròs_negre | country | Spain</ftriple>
+						<ftriple flipped="False">Arròs_negre | region | Valencian_Community</ftriple>
+						<ftriple flipped="True">Spain | country | Arròs_negre</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers&quot; | mainIngredients | Arròs_negre</ftriple>
@@ -720,7 +720,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Arròs_negre | region | Valencian_Community</ftriple>
-						<ftriple flipped="False">Arròs_negre | country | Spain</ftriple>
+						<ftriple flipped="True">Spain | country | Arròs_negre</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers&quot; | mainIngredients | Arròs_negre</ftriple>
@@ -1036,11 +1036,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bacon_Explosion | region | Kansas_City_metropolitan_area</ftriple>
-						<ftriple flipped="False">Bacon_Explosion | country | United_States</ftriple>
+						<ftriple flipped="True">United_States | country | Bacon_Explosion</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bacon_Explosion | mainIngredients | Bacon</ftriple>
-						<ftriple flipped="False">Bacon_Explosion | ingredient | Sausage</ftriple>
+						<ftriple flipped="True">Sausage | ingredient | Bacon_Explosion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1093,12 +1093,12 @@
 				<template>AGENT-1 is from PATIENT-3 of PATIENT-1 . The main ingredient is PATIENT-4 along with PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Kansas_City_metropolitan_area | region | Bacon_Explosion</ftriple>
+						<ftriple flipped="False">Bacon_Explosion | region | Kansas_City_metropolitan_area</ftriple>
 						<ftriple flipped="True">United_States | country | Bacon_Explosion</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bacon_Explosion | mainIngredients | Bacon</ftriple>
-						<ftriple flipped="False">Bacon_Explosion | ingredient | Sausage</ftriple>
+						<ftriple flipped="True">Sausage | ingredient | Bacon_Explosion</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1147,7 +1147,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bacon_Explosion | country | United_States</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Paul_Ryan</ftriple>
+						<ftriple flipped="True">Paul_Ryan | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
@@ -1178,12 +1178,12 @@
 				<template>BRIDGE-1 is the country of AGENT-1 and the leader is PATIENT-1 . PATIENT-2 are an ethnic group in BRIDGE-1 and the capital is PATIENT-3</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Bacon_Explosion</ftriple>
-						<ftriple flipped="False">United_States | leaderName | Paul_Ryan</ftriple>
+						<ftriple flipped="False">Bacon_Explosion | country | United_States</ftriple>
+						<ftriple flipped="True">Paul_Ryan | leaderName | United_States</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Asian_Americans | ethnicGroup | United_States</ftriple>
-						<ftriple flipped="False">United_States | capital | Washington,_D.C.</ftriple>
+						<ftriple flipped="True">Washington,_D.C. | capital | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1287,8 +1287,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bacon_sandwich | ingredient | Bacon</ftriple>
-						<ftriple flipped="False">Bacon_sandwich | dishVariation | BLT</ftriple>
-						<ftriple flipped="False">Bacon_sandwich | alternativeName | &quot;Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece n bacon, bacon cob, bacon barm, bacon muffin&quot;</ftriple>
+						<ftriple flipped="True">BLT | dishVariation | Bacon_sandwich</ftriple>
+						<ftriple flipped="True">&quot;Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece n bacon, bacon cob, bacon barm, bacon muffin&quot; | alternativeName | Bacon_sandwich</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1484,8 +1484,8 @@
 				<template>From PATIENT-2 , AGENT-1 main ingredients are PATIENT-1 . AGENT-1 can also be known as PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bacon_sandwich | country | United_Kingdom</ftriple>
-						<ftriple flipped="True">&quot;Bread and bacon, with a condiment, often ketchup or brown sauce&quot; | mainIngredients | Bacon_sandwich</ftriple>
+						<ftriple flipped="True">United_Kingdom | country | Bacon_sandwich</ftriple>
+						<ftriple flipped="False">Bacon_sandwich | mainIngredients | &quot;Bread and bacon, with a condiment, often ketchup or brown sauce&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bacon_sandwich | alternativeName | &quot;Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece n bacon, bacon cob, bacon barm, bacon muffin&quot;</ftriple>
@@ -1543,7 +1543,7 @@
 				<template>The main ingredients of AGENT-1 , ( popular in PATIENT-2 ) , are PATIENT-1 . AGENT-1 has several alternative names including : PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_Kingdom | country | Bacon_sandwich</ftriple>
+						<ftriple flipped="False">Bacon_sandwich | country | United_Kingdom</ftriple>
 						<ftriple flipped="False">Bacon_sandwich | mainIngredients | &quot;Bread and bacon, with a condiment, often ketchup or brown sauce&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -1593,11 +1593,11 @@
 				<template>AGENT-1 has the main ingredients of PATIENT-1 . AGENT-1 is found in PATIENT-2 , @ PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Meringue, ice cream, sponge cake or Christmas pudding&quot; | mainIngredients | Baked_Alaska</ftriple>
+						<ftriple flipped="False">Baked_Alaska | mainIngredients | &quot;Meringue, ice cream, sponge cake or Christmas pudding&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;France, United States or China&quot; | country | Baked_Alaska</ftriple>
-						<ftriple flipped="False">Baked_Alaska | region | &quot;Paris, New York or Hong Kong&quot;</ftriple>
+						<ftriple flipped="False">Baked_Alaska | country | &quot;France, United States or China&quot;</ftriple>
+						<ftriple flipped="True">&quot;Paris, New York or Hong Kong&quot; | region | Baked_Alaska</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1624,7 +1624,7 @@
 				<template>AGENT-1 contains : PATIENT-1 . AGENT-1 is found in PATIENT-3 . The origins are either PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Baked_Alaska | mainIngredients | &quot;Meringue, ice cream, sponge cake or Christmas pudding&quot;</ftriple>
+						<ftriple flipped="True">&quot;Meringue, ice cream, sponge cake or Christmas pudding&quot; | mainIngredients | Baked_Alaska</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;Paris, New York or Hong Kong&quot; | region | Baked_Alaska</ftriple>
@@ -1976,7 +1976,7 @@
 						<ftriple flipped="True">Derbyshire_Dales | region | Bakewell_pudding</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Bakewell_pudding | dishVariation | Bakewell_tart</ftriple>
+						<ftriple flipped="True">Bakewell_tart | dishVariation | Bakewell_pudding</ftriple>
 						<ftriple flipped="False">Bakewell_tart | ingredient | Shortcrust_pastry</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2001,10 +2001,10 @@
 				<template>BRIDGE-2 is a variation of AGENT-1 which uses PATIENT-2 and comes from BRIDGE-1 in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Bakewell_tart | dishVariation | Bakewell_pudding</ftriple>
-						<ftriple flipped="False">Bakewell_tart | ingredient | Shortcrust_pastry</ftriple>
+						<ftriple flipped="False">Bakewell_pudding | dishVariation | Bakewell_tart</ftriple>
+						<ftriple flipped="True">Shortcrust_pastry | ingredient | Bakewell_tart</ftriple>
 						<ftriple flipped="False">Bakewell_pudding | region | Derbyshire_Dales</ftriple>
-						<ftriple flipped="False">Derbyshire_Dales | isPartOf | Derbyshire</ftriple>
+						<ftriple flipped="True">Derbyshire | isPartOf | Derbyshire_Dales</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2032,7 +2032,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Bakewell_tart | dishVariation | Bakewell_pudding</ftriple>
 						<ftriple flipped="True">Derbyshire_Dales | region | Bakewell_pudding</ftriple>
-						<ftriple flipped="False">Derbyshire_Dales | isPartOf | Derbyshire</ftriple>
+						<ftriple flipped="True">Derbyshire | isPartOf | Derbyshire_Dales</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Bakewell_tart | ingredient | Shortcrust_pastry</ftriple>
@@ -2085,7 +2085,7 @@
 						<ftriple flipped="False">Bandeja_paisa | region | Paisa_Region</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Bandeja_paisa | mainIngredients | &quot;red beans, pork belly, white rice, ground meat, chicharon, fried egg, plantain (patacones), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon&quot;</ftriple>
+						<ftriple flipped="True">&quot;red beans, pork belly, white rice, ground meat, chicharon, fried egg, plantain (patacones), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon&quot; | mainIngredients | Bandeja_paisa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2290,12 +2290,12 @@
 				<template>AGENT-1 is found in the country of PATIENT-1 . AGENT-1 is a variation on PATIENT-2 or BRIDGE-1 , BRIDGE-1 of which includes PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Batagor | country | Indonesia</ftriple>
+						<ftriple flipped="True">Indonesia | country | Batagor</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Batagor | dishVariation | Shumai</ftriple>
-						<ftriple flipped="False">Shumai | dishVariation | Siomay</ftriple>
-						<ftriple flipped="False">Shumai | ingredient | Shiitake</ftriple>
+						<ftriple flipped="True">Shumai | dishVariation | Batagor</ftriple>
+						<ftriple flipped="True">Siomay | dishVariation | Shumai</ftriple>
+						<ftriple flipped="True">Shiitake | ingredient | Shumai</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2402,12 +2402,12 @@
 				<template>AGENT-1 comes from the region of PATIENT-1 and also BRIDGE-1 . The leader of BRIDGE-1 , where PATIENT-2 is the spoken language , is PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Beef_kway_teow | region | Indonesia</ftriple>
-						<ftriple flipped="True">Singapore | country | Beef_kway_teow</ftriple>
+						<ftriple flipped="True">Indonesia | region | Beef_kway_teow</ftriple>
+						<ftriple flipped="False">Beef_kway_teow | country | Singapore</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Standard_Chinese | language | Singapore</ftriple>
-						<ftriple flipped="False">Singapore | leaderName | Halimah_Yacob</ftriple>
+						<ftriple flipped="False">Singapore | language | Standard_Chinese</ftriple>
+						<ftriple flipped="True">Halimah_Yacob | leaderName | Singapore</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2478,7 +2478,7 @@
 				<template>AGENT-1 is served in the region of PATIENT-3 and is also found in PATIENT-4 . The main ingredients are PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Indonesia | region | Beef_kway_teow</ftriple>
+						<ftriple flipped="False">Beef_kway_teow | region | Indonesia</ftriple>
 						<ftriple flipped="False">Beef_kway_teow | country | &quot;Singapore and Indonesia&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -2668,10 +2668,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Singapore | region | Beef_kway_teow</ftriple>
-						<ftriple flipped="True">English_language | language | Singapore</ftriple>
+						<ftriple flipped="False">Singapore | language | English_language</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Beef_kway_teow | country | &quot;Singapore and Indonesia&quot;</ftriple>
+						<ftriple flipped="True">&quot;Singapore and Indonesia&quot; | country | Beef_kway_teow</ftriple>
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Singapore | leaderName | Tony_Tan</ftriple>
@@ -2850,7 +2850,7 @@
 						<ftriple flipped="False">Bhajji | country | India</ftriple>
 						<ftriple flipped="False">India | currency | Indian_rupee</ftriple>
 						<ftriple flipped="True">T._S._Thakur | leaderName | India</ftriple>
-						<ftriple flipped="False">India | leaderName | Narendra_Modi</ftriple>
+						<ftriple flipped="True">Narendra_Modi | leaderName | India</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3096,11 +3096,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bhajji | region | Karnataka</ftriple>
-						<ftriple flipped="False">Bhajji | country | India</ftriple>
+						<ftriple flipped="True">India | country | Bhajji</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">T._S._Thakur | leaderName | India</ftriple>
-						<ftriple flipped="False">Karnataka | leaderName | Vajubhai_Vala</ftriple>
+						<ftriple flipped="True">Vajubhai_Vala | leaderName | Karnataka</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3129,7 +3129,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Karnataka | region | Bhajji</ftriple>
-						<ftriple flipped="False">Bhajji | country | India</ftriple>
+						<ftriple flipped="True">India | country | Bhajji</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">India | leaderName | T._S._Thakur</ftriple>
@@ -3215,10 +3215,10 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Dessert | dishVariation | Cookie</ftriple>
-						<ftriple flipped="True">Dessert | course | Binignit</ftriple>
+						<ftriple flipped="False">Binignit | course | Dessert</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Binignit | ingredient | Sweet_potato</ftriple>
+						<ftriple flipped="True">Sweet_potato | ingredient | Binignit</ftriple>
 						<ftriple flipped="False">Sweet_potato | order | Solanales</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3310,8 +3310,8 @@
 				<template>The main ingredients of AGENT-1 , a dish from the PATIENT-3 region of PATIENT-1 , are PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Guadalajara | region | Bionico</ftriple>
-						<ftriple flipped="False">Bionico | country | Mexico</ftriple>
+						<ftriple flipped="False">Bionico | region | Guadalajara</ftriple>
+						<ftriple flipped="True">Mexico | country | Bionico</ftriple>
 						<ftriple flipped="False">Bionico | mainIngredients | &quot;Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3460,7 +3460,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bakso | country | Chinese_cuisine</ftriple>
-						<ftriple flipped="True">Indonesia | region | Bakso</ftriple>
+						<ftriple flipped="False">Bakso | region | Indonesia</ftriple>
 						<ftriple flipped="False">Indonesia | leaderName | Jusuf_Kalla</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -3538,8 +3538,8 @@
 				<template>AGENT-1 comes from BRIDGE-1 , and PATIENT-2 is a main ingredient . PATIENT-1 is a leader in BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bakso | region | Indonesia</ftriple>
-						<ftriple flipped="False">Bakso | ingredient | Celery</ftriple>
+						<ftriple flipped="True">Indonesia | region | Bakso</ftriple>
+						<ftriple flipped="True">Celery | ingredient | Bakso</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Jusuf_Kalla | leaderName | Indonesia</ftriple>
@@ -3595,11 +3595,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bakso | ingredient | Celery</ftriple>
-						<ftriple flipped="False">Bakso | region | Indonesia</ftriple>
+						<ftriple flipped="True">Indonesia | region | Bakso</ftriple>
 						<ftriple flipped="False">Bakso | country | Indonesia</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Indonesia | leaderName | Jusuf_Kalla</ftriple>
+						<ftriple flipped="True">Jusuf_Kalla | leaderName | Indonesia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3648,7 +3648,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Italy | country | Amatriciana_sauce</ftriple>
 						<ftriple flipped="False">Italy | leaderName | Matteo_Renzi</ftriple>
-						<ftriple flipped="True">Sergio_Mattarella | leaderName | Italy</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Sergio_Mattarella</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
@@ -3681,7 +3681,7 @@
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
-						<ftriple flipped="True">Matteo_Renzi | leaderName | Italy</ftriple>
+						<ftriple flipped="False">Italy | leaderName | Matteo_Renzi</ftriple>
 						<ftriple flipped="True">Sergio_Mattarella | leaderName | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4100,7 +4100,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Arròs_negre | country | Spain</ftriple>
-						<ftriple flipped="False">Spain | leaderName | Felipe_VI_of_Spain</ftriple>
+						<ftriple flipped="True">Felipe_VI_of_Spain | leaderName | Spain</ftriple>
 						<ftriple flipped="True">Euro | currency | Spain</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -4136,7 +4136,7 @@
 						<ftriple flipped="False">Spain | ethnicGroup | Spaniards</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Arròs_negre | country | Spain</ftriple>
+						<ftriple flipped="True">Spain | country | Arròs_negre</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

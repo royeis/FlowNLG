@@ -379,9 +379,9 @@
 				<template>AGENT-1 has an affiliation with BRIDGE-2 ( PATIENT-2 ) and was given the ` Technical Campus ' status by BRIDGE-1 , which is located in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
-						<ftriple flipped="False">Visvesvaraya_Technological_University | city | Belgaum</ftriple>
-						<ftriple flipped="False">Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education</ftriple>
+						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="True">Belgaum | city | Visvesvaraya_Technological_University</ftriple>
+						<ftriple flipped="True">All_India_Council_for_Technical_Education | was given the 'Technical Campus' status by | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">All_India_Council_for_Technical_Education | location | Mumbai</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -409,7 +409,7 @@
 						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
 						<ftriple flipped="False">Visvesvaraya_Technological_University | city | Belgaum</ftriple>
 						<ftriple flipped="True">All_India_Council_for_Technical_Education | was given the 'Technical Campus' status by | Acharya_Institute_of_Technology</ftriple>
-						<ftriple flipped="True">Mumbai | location | All_India_Council_for_Technical_Education</ftriple>
+						<ftriple flipped="False">All_India_Council_for_Technical_Education | location | Mumbai</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -757,8 +757,8 @@
 				<template>AGENT-1 is located in PATIENT-2 and affiliated to PATIENT-3 . AGENT-1 was established in PATIENT-4 and AGENT-1 has PATIENT-1 academic staff .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | country | Denmark</ftriple>
-						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</ftriple>
+						<ftriple flipped="True">Denmark | country | School of Business and Social Sciences at the Aarhus University</ftriple>
+						<ftriple flipped="True">European_University_Association | affiliation | School of Business and Social Sciences at the Aarhus University</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">1928 | established | School of Business and Social Sciences at the Aarhus University</ftriple>
@@ -821,7 +821,7 @@
 				<template>PATIENT-2 @ AGENT-1 was established in PATIENT-4 . AGENT-1 currently has PATIENT-1 staff and is affiliated with PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | country | Denmark</ftriple>
+						<ftriple flipped="True">Denmark | country | School of Business and Social Sciences at the Aarhus University</ftriple>
 						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | established | 1928</ftriple>
 					</sentence>
 					<sentence ID="2">

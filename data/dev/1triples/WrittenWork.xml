@@ -699,7 +699,7 @@
 				<template>The CODEN code for AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acta_Palaeontologica_Polonica | CODEN_code | &quot;APGPAC&quot;</ftriple>
+						<ftriple flipped="True">&quot;APGPAC&quot; | CODEN_code | Acta_Palaeontologica_Polonica</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

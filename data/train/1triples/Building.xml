@@ -1323,7 +1323,7 @@
 				<template>AGENT-1 has a floor count of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">20_Fenchurch_Street | floorCount | 34</ftriple>
+						<ftriple flipped="True">34 | floorCount | 20_Fenchurch_Street</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1401,7 +1401,7 @@
 				<template>The start date of AGENT-1 was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;January, 2014&quot; | buildingStartDate | 250_Delaware_Avenue</ftriple>
+						<ftriple flipped="False">250_Delaware_Avenue | buildingStartDate | &quot;January, 2014&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1578,7 +1578,7 @@
 				<template>There are a total of PATIENT-1 floors in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">250_Delaware_Avenue | floorCount | 12</ftriple>
+						<ftriple flipped="True">12 | floorCount | 250_Delaware_Avenue</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1596,7 +1596,7 @@
 				<template>AGENT-1 has a floor count of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">250_Delaware_Avenue | floorCount | 12</ftriple>
+						<ftriple flipped="True">12 | floorCount | 250_Delaware_Avenue</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2124,7 +2124,7 @@
 				<template>The architect of AGENT-1 was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">3Arena | architect | Populous_(company)</ftriple>
+						<ftriple flipped="True">Populous_(company) | architect | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2142,7 +2142,7 @@
 				<template>PATIENT-1 were the architects who designed AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Populous_(company) | architect | 3Arena</ftriple>
+						<ftriple flipped="False">3Arena | architect | Populous_(company)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2352,7 +2352,7 @@
 				<template>AGENT-1 is located on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">3Arena | location | &quot;North Wall Quay&quot;</ftriple>
+						<ftriple flipped="True">&quot;North Wall Quay&quot; | location | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2515,7 +2515,7 @@
 				<template>The owner of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">3Arena | owner | Live_Nation_Entertainment</ftriple>
+						<ftriple flipped="True">Live_Nation_Entertainment | owner | 3Arena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2827,7 +2827,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Denmark | location | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
+						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | location | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2875,7 +2875,7 @@
 				<template>AGENT-1 is owned by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AC_Hotel_Bella_Sky_Copenhagen | owner | Bella_Center</ftriple>
+						<ftriple flipped="True">Bella_Center | owner | AC_Hotel_Bella_Sky_Copenhagen</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4420,7 +4420,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adisham_Hall | country | Sri_Lanka</ftriple>
+						<ftriple flipped="True">Sri_Lanka | country | Adisham_Hall</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5992,7 +5992,7 @@
 				<template>AGENT-1 is located in the region of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ampara_District | region | Ampara_Hospital</ftriple>
+						<ftriple flipped="False">Ampara_Hospital | region | Ampara_District</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7312,7 +7312,7 @@
 				<template>PATIENT-1 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Andrew_Mitchell | leaderName | Birmingham</ftriple>
+						<ftriple flipped="False">Birmingham | leaderName | Andrew_Mitchell</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7330,7 +7330,7 @@
 				<template>AGENT-1 leader is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Andrew_Mitchell | leaderName | Birmingham</ftriple>
+						<ftriple flipped="False">Birmingham | leaderName | Andrew_Mitchell</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7630,7 +7630,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Chicago</ftriple>
+						<ftriple flipped="False">Chicago | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8392,7 +8392,7 @@
 				<template>One of the languages used in AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Denmark | language | German_language</ftriple>
+						<ftriple flipped="True">German_language | language | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9196,7 +9196,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Illinois</ftriple>
+						<ftriple flipped="False">Illinois | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9214,7 +9214,7 @@
 				<template>AGENT-1 state is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Illinois</ftriple>
+						<ftriple flipped="False">Illinois | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9232,7 +9232,7 @@
 				<template>AGENT-1 is situated in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Illinois</ftriple>
+						<ftriple flipped="False">Illinois | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9790,7 +9790,7 @@
 				<template>PATIENT-1 is the home town of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">John_Madin | hometown | Birmingham</ftriple>
+						<ftriple flipped="True">Birmingham | hometown | John_Madin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10246,7 +10246,7 @@
 				<template>The leader of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Gale_Brewer | leaderName | Manhattan</ftriple>
+						<ftriple flipped="False">Manhattan | leaderName | Gale_Brewer</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11416,7 +11416,7 @@
 				<template>The demonym for natives of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_Kingdom | demonym | British_people</ftriple>
+						<ftriple flipped="True">British_people | demonym | United_Kingdom</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

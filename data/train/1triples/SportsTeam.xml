@@ -88,7 +88,7 @@
 				<template>PATIENT-1 saw AGENT-1 participating .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">2014 | season | 1._FC_Köln</ftriple>
+						<ftriple flipped="False">1._FC_Köln | season | 2014</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -193,7 +193,7 @@
 				<template>The manager of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Jens_Härtel | manager | 1._FC_Magdeburg</ftriple>
+						<ftriple flipped="False">1._FC_Magdeburg | manager | Jens_Härtel</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -511,7 +511,7 @@
 				<template>PATIENT-1 has been the manager of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Massimo_Drago | manager | A.C._Cesena</ftriple>
+						<ftriple flipped="False">A.C._Cesena | manager | Massimo_Drago</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1504,7 +1504,7 @@
 				<template>AGENT-1 is playing in AGENT-1 ground at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.D._Isidro_Metapán | ground | Metapán</ftriple>
+						<ftriple flipped="True">Metapán | ground | A.D._Isidro_Metapán</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1954,7 +1954,7 @@
 				<template>AGENT-1 play in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">English_football_league_system | league | A.F.C._Blackpool</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | league | English_football_league_system</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2562,7 +2562,7 @@
 				<template>AGENT-1 has PATIENT-1 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">3180 | numberOfMembers | A.F.C._Fylde</ftriple>
+						<ftriple flipped="False">A.F.C._Fylde | numberOfMembers | 3180</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2673,7 +2673,7 @@
 				<template>AGENT-1 played in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">2014–15_Football_Conference | season | A.F.C._Fylde</ftriple>
+						<ftriple flipped="False">A.F.C._Fylde | season | 2014–15_Football_Conference</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2799,7 +2799,7 @@
 				<template>AGENT-1 play in PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Serie_D | league | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | league | Serie_D</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2931,7 +2931,7 @@
 				<template>AGENT-1 were in PATIENT-1 season .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">2014–15_Lega_Pro | season | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | season | 2014–15_Lega_Pro</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3219,7 +3219,7 @@
 				<template>The league that AGENT-1 play in is PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Livorno_Calcio | league | Serie_B</ftriple>
+						<ftriple flipped="True">Serie_B | league | A.S._Livorno_Calcio</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4750,7 +4750,7 @@
 				<template>The ground of AGENT-1 can be found in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Amsterdam | ground | AFC_Ajax_(amateurs)</ftriple>
+						<ftriple flipped="False">AFC_Ajax_(amateurs) | ground | Amsterdam</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6832,7 +6832,7 @@
 				<template>PATIENT-1 have been champions of AGENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7186,7 +7186,7 @@
 				<template>AGENT-1 is a player at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">A.F.C._Fylde | club | Dave_Challinor</ftriple>
+						<ftriple flipped="False">Dave_Challinor | club | A.F.C._Fylde</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7204,7 +7204,7 @@
 				<template>AGENT-1 is at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">A.F.C._Fylde | club | Dave_Challinor</ftriple>
+						<ftriple flipped="False">Dave_Challinor | club | A.F.C._Fylde</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7690,7 +7690,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ajax_Youth_Academy | club | Frank_de_Boer</ftriple>
+						<ftriple flipped="False">Frank_de_Boer | club | Ajax_Youth_Academy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7708,7 +7708,7 @@
 				<template>AGENT-1 played for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ajax_Youth_Academy | club | Frank_de_Boer</ftriple>
+						<ftriple flipped="False">Frank_de_Boer | club | Ajax_Youth_Academy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8110,7 +8110,7 @@
 				<template>AGENT-1 leader is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Greece | leader | Prokopis_Pavlopoulos</ftriple>
+						<ftriple flipped="True">Prokopis_Pavlopoulos | leader | Greece</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8626,7 +8626,7 @@
 				<template>The first club AGENT-1 played for was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1._FC_Lokomotive_Leipzig | club | Jens_Härtel</ftriple>
+						<ftriple flipped="False">Jens_Härtel | club | 1._FC_Lokomotive_Leipzig</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8644,7 +8644,7 @@
 				<template>AGENT-1 plays for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1._FC_Lokomotive_Leipzig | club | Jens_Härtel</ftriple>
+						<ftriple flipped="False">Jens_Härtel | club | 1._FC_Lokomotive_Leipzig</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9276,7 +9276,7 @@
 				<template>AGENT-1 plays for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Jorge_Humberto_Rodríguez | club | Alianza_F.C.</ftriple>
+						<ftriple flipped="True">Alianza_F.C. | club | Jorge_Humberto_Rodríguez</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9294,7 +9294,7 @@
 				<template>AGENT-1 club is PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Alianza_F.C. | club | Jorge_Humberto_Rodríguez</ftriple>
+						<ftriple flipped="False">Jorge_Humberto_Rodríguez | club | Alianza_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10308,7 +10308,7 @@
 				<template>PATIENT-1 are previous champions of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Barrow_A.F.C. | champions | National_League_North</ftriple>
+						<ftriple flipped="False">National_League_North | champions | Barrow_A.F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10326,7 +10326,7 @@
 				<template>PATIENT-1 won the championship before in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Barrow_A.F.C. | champions | National_League_North</ftriple>
+						<ftriple flipped="False">National_League_North | champions | Barrow_A.F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10536,7 +10536,7 @@
 				<template>AGENT-1 played for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Paulo_Sousa | club | Juventus_F.C.</ftriple>
+						<ftriple flipped="True">Juventus_F.C. | club | Paulo_Sousa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10554,7 +10554,7 @@
 				<template>AGENT-1 club is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Paulo_Sousa | club | Juventus_F.C.</ftriple>
+						<ftriple flipped="True">Juventus_F.C. | club | Paulo_Sousa</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10746,7 +10746,7 @@
 				<template>AGENT-1 club is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">FC_Admira_Wacker_Mödling | club | Peter_Stöger</ftriple>
+						<ftriple flipped="False">Peter_Stöger | club | FC_Admira_Wacker_Mödling</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10764,7 +10764,7 @@
 				<template>AGENT-1 is a player in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">FC_Admira_Wacker_Mödling | club | Peter_Stöger</ftriple>
+						<ftriple flipped="False">Peter_Stöger | club | FC_Admira_Wacker_Mödling</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10908,7 +10908,7 @@
 				<template>AGENT-1 is attached to PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">First_Vienna_FC | club | Peter_Stöger</ftriple>
+						<ftriple flipped="False">Peter_Stöger | club | First_Vienna_FC</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11052,7 +11052,7 @@
 				<template>AGENT-1 was at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">SK_Rapid_Wien | club | Peter_Stöger</ftriple>
+						<ftriple flipped="False">Peter_Stöger | club | SK_Rapid_Wien</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12246,7 +12246,7 @@
 				<template>AGENT-1 is attached to PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Irlam_Town_F.C.</ftriple>
+						<ftriple flipped="True">Irlam_Town_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12264,7 +12264,7 @@
 				<template>AGENT-1 is a member of PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Irlam_Town_F.C.</ftriple>
+						<ftriple flipped="True">Irlam_Town_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12360,7 +12360,7 @@
 				<template>AGENT-1 was a player for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Runcorn_F.C._Halton | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Runcorn_F.C._Halton</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12474,7 +12474,7 @@
 				<template>AGENT-1 once played for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

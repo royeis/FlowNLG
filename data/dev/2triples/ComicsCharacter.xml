@@ -234,7 +234,7 @@
 				<template>Starring PATIENT-2 , AGENT-1 was shown on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | starring | Graeme_Garden</ftriple>
+						<ftriple flipped="True">Graeme_Garden | starring | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -255,7 +255,7 @@
 				<template>PATIENT-2 starred in AGENT-1 , which was shown on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | starring | Graeme_Garden</ftriple>
+						<ftriple flipped="True">Graeme_Garden | starring | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -276,7 +276,7 @@
 				<template>AGENT-1 , which starred PATIENT-2 , was broadcasted by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | starring | Graeme_Garden</ftriple>
+						<ftriple flipped="True">Graeme_Garden | starring | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -334,7 +334,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | starring | Bill_Oddie</ftriple>
-						<ftriple flipped="True">Lancashire | birthPlace | Bill_Oddie</ftriple>
+						<ftriple flipped="False">Bill_Oddie | birthPlace | Lancashire</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

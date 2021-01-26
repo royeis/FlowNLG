@@ -2,8 +2,8 @@ import os
 import xml.etree.ElementTree as ET
 
 
-class Entry():
-    def __init__(self, category, eid, size, originaltripleset, modifiedtripleset, entitymap, lexEntries):
+class Entry:
+    def __init__(self, category, eid, size, originaltripleset, modifiedtripleset,  entitymap, lexEntries):
         self.category = category
         self.eid = eid
         self.size = size
@@ -16,22 +16,15 @@ class Entry():
         return dict(map(lambda tagentity: tagentity.to_tuple(), self.entitymap))
 
 
-class Triple():
-    def __init__(self, first, predicate, second):
-        self.first = first
-        self.predicate = predicate
-        self.second = second
-
-
-class FlowTriple():
-    def __init__(self, first, predicate, second, flipped):
+class FlowTriple:
+    def __init__(self, first, predicate, second, flipped=False):
         self.first = first
         self.predicate = predicate
         self.second = second
         self.flipped = flipped
 
 
-class Lex():
+class Lex:
     def __init__(self, comment, lid, text, template, orderedtripleset=[], flowtripleset=[], references=[]):
         self.comment = comment
         self.lid = lid
@@ -43,7 +36,7 @@ class Lex():
         self.references = references
 
 
-class TagEntity():
+class TagEntity:
     def __init__(self, tag, entity):
         self.tag = tag
         self.entity = entity
@@ -52,7 +45,7 @@ class TagEntity():
         return self.tag, self.entity
 
 
-class Reference():
+class Reference:
     def __init__(self, tag, entity, refex, number, reftype):
         self.tag = tag
         self.entity = entity
@@ -76,14 +69,14 @@ def parse(in_file):
         otripleset = entry.find('originaltripleset')
         for otriple in otripleset:
             e1, pred, e2 = otriple.text.split(' | ')
-            originaltripleset.append(Triple(e1.replace('\'', ''), pred, e2.replace('\'', '')))
+            originaltripleset.append(FlowTriple(e1.replace('\'', ''), pred, e2.replace('\'', '')))
 
         modifiedtripleset = []
         mtripleset = entry.find('modifiedtripleset')
         for mtriple in mtripleset:
             e1, pred, e2 = mtriple.text.split(' | ')
 
-            modifiedtripleset.append(Triple(e1.replace('\'', ''), pred, e2.replace('\'', '')))
+            modifiedtripleset.append(FlowTriple(e1.replace('\'', ''), pred, e2.replace('\'', '')))
 
         entitymap = []
         mapping= entry.find('entitymap')
@@ -105,7 +98,7 @@ def parse(in_file):
                     for otriple in snt:
                         e1, pred, e2 = otriple.text.split(' | ')
 
-                        orderedtripleset_snt.append(Triple(e1.replace('\'', ''), pred, e2.replace('\'', '')))
+                        orderedtripleset_snt.append(FlowTriple(e1.replace('\'', ''), pred, e2.replace('\'', '')))
                     orderedtripleset.append(orderedtripleset_snt)
             except:
                 orderedtripleset = []

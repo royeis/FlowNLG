@@ -1317,7 +1317,7 @@
 				<template>AGENT-1 is the country of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Georgia_(U.S._state)</ftriple>
+						<ftriple flipped="False">Georgia_(U.S._state) | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1365,7 +1365,7 @@
 				<template>PATIENT-1 is the capital of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Indianapolis | capital | Indiana</ftriple>
+						<ftriple flipped="False">Indiana | capital | Indianapolis</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1479,7 +1479,7 @@
 				<template>The capital of the state of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">New_Jersey | capital | Trenton,_New_Jersey</ftriple>
+						<ftriple flipped="True">Trenton,_New_Jersey | capital | New_Jersey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

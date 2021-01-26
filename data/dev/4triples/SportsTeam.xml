@@ -156,9 +156,9 @@
 				<template>PATIENT-1 born BRIDGE-1 plays at PATIENT-3 and is in PATIENT-2 . BRIDGE-1 is currently the manager of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Rolando_Maran | placeOfBirth | Italy</ftriple>
-						<ftriple flipped="True">Carrarese_Calcio | club | Rolando_Maran</ftriple>
-						<ftriple flipped="True">Unione_Triestina_2012_S.S.D. | club | Rolando_Maran</ftriple>
+						<ftriple flipped="True">Italy | placeOfBirth | Rolando_Maran</ftriple>
+						<ftriple flipped="False">Rolando_Maran | club | Carrarese_Calcio</ftriple>
+						<ftriple flipped="False">Rolando_Maran | club | Unione_Triestina_2012_S.S.D.</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.C._Chievo_Verona | manager | Rolando_Maran</ftriple>
@@ -188,7 +188,7 @@
 				<template>Born in PATIENT-1 , BRIDGE-1 is the manager of AGENT-1 . BRIDGE-1 also plays for PATIENT-3 and is in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Italy | placeOfBirth | Rolando_Maran</ftriple>
+						<ftriple flipped="False">Rolando_Maran | placeOfBirth | Italy</ftriple>
 						<ftriple flipped="False">A.C._Chievo_Verona | manager | Rolando_Maran</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -239,7 +239,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Michele_Marcolini | manager | A.C._Lumezzane</ftriple>
-						<ftriple flipped="False">Michele_Marcolini | placeOfBirth | Italy</ftriple>
+						<ftriple flipped="True">Italy | placeOfBirth | Michele_Marcolini</ftriple>
 						<ftriple flipped="False">Michele_Marcolini | club | Torino_F.C.</ftriple>
 						<ftriple flipped="False">Michele_Marcolini | club | F.C._Bari_1908</ftriple>
 					</sentence>
@@ -266,8 +266,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Michele_Marcolini | placeOfBirth | Italy</ftriple>
-						<ftriple flipped="True">F.C._Bari_1908 | club | Michele_Marcolini</ftriple>
-						<ftriple flipped="False">A.C._Lumezzane | manager | Michele_Marcolini</ftriple>
+						<ftriple flipped="False">Michele_Marcolini | club | F.C._Bari_1908</ftriple>
+						<ftriple flipped="True">Michele_Marcolini | manager | A.C._Lumezzane</ftriple>
 						<ftriple flipped="False">Michele_Marcolini | club | Torino_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -483,7 +483,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Associazione Sportiva Gubbio 1910 Srl&quot; | fullname | A.S._Gubbio_1910</ftriple>
-						<ftriple flipped="True">5300 | numberOfMembers | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | numberOfMembers | 5300</ftriple>
 						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -566,7 +566,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Associazione Sportiva Gubbio 1910 Srl&quot; | fullname | A.S._Gubbio_1910</ftriple>
-						<ftriple flipped="True">2014 | season | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | season | 2014</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Stadio_Pietro_Barbetti</ftriple>
@@ -793,11 +793,11 @@
 				<template>AGENT-1 fullname is PATIENT-2 and AGENT-1 have PATIENT-1 members . AGENT-1 ground is in PATIENT-3 and AGENT-1 played in PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Associazione Sportiva Roma S.p.A.&quot; | fullname | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | fullname | &quot;Associazione Sportiva Roma S.p.A.&quot;</ftriple>
 						<ftriple flipped="False">A.S._Roma | numberOfMembers | 70634</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Rome | ground | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | ground | Rome</ftriple>
 						<ftriple flipped="False">A.S._Roma | season | 2014–15_Serie_A</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -826,11 +826,11 @@
 				<template>The fullname of AGENT-1 is PATIENT-2 and AGENT-1 have PATIENT-1 members . AGENT-1 have a ground in PATIENT-3 and competed in PATIENT-4 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Associazione Sportiva Roma S.p.A.&quot; | fullname | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | fullname | &quot;Associazione Sportiva Roma S.p.A.&quot;</ftriple>
 						<ftriple flipped="False">A.S._Roma | numberOfMembers | 70634</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Rome | ground | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | ground | Rome</ftriple>
 						<ftriple flipped="False">A.S._Roma | season | 2014–15_Serie_A</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -911,7 +911,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">AZAL_PFK | ground | AZAL_Arena</ftriple>
-						<ftriple flipped="True">Azerbaijan | location | AZAL_Arena</ftriple>
+						<ftriple flipped="False">AZAL_Arena | location | Azerbaijan</ftriple>
 						<ftriple flipped="False">AZAL_PFK | league | Azerbaijan_Premier_League</ftriple>
 						<ftriple flipped="True">Qarabağ_FK | champions | Azerbaijan_Premier_League</ftriple>
 					</sentence>
@@ -971,8 +971,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">AZAL_PFK | league | Azerbaijan_Premier_League</ftriple>
-						<ftriple flipped="True">Qarabağ_FK | champions | Azerbaijan_Premier_League</ftriple>
-						<ftriple flipped="True">AZAL_Arena | ground | AZAL_PFK</ftriple>
+						<ftriple flipped="False">Azerbaijan_Premier_League | champions | Qarabağ_FK</ftriple>
+						<ftriple flipped="False">AZAL_PFK | ground | AZAL_Arena</ftriple>
 						<ftriple flipped="False">AZAL_Arena | location | Azerbaijan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1019,7 +1019,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Azerbaijan_Premier_League | league | AZAL_PFK</ftriple>
-						<ftriple flipped="False">Azerbaijan_Premier_League | champions | Qarabağ_FK</ftriple>
+						<ftriple flipped="True">Qarabağ_FK | champions | Azerbaijan_Premier_League</ftriple>
 						<ftriple flipped="False">AZAL_PFK | ground | AZAL_Arena</ftriple>
 						<ftriple flipped="True">3500 | numberOfMembers | AZAL_PFK</ftriple>
 					</sentence>
@@ -1186,7 +1186,7 @@
 				<template>AGENT-1 , nicknamed PATIENT-2 , play in BRIDGE-1 league in PATIENT-1 . PATIENT-3 are the champions of BRIDGE-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | nickname | &quot;Asa Gigante &quot;</ftriple>
+						<ftriple flipped="True">&quot;Asa Gigante &quot; | nickname | Agremiação_Sportiva_Arapiraquense</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
 						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
 					</sentence>
@@ -1221,8 +1221,8 @@
 				<template>AGENT-1 play in BRIDGE-1 league based in PATIENT-1 . AGENT-1 nickname is PATIENT-2 . The champions of BRIDGE-1 are PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Campeonato_Brasileiro_Série_C | league | Agremiação_Sportiva_Arapiraquense</ftriple>
-						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | nickname | &quot;Asa Gigante &quot;</ftriple>
@@ -1290,7 +1290,7 @@
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="4">
-						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1349,11 +1349,11 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
-						<ftriple flipped="True">Brazil | country | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | country | Brazil</ftriple>
 						<ftriple flipped="True">2015_Campeonato_Brasileiro_Série_C | season | Agremiação_Sportiva_Arapiraquense</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1597,7 +1597,7 @@
 						<ftriple flipped="False">Italy | capital | Rome</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Sergio_Mattarella | leader | Italy</ftriple>
+						<ftriple flipped="False">Italy | leader | Sergio_Mattarella</ftriple>
 						<ftriple flipped="False">A.S._Gubbio_1910 | ground | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1646,8 +1646,8 @@
 				<template>The capital of BRIDGE-1 is PATIENT-3 and the leader is PATIENT-1 . PATIENT-2 is spoken in BRIDGE-1 which is the location of the home ground of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Italy | capital | Rome</ftriple>
-						<ftriple flipped="False">Italy | leader | Pietro_Grasso</ftriple>
+						<ftriple flipped="True">Rome | capital | Italy</ftriple>
+						<ftriple flipped="True">Pietro_Grasso | leader | Italy</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">Italian_language | officialLanguage | Italy</ftriple>
@@ -1759,12 +1759,12 @@
 				<template>PATIENT-2 is the full name name of AGENT-1 who have AGENT-1 home ground at PATIENT-3 . AGENT-1 plays in BRIDGE-1 alongside PATIENT-1 who have been previous champions .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Associazione Sportiva Roma S.p.A.&quot; | fullname | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | fullname | &quot;Associazione Sportiva Roma S.p.A.&quot;</ftriple>
 						<ftriple flipped="False">A.S._Roma | ground | Stadio_Olimpico</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">Serie_A | league | A.S._Roma</ftriple>
-						<ftriple flipped="False">Serie_A | champions | Juventus_F.C.</ftriple>
+						<ftriple flipped="False">A.S._Roma | league | Serie_A</ftriple>
+						<ftriple flipped="True">Juventus_F.C. | champions | Serie_A</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

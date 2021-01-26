@@ -850,7 +850,7 @@
 				<template>AGENT-1 has AGENT-1 county seat in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Andrews,_Texas | countySeat | Andrews_County,_Texas</ftriple>
+						<ftriple flipped="False">Andrews_County,_Texas | countySeat | Andrews,_Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

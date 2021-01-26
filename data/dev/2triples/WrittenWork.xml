@@ -161,7 +161,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Hardcover | mediaType | 1634:_The_Ram_Rebellion</ftriple>
-						<ftriple flipped="True">Eric_Flint | author | 1634:_The_Ram_Rebellion</ftriple>
+						<ftriple flipped="False">1634:_The_Ram_Rebellion | author | Eric_Flint</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -218,7 +218,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | CODEN_code | &quot;ATISET&quot;</ftriple>
-						<ftriple flipped="False">ACM_Transactions_on_Information_Systems | abbreviation | &quot;ACM Trans. Inf. Syst.&quot;</ftriple>
+						<ftriple flipped="True">&quot;ACM Trans. Inf. Syst.&quot; | abbreviation | ACM_Transactions_on_Information_Systems</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -395,7 +395,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">J._V._Jones | author | A_Fortress_of_Grey_Ice</ftriple>
-						<ftriple flipped="False">A_Fortress_of_Grey_Ice | ISBN_number | &quot;0-7653-0633-6&quot;</ftriple>
+						<ftriple flipped="True">&quot;0-7653-0633-6&quot; | ISBN_number | A_Fortress_of_Grey_Ice</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -921,7 +921,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Diane_Duane | author | A_Wizard_of_Mars</ftriple>
-						<ftriple flipped="False">A_Wizard_of_Mars | OCLC_number | 318875313</ftriple>
+						<ftriple flipped="True">318875313 | OCLC_number | A_Wizard_of_Mars</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1034,7 +1034,7 @@
 				<template>AGENT-1 is PATIENT-1 pages long and has the ISBN number PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;560&quot; | numberOfPages | A_Wizard_of_Mars</ftriple>
+						<ftriple flipped="False">A_Wizard_of_Mars | numberOfPages | &quot;560&quot;</ftriple>
 						<ftriple flipped="False">A_Wizard_of_Mars | ISBN_number | &quot;978-0-15-204770-2&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1347,7 +1347,7 @@
 				<template>BRIDGE-1 , founded by PATIENT-1 , publishes AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Springer_Science+Business_Media | founder | Julius_Springer</ftriple>
+						<ftriple flipped="True">Julius_Springer | founder | Springer_Science+Business_Media</ftriple>
 						<ftriple flipped="False">Acta_Mathematica_Hungarica | publisher | Springer_Science+Business_Media</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1426,7 +1426,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Admin. Sci. Q.&quot; | abbreviation | Administrative_Science_Quarterly</ftriple>
-						<ftriple flipped="True">&quot;ASCQAG&quot; | CODEN_code | Administrative_Science_Quarterly</ftriple>
+						<ftriple flipped="False">Administrative_Science_Quarterly | CODEN_code | &quot;ASCQAG&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1447,7 +1447,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Administrative_Science_Quarterly | abbreviation | &quot;Admin. Sci. Q.&quot;</ftriple>
-						<ftriple flipped="True">&quot;ASCQAG&quot; | CODEN_code | Administrative_Science_Quarterly</ftriple>
+						<ftriple flipped="False">Administrative_Science_Quarterly | CODEN_code | &quot;ASCQAG&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1795,7 +1795,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">HIV | academicDiscipline | AIDS_(journal)</ftriple>
-						<ftriple flipped="False">HIV | family | Orthoretrovirinae</ftriple>
+						<ftriple flipped="True">Orthoretrovirinae | family | HIV</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

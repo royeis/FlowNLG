@@ -147,7 +147,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1._FC_Köln | manager | Peter_Stöger</ftriple>
-						<ftriple flipped="False">Peter_Stöger | club | FK_Austria_Wien</ftriple>
+						<ftriple flipped="True">FK_Austria_Wien | club | Peter_Stöger</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -358,7 +358,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">2014 | season | 1._FC_Köln</ftriple>
-						<ftriple flipped="False">1._FC_Köln | numberOfMembers | 50000</ftriple>
+						<ftriple flipped="True">50000 | numberOfMembers | 1._FC_Köln</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -379,7 +379,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">2014 | season | 1._FC_Köln</ftriple>
-						<ftriple flipped="False">1._FC_Köln | numberOfMembers | 50000</ftriple>
+						<ftriple flipped="True">50000 | numberOfMembers | 1._FC_Köln</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -536,8 +536,8 @@
 				<template>BRIDGE-1 has been the manager of AGENT-1 ; the first club BRIDGE-1 played for was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">1._FC_Magdeburg | manager | Jens_Härtel</ftriple>
-						<ftriple flipped="True">1._FC_Lokomotive_Leipzig | club | Jens_Härtel</ftriple>
+						<ftriple flipped="True">Jens_Härtel | manager | 1._FC_Magdeburg</ftriple>
+						<ftriple flipped="False">Jens_Härtel | club | 1._FC_Lokomotive_Leipzig</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -573,7 +573,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Jens_Härtel | club | 1._FC_Union_Berlin</ftriple>
-						<ftriple flipped="False">1._FC_Magdeburg | manager | Jens_Härtel</ftriple>
+						<ftriple flipped="True">Jens_Härtel | manager | 1._FC_Magdeburg</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -593,8 +593,8 @@
 				<template>BRIDGE-1 , manager of AGENT-1 , is also part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Jens_Härtel | manager | 1._FC_Magdeburg</ftriple>
-						<ftriple flipped="False">Jens_Härtel | club | 1._FC_Union_Berlin</ftriple>
+						<ftriple flipped="False">1._FC_Magdeburg | manager | Jens_Härtel</ftriple>
+						<ftriple flipped="True">1._FC_Union_Berlin | club | Jens_Härtel</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -614,8 +614,8 @@
 				<template>BRIDGE-1 has been the manager of AGENT-1 and is part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Jens_Härtel | manager | 1._FC_Magdeburg</ftriple>
-						<ftriple flipped="False">Jens_Härtel | club | 1._FC_Union_Berlin</ftriple>
+						<ftriple flipped="False">1._FC_Magdeburg | manager | Jens_Härtel</ftriple>
+						<ftriple flipped="True">1._FC_Union_Berlin | club | Jens_Härtel</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -912,7 +912,7 @@
 				<template>AGENT-1 , in the PATIENT-2 league , ground is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.C._Cesena | league | Serie_B</ftriple>
+						<ftriple flipped="True">Serie_B | league | A.C._Cesena</ftriple>
 						<ftriple flipped="False">A.C._Cesena | ground | Cesena</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1151,7 +1151,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.C._Cesena | numberOfMembers | 23900</ftriple>
-						<ftriple flipped="True">Italy | ground | A.C._Cesena</ftriple>
+						<ftriple flipped="False">A.C._Cesena | ground | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1208,7 +1208,7 @@
 				<template>AGENT-1 ground is PATIENT-1 and AGENT-1 have PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Stadio_Dino_Manuzzi | ground | A.C._Cesena</ftriple>
+						<ftriple flipped="False">A.C._Cesena | ground | Stadio_Dino_Manuzzi</ftriple>
 						<ftriple flipped="False">A.C._Cesena | numberOfMembers | 23900</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1526,7 +1526,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Delfino_Pescara_1936 | club | Massimo_Drago</ftriple>
-						<ftriple flipped="True">Massimo_Drago | manager | A.C._Cesena</ftriple>
+						<ftriple flipped="False">A.C._Cesena | manager | Massimo_Drago</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1625,7 +1625,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Massimo_Drago | manager | A.C._Cesena</ftriple>
-						<ftriple flipped="True">S.S.D._Potenza_Calcio | club | Massimo_Drago</ftriple>
+						<ftriple flipped="False">Massimo_Drago | club | S.S.D._Potenza_Calcio</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1997,7 +1997,7 @@
 				<template>BRIDGE-1 is a member of PATIENT-1 and is manager of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Calcio_Catania | club | Rolando_Maran</ftriple>
+						<ftriple flipped="False">Rolando_Maran | club | Calcio_Catania</ftriple>
 						<ftriple flipped="True">Rolando_Maran | manager | A.C._Chievo_Verona</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2190,7 +2190,7 @@
 				<template>AGENT-1 is managed by BRIDGE-1 , who is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Rolando_Maran | manager | A.C._Chievo_Verona</ftriple>
+						<ftriple flipped="False">A.C._Chievo_Verona | manager | Rolando_Maran</ftriple>
 						<ftriple flipped="True">Unione_Triestina_2012_S.S.D. | club | Rolando_Maran</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2268,7 +2268,7 @@
 				<template>Previously owning PATIENT-1 , BRIDGE-1 now manages AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Varese_Calcio_S.S.D. | club | Rolando_Maran</ftriple>
+						<ftriple flipped="False">Rolando_Maran | club | Varese_Calcio_S.S.D.</ftriple>
 						<ftriple flipped="False">A.C._Chievo_Verona | manager | Rolando_Maran</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2290,7 +2290,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Rolando_Maran | manager | A.C._Chievo_Verona</ftriple>
-						<ftriple flipped="False">Rolando_Maran | club | Varese_Calcio_S.S.D.</ftriple>
+						<ftriple flipped="True">Varese_Calcio_S.S.D. | club | Rolando_Maran</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2506,7 +2506,7 @@
 				<template>AGENT-1 , has PATIENT-2 members , and play in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.C._Lumezzane | numberOfMembers | 4150</ftriple>
+						<ftriple flipped="True">4150 | numberOfMembers | A.C._Lumezzane</ftriple>
 						<ftriple flipped="False">A.C._Lumezzane | league | &quot;Lega Pro/A&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2606,8 +2606,8 @@
 				<template>BRIDGE-1 , manager of AGENT-1 , plays for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.C._Lumezzane | manager | Michele_Marcolini</ftriple>
-						<ftriple flipped="True">A.C._Chievo_Verona | club | Michele_Marcolini</ftriple>
+						<ftriple flipped="True">Michele_Marcolini | manager | A.C._Lumezzane</ftriple>
+						<ftriple flipped="False">Michele_Marcolini | club | A.C._Chievo_Verona</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2666,10 +2666,10 @@
 				<template>BRIDGE-1 once managed AGENT-1 . BRIDGE-1 played for PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.C._Lumezzane | manager | Michele_Marcolini</ftriple>
+						<ftriple flipped="True">Michele_Marcolini | manager | A.C._Lumezzane</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Michele_Marcolini | club | Atalanta_B.C.</ftriple>
+						<ftriple flipped="True">Atalanta_B.C. | club | Michele_Marcolini</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2846,7 +2846,7 @@
 				<template>BRIDGE-1 manages AGENT-1 and attends PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Michele_Marcolini | manager | A.C._Lumezzane</ftriple>
+						<ftriple flipped="False">A.C._Lumezzane | manager | Michele_Marcolini</ftriple>
 						<ftriple flipped="False">Michele_Marcolini | club | Torino_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2882,8 +2882,8 @@
 				<template>BRIDGE-1 played for PATIENT-1 and manages AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Michele_Marcolini | club | Vicenza_Calcio</ftriple>
-						<ftriple flipped="True">Michele_Marcolini | manager | A.C._Lumezzane</ftriple>
+						<ftriple flipped="True">Vicenza_Calcio | club | Michele_Marcolini</ftriple>
+						<ftriple flipped="False">A.C._Lumezzane | manager | Michele_Marcolini</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3119,7 +3119,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">10000 | numberOfMembers | A.D._Isidro_Metapán</ftriple>
-						<ftriple flipped="True">&quot;Metapán, El Salvador&quot; | ground | A.D._Isidro_Metapán</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | ground | &quot;Metapán, El Salvador&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3218,8 +3218,8 @@
 				<template>AGENT-1 is in the PATIENT-2 league and are located at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Salvadoran_Primera_División | league | A.D._Isidro_Metapán</ftriple>
-						<ftriple flipped="True">Estadio_Jorge_Calero_Suárez | ground | A.D._Isidro_Metapán</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | league | Salvadoran_Primera_División</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | ground | Estadio_Jorge_Calero_Suárez</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3355,8 +3355,8 @@
 				<template>AGENT-1 ground is in PATIENT-1 and AGENT-1 has PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Metapán | ground | A.D._Isidro_Metapán</ftriple>
-						<ftriple flipped="True">10000 | numberOfMembers | A.D._Isidro_Metapán</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | ground | Metapán</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | numberOfMembers | 10000</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3399,7 +3399,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Metapán | ground | A.D._Isidro_Metapán</ftriple>
-						<ftriple flipped="True">10000 | numberOfMembers | A.D._Isidro_Metapán</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | numberOfMembers | 10000</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3538,7 +3538,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Jorge_Humberto_Rodríguez | manager | A.D._Isidro_Metapán</ftriple>
-						<ftriple flipped="False">Jorge_Humberto_Rodríguez | club | Alianza_F.C.</ftriple>
+						<ftriple flipped="True">Alianza_F.C. | club | Jorge_Humberto_Rodríguez</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3615,7 +3615,7 @@
 				<template>AGENT-1 manager is BRIDGE-1 who is a member of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Jorge_Humberto_Rodríguez | manager | A.D._Isidro_Metapán</ftriple>
+						<ftriple flipped="False">A.D._Isidro_Metapán | manager | Jorge_Humberto_Rodríguez</ftriple>
 						<ftriple flipped="False">Jorge_Humberto_Rodríguez | club | C.D._Águila</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3673,7 +3673,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.D._Isidro_Metapán | manager | Jorge_Humberto_Rodríguez</ftriple>
-						<ftriple flipped="True">El_Salvador_national_football_team | club | Jorge_Humberto_Rodríguez</ftriple>
+						<ftriple flipped="False">Jorge_Humberto_Rodríguez | club | El_Salvador_national_football_team</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3886,7 +3886,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
-						<ftriple flipped="True">Greeks | demonym | Greece</ftriple>
+						<ftriple flipped="False">Greece | demonym | Greeks</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4241,7 +4241,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 , where the leader is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.E_Dimitra_Efxeinoupolis | location | Greece</ftriple>
+						<ftriple flipped="True">Greece | location | A.E_Dimitra_Efxeinoupolis</ftriple>
 						<ftriple flipped="False">Greece | leader | Prokopis_Pavlopoulos</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4487,7 +4487,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Jepson Way,&quot; | ground | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="False">A.F.C._Blackpool | numberOfMembers | 1500</ftriple>
+						<ftriple flipped="True">1500 | numberOfMembers | A.F.C._Blackpool</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4528,7 +4528,7 @@
 						<ftriple flipped="False">A.F.C._Blackpool | ground | &quot;The Mechanics,&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">A.F.C._Blackpool | numberOfMembers | 1500</ftriple>
+						<ftriple flipped="True">1500 | numberOfMembers | A.F.C._Blackpool</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4665,7 +4665,7 @@
 				<template>AGENT-1 play at AGENT-1 in PATIENT-1 and is part of PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="False">A.F.C._Blackpool | league | North_West_Counties_Football_League</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4686,8 +4686,8 @@
 				<template>AGENT-1 , whose ground is located in PATIENT-1 , plays in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
-						<ftriple flipped="True">North_West_Counties_Football_League | league | A.F.C._Blackpool</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
+						<ftriple flipped="False">A.F.C._Blackpool | league | North_West_Counties_Football_League</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4707,7 +4707,7 @@
 				<template>AGENT-1 (the grounds of which are in PATIENT-1) , play in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="False">A.F.C._Blackpool | league | North_West_Counties_Football_League</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4786,7 +4786,7 @@
 				<template>AGENT-1 is located in PATIENT-1 and has PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Blackpool | ground | Blackpool</ftriple>
+						<ftriple flipped="True">Blackpool | ground | A.F.C._Blackpool</ftriple>
 						<ftriple flipped="False">A.F.C._Blackpool | numberOfMembers | 1500</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4864,7 +4864,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.F.C._Blackpool | manager | Stuart_Parker_(footballer)</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Blackpool_F.C.</ftriple>
+						<ftriple flipped="True">Blackpool_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4900,7 +4900,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Bury_F.C.</ftriple>
+						<ftriple flipped="True">Bury_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4921,7 +4921,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Bury_F.C.</ftriple>
+						<ftriple flipped="True">Bury_F.C. | club | Stuart_Parker_(footballer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5216,7 +5216,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Stuart_Parker_(footballer) | manager | A.F.C._Blackpool</ftriple>
-						<ftriple flipped="True">Stockport_County_F.C. | club | Stuart_Parker_(footballer)</ftriple>
+						<ftriple flipped="False">Stuart_Parker_(footballer) | club | Stockport_County_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5573,7 +5573,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Dave_Challinor | club | Colwyn_Bay_F.C.</ftriple>
-						<ftriple flipped="False">A.F.C._Fylde | manager | Dave_Challinor</ftriple>
+						<ftriple flipped="True">Dave_Challinor | manager | A.F.C._Fylde</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5671,8 +5671,8 @@
 				<template>BRIDGE-1 manages AGENT-1 and plays at PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Fylde | manager | Dave_Challinor</ftriple>
-						<ftriple flipped="True">Stockport_County_F.C. | club | Dave_Challinor</ftriple>
+						<ftriple flipped="True">Dave_Challinor | manager | A.F.C._Fylde</ftriple>
+						<ftriple flipped="False">Dave_Challinor | club | Stockport_County_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5850,7 +5850,7 @@
 				<template>PATIENT-1 (abbreviated to AGENT-1) has PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Gubbio_1910 | fullname | &quot;Associazione Sportiva Gubbio 1910 Srl&quot;</ftriple>
+						<ftriple flipped="True">&quot;Associazione Sportiva Gubbio 1910 Srl&quot; | fullname | A.S._Gubbio_1910</ftriple>
 						<ftriple flipped="False">A.S._Gubbio_1910 | numberOfMembers | 5300</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -6045,7 +6045,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Italy | ground | A.S._Gubbio_1910</ftriple>
-						<ftriple flipped="False">Italy | language | Italian_language</ftriple>
+						<ftriple flipped="True">Italian_language | language | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6066,7 +6066,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Italy | ground | A.S._Gubbio_1910</ftriple>
-						<ftriple flipped="False">Italy | language | Italian_language</ftriple>
+						<ftriple flipped="True">Italian_language | language | Italy</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6338,7 +6338,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.S._Gubbio_1910 | numberOfMembers | 5300</ftriple>
-						<ftriple flipped="True">2014–15_Lega_Pro | season | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | season | 2014–15_Lega_Pro</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6358,7 +6358,7 @@
 				<template>AGENT-1 hs PATIENT-2 members and were in PATIENT-1 season .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">5300 | numberOfMembers | A.S._Gubbio_1910</ftriple>
+						<ftriple flipped="False">A.S._Gubbio_1910 | numberOfMembers | 5300</ftriple>
 						<ftriple flipped="True">2014–15_Lega_Pro | season | A.S._Gubbio_1910</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -6497,7 +6497,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.S._Livorno_Calcio | ground | &quot;Livorno, Italy&quot;</ftriple>
-						<ftriple flipped="True">19238 | numberOfMembers | A.S._Livorno_Calcio</ftriple>
+						<ftriple flipped="False">A.S._Livorno_Calcio | numberOfMembers | 19238</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6777,8 +6777,8 @@
 				<template>AGENT-1 , has PATIENT-2 members , and has AGENT-1 home ground at PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Livorno_Calcio | numberOfMembers | 19238</ftriple>
-						<ftriple flipped="False">A.S._Livorno_Calcio | ground | Stadio_Armando_Picchi</ftriple>
+						<ftriple flipped="True">19238 | numberOfMembers | A.S._Livorno_Calcio</ftriple>
+						<ftriple flipped="True">Stadio_Armando_Picchi | ground | A.S._Livorno_Calcio</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6891,7 +6891,7 @@
 				<template>AGENT-1 is managed by BRIDGE-1 who played football for PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Livorno_Calcio | manager | Christian_Panucci</ftriple>
+						<ftriple flipped="True">Christian_Panucci | manager | A.S._Livorno_Calcio</ftriple>
 						<ftriple flipped="True">Genoa_C.F.C. | club | Christian_Panucci</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -6913,7 +6913,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">A.S._Livorno_Calcio | manager | Christian_Panucci</ftriple>
-						<ftriple flipped="False">Christian_Panucci | club | Genoa_C.F.C.</ftriple>
+						<ftriple flipped="True">Genoa_C.F.C. | club | Christian_Panucci</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6933,8 +6933,8 @@
 				<template>AGENT-1 are managed by BRIDGE-1 , who played football for PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Livorno_Calcio | manager | Christian_Panucci</ftriple>
-						<ftriple flipped="True">Genoa_C.F.C. | club | Christian_Panucci</ftriple>
+						<ftriple flipped="True">Christian_Panucci | manager | A.S._Livorno_Calcio</ftriple>
+						<ftriple flipped="False">Christian_Panucci | club | Genoa_C.F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7170,7 +7170,7 @@
 				<template>AGENT-1 ground is in PATIENT-1 , AGENT-1 has PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Rome, Italy&quot; | ground | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | ground | &quot;Rome, Italy&quot;</ftriple>
 						<ftriple flipped="False">A.S._Roma | numberOfMembers | 70634</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -7229,8 +7229,8 @@
 				<template>AGENT-1 play in PATIENT-2 and AGENT-1 ground is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Serie_A | league | A.S._Roma</ftriple>
-						<ftriple flipped="True">Stadio_Olimpico | ground | A.S._Roma</ftriple>
+						<ftriple flipped="False">A.S._Roma | league | Serie_A</ftriple>
+						<ftriple flipped="False">A.S._Roma | ground | Stadio_Olimpico</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7367,8 +7367,8 @@
 				<template>AGENT-1 play in the PATIENT-1 league and have a ground in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.S._Roma | league | Serie_A</ftriple>
-						<ftriple flipped="False">A.S._Roma | ground | Rome</ftriple>
+						<ftriple flipped="True">Serie_A | league | A.S._Roma</ftriple>
+						<ftriple flipped="True">Rome | ground | A.S._Roma</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7702,8 +7702,8 @@
 				<template>BRIDGE-1 is a member of PATIENT-1 and is the manager of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Portugal_national_football_team | club | Paulo_Sousa</ftriple>
-						<ftriple flipped="False">ACF_Fiorentina | manager | Paulo_Sousa</ftriple>
+						<ftriple flipped="False">Paulo_Sousa | club | Portugal_national_football_team</ftriple>
+						<ftriple flipped="True">Paulo_Sousa | manager | ACF_Fiorentina</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7760,8 +7760,8 @@
 				<template>AGENT-1 has PATIENT-1 members , AGENT-1 competed in the PATIENT-2 season .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">47290 | numberOfMembers | ACF_Fiorentina</ftriple>
-						<ftriple flipped="True">2014 | season | ACF_Fiorentina</ftriple>
+						<ftriple flipped="False">ACF_Fiorentina | numberOfMembers | 47290</ftriple>
+						<ftriple flipped="False">ACF_Fiorentina | season | 2014</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7782,8 +7782,8 @@
 				<template>AGENT-1 has PATIENT-1 members , and AGENT-1 competed in the PATIENT-2 season .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">47290 | numberOfMembers | ACF_Fiorentina</ftriple>
-						<ftriple flipped="True">2014 | season | ACF_Fiorentina</ftriple>
+						<ftriple flipped="False">ACF_Fiorentina | numberOfMembers | 47290</ftriple>
+						<ftriple flipped="False">ACF_Fiorentina | season | 2014</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7839,8 +7839,8 @@
 				<template>AGENT-1 , have PATIENT-1 members , and played PATIENT-2 season .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">ACF_Fiorentina | numberOfMembers | 47290</ftriple>
-						<ftriple flipped="False">ACF_Fiorentina | season | 2014–15_Serie_A</ftriple>
+						<ftriple flipped="True">47290 | numberOfMembers | ACF_Fiorentina</ftriple>
+						<ftriple flipped="True">2014–15_Serie_A | season | ACF_Fiorentina</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7938,7 +7938,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Athens | mayor | Giorgos_Kaminis</ftriple>
-						<ftriple flipped="True">Athens | ground | AEK_Athens_F.C.</ftriple>
+						<ftriple flipped="False">AEK_Athens_F.C. | ground | Athens</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7997,7 +7997,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Greece | ground | AEK_Athens_F.C.</ftriple>
-						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
+						<ftriple flipped="True">Superleague_Greece | league | AEK_Athens_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8018,8 +8018,8 @@
 				<template>AGENT-1 is in PATIENT-2 of PATIENT-1 , where AGENT-1 ground is located .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Superleague_Greece | league | AEK_Athens_F.C.</ftriple>
-						<ftriple flipped="False">AEK_Athens_F.C. | ground | Greece</ftriple>
+						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
+						<ftriple flipped="True">Greece | ground | AEK_Athens_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8041,7 +8041,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Greece | ground | AEK_Athens_F.C.</ftriple>
-						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
+						<ftriple flipped="True">Superleague_Greece | league | AEK_Athens_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8156,8 +8156,8 @@
 				<template>AGENT-1 is in BRIDGE-1 , in which PATIENT-1 were past champions .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Superleague_Greece | league | AEK_Athens_F.C.</ftriple>
-						<ftriple flipped="True">Olympiacos_F.C. | champions | Superleague_Greece</ftriple>
+						<ftriple flipped="False">AEK_Athens_F.C. | league | Superleague_Greece</ftriple>
+						<ftriple flipped="False">Superleague_Greece | champions | Olympiacos_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8234,7 +8234,7 @@
 				<template>BRIDGE-1 has been the manager of AGENT-1 and has also been a player for PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Gus_Poyet | manager | AEK_Athens_F.C.</ftriple>
+						<ftriple flipped="False">AEK_Athens_F.C. | manager | Gus_Poyet</ftriple>
 						<ftriple flipped="False">Gus_Poyet | club | Chelsea_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -8392,7 +8392,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Olympic_Stadium_(Athens) | ground | AEK_Athens_F.C.</ftriple>
-						<ftriple flipped="False">AEK_Athens_F.C. | numberOfMembers | 69618</ftriple>
+						<ftriple flipped="True">69618 | numberOfMembers | AEK_Athens_F.C.</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -9155,7 +9155,7 @@
 				<template>PATIENT-1 is a tenant of BRIDGE-1 , the ground of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Ajax_Youth_Academy | tenant | Sportpark_De_Toekomst</ftriple>
+						<ftriple flipped="False">Sportpark_De_Toekomst | tenant | Ajax_Youth_Academy</ftriple>
 						<ftriple flipped="False">AFC_Ajax_(amateurs) | ground | Sportpark_De_Toekomst</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -9958,7 +9958,7 @@
 				<template>AGENT-1 , whose ground has a capacity of PATIENT-2 , played in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">AZAL_PFK | numberOfMembers | 3500</ftriple>
+						<ftriple flipped="True">3500 | numberOfMembers | AZAL_PFK</ftriple>
 						<ftriple flipped="False">AZAL_PFK | season | 2014–15_Azerbaijan_Premier_League</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -10060,8 +10060,8 @@
 				<template>AGENT-1 has has PATIENT-2 members and AGENT-1 ground is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">17023 | numberOfMembers | AZ_Alkmaar</ftriple>
-						<ftriple flipped="False">AZ_Alkmaar | ground | AFAS_Stadion</ftriple>
+						<ftriple flipped="False">AZ_Alkmaar | numberOfMembers | 17023</ftriple>
+						<ftriple flipped="True">AFAS_Stadion | ground | AZ_Alkmaar</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10118,7 +10118,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">John_van_den_Brom | club | AFC_Ajax</ftriple>
-						<ftriple flipped="True">John_van_den_Brom | manager | AZ_Alkmaar</ftriple>
+						<ftriple flipped="False">AZ_Alkmaar | manager | John_van_den_Brom</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10866,7 +10866,7 @@
 				<template>The champions of BRIDGE-1 are PATIENT-1 . AGENT-1 also play in BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
+						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
@@ -10891,7 +10891,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</ftriple>
-						<ftriple flipped="True">Vila_Nova_Futebol_Clube | champions | Campeonato_Brasileiro_Série_C</ftriple>
+						<ftriple flipped="False">Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11238,7 +11238,7 @@
 				<template>AGENT-1 played in the PATIENT-1 season and has PATIENT-2 members .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">2015 | season | Agremiação_Sportiva_Arapiraquense</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | season | 2015</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11260,7 +11260,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
-						<ftriple flipped="True">2015 | season | Agremiação_Sportiva_Arapiraquense</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | season | 2015</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11280,7 +11280,7 @@
 				<template>AGENT-1 which has PATIENT-2 members played in the PATIENT-1 season .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">17000 | numberOfMembers | Agremiação_Sportiva_Arapiraquense</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
 						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | season | 2015</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -11318,7 +11318,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">2015_Campeonato_Brasileiro_Série_C | season | Agremiação_Sportiva_Arapiraquense</ftriple>
-						<ftriple flipped="True">17000 | numberOfMembers | Agremiação_Sportiva_Arapiraquense</ftriple>
+						<ftriple flipped="False">Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -11889,7 +11889,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Akron_Summit_Assault | manager | Denzil_Antonio</ftriple>
-						<ftriple flipped="True">2011_PDL_season | season | Akron_Summit_Assault</ftriple>
+						<ftriple flipped="False">Akron_Summit_Assault | season | 2011_PDL_season</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12617,7 +12617,7 @@
 				<template>AGENT-1 played in the BRIDGE-1 league of which PATIENT-1 are the champions .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">A.F.C._Fylde | league | National_League_North</ftriple>
+						<ftriple flipped="True">National_League_North | league | A.F.C._Fylde</ftriple>
 						<ftriple flipped="True">Barrow_A.F.C. | champions | National_League_North</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -13144,7 +13144,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Serie_A | champions | Juventus_F.C.</ftriple>
-						<ftriple flipped="False">A.S._Roma | league | Serie_A</ftriple>
+						<ftriple flipped="True">Serie_A | league | A.S._Roma</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

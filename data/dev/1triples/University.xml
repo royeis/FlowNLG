@@ -172,7 +172,7 @@
 				<template>AGENT-1 is in the country of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alba_Iulia | country | Romania</ftriple>
+						<ftriple flipped="True">Romania | country | Alba_Iulia</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

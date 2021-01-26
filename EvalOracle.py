@@ -25,7 +25,7 @@ def prepare_entry(entry, tokenizer, realizer):
     encs = tokenizer(plans, return_tensors='pt', padding=True)
     encs.to(realizer.device)
     gen_tokens = realizer.generate(**encs, max_length=512)
-    gens = tokenizer.batch_decode(gen_tokens)
+    gens = tokenizer.batch_decode(gen_tokens, skip_special_tokens=True)
     return gens, refs
 
 
@@ -64,10 +64,11 @@ def subset_bleus(gens, refs, ids):
 
 
 if __name__ == '__main__':
+
     device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
     print(f'utilizing device: {device}')
     tokenizer = T5Tokenizer.from_pretrained('t5-base')
-    realizer = T5ForConditionalGeneration.from_pretrained('realizer')
+    realizer = T5ForConditionalGeneration.from_pretrained('royeis/T5-FlowNLG-Realizer')
     realizer.to(device)
     realizer.eval()
 

@@ -148,7 +148,7 @@
 				<template>AGENT-1 was completed in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">1985 | completionDate | 200_Public_Square</ftriple>
+						<ftriple flipped="False">200_Public_Square | completionDate | 1985</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -454,7 +454,7 @@
 				<template>AGENT-1 's building start was in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adare_Manor | buildingStartDate | &quot;1700&quot;</ftriple>
+						<ftriple flipped="True">&quot;1700&quot; | buildingStartDate | Adare_Manor</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -472,7 +472,7 @@
 				<template>The building of AGENT-1 was started in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Adare_Manor | buildingStartDate | &quot;1700&quot;</ftriple>
+						<ftriple flipped="True">&quot;1700&quot; | buildingStartDate | Adare_Manor</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -958,7 +958,7 @@
 				<template>PATIENT-1 is AGENT-1 leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">India | leaderName | Sumitra_Mahajan</ftriple>
+						<ftriple flipped="True">Sumitra_Mahajan | leaderName | India</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

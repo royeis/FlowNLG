@@ -220,7 +220,7 @@
 				<template>AGENT-1 is PATIENT-1 above sea level .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">524.0 | elevationAboveTheSeaLevel | Abilene,_Texas</ftriple>
+						<ftriple flipped="False">Abilene,_Texas | elevationAboveTheSeaLevel | 524.0</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -712,7 +712,7 @@
 				<template>The country of AGENT-1 , is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Akron,_Ohio</ftriple>
+						<ftriple flipped="False">Akron,_Ohio | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1816,7 +1816,7 @@
 				<template>The population density of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Albany,_Oregon | populationDensity | 1104.1 (inhabitants per square kilometre)</ftriple>
+						<ftriple flipped="True">1104.1 (inhabitants per square kilometre) | populationDensity | Albany,_Oregon</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1852,7 +1852,7 @@
 				<template>The population density for AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Albany,_Oregon | populationDensity | 1104.1 (inhabitants per square kilometre)</ftriple>
+						<ftriple flipped="True">1104.1 (inhabitants per square kilometre) | populationDensity | Albany,_Oregon</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2506,7 +2506,7 @@
 				<template>PATIENT-1 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Albuquerque_City_Council | leader | Richard_J._Berry</ftriple>
+						<ftriple flipped="True">Richard_J._Berry | leader | Albuquerque_City_Council</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4492,7 +4492,7 @@
 				<template>The total area of AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Anderson,_Indiana | areaTotal | 107.43 (square kilometres)</ftriple>
+						<ftriple flipped="True">107.43 (square kilometres) | areaTotal | Anderson,_Indiana</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4702,7 +4702,7 @@
 				<template>AGENT-1 is part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Anderson,_Indiana | isPartOf | Fall_Creek_Township,_Madison_County,_Indiana</ftriple>
+						<ftriple flipped="True">Fall_Creek_Township,_Madison_County,_Indiana | isPartOf | Anderson,_Indiana</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4834,7 +4834,7 @@
 				<template>AGENT-1 is part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Anderson,_Indiana | isPartOf | Lafayette_Township,_Madison_County,_Indiana</ftriple>
+						<ftriple flipped="True">Lafayette_Township,_Madison_County,_Indiana | isPartOf | Anderson,_Indiana</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5356,7 +5356,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Steuben_County,_Indiana | isPartOf | Angola,_Indiana</ftriple>
+						<ftriple flipped="False">Angola,_Indiana | isPartOf | Steuben_County,_Indiana</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5698,7 +5698,7 @@
 				<template>AGENT-1 is part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ann_Arbor,_Michigan | isPartOf | Washtenaw_County,_Michigan</ftriple>
+						<ftriple flipped="True">Washtenaw_County,_Michigan | isPartOf | Ann_Arbor,_Michigan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -5992,7 +5992,7 @@
 				<template>AGENT-1 has a total area of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">75.324 (square kilometres) | areaTotal | Antioch,_California</ftriple>
+						<ftriple flipped="False">Antioch,_California | areaTotal | 75.324 (square kilometres)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6088,7 +6088,7 @@
 				<template>PATIENT-1 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Antioch,_California | leaderTitle | Mayor</ftriple>
+						<ftriple flipped="True">Mayor | leaderTitle | Antioch,_California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6106,7 +6106,7 @@
 				<template>PATIENT-1 , is the title for the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Antioch,_California | leaderTitle | Mayor</ftriple>
+						<ftriple flipped="True">Mayor | leaderTitle | Antioch,_California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6124,7 +6124,7 @@
 				<template>PATIENT-1 leads AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Antioch,_California | leaderTitle | Mayor</ftriple>
+						<ftriple flipped="True">Mayor | leaderTitle | Antioch,_California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6286,7 +6286,7 @@
 				<template>AGENT-1 has postal codes PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">94509, 94531 | postalCode | Antioch,_California</ftriple>
+						<ftriple flipped="False">Antioch,_California | postalCode | 94509, 94531</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6303,7 +6303,7 @@
 				<template>AGENT-1 has postal codes PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">94509, 94531 | postalCode | Antioch,_California</ftriple>
+						<ftriple flipped="False">Antioch,_California | postalCode | 94509, 94531</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6321,7 +6321,7 @@
 				<template>PATIENT-1 are postal codes for AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Antioch,_California | postalCode | 94509, 94531</ftriple>
+						<ftriple flipped="True">94509, 94531 | postalCode | Antioch,_California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6891,7 +6891,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Atlanta</ftriple>
+						<ftriple flipped="False">Atlanta | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -6909,7 +6909,7 @@
 				<template>AGENT-1 is in PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Atlanta</ftriple>
+						<ftriple flipped="False">Atlanta | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7395,7 +7395,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Atlantic_City,_New_Jersey | isPartOf | Atlantic_County,_New_Jersey</ftriple>
+						<ftriple flipped="True">Atlantic_County,_New_Jersey | isPartOf | Atlantic_City,_New_Jersey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7425,7 +7425,7 @@
 				<template>PATIENT-1 is the leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Atlantic_City,_New_Jersey | leader | Don_Guardian</ftriple>
+						<ftriple flipped="True">Don_Guardian | leader | Atlantic_City,_New_Jersey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7461,7 +7461,7 @@
 				<template>The leader in AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Don_Guardian | leader | Atlantic_City,_New_Jersey</ftriple>
+						<ftriple flipped="False">Atlantic_City,_New_Jersey | leader | Don_Guardian</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -7557,7 +7557,7 @@
 				<template>PATIENT-1 is the title of the leader in AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Mayors_of_Atlantic_City,_New_Jersey | leaderTitle | Atlantic_City,_New_Jersey</ftriple>
+						<ftriple flipped="False">Atlantic_City,_New_Jersey | leaderTitle | Mayors_of_Atlantic_City,_New_Jersey</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8670,7 +8670,7 @@
 				<template>AGENT-1 is part of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Washington_(state) | isPartOf | Auburn,_Washington</ftriple>
+						<ftriple flipped="False">Auburn,_Washington | isPartOf | Washington_(state)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8736,7 +8736,7 @@
 				<template>The title of the leader in AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Mayor | leaderTitle | Auburn,_Washington</ftriple>
+						<ftriple flipped="False">Auburn,_Washington | leaderTitle | Mayor</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8946,7 +8946,7 @@
 				<template>AGENT-1 has a area of land that measures PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Austin,_Texas | areaOfLand | 686.0 (square kilometres)</ftriple>
+						<ftriple flipped="True">686.0 (square kilometres) | areaOfLand | Austin,_Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -8964,7 +8964,7 @@
 				<template>AGENT-1 covers PATIENT-1 of land .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Austin,_Texas | areaOfLand | 686.0 (square kilometres)</ftriple>
+						<ftriple flipped="True">686.0 (square kilometres) | areaOfLand | Austin,_Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -10531,7 +10531,7 @@
 				<template>AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Indiana</ftriple>
+						<ftriple flipped="False">Indiana | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12528,7 +12528,7 @@
 				<template>AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Texas</ftriple>
+						<ftriple flipped="False">Texas | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12546,7 +12546,7 @@
 				<template>AGENT-1 is in PATIENT-1</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | country | Texas</ftriple>
+						<ftriple flipped="False">Texas | country | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -12755,7 +12755,7 @@
 				<template>The County Seat for AGENT-1 is in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Austin,_Texas | countySeat | Travis_County,_Texas</ftriple>
+						<ftriple flipped="False">Travis_County,_Texas | countySeat | Austin,_Texas</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13619,7 +13619,7 @@
 				<template>AGENT-1 capital is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Olympia,_Washington | capital | Washington_(state)</ftriple>
+						<ftriple flipped="False">Washington_(state) | capital | Olympia,_Washington</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -13637,7 +13637,7 @@
 				<template>PATIENT-1 is the capital of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Olympia,_Washington | capital | Washington_(state)</ftriple>
+						<ftriple flipped="False">Washington_(state) | capital | Olympia,_Washington</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

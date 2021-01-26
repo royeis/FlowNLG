@@ -4236,7 +4236,7 @@
 				<template>AGENT-1 had a nationality that was of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Elliot_See | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Elliot_See</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4704,7 +4704,7 @@
 				<template>PATIENT-1 is the AGENT-1 leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Joe_Biden | leader | United_States</ftriple>
+						<ftriple flipped="False">United_States | leader | Joe_Biden</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4722,7 +4722,7 @@
 				<template>PATIENT-1 is a AGENT-1 leader .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Joe_Biden | leader | United_States</ftriple>
+						<ftriple flipped="False">United_States | leader | Joe_Biden</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4740,7 +4740,7 @@
 				<template>PATIENT-1 was a representative of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | leader | Joe_Biden</ftriple>
+						<ftriple flipped="True">Joe_Biden | leader | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4758,7 +4758,7 @@
 				<template>PATIENT-1 is a leader of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">United_States | leader | Joe_Biden</ftriple>
+						<ftriple flipped="True">Joe_Biden | leader | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

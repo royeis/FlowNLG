@@ -105,7 +105,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | country | &quot;United States&quot;</ftriple>
-						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | category | Contributing_property</ftriple>
+						<ftriple flipped="True">Contributing_property | category | 11th_Mississippi_Infantry_Monument</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1130,7 +1130,7 @@
 				<template>AGENT-1 is located in PATIENT-1 at PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | country | &quot;United States&quot;</ftriple>
+						<ftriple flipped="True">&quot;United States&quot; | country | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
 						<ftriple flipped="True">Monocacy_National_Battlefield | district | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1151,8 +1151,8 @@
 				<template>AGENT-1 is located in the district of PATIENT-2 in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Monocacy_National_Battlefield | district | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
-						<ftriple flipped="True">&quot;United States&quot; | country | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | country | &quot;United States&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1344,7 +1344,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Maryland&quot; | state | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
-						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | owner | National_Park_Service</ftriple>
+						<ftriple flipped="True">National_Park_Service | owner | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1507,7 +1507,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</ftriple>
-						<ftriple flipped="True">Carroll_County,_Maryland | has to its southeast | Adams_County,_Pennsylvania</ftriple>
+						<ftriple flipped="False">Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1542,7 +1542,7 @@
 				<template>The inauguration date for AGENT-1 , made of PATIENT-2 , is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
+						<ftriple flipped="True">&quot;Bronze&quot; | material | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1561,7 +1561,7 @@
 				<template>The inauguration date of AGENT-1 , made of PATIENT-2 , is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
+						<ftriple flipped="True">&quot;Bronze&quot; | material | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1602,7 +1602,7 @@
 				<template>AGENT-1 (made of PATIENT-2) was inaugurated on PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
+						<ftriple flipped="True">&quot;Bronze&quot; | material | Atatürk_Monument_(İzmir)</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1623,7 +1623,7 @@
 				<template>The inauguration date of PATIENT-2 @ AGENT-1 was PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Bronze&quot; | material | Atatürk_Monument_(İzmir)</ftriple>
+						<ftriple flipped="False">Atatürk_Monument_(İzmir) | material | &quot;Bronze&quot;</ftriple>
 						<ftriple flipped="False">Atatürk_Monument_(İzmir) | inaugurationDate | &quot;1932-07-27&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2089,8 +2089,8 @@
 				<template>AGENT-1 made of PATIENT-2 can be found in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | material | &quot;Red granite and white marble&quot;</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
+						<ftriple flipped="True">&quot;Red granite and white marble&quot; | material | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2383,7 +2383,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
-						<ftriple flipped="False">Monocacy_National_Battlefield | location | Frederick_County,_Maryland</ftriple>
+						<ftriple flipped="True">Frederick_County,_Maryland | location | Monocacy_National_Battlefield</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2424,7 +2424,7 @@
 				<template>AGENT-1 is in BRIDGE-1 in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Monocacy_National_Battlefield | district | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
 						<ftriple flipped="True">Frederick_County,_Maryland | location | Monocacy_National_Battlefield</ftriple>
 					</sentence>
 				</flowinducedtripleset>

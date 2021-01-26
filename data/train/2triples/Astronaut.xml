@@ -649,8 +649,8 @@
 				<template>Before AGENT-1 retired in PATIENT-2 , AGENT-1 was a member of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;June 1981&quot; | dateOfRetirement | Alan_Bean</ftriple>
-						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | dateOfRetirement | &quot;June 1981&quot;</ftriple>
+						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -691,7 +691,7 @@
 				<template>AGENT-1 (retired PATIENT-2) was a crew member of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;June 1981&quot; | dateOfRetirement | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | dateOfRetirement | &quot;June 1981&quot;</ftriple>
 						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -932,7 +932,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;NWC, M.A. 1957&quot; | almaMater | Alan_Shepard</ftriple>
-						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1128,7 +1128,7 @@
 				<template>AGENT-1 was born in PATIENT-2 of PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
 						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1191,8 +1191,8 @@
 				<template>AGENT-1 has PATIENT-2 and was born in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
-						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
+						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1546,8 +1546,8 @@
 				<template>PATIENT-1 AGENT-1 was born on PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Shepard | nationality | United_States</ftriple>
-						<ftriple flipped="False">Alan_Shepard | birthDate | &quot;1923-11-18&quot;</ftriple>
+						<ftriple flipped="True">United_States | nationality | Alan_Shepard</ftriple>
+						<ftriple flipped="True">&quot;1923-11-18&quot; | birthDate | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1803,7 +1803,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
-						<ftriple flipped="True">Chief_of_the_Astronaut_Office | title | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | title | Chief_of_the_Astronaut_Office</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1887,7 +1887,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
-						<ftriple flipped="True">Chief_of_the_Astronaut_Office | title | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | title | Chief_of_the_Astronaut_Office</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1907,7 +1907,7 @@
 				<template>AGENT-1 , who was born in PATIENT-2 is PATIENT-1 , .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">New_Hampshire | birthPlace | Alan_Shepard</ftriple>
+						<ftriple flipped="False">Alan_Shepard | birthPlace | New_Hampshire</ftriple>
 						<ftriple flipped="True">Chief_of_the_Astronaut_Office | title | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2093,7 +2093,7 @@
 				<template>PATIENT-1 who was born on PATIENT-2 , went on to be known as AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Edwin E. Aldrin, Jr.&quot; | alternativeNames | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2114,7 +2114,7 @@
 				<template>PATIENT-1 was commonly known as AGENT-1 and was born PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Buzz_Aldrin | alternativeNames | &quot;Edwin E. Aldrin, Jr.&quot;</ftriple>
+						<ftriple flipped="True">&quot;Edwin E. Aldrin, Jr.&quot; | alternativeNames | Buzz_Aldrin</ftriple>
 						<ftriple flipped="False">Buzz_Aldrin | birthDate | &quot;1930-01-20&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2259,7 +2259,7 @@
 				<template>AGENT-1 graduated from PATIENT-2 . AGENT-1 obtained PATIENT-1 awards .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Massachusetts Institute of Technology, Sc.D. 1963&quot; | almaMater | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | almaMater | &quot;Massachusetts Institute of Technology, Sc.D. 1963&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Buzz_Aldrin | awards | 20</ftriple>
@@ -2320,7 +2320,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;52.0&quot;(minutes) | timeInSpace | Buzz_Aldrin</ftriple>
-						<ftriple flipped="True">&quot;1971-07-01&quot; | dateOfRetirement | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | dateOfRetirement | &quot;1971-07-01&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2434,7 +2434,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">United_States | leaderName | Joe_Biden</ftriple>
-						<ftriple flipped="True">United_States | nationality | Buzz_Aldrin</ftriple>
+						<ftriple flipped="False">Buzz_Aldrin | nationality | United_States</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2846,7 +2846,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Distinguished_Service_Medal_(United_States_Navy) | higher | Department_of_Commerce_Gold_Medal</ftriple>
-						<ftriple flipped="False">Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</ftriple>
+						<ftriple flipped="True">Distinguished_Service_Medal_(United_States_Navy) | awards | Alan_Shepard</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2903,7 +2903,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Elliot_See | birthDate | &quot;1927-07-23&quot;</ftriple>
-						<ftriple flipped="False">Elliot_See | almaMater | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3106,7 +3106,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">University_of_Texas_at_Austin | almaMater | Elliot_See</ftriple>
-						<ftriple flipped="True">University_of_Texas_System | affiliations | University_of_Texas_at_Austin</ftriple>
+						<ftriple flipped="False">University_of_Texas_at_Austin | affiliations | University_of_Texas_System</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3921,7 +3921,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
-						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3943,7 +3943,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
-						<ftriple flipped="False">William_Anders | almaMater | &quot;AFIT, M.S. 1962&quot;</ftriple>
+						<ftriple flipped="True">&quot;AFIT, M.S. 1962&quot; | almaMater | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4189,7 +4189,7 @@
 				<template>PATIENT-1 AGENT-1 was born in PATIENT-2 , .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4255,7 +4255,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
-						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
+						<ftriple flipped="True">British_Hong_Kong | birthPlace | William_Anders</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4296,7 +4296,7 @@
 				<template>AGENT-1 from PATIENT-1 was born in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">United_States | nationality | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | nationality | United_States</ftriple>
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4575,7 +4575,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">William_Anders | served as Chief of the Astronaut Office in | 1976</ftriple>
-						<ftriple flipped="True">United_States_Ambassador_to_Norway | title | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | title | United_States_Ambassador_to_Norway</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

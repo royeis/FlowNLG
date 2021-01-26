@@ -124,7 +124,7 @@
 				<template>The main ingredients of AGENT-1 are PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ajoblanco | mainIngredients | &quot;Bread, almonds, garlic, water, olive oil&quot;</ftriple>
+						<ftriple flipped="True">&quot;Bread, almonds, garlic, water, olive oil&quot; | mainIngredients | Ajoblanco</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -154,7 +154,7 @@
 				<template>AGENT-1 is found PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Arem-arem | region | &quot;Nationwide in Indonesia, but more specific to Java&quot;</ftriple>
+						<ftriple flipped="True">&quot;Nationwide in Indonesia, but more specific to Java&quot; | region | Arem-arem</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -172,7 +172,7 @@
 				<template>AGENT-1 is nationwide in PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Arem-arem | region | &quot;Nationwide in Indonesia, but more specific to Java&quot;</ftriple>
+						<ftriple flipped="True">&quot;Nationwide in Indonesia, but more specific to Java&quot; | region | Arem-arem</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -232,7 +232,7 @@
 				<template>AGENT-1 is made with PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Tomatoes, red chili, garlic, olive oil&quot; | mainIngredients | Arrabbiata_sauce</ftriple>
+						<ftriple flipped="False">Arrabbiata_sauce | mainIngredients | &quot;Tomatoes, red chili, garlic, olive oil&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -250,7 +250,7 @@
 				<template>the main ingredients in AGENT-1 are PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Tomatoes, red chili, garlic, olive oil&quot; | mainIngredients | Arrabbiata_sauce</ftriple>
+						<ftriple flipped="False">Arrabbiata_sauce | mainIngredients | &quot;Tomatoes, red chili, garlic, olive oil&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1180,7 +1180,7 @@
 				<template>A variation on AGENT-1 is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Cake | dishVariation | Dessert</ftriple>
+						<ftriple flipped="False">Dessert | dishVariation | Cake</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

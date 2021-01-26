@@ -207,7 +207,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
-						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | location | Azerbaijan</ftriple>
+						<ftriple flipped="True">Azerbaijan | location | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;Ottoman Army soldiers killed in the Battle of Baku&quot; | dedicatedTo | Baku_Turkish_Martyrs_Memorial</ftriple>
@@ -290,7 +290,7 @@
 				<template>PATIENT-5 are the designers of AGENT-1 , also known as PATIENT-3 . AGENT-1 is located in BRIDGE-1 and dedicated to PATIENT-2 . PATIENT-1 @ PATIENT-4 is the leader of BRIDGE-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Hüseyin Bütüner and Hilmi Güner&quot; | designer | Baku_Turkish_Martyrs_Memorial</ftriple>
+						<ftriple flipped="False">Baku_Turkish_Martyrs_Memorial | designer | &quot;Hüseyin Bütüner and Hilmi Güner&quot;</ftriple>
 						<ftriple flipped="True">&quot;Türk Şehitleri Anıtı&quot; | nativeName | Baku_Turkish_Martyrs_Memorial</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -299,7 +299,7 @@
 					</sentence>
 					<sentence ID="3">
 						<ftriple flipped="False">Azerbaijan | leaderTitle | Prime_Minister_of_Azerbaijan</ftriple>
-						<ftriple flipped="False">Azerbaijan | leaderName | Artur_Rasizade</ftriple>
+						<ftriple flipped="True">Artur_Rasizade | leaderName | Azerbaijan</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -399,7 +399,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | established | &quot;1907-07-11&quot;</ftriple>
-						<ftriple flipped="True">Monocacy_National_Battlefield | district | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
 						<ftriple flipped="True">Frederick_County,_Maryland | location | Monocacy_National_Battlefield</ftriple>
 					</sentence>
 					<sentence ID="2">
@@ -439,16 +439,16 @@
 				<template>AGENT-1 ( established on PATIENT-2 ) belongs to the category of PATIENT-3 and is located on BRIDGE-1 . The nearest city is PATIENT-4 , PATIENT-1 . AGENT-1 is owned by PATIENT-5 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;1907-07-11&quot; | established | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | established | &quot;1907-07-11&quot;</ftriple>
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</ftriple>
-						<ftriple flipped="True">Monocacy_National_Battlefield | district | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland</ftriple>
 						<ftriple flipped="False">Monocacy_National_Battlefield | location | Frederick_County,_Maryland</ftriple>
 					</sentence>
 					<sentence ID="3">
-						<ftriple flipped="True">National_Park_Service | owningOrganisation | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -589,11 +589,11 @@
 					<sentence ID="1">
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield</ftriple>
 						<ftriple flipped="True">Frederick_County,_Maryland | location | Monocacy_National_Battlefield</ftriple>
-						<ftriple flipped="True">&quot;United States&quot; | country | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | country | &quot;United States&quot;</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;1907-07-11&quot; | established | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
-						<ftriple flipped="True">Historic_districts_in_the_United_States | category | 14th_New_Jersey_Volunteer_Infantry_Monument</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | established | &quot;1907-07-11&quot;</ftriple>
+						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States</ftriple>
 						<ftriple flipped="False">14th_New_Jersey_Volunteer_Infantry_Monument | owningOrganisation | National_Park_Service</ftriple>
 					</sentence>
 				</flowinducedtripleset>

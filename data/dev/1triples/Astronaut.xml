@@ -286,7 +286,7 @@
 				<template>AGENT-1 operator is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Apollo_8 | operator | NASA</ftriple>
+						<ftriple flipped="True">NASA | operator | Apollo_8</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

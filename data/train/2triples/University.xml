@@ -808,7 +808,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">1996 | established | Accademia_di_Architettura_di_Mendrisio</ftriple>
-						<ftriple flipped="True">Mario_Botta | dean | Accademia_di_Architettura_di_Mendrisio</ftriple>
+						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -849,8 +849,8 @@
 				<template>PATIENT-1 is Dean of AGENT-1 which was established in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta</ftriple>
-						<ftriple flipped="True">1996 | established | Accademia_di_Architettura_di_Mendrisio</ftriple>
+						<ftriple flipped="True">Mario_Botta | dean | Accademia_di_Architettura_di_Mendrisio</ftriple>
+						<ftriple flipped="False">Accademia_di_Architettura_di_Mendrisio | established | 1996</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -984,8 +984,8 @@
 				<template>The motto of AGENT-1 , which has about PATIENT-1 employees , is PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | academicStaffSize | &quot;~500&quot;</ftriple>
-						<ftriple flipped="False">Acharya_Institute_of_Technology | motto | &quot;Nurturing Excellence&quot;</ftriple>
+						<ftriple flipped="True">&quot;~500&quot; | academicStaffSize | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="True">&quot;Nurturing Excellence&quot; | motto | Acharya_Institute_of_Technology</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1007,7 +1007,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Acharya_Institute_of_Technology | academicStaffSize | &quot;~500&quot;</ftriple>
-						<ftriple flipped="True">&quot;Nurturing Excellence&quot; | motto | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | motto | &quot;Nurturing Excellence&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1177,8 +1177,8 @@
 				<template>AGENT-1 in PATIENT-1 is affiliated with PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Acharya_Institute_of_Technology | country | &quot;India&quot;</ftriple>
-						<ftriple flipped="True">Visvesvaraya_Technological_University | affiliation | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="True">&quot;India&quot; | country | Acharya_Institute_of_Technology</ftriple>
+						<ftriple flipped="False">Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1710,7 +1710,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Mendrisio | city | Accademia_di_Architettura_di_Mendrisio</ftriple>
-						<ftriple flipped="True">Meride | neighboringMunicipality | Mendrisio</ftriple>
+						<ftriple flipped="False">Mendrisio | neighboringMunicipality | Meride</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1766,7 +1766,7 @@
 				<template>AGENT-1 is located in BRIDGE-1 where the capital is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Romania | country | 1_Decembrie_1918_University</ftriple>
+						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
 						<ftriple flipped="False">Romania | capital | Bucharest</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1787,7 +1787,7 @@
 				<template>AGENT-1 is located in the country of BRIDGE-1 , whose capital is PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Romania | country | 1_Decembrie_1918_University</ftriple>
+						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
 						<ftriple flipped="False">Romania | capital | Bucharest</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1938,7 +1938,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">1_Decembrie_1918_University | country | Romania</ftriple>
-						<ftriple flipped="True">Andrew_the_Apostle | patronSaint | Romania</ftriple>
+						<ftriple flipped="False">Romania | patronSaint | Andrew_the_Apostle</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2336,7 +2336,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | city | Aarhus</ftriple>
-						<ftriple flipped="False">Aarhus | has to its northeast | Mols</ftriple>
+						<ftriple flipped="True">Mols | has to its northeast | Aarhus</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2491,8 +2491,8 @@
 				<template>AGENT-1 is in BRIDGE-1 as well as PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Denmark | country | School of Business and Social Sciences at the Aarhus University</ftriple>
-						<ftriple flipped="False">Denmark | religion | Church_of_Denmark</ftriple>
+						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | country | Denmark</ftriple>
+						<ftriple flipped="True">Church_of_Denmark | religion | Denmark</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2650,7 +2650,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association</ftriple>
-						<ftriple flipped="True">&quot;Universitas Aarhusiensis&quot; | latinName | School of Business and Social Sciences at the Aarhus University</ftriple>
+						<ftriple flipped="False">School of Business and Social Sciences at the Aarhus University | latinName | &quot;Universitas Aarhusiensis&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

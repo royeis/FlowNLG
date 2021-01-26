@@ -125,7 +125,7 @@
 				<template>PATIENT-1 and PATIENT-3 created AGENT-1 who is also known as PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Arion_(comicsCharacter) | creator | Jan_Duursema</ftriple>
+						<ftriple flipped="True">Jan_Duursema | creator | Arion_(comicsCharacter)</ftriple>
 						<ftriple flipped="False">Arion_(comicsCharacter) | creator | Paul_Kupperberg</ftriple>
 						<ftriple flipped="False">Arion_(comicsCharacter) | alternativeName | &quot;Ahriahn&quot;</ftriple>
 					</sentence>
@@ -459,7 +459,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">&quot;Aurakles&quot; | alternativeName | Aurakles</ftriple>
-						<ftriple flipped="False">Aurakles | creator | Len_Wein</ftriple>
+						<ftriple flipped="True">Len_Wein | creator | Aurakles</ftriple>
 						<ftriple flipped="False">Aurakles | creator | Dick_Dillin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -792,9 +792,9 @@
 				<template>AGENT-1 , full name PATIENT-3 , was created by PATIENT-1 and PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">&quot;Lambien&quot; | fullName | Auron_(comicsCharacter)</ftriple>
-						<ftriple flipped="True">Karl_Kesel | creator | Auron_(comicsCharacter)</ftriple>
-						<ftriple flipped="True">Walt_Simonson | creator | Auron_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Auron_(comicsCharacter) | fullName | &quot;Lambien&quot;</ftriple>
+						<ftriple flipped="False">Auron_(comicsCharacter) | creator | Karl_Kesel</ftriple>
+						<ftriple flipped="False">Auron_(comicsCharacter) | creator | Walt_Simonson</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -884,7 +884,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Auron_(comicsCharacter) | creator | Marv_Wolfman</ftriple>
 						<ftriple flipped="False">Auron_(comicsCharacter) | creator | Karl_Kesel</ftriple>
-						<ftriple flipped="False">Karl_Kesel | nationality | Americans</ftriple>
+						<ftriple flipped="True">Americans | nationality | Karl_Kesel</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1040,9 +1040,9 @@
 				<template>The key person for BRIDGE-1 is PATIENT-1 and BRIDGE-1 located in PATIENT-2 and shows AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">BBC | keyPerson | Rona_Fairhead</ftriple>
+						<ftriple flipped="True">Rona_Fairhead | keyPerson | BBC</ftriple>
 						<ftriple flipped="False">BBC | locationCity | Broadcasting_House</ftriple>
-						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1594,7 +1594,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="False">BBC | foundedBy | John_Reith,_1st_Baron_Reith</ftriple>
-						<ftriple flipped="True">Broadcasting_House | locationCity | BBC</ftriple>
+						<ftriple flipped="False">BBC | locationCity | Broadcasting_House</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1659,8 +1659,8 @@
 				<template>BRIDGE-1 , which is located in PATIENT-1 and broadcast AGENT-1 , was founded by PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">London | locationCity | BBC</ftriple>
-						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
+						<ftriple flipped="False">BBC | locationCity | London</ftriple>
+						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="False">BBC | foundedBy | John_Reith,_1st_Baron_Reith</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1684,7 +1684,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
-						<ftriple flipped="True">London | locationCity | BBC</ftriple>
+						<ftriple flipped="False">BBC | locationCity | London</ftriple>
 						<ftriple flipped="False">BBC | foundedBy | John_Reith,_1st_Baron_Reith</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -1773,9 +1773,9 @@
 				<template>PATIENT-2 stars in AGENT-1 which first aired on PATIENT-3 and was broadcast by PATIENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | starring | Bill_Oddie</ftriple>
+						<ftriple flipped="True">Bill_Oddie | starring | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | broadcastedBy | BBC</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -1971,7 +1971,7 @@
 				<template>BRIDGE-1 who starred in AGENT-1 is PATIENT-1 son and was born in PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Bill_Oddie | starring | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | starring | Bill_Oddie</ftriple>
 						<ftriple flipped="True">Kate_Hardie | child | Bill_Oddie</ftriple>
 						<ftriple flipped="False">Bill_Oddie | birthPlace | Lancashire</ftriple>
 					</sentence>
@@ -1997,7 +1997,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | starring | Bill_Oddie</ftriple>
 						<ftriple flipped="False">Bill_Oddie | birthPlace | Lancashire</ftriple>
-						<ftriple flipped="False">Bill_Oddie | child | Kate_Hardie</ftriple>
+						<ftriple flipped="True">Kate_Hardie | child | Bill_Oddie</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2063,7 +2063,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | starring | Bill_Oddie</ftriple>
 						<ftriple flipped="False">Bill_Oddie | birthPlace | Rochdale</ftriple>
-						<ftriple flipped="False">Bill_Oddie | child | Kate_Hardie</ftriple>
+						<ftriple flipped="True">Kate_Hardie | child | Bill_Oddie</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2088,7 +2088,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | starring | Bill_Oddie</ftriple>
 						<ftriple flipped="False">Bill_Oddie | birthPlace | Rochdale</ftriple>
-						<ftriple flipped="False">Bill_Oddie | child | Kate_Hardie</ftriple>
+						<ftriple flipped="True">Kate_Hardie | child | Bill_Oddie</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2155,7 +2155,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | broadcastedBy | &quot;STV&quot;</ftriple>
 						<ftriple flipped="False">Bananaman | starring | Graeme_Garden</ftriple>
-						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2269,7 +2269,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | starring | Jill_Shilling</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="False">Bananaman | broadcastedBy | &quot;STV&quot;</ftriple>
+						<ftriple flipped="True">&quot;STV&quot; | broadcastedBy | Bananaman</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2310,7 +2310,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">BBC | broadcastedBy | Bananaman</ftriple>
-						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
+						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
 						<ftriple flipped="True">Tim_Brooke-Taylor | starring | Bananaman</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -2375,7 +2375,7 @@
 				<template>AGENT-1 starred PATIENT-1 and was first broadcast by PATIENT-3 on PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bananaman | starring | Tim_Brooke-Taylor</ftriple>
+						<ftriple flipped="True">Tim_Brooke-Taylor | starring | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;STV&quot; | broadcastedBy | Bananaman</ftriple>
 						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
 					</sentence>
@@ -2400,8 +2400,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Bananaman | starring | Tim_Brooke-Taylor</ftriple>
-						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
-						<ftriple flipped="False">Bananaman | broadcastedBy | &quot;STV&quot;</ftriple>
+						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
+						<ftriple flipped="True">&quot;STV&quot; | broadcastedBy | Bananaman</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2425,7 +2425,7 @@
 					<sentence ID="1">
 						<ftriple flipped="True">Tim_Brooke-Taylor | starring | Bananaman</ftriple>
 						<ftriple flipped="True">&quot;STV&quot; | broadcastedBy | Bananaman</ftriple>
-						<ftriple flipped="True">&quot;1983-10-03&quot; | firstAired | Bananaman</ftriple>
+						<ftriple flipped="False">Bananaman | firstAired | &quot;1983-10-03&quot;</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2535,8 +2535,8 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Big_Hero_6_(film) | distributor | Walt_Disney_Studios_Motion_Pictures</ftriple>
-						<ftriple flipped="False">Big_Hero_6_(film) | starring | Alan_Tudyk</ftriple>
-						<ftriple flipped="True">Big_Hero_6_(film) | firstAppearanceInFilm | Baymax</ftriple>
+						<ftriple flipped="True">Alan_Tudyk | starring | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="False">Baymax | firstAppearanceInFilm | Big_Hero_6_(film)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -2915,7 +2915,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Ben_Urich | creator | Gene_Colan</ftriple>
-						<ftriple flipped="True">Americans | nationality | Gene_Colan</ftriple>
+						<ftriple flipped="False">Gene_Colan | nationality | Americans</ftriple>
 						<ftriple flipped="False">Ben_Urich | creator | Roger_McKenzie_(comic_book_writer)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3166,7 +3166,7 @@
 						<ftriple flipped="False">Big_Hero_6_(film) | distributor | Walt_Disney_Studios_Motion_Pictures</ftriple>
 					</sentence>
 					<sentence ID="2">
-						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -3234,7 +3234,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Walt_Disney_Studios_Motion_Pictures | distributor | Big_Hero_6_(film)</ftriple>
-						<ftriple flipped="True">Maya_Rudolph | starring | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="False">Big_Hero_6_(film) | starring | Maya_Rudolph</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
@@ -3259,7 +3259,7 @@
 				<template>BRIDGE-1 is distributed by PATIENT-1 and has AGENT-1 as a character and stars PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Big_Hero_6_(film) | distributor | Walt_Disney_Studios_Motion_Pictures</ftriple>
+						<ftriple flipped="True">Walt_Disney_Studios_Motion_Pictures | distributor | Big_Hero_6_(film)</ftriple>
 						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
 						<ftriple flipped="False">Big_Hero_6_(film) | starring | Maya_Rudolph</ftriple>
 					</sentence>
@@ -3377,7 +3377,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Big_Hero_6_(film) | starring | Alan_Tudyk</ftriple>
-						<ftriple flipped="False">Baymax | series | Big_Hero_6_(film)</ftriple>
+						<ftriple flipped="True">Big_Hero_6_(film) | series | Baymax</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Big_Hero_6_(film) | distributor | Walt_Disney_Studios_Motion_Pictures</ftriple>
@@ -3783,7 +3783,7 @@
 					<sentence ID="1"/>
 					<sentence ID="2">
 						<ftriple flipped="True">&quot;Roland Desmond&quot; | alternativeName | Blockbuster_(comicsCharacter)</ftriple>
-						<ftriple flipped="False">Blockbuster_(comicsCharacter) | creator | Gardner_Fox</ftriple>
+						<ftriple flipped="True">Gardner_Fox | creator | Blockbuster_(comicsCharacter)</ftriple>
 						<ftriple flipped="False">Blockbuster_(comicsCharacter) | creator | Roger_Stern</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -3874,9 +3874,9 @@
 				<flowinducedtripleset>
 					<sentence ID="1"/>
 					<sentence ID="2">
-						<ftriple flipped="True">&quot;Mark Desmond&quot; | alternativeName | Blockbuster_(comicsCharacter)</ftriple>
-						<ftriple flipped="True">Gardner_Fox | creator | Blockbuster_(comicsCharacter)</ftriple>
-						<ftriple flipped="True">Tom_Lyle | creator | Blockbuster_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Blockbuster_(comicsCharacter) | alternativeName | &quot;Mark Desmond&quot;</ftriple>
+						<ftriple flipped="False">Blockbuster_(comicsCharacter) | creator | Gardner_Fox</ftriple>
+						<ftriple flipped="False">Blockbuster_(comicsCharacter) | creator | Tom_Lyle</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4505,8 +4505,8 @@
 				<template>BRIDGE-1 is a national of PATIENT-2 so BRIDGE-1 is considered PATIENT-2 and along with PATIENT-1 is the creater of AGENT-1 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Ernie_Colón | nationality | Puerto_Ricans</ftriple>
-						<ftriple flipped="True">Ernie_Colón | creator | Bolt_(comicsCharacter)</ftriple>
+						<ftriple flipped="True">Puerto_Ricans | nationality | Ernie_Colón</ftriple>
+						<ftriple flipped="False">Bolt_(comicsCharacter) | creator | Ernie_Colón</ftriple>
 						<ftriple flipped="False">Bolt_(comicsCharacter) | creator | Paris_Cullins</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4571,9 +4571,9 @@
 				<template>AGENT-1 , was created by BRIDGE-1 from PATIENT-1 and PATIENT-2 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Bolt_(comicsCharacter) | creator | Paris_Cullins</ftriple>
-						<ftriple flipped="True">United_States | nationality | Paris_Cullins</ftriple>
-						<ftriple flipped="False">Bolt_(comicsCharacter) | creator | Dan_Mishkin</ftriple>
+						<ftriple flipped="True">Paris_Cullins | creator | Bolt_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Paris_Cullins | nationality | United_States</ftriple>
+						<ftriple flipped="True">Dan_Mishkin | creator | Bolt_(comicsCharacter)</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -4862,7 +4862,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Dane_Whitman_Black_Knight_(comicsCharacter) | creator | Roy_Thomas</ftriple>
-						<ftriple flipped="False">Dane_Whitman_Black_Knight_(comicsCharacter) | creator | John_Buscema</ftriple>
+						<ftriple flipped="True">John_Buscema | creator | Dane_Whitman_Black_Knight_(comicsCharacter)</ftriple>
 						<ftriple flipped="False">John_Buscema | nationality | Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -4886,7 +4886,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="False">Dane_Whitman_Black_Knight_(comicsCharacter) | creator | Roy_Thomas</ftriple>
-						<ftriple flipped="True">John_Buscema | creator | Dane_Whitman_Black_Knight_(comicsCharacter)</ftriple>
+						<ftriple flipped="False">Dane_Whitman_Black_Knight_(comicsCharacter) | creator | John_Buscema</ftriple>
 						<ftriple flipped="False">John_Buscema | nationality | Americans</ftriple>
 					</sentence>
 				</flowinducedtripleset>

@@ -30,8 +30,8 @@
 				<template>AGENT-1 was under PATIENT-2 on PATIENT-1 BRIDGE-1 mission .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
-						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
+						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
+						<ftriple flipped="True">David_Scott | commander | Apollo_12</ftriple>
 						<ftriple flipped="True">NASA | operator | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -80,7 +80,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Apollo_12 | commander | David_Scott</ftriple>
 						<ftriple flipped="False">Apollo_12 | operator | NASA</ftriple>
-						<ftriple flipped="True">Apollo_12 | was a crew member of | Alan_Bean</ftriple>
+						<ftriple flipped="False">Alan_Bean | was a crew member of | Apollo_12</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -146,7 +146,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">Alan_Shepard | deathDate | &quot;1998-07-21&quot;</ftriple>
 						<ftriple flipped="False">Alan_Shepard | deathPlace | California</ftriple>
-						<ftriple flipped="False">California | senators | Dianne_Feinstein</ftriple>
+						<ftriple flipped="True">Dianne_Feinstein | senators | California</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>
@@ -349,7 +349,7 @@
 				<flowinducedtripleset>
 					<sentence ID="1">
 						<ftriple flipped="True">Glen_Ridge,_New_Jersey | birthPlace | Buzz_Aldrin</ftriple>
-						<ftriple flipped="False">Buzz_Aldrin | timeInSpace | &quot;52.0&quot;(minutes)</ftriple>
+						<ftriple flipped="True">&quot;52.0&quot;(minutes) | timeInSpace | Buzz_Aldrin</ftriple>
 						<ftriple flipped="True">Apollo_11 | was a crew member of | Buzz_Aldrin</ftriple>
 					</sentence>
 				</flowinducedtripleset>
@@ -743,7 +743,7 @@
 					<sentence ID="1">
 						<ftriple flipped="False">William_Anders | birthPlace | British_Hong_Kong</ftriple>
 						<ftriple flipped="False">William_Anders | birthDate | &quot;1933-10-17&quot;</ftriple>
-						<ftriple flipped="True">Apollo_8 | was a crew member of | William_Anders</ftriple>
+						<ftriple flipped="False">William_Anders | was a crew member of | Apollo_8</ftriple>
 					</sentence>
 				</flowinducedtripleset>
 			</lex>

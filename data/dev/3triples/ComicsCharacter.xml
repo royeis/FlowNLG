@@ -303,7 +303,7 @@
 				<template>AGENT-1 first film appearance was in PATIENT-1 . AGENT-1 was created by PATIENT-2 and PATIENT-3 .</template>
 				<flowinducedtripleset>
 					<sentence ID="1">
-						<ftriple flipped="True">Big_Hero_6_(film) | firstAppearanceInFilm | Baymax</ftriple>
+						<ftriple flipped="False">Baymax | firstAppearanceInFilm | Big_Hero_6_(film)</ftriple>
 					</sentence>
 					<sentence ID="2">
 						<ftriple flipped="False">Baymax | creator | Duncan_Rouleau</ftriple>
